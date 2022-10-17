@@ -1,0 +1,177 @@
+---
+title: More about calling APIs
+keywords: sample
+tags: JavaScript 1
+sidebar: javascript-1
+permalink: javascript-1/more-about-apis.html
+folder: javascript-1
+---
+
+## Introduction
+
+In this lesson we will look at:
+
+- fixing CORS errors.
+- how to find free APIs to use.
+- adding header values to API calls.
+
+## CORS
+
+CORS stands for Cross-Origin Resource Sharing.
+
+APIs that are not configured to accept requests from different origins, or domains, to their own will block the requests.
+
+A lot of websites make calls to different APIs living on different servers, so we need a way around this.
+
+There are two ways to solve this issue:
+
+1. The API can be configured to allow cross-origin requests.
+2. We can send the API calls through a proxy service.
+
+Because we don't have control over how the API is configured unless we develop the API, the second option is our only solution.
+
+The API found at [https://noroffcors.herokuapp.com/](https://noroffcors.herokuapp.com/) is a service we can use to enable cross-origin requests.
+
+To use it we simply prepend that URL to the URL of the API we want to use.
+
+The following API endpoint returns a list of elephants: [https://elephant-api.herokuapp.com/elephants](https://elephant-api.herokuapp.com/elephants)
+
+If you called that URL with fetch like this:
+
+```js
+const elephantUrl = "https://elephant-api.herokuapp.com/elephants";
+const response = await fetch(elephantUrl);
+const results = await response.json();
+```
+
+an error similar to this would be returned:
+
+Access to fetch at 'https://elephant-api.herokuapp.com/elephants' from origin 'http://127.0.0.1:5501' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
+To get around this, we can add the cors-anywhere URL to the beginning of the URL:
+
+```js
+const elephantUrl = "https://elephant-api.herokuapp.com/elephants";
+const corsEnabledUrl = "https://noroffcors.herokuapp.com/" + elephantUrl;
+const response = await fetch(corsEnabledUrl);
+const results = await response.json();
+```
+
+Now the API call will work.
+
+<iframe src="https://player.vimeo.com/video/450829010?h=7bcbfbcb51&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="2560" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="GET request with CORS fix"></iframe>
+
+[Code](https://github.com/NoroffFEU/get-request-with-cors-fix) from the video.
+
+## Authenticating an API call
+
+Everything that you need to know about fetching data from an API should be in its documentation including if you need to add additional information when making the API call, so make sure you read the documentation thoroughly. Each API is different with unique endpoints, parameters and data, as well as ways of authenticating the request.
+
+### No authentication
+
+Some APIs don’t require authentication. You can just make a request to one of their endpoints and they’ll give you the data.
+
+An example is [https://api.punkapi.com/v2/beers?brewed_before=11-2012](https://api.punkapi.com/v2/beers?brewed_before=11-2012)
+
+This endpoint has no authentication, but you can see that additional information is passed in the query string to ask for data from before November 2012. The question mark is used to differentiate a query string from the rest of the url, and the parameter ‘brewed_before’ is listed in the API documentation as a way to filter the results for that endpoint.
+
+A fetch request for this API would look like:
+
+```js
+const url = "https://api.punkapi.com/v2/beers?brewed_before=11-2012";
+
+async function getData(url){
+
+        const response = await fetch(url);
+
+        const data = await response.json();
+
+        console.log(data);
+
+}
+```
+
+## Authenticating in the URL
+
+Some APIs require you to have an API key and to send it with your url as a query string parameter. In the above example we passed a date as a query string, but some APIs want the API key as a parameter in the url.
+
+An example is [https://api.spoonacular.com/recipes/716429/information?apiKey=YOUR-API-KEY&includeNutrition=true](https://api.spoonacular.com/recipes/716429/information?apiKey=YOUR-API-KEY&includeNutrition=true)
+
+For that endpoint we’re adding the API key as a parameter, and whether to include nutrition as another parameter with the & sign.
+
+A fetch request for this API would look like:
+
+```js
+const key = "12345abcdef"
+
+const url = `https://api.spoonacular.com/recipes/716429/information?apiKey=${key}&includeNutrition=true`
+
+async function getData(url){
+
+            const response = await fetch(url);
+
+            const data = await response.json();
+
+            console.log(data);
+
+}
+```
+
+**READ**
+
+Page: [Authentication](https://spoonacular.com/food-api/docs#Authentication) if you want to read more about authentication with the Spoonacular API.
+
+## Authenticating in the init object
+
+fetch() is a global method which accepts two arguments. The first argument is the resource that you want to fetch, this is usually a string for the url eg. fetch("https://api.com") and is mandatory for making the API call. There is a second, optional argument which is an object called ‘init’ where we’re able to place additional information for the API we’re calling. These could include things like what method to use for the request or credentials to authenticate the request.
+
+Rapid API offers a list of APIs we can use, some of them are free to use up to a certain amount of API calls. An example is the Tasty API where they require you to send a host name and key in the headers property of the ‘init’ object which gets added to the fetch method after the url. In the example below we’ve named the ‘init’ object options.
+
+```js
+const options = {
+
+          method: 'GET',
+
+          headers: {
+
+                    'X-RapidAPI-Host': ' tasty.p.rapidapi.com',
+
+                    'X-RapidAPI-Key': '12345abcdef'
+
+           }
+
+};
+
+const url = "https://tasty.p.rapidapi.com/recipes/auto-complete?prefix=pasta"
+
+async function getData(url){
+
+           const response = await fetch(url, options);
+
+           const data = await response.json();
+
+           console.log(data);
+
+}
+```
+
+**READ**
+
+Page: [Tasty API Documentation](https://rapidapi.com/apidojo/api/tasty/) to read more about this API.
+
+## Free API lists
+
+- [https://apilist.fun/](https://apilist.fun/)
+- [https://rapidapi.com/collection/list-of-free-apis](https://rapidapi.com/collection/list-of-free-apis)
+- [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
+- Many others are available through a search.
+
+<hr>
+
+## Lesson Task
+
+### Brief
+
+There are practice questions in the master branch of [this repo](https://github.com/NoroffFEU/lesson-task-js1-module3-lesson4).
+
+Attempt to answer the questions before checking them against the [answers branch](https://github.com/NoroffFEU/lesson-task-js1-module3-lesson4/tree/answers) of the repo.

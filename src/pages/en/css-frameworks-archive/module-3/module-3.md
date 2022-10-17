@@ -1,0 +1,12 @@
+---
+title: Module 3
+keywords: react, styling
+tags: JS Frameworks
+sidebar: css-frameworks-v1
+permalink: css-frameworks-v1/module-3.html
+folder: css-frameworks-v1
+---
+
+In the final module of CSS Frameworks we’ll be looking at a few alternative but popular CSS frameworks you can use. We’ll be looking at Materialize CSS which is a front-end framework based on Material Design. We will also be exploring Tailwind CSS and Bulma.
+
+If anything is unclear, check your progression plan, and/or contact a tutor on the forums.

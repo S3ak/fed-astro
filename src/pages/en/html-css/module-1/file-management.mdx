@@ -1,0 +1,129 @@
+---
+title: File Management
+keywords: HTML
+tags: HTML and CSS
+description: Module 1 - Lesson 2 - Page 3 - Introduction to HTML
+layout: ../../layouts/MainLayout.astro
+---
+
+## Introduction
+
+In this lesson, we look at how to manage and organise files to make development as easy as possible.
+
+## Organising files
+
+To make development as easy as possible, it is good to use a clear folder structure and proper naming conventions. Create a folder on your computer for each of the projects on which you are working. We can add files and further folders into this empty folder. The base folder for your project is called the 'root' folder. For smaller sites we can keep our HTML files in the root folder. Additional files, such as images, css files, JavaScript files, can all be placed into their own folder so that they are easier to manage.
+
+Here is an example.
+
+![Files](/images/htmlcss/1-2-1.png)
+
+### Naming
+
+The home page for a website should always be called index.html. The server looks for a file called index.html to serve as the home page. If a user lands on www.website.com, they will see www.website.com/index.html.
+
+Your other HTML files should have logical names. The contact page should be contact.html, the about page about.html and so on.
+
+### Linking pages together
+
+A website is a 'web' of connected or 'hyperlinked' files. To link one file to another an anchor tag is used – it looks like this: `<a href="about.html">`About`</a>`
+
+It's important to note the use of the attribute href to set where the link is supposed to go to. It’s also important to see how the text is hyperlinked and enclosed inside the anchor tags.
+
+### File paths
+
+To link files together we need to know the file path from A to B. A is the file on which we are currently working, and B is the file to which we want to connect.
+
+- In the above example, about.html is in the same folder as the page in which we are working.
+- To reference a file in a subfolder, write the folder name followed by the file name: `<img src="images/logo.jpg">`
+- If there was a folder inside 'images' called 'branding', and the logo was in that folder, then we'd use: `<img src="images/branding/logo.jpg">`
+- These first three examples show how to move files down into directories. If you need to access a file in a folder above the one in which you are working, then you'd use two dots (. .) `<a href="../splashpage.html">`Splash page`</a>`
+
+These ways of linking pages together are all relative file paths and for any files on your own server, it is best to use relative file paths. One of the biggest advantages to this is that you will not need to change any links when uploading your files from your computer to your web host, and can thus upload the root folder directly.
+
+An absolute file path is a URL just like you'd see in your browser tab, and should be used to link to content on another server that you don't control.
+
+```html
+<a href="http://www.website.com/latest.html">link</a>
+```
+
+### Linking to Sections on an HTML page
+
+Sometimes we don’t want to link to a different HTML page, but rather a different section on the HTML page the user is on.
+
+To do this we set an ID on the HTML element we want the user to go to
+
+```html
+<article id="”article”"></article>
+```
+
+And we add a link to the article
+
+```html
+<a href="”#article”">View article</a>
+```
+
+The following video shows how to link to sections on an HTML page, as well as using the scroll-behavior: smooth property to scroll the user to the section they’ve clicked on.
+
+<iframe
+  src="https://player.vimeo.com/video/545883051?h=950823fe6a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+  height="500"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  title="Linking to IDs from anchor tags"
+></iframe>
+
+### Excerise (10 minutes)
+
+<iframe
+  src="https://codesandbox.io/embed/htmlcss-m1-l2-file-management-x1-8q8pey?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  title="htmlcss-m1-l2-File Management-x1"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+## Images
+
+Images are added to HTML files using the `<img>` tag. One important thing to note about the `<img>` tag is that it is self-closing. Most HTML tags have an opening tag and a closing tag, but for elements where content cannot be nested inside, the tag is self-closing.
+
+```html
+<img src="images/picnic.jpg" alt="A family having a picnic in a park" />
+```
+
+### Alt text
+
+- Alt text is added to an image tag in order to explain what the image is about.
+- It is vital for people who use assistive technologies to know what the image is about, and, for example, if you are visually impaired, your assistive technology will read out the alt text.
+- Because the alt text is so important, it should be descriptive and clear.
+- Alt text is also important for SEO, so that search engines know what the image is about and how it relates to the content.
+
+### Images as content
+
+- Images added into the HTML should be added because they are part of the content.
+- If the image is for styling, then it should be added using CSS. We will get onto adding images with CSS later in the course, but for now, it's important to understand that the images you add to HTML should add to or support the content.
+
+### Image sizing
+
+- Image sizing should be handled using CSS rather than inline HTML.
+- If HTML is purely used for content, and CSS for styling, then their sizing is best kept separate. We will get onto image sizing in CSS.
+
+### Image file sizes
+
+- Page load times should be as short as possible to avoid users getting annoyed and leaving.
+- One area that can make a big difference to page load times is image sizes. The smaller the images, the faster the load time should be. On this programme, we recommend that image sizes should be no bigger than 200kb.
+- To keep image sizes down, you can use a format like JPG, which has good compression. PNG is useful for things like logos, but if you're adding a picture then JPG is usually best.
+- You can also reduce the dimensions of the image. See how big the image needs to be on the page. If the largest image is 500px wide, then resize your image to be 500px wide. If you need the image to be full width, you should be able to resize the image to around 1600px; adjust the quality, and still keep it under 200kb.
+- Photoshop has a very good image compression and should be used if possible. An alternative to Photoshop is a free application such as [Paint.NET](https://www.getpaint.net/).
+- For bulk resizing, consider using a tool called [Faststone Photo Resizer](https://www.faststone.org/FSResizerDetail.htm).
+
+`<hr>`
+
+## Lesson Task
+
+### Brief
+
+There are practice questions in the master branch of [this repo](https://github.com/Noroff-Education/lesson-task-htmlcss-module1-lesson2).
+
+Attempt the answers before checking them against the answers in the [answers branch](https://github.com/Noroff-Education/lesson-task-htmlcss-module1-lesson2/tree/answers) of the repo.

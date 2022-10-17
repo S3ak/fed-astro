@@ -1,0 +1,141 @@
+---
+title: CSS Box Model
+keywords: sample
+tags: HTML and CSS
+sidebar: html-css
+permalink: html-css/css-box-model.html
+folder: html-css
+---
+
+## Introduction
+
+In this lesson, you will be introduced to the CSS Box Model.
+
+<br>
+<br>
+<div align="center">
+    <figure>
+        <img src="./../images/htmlcss/2-4-1.png" alt="CSS Box Model">
+    </figure>
+    <figcaption>Figure: CSS Box Model</figcaption>
+</div>
+<br>
+<br>
+
+### Anatomy of the box
+
+#### The framed painting analogy
+
+To understand the box model, we can use an analogy of a framed painting. Our framed painting consists of three parts: the painting itself, a passe-partout frame (the cardboard frame between the photograph and the outer frame) and a wooden frame. The CSS box model follows the same principle: you have the content box (painting), the padding box (passe-partout frame) and the border box (wooden frame). In addition to these three boxes (also referred to as areas), you also have the margin box. If we build upon our analogy, the margin box will serve as the space around the framed image. Next, we will look at each box in more detail.
+
+### Where content is displayed​
+
+#### Content Box​
+
+The content box is where the content is displayed, as the box's name suggests. The content can be text, images, figures etc. The content box is the only box in the CSS box model to which you can set the background colour.
+
+```html
+    <h1>Text content</h1>
+```
+
+Take this `h1` element. We can use CSS to set the background colour of the content box using the `background-color` property. We’ve also set the `width` to 100%, which means that the content box’s size matches its parent element’s width.
+
+```css
+h1 {
+  background-color: lightblue;
+  width: 100%;
+}
+```
+
+#### Padding Box​
+
+The padding box lives directly outside the content box​ and makes up the space between the content box and the border box. You can specify this space using the `padding` property, as shown in the code below.
+
+```css
+h1 {
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+```
+
+#### Border Box​
+
+The border box sits outside the content and padding boxes​. Let’s go back to the “framed painting analogy”. The wooden frame represents the border box. You can choose this frame’s colour, thickness and corner radius, and the same principle applies to the CSS border box.
+
+There are four main properties that pertain to the border box: `border-style`, `border-color` , `border-width` and  `border-radius`.
+
+1. `border-style`
+    - the style of the border box
+    - can be a solid colour, dotted lines, double lines, and many more.
+    - is a mandatory property. If you don’t set this property, you cannot use the `border-color` property to set the colour.
+
+2. `border-color`
+    - set the colour of the border.
+
+3. `border-width`
+    - set the width of the border.
+
+4. `border radius`
+    - set the radius of the edges of the Border box, i.e. the “roundness” of the edges.
+
+```css
+h1 {
+  border-style: solid;
+  border-color: blue;
+  border-width: 1rem;
+  border-radius: 1em;
+}
+```
+
+Instead of using a separate property for the style, colour and width, you can use a so-called shorthand property. The purpose of a shorthand property is, as you might have guessed, to shorten the amount of code. The code below shows an example of the use of the shorthand `border` property.
+
+```css
+h1 {
+  border: 1em solid blue;
+  border-radius: 1em;
+}
+```
+
+#### Margin Box​
+
+The margin box is the outer box of the box model. By setting the size of the margin box, you create an invisible space around the border box. Going back to the “framed painting analogy”, let’s say you have four framed paintings. Two paintings are placed at the top and two at the bottom, forming a square. Usually, one would like to have some space between the paintings to avoid the presentation seeming cluttered; in terms of the Box model, this spacing would be achieved by specifying the size of the Margin box.
+
+```css
+h1 {
+  margin-top: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+}
+```
+
+Using the shorthand `margin` property :
+
+```css
+h1 {
+  margin: 2em;
+}
+```
+> **📄 DOCUMENTATION**
+>
+> The MDN docs cover the CSS box model in more detail. Please check it out if you want to learn more: [The box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) and [Introduction to the CSS basic box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model).
+
+<hr>
+
+## Activities
+
+> **💻 WATCH**
+>
+> Video: [The Box Model](https://www.linkedin.com/learning/css-essential-training-1/the-box-model?u=43268076)
+
+<hr>
+
+## Lesson Task
+
+### Brief
+
+There are practice questions in the master branch of [this repo](https://github.com/Noroff-Education/lesson-task-htmlcss-module2-lesson4).
+
+Attempt the answers before checking them against the answers in the [answers branch](https://github.com/Noroff-Education/lesson-task-htmlcss-module2-lesson4/tree/answers) of the repo.
