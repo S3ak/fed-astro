@@ -1,5 +1,5 @@
 export const SITE = {
-  title: "Front-end Web Development",
+  title: "FED VOC",
   description: "Vocationl learning resources",
   defaultLanguage: "en_US",
 };
@@ -30,9 +30,9 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/withastro/astro/tree/main/examples/docs`;
+export const GITHUB_EDIT_URL = ``;
 
-export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
+export const COMMUNITY_INVITE_URL = ``;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
@@ -41,17 +41,48 @@ export const ALGOLIA = {
   apiKey: "XXXXXXXXXX",
 };
 
-export type Sidebar = Record<
-  typeof KNOWN_LANGUAGE_CODES[number],
-  Record<string, { text: string; link: string }[]>
->;
-export const SIDEBAR: Sidebar = {
-  en: {
-    "Year 1": [
-      { text: "Introduction", link: "en/introduction" },
-      { text: "Page 2", link: "en/page-2" },
-      { text: "Page 3", link: "en/page-3" },
-    ],
-    "Year 2": [{ text: "Page 4", link: "en/page-4" }],
-  },
+// NOTE: Keep as reference.
+// export type Sidebar = Record<
+//   typeof KNOWN_LANGUAGE_CODES[number],
+//   Record<string, { text: string; link: string }[]>
+// >;
+
+type Module = {
+  title: string;
+  items: { text: string; link: string }[];
+};
+
+type Topic = {
+  title: string;
+  items: Module[];
+};
+
+type Year = {
+  title: string;
+  items: Topic[];
+};
+
+export type DeepSidebar = Record<typeof KNOWN_LANGUAGE_CODES[number], Year[]>;
+
+export const SIDEBAR: DeepSidebar = {
+  en: [
+    {
+      title: "Year 1",
+      items: [
+        {
+          title: "HTML and CSS",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                { text: "Overview", link: "en/introduction" },
+                { text: "Introduction", link: "en/introduction" },
+                { text: "File management", link: "en/introduction" },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
 };
