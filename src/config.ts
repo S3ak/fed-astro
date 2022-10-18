@@ -75,9 +75,22 @@ export const SIDEBAR: DeepSidebar = {
             {
               title: "Module 1",
               items: [
-                { text: "Overview", link: "en/introduction" },
-                { text: "Introduction", link: "en/introduction" },
-                { text: "File management", link: "en/introduction" },
+                {
+                  text: "Overview",
+                  link: "en/html-css/module-1/overview",
+                },
+                {
+                  text: "Introduction",
+                  link: "en/html-css/module-1/introduction-to-html",
+                },
+                {
+                  text: "File management",
+                  link: "en/html-css/module-1/file-management",
+                },
+                {
+                  text: "Fonts",
+                  link: "en/html-css/module-1/fonts",
+                },
               ],
             },
           ],

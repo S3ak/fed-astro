@@ -12,6 +12,8 @@ const currentPageMatch = currentPage.endsWith("/")
   : currentPage.slice(1);
 const langCode = getLanguageFromURL(currentPage);
 const sidebar = SIDEBAR[langCode];
+
+console.warn("Astro.site?.pathname", Astro.site?.pathname);
 ---
 
 <nav aria-labelledby="grid-left">
@@ -32,6 +34,7 @@ const sidebar = SIDEBAR[langCode];
                         <ul>
                           {module.items.map(({ text, link }) => {
                             const url = Astro.site?.pathname + link;
+                            console.warn(url);
                             const isActive = currentPageMatch === link;
                             return (
                               <li class="nav-link">
