@@ -106,15 +106,15 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "Forms",
-                  link: "en/html-css/module-1/file-management",
+                  link: "en/coming-soon",
                 },
                 {
                   text: "Navigation",
-                  link: "en/html-css/module-1/fonts",
+                  link: "en/coming-soon",
                 },
                 {
                   text: "CSS Box Model",
-                  link: "en/html-css/module-1/fonts",
+                  link: "en/coming-soon",
                 },
               ],
             },
@@ -123,23 +123,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/html-css/module-2/module-2",
+                  link: "en/coming-soon",
                 },
                 {
                   text: "Positioning",
-                  link: "en/html-css/module-1/introduction-to-html",
+                  link: "en/coming-soon",
                 },
                 {
                   text: "Flexbox",
-                  link: "en/html-css/module-1/file-management",
+                  link: "en/coming-soon",
                 },
                 {
                   text: "CSS Grids",
-                  link: "en/html-css/module-1/fonts",
+                  link: "en/coming-soon",
                 },
                 {
                   text: "Media Queries",
-                  link: "en/html-css/module-1/fonts",
+                  link: "en/coming-soon",
                 },
               ],
             },
@@ -148,23 +148,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/html-css/module-2/module-2",
+                  link: "en/coming-soon",
                 },
                 {
                   text: "Bug Fixing",
-                  link: "en/html-css/module-2/images-icons",
+                  link: "en/coming-soon",
                 },
                 {
                   text: "Animations and transitions",
-                  link: "en/html-css/module-1/file-management",
+                  link: "en/coming-soon",
                 },
                 {
                   text: "CSS Variables",
-                  link: "en/html-css/module-1/fonts",
+                  link: "en/coming-soon",
                 },
                 {
                   text: "COmmon layouts",
-                  link: "en/html-css/module-1/fonts",
+                  link: "en/coming-soon",
                 },
               ],
             },
@@ -173,7 +173,7 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Brief",
-                  link: "en/html-css/module-1/introduction-to-html",
+                  link: "en/coming-soon",
                 },
               ],
             },
