@@ -52,6 +52,17 @@ Another popular way of managing image sizes is using percentage. This is especia
 }
 ```
 
+#### Excerise (15 min)
+
+Step: 1
+
+<iframe src="https://codesandbox.io/embed/vigorous-gates-n6y74n?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="vigorous-gates-n6y74n"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
 ### Border-radius
 
 If you wanted to create rounded edges on your image, for example for a profile picture, you would use the `border-radius` property.
@@ -76,6 +87,17 @@ The above code adds a 50% border-radius to each corner of the image making it a 
 
 The values are applied clockwise, so the first value applies to the top left corner, then top right, then bottom right, then bottom left.
 
+#### Excerise (2min)
+
+Round the corners of your image
+
+<iframe src="https://codesandbox.io/embed/vigorous-gates-n6y74n?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="vigorous-gates-n6y74n"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
 ## Images in CSS
 
 To add an image using CSS, we need to use the background-image property.
@@ -89,6 +111,15 @@ header {
 ```
 
 Above, we can see a `background-image` is applied to the header. We use the `url()` value to give a file path to the image we want to load. Again, it's important to use the correct file path and ensure the image is loading correctly. The url should be relative to the CSS file in which it is written.
+
+### Excerise (10min)
+
+<iframe src="https://codesandbox.io/embed/vigorous-gates-n6y74n?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="vigorous-gates-n6y74n"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ### Background-size
 
@@ -130,6 +161,17 @@ There is a huge library of icons from which to choose. Once you've chosen your i
 ```html
 <i class="fas fa-arrow-circle-right"></i>
 ```
+
+### Excerise
+
+Add icon to the h1 element
+
+<iframe src="https://codesandbox.io/embed/vigorous-gates-n6y74n?autoresize=1&fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="vigorous-gates-n6y74n"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 <hr>
 
