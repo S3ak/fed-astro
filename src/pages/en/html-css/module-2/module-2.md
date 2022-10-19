@@ -1,10 +1,7 @@
 ---
 title: Module 2 Overview
-keywords: sample
-tags: HTML and CSS
-sidebar: html-css
-permalink: html-css/module-2.html
-folder: html-css
+description: Module 2 Overview
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module we look at specific elements and how to style them. These will include adding and styling images and icons to make your page look better and more engaging.

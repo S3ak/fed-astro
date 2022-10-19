@@ -93,6 +93,90 @@ export const SIDEBAR: DeepSidebar = {
                 },
               ],
             },
+            {
+              title: "Module 2",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/html-css/module-2/module-2",
+                },
+                {
+                  text: "Images and Icons",
+                  link: "en/html-css/module-2/images-icons",
+                },
+                {
+                  text: "Forms",
+                  link: "en/html-css/module-1/file-management",
+                },
+                {
+                  text: "Navigation",
+                  link: "en/html-css/module-1/fonts",
+                },
+                {
+                  text: "CSS Box Model",
+                  link: "en/html-css/module-1/fonts",
+                },
+              ],
+            },
+            {
+              title: "Module 3",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/html-css/module-2/module-2",
+                },
+                {
+                  text: "Positioning",
+                  link: "en/html-css/module-1/introduction-to-html",
+                },
+                {
+                  text: "Flexbox",
+                  link: "en/html-css/module-1/file-management",
+                },
+                {
+                  text: "CSS Grids",
+                  link: "en/html-css/module-1/fonts",
+                },
+                {
+                  text: "Media Queries",
+                  link: "en/html-css/module-1/fonts",
+                },
+              ],
+            },
+            {
+              title: "Module 4",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/html-css/module-2/module-2",
+                },
+                {
+                  text: "Bug Fixing",
+                  link: "en/html-css/module-2/images-icons",
+                },
+                {
+                  text: "Animations and transitions",
+                  link: "en/html-css/module-1/file-management",
+                },
+                {
+                  text: "CSS Variables",
+                  link: "en/html-css/module-1/fonts",
+                },
+                {
+                  text: "COmmon layouts",
+                  link: "en/html-css/module-1/fonts",
+                },
+              ],
+            },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "Brief",
+                  link: "en/html-css/module-1/introduction-to-html",
+                },
+              ],
+            },
           ],
         },
       ],
