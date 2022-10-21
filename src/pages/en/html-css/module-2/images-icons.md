@@ -119,7 +119,7 @@ Above, we can see a `background-image` is applied to the header. We use the `url
      title="vigorous-gates-n6y74n"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+></iframe>
 
 ### Background-size
 
@@ -173,7 +173,7 @@ Add icon to the h1 element
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-<hr>
+---
 
 ## Activities
 

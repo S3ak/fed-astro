@@ -106,7 +106,7 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "Forms",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-2/forms",
                 },
                 {
                   text: "Navigation",
