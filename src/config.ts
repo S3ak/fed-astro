@@ -110,7 +110,7 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "Navigation",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-2/navigation",
                 },
                 {
                   text: "CSS Box Model",
