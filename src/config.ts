@@ -114,7 +114,7 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "CSS Box Model",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-2/css-box-model",
                 },
               ],
             },

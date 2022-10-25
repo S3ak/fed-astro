@@ -1,32 +1,31 @@
 ---
 title: CSS Box Model
-keywords: sample
-tags: HTML and CSS
-sidebar: html-css
-permalink: html-css/css-box-model.html
-folder: html-css
+description: Module 2 CSS Box Model
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
 
 In this lesson, you will be introduced to the CSS Box Model.
 
-<br>
-<br>
+![CSS Box Model](/images/htmlcss/box-modal.png)
+
+```html
 <div align="center">
-    <figure>
-        <img src="./../images/htmlcss/2-4-1.png" alt="CSS Box Model">
-    </figure>
-    <figcaption>Figure: CSS Box Model</figcaption>
+  <figure>
+    <img src="./../images/htmlcss/2-4-1.png" alt="CSS Box Model" />
+  </figure>
+  <figcaption>Figure: CSS Box Model</figcaption>
 </div>
-<br>
-<br>
+```
 
 ### Anatomy of the box
 
 #### The framed painting analogy
 
 To understand the box model, we can use an analogy of a framed painting. Our framed painting consists of three parts: the painting itself, a passe-partout frame (the cardboard frame between the photograph and the outer frame) and a wooden frame. The CSS box model follows the same principle: you have the content box (painting), the padding box (passe-partout frame) and the border box (wooden frame). In addition to these three boxes (also referred to as areas), you also have the margin box. If we build upon our analogy, the margin box will serve as the space around the framed image. Next, we will look at each box in more detail.
+
+![CSS Box Model](/images/htmlcss/Boxmodell-detail.png)
 
 ### Where content is displayed​
 
@@ -35,7 +34,7 @@ To understand the box model, we can use an analogy of a framed painting. Our fra
 The content box is where the content is displayed, as the box's name suggests. The content can be text, images, figures etc. The content box is the only box in the CSS box model to which you can set the background colour.
 
 ```html
-    <h1>Text content</h1>
+<h1>Text content</h1>
 ```
 
 Take this `h1` element. We can use CSS to set the background colour of the content box using the `background-color` property. We’ve also set the `width` to 100%, which means that the content box’s size matches its parent element’s width.
@@ -64,21 +63,24 @@ h1 {
 
 The border box sits outside the content and padding boxes​. Let’s go back to the “framed painting analogy”. The wooden frame represents the border box. You can choose this frame’s colour, thickness and corner radius, and the same principle applies to the CSS border box.
 
-There are four main properties that pertain to the border box: `border-style`, `border-color` , `border-width` and  `border-radius`.
+There are four main properties that pertain to the border box: `border-style`, `border-color` , `border-width` and `border-radius`.
 
 1. `border-style`
-    - the style of the border box
-    - can be a solid colour, dotted lines, double lines, and many more.
-    - is a mandatory property. If you don’t set this property, you cannot use the `border-color` property to set the colour.
+
+   - the style of the border box
+   - can be a solid colour, dotted lines, double lines, and many more.
+   - is a mandatory property. If you don’t set this property, you cannot use the `border-color` property to set the colour.
 
 2. `border-color`
-    - set the colour of the border.
+
+   - set the colour of the border.
 
 3. `border-width`
-    - set the width of the border.
+
+   - set the width of the border.
 
 4. `border radius`
-    - set the radius of the edges of the Border box, i.e. the “roundness” of the edges.
+   - set the radius of the edges of the Border box, i.e. the “roundness” of the edges.
 
 ```css
 h1 {
@@ -118,11 +120,12 @@ h1 {
   margin: 2em;
 }
 ```
+
 > **📄 DOCUMENTATION**
 >
 > The MDN docs cover the CSS box model in more detail. Please check it out if you want to learn more: [The box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) and [Introduction to the CSS basic box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model).
 
-<hr>
+---
 
 ## Activities
 
@@ -130,7 +133,7 @@ h1 {
 >
 > Video: [The Box Model](https://www.linkedin.com/learning/css-essential-training-1/the-box-model?u=43268076)
 
-<hr>
+---
 
 ## Lesson Task
 
