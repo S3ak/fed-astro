@@ -123,7 +123,7 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-3/module-3",
                 },
                 {
                   text: "Positioning",
