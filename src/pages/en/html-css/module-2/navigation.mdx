@@ -25,7 +25,7 @@ It is debatable, but the most common way of creating navigation is using an unor
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
-    <li><a href="contact.html" class="current">Contact</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
   </ul>
 </nav>
 ```
@@ -36,6 +36,18 @@ We have also added common styling in the CSS:
 - Next, to display the list items in a horizontal line, we use `display: inline`.
 - If we want to add padding to each of the navigation items, it's best to do this on the anchor tag. The reason is that you don't end up with a situation where the user thinks they should be able to click a link, but the link is applied only on the text.
 - Lastly, we style the current class to bold so that it's easy to spot.
+
+### Excercise
+
+Create a navigation list that consists of home, about, and contact. The home page should be the current page.
+
+<iframe
+  src="https://codesandbox.io/embed/fed-htmlcss-navigation-yfp6qn?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  title="fed-htmlcss-navigation"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 ## CSS-only Hamburger Menu
 
