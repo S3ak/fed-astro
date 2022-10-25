@@ -1,10 +1,10 @@
 ---
 title: Factory functions
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/factory-function.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -13,14 +13,14 @@ Consider the following object. What if youwanted to have multiple people using t
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
+  firstName: "Ola",
+  lastName: "Nordmann",
   address: {
-    country: 'Norway',
-    city: 'Oslo',
+    country: "Norway",
+    city: "Oslo",
   },
   greet: function () {
-    console.log('Hello world!');
+    console.log("Hello world!");
   },
 };
 ```
@@ -42,7 +42,7 @@ function createPerson(firstName, lastName, country, city) {
   };
 }
 
-const ola = createPerson('Ola', 'Nordmann', 'Norway', 'Oslo');
+const ola = createPerson("Ola", "Nordmann", "Norway", "Oslo");
 ola.greet();
 ```
 
@@ -91,7 +91,7 @@ Complete the Level 1 process.
 4. You should then be able to create an animal from this `createAnimal` factory function using the following line of code:
 
 ```js
-const myAnimal = createAnimal('dog', 'mammal', 'Jasper', 'dog food');
+const myAnimal = createAnimal("dog", "mammal", "Jasper", "dog food");
 
 myAnimal.eat();
 // Logs:

@@ -1,10 +1,10 @@
 ---
 title: map()
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/array-method-map.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -20,7 +20,6 @@ Some other use cases include displaying a message for each element after you've 
 ### Syntax
 
 **NOTE:** The .map array method returns a new array.
-
 
 **callbackFn**: The function that is called for each element
 
@@ -62,10 +61,10 @@ In this example, we have an array of objects that contain a first name and a las
 
 ```js
 const names = [
-  { firstName: 'Ola', lastName: 'Nordmann' },
-  { firstName: 'John', lastName: 'Doe' },
-  { firstName: 'Mario', lastName: 'Rossi' },
-  { firstName: 'Jan', lastName: 'Jansen' },
+  { firstName: "Ola", lastName: "Nordmann" },
+  { firstName: "John", lastName: "Doe" },
+  { firstName: "Mario", lastName: "Rossi" },
+  { firstName: "Jan", lastName: "Jansen" },
 ];
 
 // Returns:

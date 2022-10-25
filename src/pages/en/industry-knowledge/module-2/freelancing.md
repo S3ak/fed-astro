@@ -1,10 +1,10 @@
 ---
 title: Freelancing
-keywords: sample
+description: sample
 tags: Industry Knowledge
 sidebar: industry-knowledge
-permalink: industry-knowledge/freelancing.html
-folder: industry-knowledge
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

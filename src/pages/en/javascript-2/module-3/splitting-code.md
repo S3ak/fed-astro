@@ -1,10 +1,10 @@
 ---
 title: Splitting code
-keywords: modules
+description: modules
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/splitting-code.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -46,9 +46,9 @@ Here is the list of files:
 ```js
 // 1. index.mjs
 
-import { calculateTax } from './tax.mjs';
-import { formatCurrency } from './utils.mjs';
-import { displayAmount } from './display.mjs';
+import { calculateTax } from "./tax.mjs";
+import { formatCurrency } from "./utils.mjs";
+import { displayAmount } from "./display.mjs";
 
 // Our item initially costs 20
 const price = 100;
@@ -61,7 +61,7 @@ const priceWithTax = calculateTax(price, taxPercentage);
 // We need to now format the item amount
 // so it has 2 decimal spaces but also so
 // it shows a currency symbol
-const formattedPriceWithTax = formatCurrency(priceWithTax, 'kr');
+const formattedPriceWithTax = formatCurrency(priceWithTax, "kr");
 // formattedPriceWithTax = '115.00 kr'
 
 // We finally display a message to the user:
@@ -98,7 +98,7 @@ export function calculateTax(amount, taxPercentage = 15) {
  * @param {string} currencySymbol The currency symbol
  * @returns
  */
-export function formatCurrency(amount, currencySymbol = 'kr') {
+export function formatCurrency(amount, currencySymbol = "kr") {
   const formattedAmount = amount.toFixed(2);
   return `${formattedAmount} ${currencySymbol}`;
 }

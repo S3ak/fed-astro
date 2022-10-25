@@ -1,10 +1,10 @@
 ---
 title: What is Interaction Design
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/intro-interaction-design.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -105,14 +105,14 @@ The developer's view will usually be a technical one about how the product is bu
 
 ## Activities
 
-|  | **Activity 1**<br>WATCH<br><br>Video: [Interaction Design](https://www.linkedin.com/learning/ux-foundations-interaction-design/interaction-design?u=43268076) <br>1. Today's Interaction Designer <br>2. A Model of Psychology and Interaction Design |
-| :-: | :-- |
+|     | **Activity 1**<br>WATCH<br><br>Video: [Interaction Design](https://www.linkedin.com/learning/ux-foundations-interaction-design/interaction-design?u=43268076) <br>1. Today's Interaction Designer <br>2. A Model of Psychology and Interaction Design |
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | **Activity 2**<br>WATCH<br><br>Video: [UX Design: Overview](https://www.linkedin.com/learning/ux-design-1-overview-2/understanding-the-benefits-of-user-centered-design?u=43268076) |
-| :-: | :-- |
+|     | **Activity 2**<br>WATCH<br><br>Video: [UX Design: Overview](https://www.linkedin.com/learning/ux-design-1-overview-2/understanding-the-benefits-of-user-centered-design?u=43268076) |
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | **Activity 3**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 1: 'Goal-Directed Design' (1h) |
-| :-: | :-- |
+|     | **Activity 3**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 1: 'Goal-Directed Design' (1h) |
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <hr>
 

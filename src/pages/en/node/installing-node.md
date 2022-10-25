@@ -1,10 +1,10 @@
 ---
 title: Installing Node
-keywords: node, npm, workflow
+description: node, npm, workflow
 tags: Node, NPM, Workflow
 sidebar: node
-permalink: node/installing-node.html
-folder: node
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

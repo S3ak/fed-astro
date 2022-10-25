@@ -1,10 +1,10 @@
 ---
 title: HTTP GET request method
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/http-get-request-method.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -22,7 +22,7 @@ The `GET` request mode is the default mode when doing a `fetch`.
 Below is an example of doing a `GET` request using `fetch`.
 
 ```js
-fetch('https://jsonplaceholder.typicode.com/todos/1')
+fetch("https://jsonplaceholder.typicode.com/todos/1")
   .then((response) => response.json())
   .then((json) => console.log(json));
 // Logs:
@@ -39,8 +39,8 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
 We can modify the options we are using when doing a `fetch` request. However, this isn't usually necessary when doing a `GET` request as that is the default mode.
 
 ```js
-fetch('https://jsonplaceholder.typicode.com/todos/1', {
-  method: 'GET',
+fetch("https://jsonplaceholder.typicode.com/todos/1", {
+  method: "GET",
 })
   .then((response) => response.json())
   .then((json) => console.log(json));

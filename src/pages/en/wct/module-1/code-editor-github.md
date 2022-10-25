@@ -1,10 +1,10 @@
 ---
 title: Installing a code editor and using GitHub
-keywords: sample
+description: sample
 tags: WCT
 sidebar: wct
-permalink: wct/code-editor-github.html
-folder: wct
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

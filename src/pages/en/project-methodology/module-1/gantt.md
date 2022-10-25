@@ -1,10 +1,10 @@
 ---
 title: Gantt
-keywords: sample
+description: sample
 tags: Project Methodology
 sidebar: proj-meth
-permalink: project-methodology/gantt.html
-folder: project-methodology
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

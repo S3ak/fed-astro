@@ -1,10 +1,10 @@
 ---
 title: Take Action and Get Feedback
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/action-feedback.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -139,11 +139,11 @@ A good way to help the user is by auto-saving information so that they don’t h
 
 ## Activities
 
-|  | **Activity 1**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 13: 'Metaphors, Idioms, and Affordances'(2hr) |
-| :-: | :-- |
+|     | **Activity 1**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 13: 'Metaphors, Idioms, and Affordances'(2hr) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | **Activity 2**<br>WATCH<br><br>Videos: [Interaction Design Foundations](https://www.linkedin.com/learning/interaction-design-foundations/defining-behavior-for-interaction-design?u=43268076) <br>10. Designing for Behaviour and Interaction <br>11. Best Practices for Providing Feedback (45m) |
-| :-: | :-- |
+|     | **Activity 2**<br>WATCH<br><br>Videos: [Interaction Design Foundations](https://www.linkedin.com/learning/interaction-design-foundations/defining-behavior-for-interaction-design?u=43268076) <br>10. Designing for Behaviour and Interaction <br>11. Best Practices for Providing Feedback (45m) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 <hr>
 

@@ -1,10 +1,10 @@
 ---
 title: Accessibility and useful tools
-keywords: sample
+description: sample
 tags: WCT
 sidebar: wct
-permalink: wct/accessibility.html
-folder: wct
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

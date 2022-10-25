@@ -1,10 +1,10 @@
 ---
 title: Personas and Scenarios
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/personas-scenarios.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -96,7 +96,7 @@ We must define the user and business needs for the product and begin to imagine 
 | WATCH<br><br>
 
 | Video: [UX Design: Creating Personas](https://www.linkedin.com/learning/ux-design-3-creating-personas/welcome?u=43268076k) (25m) |
-| :-: |
+| :------------------------------------------------------------------------------------------------------------------------------: |
 
 ### Activity 2
 
@@ -109,14 +109,14 @@ From _About Face: The Essentials of Interaction Design Paperback,_ 2014, by Alan
 | WATCH<br><br>
 
 | Video: [UX Design: Ideation](https://www.linkedin.com/learning/ux-design-4-ideation/welcome?u=43268076) (22m) |
-| :-: |
+| :-----------------------------------------------------------------------------------------------------------: |
 
 ### Activity 4
 
 | WATCH<br><br>
 
 | Video: [UX Design: Creating Scenarios and Storyboards](https://www.linkedin.com/learning/ux-design-5-creating-scenarios-and-storyboards-2/welcome?u=43268076) (22m) |
-| :-: |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 ### Activity 5
 

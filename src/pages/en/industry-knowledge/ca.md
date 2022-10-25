@@ -1,10 +1,10 @@
 ---
 title: Course Assignment
-keywords: sample
+description: sample
 tags: Industry Knowledge
 sidebar: industry-knowledge
-permalink: industry-knowledge/ca.html
-folder: industry-knowledge
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal

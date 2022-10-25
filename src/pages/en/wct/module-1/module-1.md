@@ -1,10 +1,10 @@
 ---
 title: Module 1 Overview
-keywords: sample
+description: sample
 tags: WCT
 sidebar: wct
-permalink: wct/module-1.html
-folder: wct
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this first module of Web and Communications Technology we will be:

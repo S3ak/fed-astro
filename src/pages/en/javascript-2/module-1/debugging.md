@@ -1,10 +1,10 @@
 ---
 title: Debugging
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/debugging.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -65,21 +65,21 @@ function complexCalculation() {
 
 // Run three separate tests below
 
-console.time('myTimer');
+console.time("myTimer");
 complexCalculation();
-console.timeEnd('myTimer');
+console.timeEnd("myTimer");
 // Logs:
 // myTimer: 101ms - timer ended
 
-console.time('myTimer');
+console.time("myTimer");
 complexCalculation();
-console.timeEnd('myTimer');
+console.timeEnd("myTimer");
 // Logs:
 // myTimer: 155ms - timer ended
 
-console.time('myTimer');
+console.time("myTimer");
 complexCalculation();
-console.timeEnd('myTimer');
+console.timeEnd("myTimer");
 // Logs:
 // myTimer: 128ms - timer ended
 ```

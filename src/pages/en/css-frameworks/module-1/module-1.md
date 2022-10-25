@@ -1,10 +1,10 @@
 ---
 title: Module 1 Overview
-keywords: sample
+description: sample
 tags: CSS Frameworks
 sidebar: css-frameworks
-permalink: css-frameworks/module-1.html
-folder: css-frameworks
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 Welcome to the CSS Framework course.

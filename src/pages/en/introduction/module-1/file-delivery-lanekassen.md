@@ -1,10 +1,10 @@
 ---
 title: File delivery and Lånekassen
-keywords: sample
+description: sample
 tags: Introduction
 sidebar: introduction
-permalink: introduction/file-delivery-lanekassen.html
-folder: introduction
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -50,7 +50,7 @@ Examples of filenames based on this scheme are:
 
 ## File categories
 
-Below are some of the file categories that you might encounter: 
+Below are some of the file categories that you might encounter:
 
 - Drawings (dr)
 - Idea Development (id)

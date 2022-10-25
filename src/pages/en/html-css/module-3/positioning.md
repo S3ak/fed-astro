@@ -1,10 +1,9 @@
 ---
 title: Positioning
-keywords: sample
+description: sample
 tags: HTML and CSS
 sidebar: html-css
-permalink: html-css/positioning.html
-folder: html-css
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -19,28 +18,24 @@ Floating removes an element from the normal flow of HTML elements and places it 
 
 ```html
 <div>
-  <div class="float floated-right">
-    Floated
-  </div>
+  <div class="float floated-right">Floated</div>
   <h2>Float right</h2>
   <p>The image has been floated to the right side of the text.</p>
 </div>
 
 <div>
-  <div class="float floated-left">
-    Floated
-  </div>
+  <div class="float floated-left">Floated</div>
   <h2>Float left</h2>
   <p>The image has been floated to the right side of the text.</p>
 </div>
 
-<br><br><br>
+<br /><br /><br />
 ```
 
 ```css
 span {
 .float{
-  background: lightblue; 
+  background: lightblue;
   padding: 30px;
   margin: 10px;
 }
@@ -54,7 +49,6 @@ span {
 }
 ```
 
-
 **Two other properties that work with floating are clear and clearfix:**
 
 ### Clear
@@ -65,35 +59,53 @@ Essentially what the clear property says is that nothing can float to the left s
 
 ```html
 <div>
-  <img src="https://images.unsplash.com/photo-1489417139533-915815598d31" class="float" />
+  <img
+    src="https://images.unsplash.com/photo-1489417139533-915815598d31"
+    class="float"
+  />
   <h2>Dogs</h2>
-  <p>The domestic dog (Canis lupus familiaris when considered a subspecies of the gray wolf or Canis familiaris when considered a distinct species). </p>
+  <p>
+    The domestic dog (Canis lupus familiaris when considered a subspecies of the
+    gray wolf or Canis familiaris when considered a distinct species).
+  </p>
 
   <h2 class="clear">Cats</h2>
-  <p class="clear">The domestic cat (Felis silvestris catus or Felis catus) is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. They are often valued by humans for companionship and for their ability to hunt vermin. There are more than seventy cat breeds recognized by various cat registries. </p>
+  <p class="clear">
+    The domestic cat (Felis silvestris catus or Felis catus) is a small,
+    typically furry, carnivorous mammal. They are often called house cats when
+    kept as indoor pets or simply cats when there is no need to distinguish them
+    from other felids and felines. They are often valued by humans for
+    companionship and for their ability to hunt vermin. There are more than
+    seventy cat breeds recognized by various cat registries.
+  </p>
 </div>
 
-<i>Content used under the Creative Commons Attribution-ShareAlike License from Wikipedia</i>
+<i
+  >Content used under the Creative Commons Attribution-ShareAlike License from
+  Wikipedia</i
+>
 ```
+
 ```css
-.float{
+.float {
   margin: 10px;
   float: right;
   width: 300px;
 }
 
-.clear{
+.clear {
   clear: right;
 }
 ```
+
 ```css
-.float{
+.float {
   margin: 10px;
   float: right;
   width: 300px;
 }
 
-.clear{
+.clear {
   clear: right;
 }
 ```
@@ -106,24 +118,31 @@ A problem:
 
 ```html
 <div>
-  <img src="https://images.unsplash.com/photo-1489417139533-915815598d31" class="float" />
+  <img
+    src="https://images.unsplash.com/photo-1489417139533-915815598d31"
+    class="float"
+  />
   <h2>Dogs</h2>
-  <p>The domestic dog (Canis lupus familiaris when considered a subspecies of the gray wolf or Canis familiaris when considered a distinct species).</p>
+  <p>
+    The domestic dog (Canis lupus familiaris when considered a subspecies of the
+    gray wolf or Canis familiaris when considered a distinct species).
+  </p>
 </div>
-<br><br>
+<br /><br />
 ```
+
 ```css
-.float{
+.float {
   margin: 10px;
   float: right;
   height: 150px;
 }
 
-.clear{
+.clear {
   clear: right;
 }
 
-div{
+div {
   border: 1px solid black;
 }
 ```
@@ -132,32 +151,39 @@ A solution:
 
 ```html
 <div class="clearfix">
-  <img src="https://images.unsplash.com/photo-1489417139533-915815598d31" class="float" />
+  <img
+    src="https://images.unsplash.com/photo-1489417139533-915815598d31"
+    class="float"
+  />
   <h2>Dogs</h2>
-  <p>The domestic dog (Canis lupus familiaris when considered a subspecies of the gray wolf or Canis familiaris when considered a distinct species).</p>
+  <p>
+    The domestic dog (Canis lupus familiaris when considered a subspecies of the
+    gray wolf or Canis familiaris when considered a distinct species).
+  </p>
 </div>
 
-<br><br>
+<br /><br />
 ```
+
 ```css
-.float{
+.float {
   margin: 10px;
   float: right;
   height: 150px;
 }
 
-.clear{
+.clear {
   clear: right;
 }
 
-div{
+div {
   border: 1px solid black;
 }
 
 .clearfix::after {
-clear: both;
-content: "";
-display: table;
+  clear: both;
+  content: "";
+  display: table;
 }
 ```
 
@@ -177,14 +203,17 @@ In relative positioning, the element stays within the normal flow of the documen
 
 ```html
 <div class="container">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <div class="relative-position">
-    Relative positioned content
-  </div>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <div class="relative-position">Relative positioned content</div>
 </div>
 ```
+
 ```css
-.relative-position{
+.relative-position {
   position: relative;
   top: 30px;
   left: 30px;
@@ -192,7 +221,7 @@ In relative positioning, the element stays within the normal flow of the documen
   padding: 10px;
 }
 
-.container{
+.container {
   height: 150px;
 }
 ```
@@ -203,14 +232,17 @@ Absolute positioning moves the element out of the normal flow of the document. I
 
 ```html
 <div class="container">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <div class="absolute-position">
-    Absolute positioned content
-  </div>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <div class="absolute-position">Absolute positioned content</div>
 </div>
 ```
+
 ```css
-.absolute-position{
+.absolute-position {
   position: absolute;
   top: 30px;
   left: 30px;
@@ -218,7 +250,7 @@ Absolute positioning moves the element out of the normal flow of the document. I
   padding: 10px;
 }
 
-.container{
+.container {
   position: relative;
   height: 150px;
 }
@@ -230,18 +262,37 @@ Fixed positioning also moves the element out of the normal flow (**similar to ab
 
 ```html
 <div class="container">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <div class="fixed-position">
-    Fixed positioned content
-  </div>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <div class="fixed-position">Fixed positioned content</div>
 </div>
 ```
+
 ```css
-.fixed-position{
+.fixed-position {
   position: fixed;
   top: 30px;
   left: 30px;
@@ -249,37 +300,75 @@ Fixed positioning also moves the element out of the normal flow (**similar to ab
   padding: 10px;
 }
 ```
+
 ### Sticky
 
 Sticky is a mix between relative positioning and fixed positioning. It allows us to set an element relatively positioned, and when a certain position is reached to turn it into a fixed element. It’s often used with menus to get them to stick to the top of the viewport after the user has scrolled down so that the menu is always available for the user.
 
 ```html
 <div class="container">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-    <div class="sticky-position">
-    Sticky positioned content
-  </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <p>Quisque et mi sed lectus molestie porttitor et nec orci. Praesent non maximus enim. Aenean fermentum elementum orci ut lacinia. Curabitur rutrum vestibulum elit, vel vehicula nisl sagittis in. Curabitur facilisis nec diam eget consequat.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <p>Quisque et mi sed lectus molestie porttitor et nec orci. Praesent non maximus enim. Aenean fermentum elementum orci ut lacinia. Curabitur rutrum vestibulum elit, vel vehicula nisl sagittis in. Curabitur facilisis nec diam eget consequat.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <p>Quisque et mi sed lectus molestie porttitor et nec orci. Praesent non maximus enim. Aenean fermentum elementum orci ut lacinia. Curabitur rutrum vestibulum elit, vel vehicula nisl sagittis in. Curabitur facilisis nec diam eget consequat.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas dapibus non purus non auctor.</p>
-  <p>Quisque et mi sed lectus molestie porttitor et nec orci. Praesent non maximus enim. Aenean fermentum elementum orci ut lacinia. Curabitur rutrum vestibulum elit, vel vehicula nisl sagittis in. Curabitur facilisis nec diam eget consequat.</p>
-  
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <div class="sticky-position">Sticky positioned content</div>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <p>
+    Quisque et mi sed lectus molestie porttitor et nec orci. Praesent non
+    maximus enim. Aenean fermentum elementum orci ut lacinia. Curabitur rutrum
+    vestibulum elit, vel vehicula nisl sagittis in. Curabitur facilisis nec diam
+    eget consequat.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <p>
+    Quisque et mi sed lectus molestie porttitor et nec orci. Praesent non
+    maximus enim. Aenean fermentum elementum orci ut lacinia. Curabitur rutrum
+    vestibulum elit, vel vehicula nisl sagittis in. Curabitur facilisis nec diam
+    eget consequat.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <p>
+    Quisque et mi sed lectus molestie porttitor et nec orci. Praesent non
+    maximus enim. Aenean fermentum elementum orci ut lacinia. Curabitur rutrum
+    vestibulum elit, vel vehicula nisl sagittis in. Curabitur facilisis nec diam
+    eget consequat.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac neque
+    aliquam, semper massa nec, viverra odio. Donec sed pretium lectus. Maecenas
+    dapibus non purus non auctor.
+  </p>
+  <p>
+    Quisque et mi sed lectus molestie porttitor et nec orci. Praesent non
+    maximus enim. Aenean fermentum elementum orci ut lacinia. Curabitur rutrum
+    vestibulum elit, vel vehicula nisl sagittis in. Curabitur facilisis nec diam
+    eget consequat.
+  </p>
 </div>
 ```
 
 ```css
-.sticky-position{
+.sticky-position {
   position: sticky;
   top: 20px;
   background: lightblue;
   padding: 10px;
 }
 
-.container{
+.container {
   height: 500px;
 }
 ```
@@ -294,8 +383,9 @@ With positioning, it’s easy to get elements on top of one another. To determin
   <div class="two">Block Two</div>
 </div>
 ```
+
 ```css
-.one{
+.one {
   z-index: 2;
   background: lightblue;
   padding: 20px;
@@ -303,7 +393,7 @@ With positioning, it’s easy to get elements on top of one another. To determin
   position: relative;
 }
 
-.two{
+.two {
   z-index: 1;
   background: lightgreen;
   padding: 20px;
@@ -313,7 +403,7 @@ With positioning, it’s easy to get elements on top of one another. To determin
   left: 40px;
 }
 
-.container{
+.container {
   position: relative;
   height: 100px;
 }

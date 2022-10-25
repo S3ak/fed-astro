@@ -1,10 +1,10 @@
 ---
 title: Moodle and Reflective Journal
-keywords: sample
+description: sample
 tags: Introduction
 sidebar: introduction
-permalink: introduction/moodle-reflective-journal.html
-folder: introduction
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -25,15 +25,15 @@ When you have a question in a regular classroom, you’ll first get the teachers
 
 Unlike in a regular classroom where both the question and answer will disappear in thin air as soon as they are given, your questions with all their answers will be saved for you and your fellow students to review at a later stage. Also, the forums are always open to students, so you can ask questions at any time. Fellow students might be able to answer you even at night (if you are lucky), however tutors follow their normal contact hours listed previously in lesson 1.
 
-The forum is to be used for all academic and study related contact. E-mail can be used if: 
+The forum is to be used for all academic and study related contact. E-mail can be used if:
 
-• You encounter a problem that hinders you in continuing the course or the delivery of an assignment/project (sickness, etc.) 
+• You encounter a problem that hinders you in continuing the course or the delivery of an assignment/project (sickness, etc.)
 
-• You feel like the course is not at the level you would expect. 
+• You feel like the course is not at the level you would expect.
 
-• You lack the motivation to plan your days. 
+• You lack the motivation to plan your days.
 
-• You have questions of a sensitive matter, or not appropriate for our dedicated forums. 
+• You have questions of a sensitive matter, or not appropriate for our dedicated forums.
 
 • New modules and lessons (Access to new modules and lessons will normally be available every Monday before 10:00. You can check your progression plan to get more information on which week you are supposed to gain access to a certain module.)
 
@@ -107,8 +107,8 @@ Please note that the progression plan dates might change slightly, especially fo
 
 ### Extracting from progression plan
 
-• Download your progression plan, and open it. 
+• Download your progression plan, and open it.
 
-• Find the deadlines for all Course Assignments and Projects. 
+• Find the deadlines for all Course Assignments and Projects.
 
 • Make a note of the deadlines. If you use a calendar such as Google Calendar or the Exchange Calendar, we recommend that you add all the deadlines there.

@@ -1,10 +1,10 @@
 ---
 title: Module 2 Overview
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/module-2.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module we will be looking at Array and Object methods. They are one of the most important parts of learning to code in JavaScript, and can significantly reduce the complexity of your code.

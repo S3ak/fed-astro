@@ -1,10 +1,10 @@
 ---
 title: Data Structures - Linked List
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/data-structures-linked-list.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -53,9 +53,9 @@ class LinkedList {
 
   getData() {
     let currentNode = this.head;
-    let result = '';
+    let result = "";
     while (currentNode !== null) {
-      result += currentNode.data + ' ';
+      result += currentNode.data + " ";
       currentNode = currentNode.next;
     }
     return result.trim();
@@ -156,9 +156,9 @@ class LinkedList {
   }
 }
 
-const node1 = new Node('a', 5);
-const node2 = new Node('b', 10);
-const node3 = new Node('c', 15);
+const node1 = new Node("a", 5);
+const node2 = new Node("b", 10);
+const node3 = new Node("c", 15);
 
 node2.next = node3;
 node1.next = node2;
@@ -170,7 +170,7 @@ list.display();
 // 5
 // 10
 // 15
-list.delete('b');
+list.delete("b");
 // Deletes 10 from the linked list
 list.display();
 // Logs:

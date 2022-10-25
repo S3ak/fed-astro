@@ -1,10 +1,10 @@
 ---
 title: JSON
-keywords: json
+description: json
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/json.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -29,7 +29,7 @@ In this example, we convert a `person` object into JSON.
 
 ```js
 const person = {
-  name: 'Ola Nordmann',
+  name: "Ola Nordmann",
   id: 9,
   isAdmin: true,
 };
@@ -92,9 +92,9 @@ Complete the Level 1 process.
 ```js
 // Template object
 const myCountry = {
-  country: 'Norway',
-  city: 'Oslo',
-  currency: 'Krone',
+  country: "Norway",
+  city: "Oslo",
+  currency: "Krone",
 };
 ```
 

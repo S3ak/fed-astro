@@ -1,10 +1,10 @@
 ---
 title: Graphs - Breadth First Search
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/graphs-breadth-first.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 # Graphs: Breadth First Search
@@ -19,7 +19,7 @@ Below is an implementation of Breadth First Search in JavaScript.
 
 ```js
 function breadthFirst(target, graph) {
-  const queue = ['you'];
+  const queue = ["you"];
   const searched = [];
   while (queue.length > 0) {
     const node = queue.shift();
@@ -40,16 +40,16 @@ function breadthFirst(target, graph) {
 }
 
 const nameGraph = {};
-nameGraph['you'] = ['alice', 'bob', 'claire'];
-nameGraph['bob'] = ['anuj', 'peggy'];
-nameGraph['alice'] = ['peggy'];
-nameGraph['claire'] = ['thom', 'jonny'];
-nameGraph['anuj'] = [];
-nameGraph['peggy'] = [];
-nameGraph['thom'] = [];
-nameGraph['jonny'] = [];
+nameGraph["you"] = ["alice", "bob", "claire"];
+nameGraph["bob"] = ["anuj", "peggy"];
+nameGraph["alice"] = ["peggy"];
+nameGraph["claire"] = ["thom", "jonny"];
+nameGraph["anuj"] = [];
+nameGraph["peggy"] = [];
+nameGraph["thom"] = [];
+nameGraph["jonny"] = [];
 
-console.log(breadthFirst('claire', nameGraph));
+console.log(breadthFirst("claire", nameGraph));
 ```
 
 ## Additional Resources:

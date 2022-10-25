@@ -1,10 +1,10 @@
 ---
 title: Web Security
-keywords: sample
+description: sample
 tags: WCT
 sidebar: wct
-permalink: wct/web-security.html
-folder: wct
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 # Introduction
@@ -14,6 +14,7 @@ This is intended to introduce you to web security and some common web security p
 **NOTE:** This lesson contains 2 activities that you should complete.
 
 ## What is web security? 
+
 Web security is an act of protecting the information on the world wide web from web security threats. Just as you protect your house from intruders, web security aims to protect the web from intruders (security threats). Web security threats could be addressed on the server side, client side, or any other infrastructure.
 
 In this lesson, we will be covering front-end web client security because it is important for you to understand what risks there are as a front-end developer. It is widely known that clients provide a large risk surface for attack.
@@ -27,17 +28,20 @@ Consequences range from loss of private account passwords to loss of credit card
 There are many kinds of web security threats, but here are the common ones you should be aware of: Cross-Site scripting, SQL injection, and Cross-Site request forgery.
 
 ### Cross-site scripting
-Cross-site scripting, otherwise known as XSS, is a web security threat that happens when a malicious script (code) successfully penetrates a website via a client (browser) and runs successfully. This script is usually passed into the website via the URL parameter, form data, and so on. 
+
+Cross-site scripting, otherwise known as XSS, is a web security threat that happens when a malicious script (code) successfully penetrates a website via a client (browser) and runs successfully. This script is usually passed into the website via the URL parameter, form data, and so on.
 
 For example, if a website accepts parameters from a URL, say https://example.com?user=mane, a malicious user can pass in a script in place of the user parameter like https://example.com?user=<script>console.log('retrieve the username and password')</script>. In the example, the script only logs a string to the console. This is not the case when an attacker runs a malicious link on a user's client. It could be a script to steal credit card information which the attacker could use to steal from the user's bank account.
 
 ### SQL injection
+
 This web security threat entails sending malicious data into the database via the client. Usually, it is passed in when a user attempts to submit a form via a client and Url parameter. This can cause different kinds of havoc, such as performing CRUD(Create Read Update Delete) operations against the database, which could cause the data in the database to be compromised.
 
 ### Cross-site request forgery 
+
 This is a web security threat, also known as XSRF. It is a security threat whereby an attacker tricks a user into executing an action unintentionally via a client. An attacker could trick a user into completing a payment on an e-commerce site, or possibly claiming an asset from the government.
 
-For instance, let's say we have this URL https://mybank.com?username=dave&amount=$100. An attacker can create a malicious link like <a href="https://mybank.com?username=attacker&amount=$100">view more</a> and send it via email or any social network like Facebook. An ordinary user has no idea what is going on behind the scenes of a button click. 
+For instance, let's say we have this URL https://mybank.com?username=dave&amount=$100. An attacker can create a malicious link like <a href="https://mybank.com?username=attacker&amount=$100">view more</a> and send it via email or any social network like Facebook. An ordinary user has no idea what is going on behind the scenes of a button click.
 
 ## Web Security best practices
 
@@ -69,8 +73,7 @@ A network engineer is the one responsible for network security. However, a front
 
 ### Implementation of automatic user timeout
 
-This involves protecting users who have left their credentials hanging in the browser for a long time. In most cases, this would be done by the backend team by setting a session for the expiration of the user credentials. However, as a front-end developer, you have to ensure that the API you are consuming has put this into consideration. 
-
+This involves protecting users who have left their credentials hanging in the browser for a long time. In most cases, this would be done by the backend team by setting a session for the expiration of the user credentials. However, as a front-end developer, you have to ensure that the API you are consuming has put this into consideration.
 
 ## Activities
 

@@ -1,10 +1,10 @@
 ---
 title: HTTP PUT request method
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/http-put-request-method.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -22,16 +22,16 @@ We will also need to include the new data inside the `body` of the optional `opt
 Let's have a look at how we can do a `PUT` request.
 
 ```js
-fetch('https://jsonplaceholder.typicode.com/posts/1', {
-  method: 'PUT',
+fetch("https://jsonplaceholder.typicode.com/posts/1", {
+  method: "PUT",
   body: JSON.stringify({
     id: 1,
-    title: 'foo',
-    body: 'bar',
+    title: "foo",
+    body: "bar",
     userId: 1,
   }),
   headers: {
-    'Content-type': 'application/json; charset=UTF-8',
+    "Content-type": "application/json; charset=UTF-8",
   },
 })
   .then((response) => response.json())

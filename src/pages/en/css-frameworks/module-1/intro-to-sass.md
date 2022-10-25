@@ -1,10 +1,10 @@
 ---
 title: Introduction to SASS
-keywords: sample
+description: sample
 tags: CSS Frameworks
 sidebar: css-frameworks
-permalink: css-frameworks/intro-to-sass.html
-folder: css-frameworks
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -15,7 +15,7 @@ Since these new rules do not exist in the original language, they are called `sy
 
 SASS is a `syntax extension` that adds a new `syntax` to the `CSS` language, as well as a `compiler` that can be used to convert SASS into CSS.
 
-Like Bootstrap, SASS has become *ubiquitous* in the modern web development landscape. Although there are alternatives to SASS, it is currently the most dominant tool.
+Like Bootstrap, SASS has become _ubiquitous_ in the modern web development landscape. Although there are alternatives to SASS, it is currently the most dominant tool.
 
 > Please ensure that you have NodeJS & NPM setup before you continue with this lesson. You can find the tutorial here: [NodeJS setup](https://noroff-content.gitlab.io/feu/node/installing-node.html)
 
@@ -316,6 +316,7 @@ Extend allows for styles to be kept very DRY, by reusing the same styles in mult
 In order to use one SASS file from another, it must be imported as a `module`. We can do this by using the `@use` keyword. For example:
 
 `/src/scss/styles.scss`
+
 ```scss
 @use "./components/buttons";
 @use "./utilities/flex";
@@ -380,7 +381,7 @@ Where the `_index.scss` file would simply `@use` it's siblings:
 
 Now, in our `styles.scss` file we can simply `@use "components"` to include all code for the components folder. Using this strategy we can keep styles `modular` or `atomic` while easily importing them into a useful global stylesheet.
 
-----
+---
 
 ## Lesson Task
 
@@ -392,7 +393,7 @@ Next, copy your page HTML and remove all references to CSS. You should have an H
 
 Your task is to rebuild the styles for your page, only using your own custom SASS.
 
-You do not need to copy Bootstrap's implementation exactly - but do not change any classnames in HTML. 
+You do not need to copy Bootstrap's implementation exactly - but do not change any classnames in HTML.
 
 ### Process
 

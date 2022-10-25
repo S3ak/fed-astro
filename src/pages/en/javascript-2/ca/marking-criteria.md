@@ -1,10 +1,10 @@
 ---
 title: Marking criteria
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/marking-criteria.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 <table style="max-width: 100%">

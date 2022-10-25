@@ -1,10 +1,10 @@
 ---
 title: Modules basics
-keywords: modules
+description: modules
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/basics.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Imports and exports
@@ -79,7 +79,7 @@ In the example below, we alias `functionOne` to have the name `newFunctionName`:
 **NOTE:** When you use an alias, you can't use the original name where you've added the alias.
 
 ```js
-import { functionOne as newFunctionName } from './module.mjs';
+import { functionOne as newFunctionName } from "./module.mjs";
 
 // ✅ This works
 newFunctionName();
@@ -105,7 +105,7 @@ export default mainFunction;
 When we import a "default export", we don't use the `{}` braces, we simply write the name we want to use:
 
 ```js
-import mainFunction from './module.mjs';
+import mainFunction from "./module.mjs";
 ```
 
 ### Default imports can be named anything
@@ -132,7 +132,7 @@ default export functionOne;
 
 // Here we import the default export from 'module.mjs'
 // and called it 'newFunctionName'
-import newFunctionName from './module.mjs';
+import newFunctionName from "./module.mjs";
 ```
 
 ## Combining named exports/imports with default exports/imports
@@ -140,7 +140,6 @@ import newFunctionName from './module.mjs';
 You can combine named and default imports/exports, which is not uncommon.
 
 We are using both named and default imports/exports in the example below:
-
 
 ```js
 // module.mjs
@@ -165,13 +164,13 @@ export default mainFunction;
 
 // Here we are using the default import (lack of curly braces)
 // as well as the named import { functionOne }
-import renamedDefaultFunction, { functionOne } from './module.mjs';
+import renamedDefaultFunction, { functionOne } from "./module.mjs";
 ```
 
 If you are familiar with React, you will likely have already seen default and named exports being used together:
 
 ```jsx
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 ```
 
 ## Other ways to export default and named exports

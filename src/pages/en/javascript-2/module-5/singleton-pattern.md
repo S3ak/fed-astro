@@ -1,10 +1,10 @@
 ---
 title: Singleton pattern
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/singleton-pattern.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -30,7 +30,7 @@ const Singleton = (function () {
 
   // This creates a new instance
   function createInstance() {
-    const object = { message: 'Hello world' };
+    const object = { message: "Hello world" };
     return object;
   }
 
@@ -54,7 +54,7 @@ console.log(instance1);
 // Logs: {message: 'Hello world'}
 console.log(instance2);
 // Logs: {message: 'Hello world'}
-console.log('Is the same object:', instance1 === instance2);
+console.log("Is the same object:", instance1 === instance2);
 // Logs: Is the same object: true
 ```
 

@@ -1,10 +1,10 @@
 ---
 title: IIFE
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/iife.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -15,7 +15,7 @@ In the example below, we will have the `console.log` log to the console without 
 
 ```js
 (function () {
-  console.log('This function is called as soon as the function is defined');
+  console.log("This function is called as soon as the function is defined");
 })();
 ```
 

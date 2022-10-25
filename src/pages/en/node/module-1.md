@@ -1,10 +1,10 @@
 ---
 title: Introduction to Node
-keywords: node, npm, workflow
+description: node, npm, workflow
 tags: Node, NPM, Workflow
 sidebar: node
-permalink: node/module-1.html
-folder: node
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

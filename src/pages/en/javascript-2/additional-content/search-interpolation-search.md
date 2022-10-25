@@ -1,10 +1,10 @@
 ---
 title: Search - Interpolation Search
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/search-interpolation-search.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction:
@@ -28,8 +28,7 @@ function interpolationSearch(array: any[], valueToFind: any) {
     }
     mid = Math.floor(
       low +
-        ((high - low) / (array[high] / array[low])) *
-          (valueToFind - array[low]),
+        ((high - low) / (array[high] / array[low])) * (valueToFind - array[low])
     );
     if (array[mid] === valueToFind) {
       return mid;
@@ -45,7 +44,7 @@ function interpolationSearch(array: any[], valueToFind: any) {
 
 const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-console.log('interpolation search', interpolationSearch(arr, 4));
+console.log("interpolation search", interpolationSearch(arr, 4));
 ```
 
 ## Lesson task

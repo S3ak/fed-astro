@@ -1,10 +1,10 @@
 ---
 title: Search - Binary Search
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/search-binary-search.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -40,9 +40,9 @@ function binarySearch(array, valueToFind) {
 
   while (!isValueFound) {
     const midPoint = Math.floor(lowerBound + (upperBound - lowerBound) / 2);
-    console.log('-----');
-    console.log('lowerBound:', lowerBound, 'upperBound:', upperBound);
-    console.log('midPoint', midPoint);
+    console.log("-----");
+    console.log("lowerBound:", lowerBound, "upperBound:", upperBound);
+    console.log("midPoint", midPoint);
     if (array[midPoint] < valueToFind) {
       lowerBound = midPoint + 1;
     }
@@ -51,7 +51,7 @@ function binarySearch(array, valueToFind) {
     }
 
     if (array[midPoint] === valueToFind) {
-      console.log('Found value:', valueToFind);
+      console.log("Found value:", valueToFind);
       return midPoint;
     }
   }
@@ -59,7 +59,7 @@ function binarySearch(array, valueToFind) {
 
 const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-console.log('Binary search', binarySearch(arr, 9));
+console.log("Binary search", binarySearch(arr, 9));
 // -----
 // lowerBound: 1 upperBound: 10
 // midPoint 5

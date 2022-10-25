@@ -1,10 +1,10 @@
 ---
 title: WordPress REST API
-keywords: sample
+description: sample
 tags: Content Management Systems
 sidebar: cms
-permalink: cms/wordpress-rest-api.html
-folder: cms
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

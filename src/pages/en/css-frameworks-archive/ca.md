@@ -1,10 +1,10 @@
 ---
 title: Course Assignment
-keywords: react, styling
+description: react, styling
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/ca.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Brief

@@ -1,10 +1,10 @@
 ---
 title: JSDocs
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/jsdocs.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -39,7 +39,7 @@ export function addNumbers(a, b) {
 **React component:**
 
 ```jsx
-import React from 'react';
+import React from "react";
 
 /**
  * Displays a message to the user

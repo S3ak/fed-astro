@@ -1,10 +1,10 @@
 ---
 title: String properties and methods, multiple if conditions and nested if statements
-keywords: sample
+description: sample
 tags: Programming Foundations
 sidebar: prog-found
-permalink: programming-foundations/string-properties.html
-folder: programming-foundations
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## String properties and methods

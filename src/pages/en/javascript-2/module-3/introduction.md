@@ -1,10 +1,10 @@
 ---
 title: Modules Introduction
-keywords: modules
+description: modules
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/introduction.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -20,7 +20,7 @@ Modules allow us to easily import and export code, which includes variables and 
 Below is a basic example of how you could use the `import` and `export` functions.
 
 ```js
-import { addNumbers } from './math.mjs';
+import { addNumbers } from "./math.mjs";
 
 const result = addNumbers(10, 10);
 

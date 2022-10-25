@@ -1,10 +1,10 @@
 ---
 title: Installing NVM
-keywords: node, npm, nvm, workflow
+description: node, npm, nvm, workflow
 tags: Node, NPM, NVM, Workflow
 sidebar: node
-permalink: node/installing-nvm.html
-folder: node
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -42,10 +42,10 @@ There is also a package called `nvm-windows` which serves as a parallel project 
 
 Once NVM is correctly installed on your computer, you can use the command `nvm ls` to list all of the available versions. From these versions, select the version you would like to use (or use the latest `lts` release if you are not sure):
 
-
 ```bash
 nvm ls
 ```
+
 ```
 default -> lts/* (-> v16.16.0)
 iojs -> N/A (default)

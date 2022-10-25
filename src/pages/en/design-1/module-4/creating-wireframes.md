@@ -1,10 +1,10 @@
 ---
 title: Creating wireframes
-keywords: sample
+description: sample
 tags: Design 1
 sidebar: design-1
-permalink: design-1/creating-wireframes.html
-folder: design-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

@@ -1,10 +1,10 @@
 ---
 title: HTTP POST request method
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/http-post-request-method.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -22,15 +22,15 @@ Let's have a look at how we can do a `POST` request.
 Below is an example of doing a `POST` request using `fetch`.
 
 ```js
-fetch('https://jsonplaceholder.typicode.com/posts', {
-  method: 'POST',
+fetch("https://jsonplaceholder.typicode.com/posts", {
+  method: "POST",
   body: JSON.stringify({
-    title: 'foo',
-    body: 'bar',
+    title: "foo",
+    body: "bar",
     userId: 1,
   }),
   headers: {
-    'Content-type': 'application/json; charset=UTF-8',
+    "Content-type": "application/json; charset=UTF-8",
   },
 })
   .then((response) => response.json())
@@ -50,18 +50,18 @@ Note how we are using a request object as the second parameter. We could instead
 
 ```js
 const requestOptions = {
-  method: 'POST',
+  method: "POST",
   body: JSON.stringify({
-    title: 'foo',
-    body: 'bar',
+    title: "foo",
+    body: "bar",
     userId: 1,
   }),
   headers: {
-    'Content-type': 'application/json; charset=UTF-8',
+    "Content-type": "application/json; charset=UTF-8",
   },
 };
 
-fetch('https://jsonplaceholder.typicode.com/posts', requestOptions)
+fetch("https://jsonplaceholder.typicode.com/posts", requestOptions)
   .then((response) => response.json())
   .then((json) => console.log(json));
 // Logs:

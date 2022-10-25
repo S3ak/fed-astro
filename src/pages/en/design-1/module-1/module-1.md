@@ -1,10 +1,10 @@
 ---
 title: Module 1 Overview
-keywords: sample
+description: sample
 tags: Design 1
 sidebar: design-1
-permalink: design-1/module-1.html
-folder: design-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module, you will be introduced to the universal fundamentals of graphic design. We will explore core elements of graphic design and why it is necessary to understand these basic principles and how can you use this knowledge working as a front-end developer.

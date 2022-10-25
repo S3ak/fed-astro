@@ -1,10 +1,10 @@
 ---
 title: Marking Criteria
-keywords: sample
+description: sample
 tags: Design 1
 sidebar: design-1
-permalink: design-1/marking-criteria.html
-folder: design-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 <table style="max-width: 100%">

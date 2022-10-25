@@ -1,10 +1,10 @@
 ---
 title: Info Architecture and Design for the Middle
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/info-architecture.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -97,11 +97,11 @@ When making choices about terminology, navigation etc. it's best to choose the l
 
 ## Activities
 
-|  | **Activity 1**<br>WATCH<br><br>Video: [User Experience: Information Architecture](https://www.linkedin.com/learning/ux-foundations-information-architecture/welcome?u=43268076) (1h 57m) by XDA. |
-| :-: | :-- |
+|     | **Activity 1**<br>WATCH<br><br>Video: [User Experience: Information Architecture](https://www.linkedin.com/learning/ux-foundations-information-architecture/welcome?u=43268076) (1h 57m) by XDA. |
+| :-: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | **Activity 2**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 10: 'Optimizing for Intermediates'(2hr) |
-| :-: | :-- |
+|     | **Activity 2**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 10: 'Optimizing for Intermediates'(2hr) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <hr>
 

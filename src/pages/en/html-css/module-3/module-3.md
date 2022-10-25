@@ -1,10 +1,10 @@
 ---
 title: Module 3 Overview
-keywords: sample
+description: sample
 tags: HTML and CSS
 sidebar: html-css
-permalink: html-css/module-3.html
-folder: html-css
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module we look at building layouts. This is a crucial aspect of CSS and one with which you’ll need to become familiar.

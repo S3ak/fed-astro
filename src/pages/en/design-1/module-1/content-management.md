@@ -1,10 +1,10 @@
 ---
 title: Content management
-keywords: sample
+description: sample
 tags: Design 1
 sidebar: design-1
-permalink: design-1/content-management.html
-folder: design-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -136,7 +136,7 @@ _Figure 13. An example of the rule of thirds in photography._
 
 Sometimes photography can be quite intimidating. That is why useful resources for photography can assist in getting high-quality images that are produced by professional photographers. These websites are all well-known for their free stock images. But before downloading any photos, make sure you understand what is required from you with regards to the licencing and the use of photos.
 
-Free stock sites: [www.freepik.com](http://www.freepik.com/), [www.pixabay.com](http://www.pixabay.com/), [www.unsplash.com](http://www.unsplash.com/) and [www.librestock.com](http://www.librestock.com/) 
+Free stock sites: [www.freepik.com](http://www.freepik.com/), [www.pixabay.com](http://www.pixabay.com/), [www.unsplash.com](http://www.unsplash.com/) and [www.librestock.com](http://www.librestock.com/)
 
 Websites that sell photographs can be quite expensive, but the images will probably be of a higher quality and you would have a bigger selection to choose from. With some free stock sites, you have the option to subscribe as a premium member, meaning certain photos are regarded as ‘premium selection’ and the only way for you to download those is by paying for them.
 
@@ -416,7 +416,7 @@ The Winery is the name of the company that contacted you for the design of their
 
 _Figure 29. The Winery example, 2022)_
 
-**Here is an example of what the end result could look like. Please use this as inspiration only, and try not to copy this design.** 
+**Here is an example of what the end result could look like. Please use this as inspiration only, and try not to copy this design.**
 
 ## Bibliography
 

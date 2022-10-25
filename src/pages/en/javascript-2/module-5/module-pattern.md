@@ -1,10 +1,10 @@
 ---
 title: Module pattern
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/module-pattern.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -26,21 +26,21 @@ const modulePatternExample = (function () {
   /* Private variables and methods */
 
   // Private variable
-  const _privateVariable = 'Private';
+  const _privateVariable = "Private";
 
   const _privateMethod = function () {
-    console.log('Private method');
+    console.log("Private method");
   };
 
   /* Public variables and methods */
   // These variables and methods added to the 'return'  so they can be accessed
 
   // Public variable
-  const publicVariable = 'Public';
+  const publicVariable = "Public";
 
   // Public method
   const publicMethod = function () {
-    console.log('Public method');
+    console.log("Public method");
   };
 
   // Return the public variables and functions so they can be accessed
@@ -79,7 +79,7 @@ const shoppingCart = (function () {
   };
 })();
 
-shoppingCart.addToCart({ name: 'Milk', price: 19.99 });
+shoppingCart.addToCart({ name: "Milk", price: 19.99 });
 console.log(shoppingCart.getCartItems());
 // Returns:
 // [{name: 'Milk', price: 19.99}]

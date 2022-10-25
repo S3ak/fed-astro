@@ -1,10 +1,10 @@
 ---
 title: find() and findIndex()
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/array-method-find.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Syntax
@@ -42,13 +42,13 @@ This is an example demonstrating that `find()/findIndex()` will break out once t
 const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const foundValue = values.find((currentValue, index) => {
-  console.log('Current index: ', index);
+  console.log("Current index: ", index);
   if (currentValue === 3) {
     return true;
   }
 });
 
-console.log('Found value:', foundValue);
+console.log("Found value:", foundValue);
 // The console logs the following:
 // Current index:  0
 // Current index:  1
@@ -83,7 +83,7 @@ console.log(valueFound);
 const temperatures = [109.2, 115.2, 119.9, 120.8, 150.0, 175, 182];
 
 const valueFound = temperatures.find(
-  (currentTemperature) => currentTemperature >= 120,
+  (currentTemperature) => currentTemperature >= 120
 );
 
 console.log(valueFound);
@@ -97,16 +97,16 @@ In this example, we have a list of names. We find the first name that starts wit
 
 ```js
 const users = [
-  { name: 'Kari', id: 19313 },
-  { name: 'Hans', id: 40202 },
-  { name: 'Joakim', id: 59230 },
-  { name: 'Inger', id: 14023 },
-  { name: 'Ellen', id: 76339 },
+  { name: "Kari", id: 19313 },
+  { name: "Hans", id: 40202 },
+  { name: "Joakim", id: 59230 },
+  { name: "Inger", id: 14023 },
+  { name: "Ellen", id: 76339 },
 ];
 
 const foundUser = users.find((user) => {
   // Find a name with 'j' as the first letter
-  if (user.name[0].toLowerCase() === 'j') {
+  if (user.name[0].toLowerCase() === "j") {
     return true;
   }
 });
@@ -120,14 +120,14 @@ console.log(foundUser);
 
 ```js
 const users = [
-  { name: 'Kari', id: 19313 },
-  { name: 'Hans', id: 40202 },
-  { name: 'Joakim', id: 59230 },
-  { name: 'Inger', id: 14023 },
-  { name: 'Ellen', id: 76339 },
+  { name: "Kari", id: 19313 },
+  { name: "Hans", id: 40202 },
+  { name: "Joakim", id: 59230 },
+  { name: "Inger", id: 14023 },
+  { name: "Ellen", id: 76339 },
 ];
 
-const foundUser = users.find(({ name }) => name[0].toLowerCase() === 'j');
+const foundUser = users.find(({ name }) => name[0].toLowerCase() === "j");
 
 console.log(foundUser);
 ```
@@ -140,9 +140,9 @@ We have an array of book objects. Each element has a `title` string for the name
 
 ```js
 const books = [
-  { title: 'Building a Spaceship', inStock: false },
-  { title: 'Growing Orchids', inStock: false },
-  { title: 'River Fisher', inStock: false },
+  { title: "Building a Spaceship", inStock: false },
+  { title: "Growing Orchids", inStock: false },
+  { title: "River Fisher", inStock: false },
 ];
 
 const foundBook = books.find((book) => {
@@ -154,9 +154,9 @@ const foundBook = books.find((book) => {
 // 'foundBook' will be 'undefined' if no book was
 //    found by the find() array method
 if (foundBook === undefined) {
-  console.log('No books in stock!');
+  console.log("No books in stock!");
 } else {
-  console.log('First book in stock:', foundBook);
+  console.log("First book in stock:", foundBook);
 }
 // Returns:
 // No books in stock!
@@ -166,18 +166,18 @@ if (foundBook === undefined) {
 
 ```js
 const books = [
-  { title: 'Building a Spaceship', inStock: false },
-  { title: 'Growing Orchids', inStock: false },
-  { title: 'River Fisher', inStock: false },
+  { title: "Building a Spaceship", inStock: false },
+  { title: "Growing Orchids", inStock: false },
+  { title: "River Fisher", inStock: false },
 ];
 
 // Destructured the props and moved logic to the return
 const foundBook = books.find(({ inStock }) => inStock);
 
 if (!foundBook) {
-  console.log('No books in stock!');
+  console.log("No books in stock!");
 } else {
-  console.log('First book in stock:', foundBook);
+  console.log("First book in stock:", foundBook);
 }
 // Returns:
 // No books in stock!

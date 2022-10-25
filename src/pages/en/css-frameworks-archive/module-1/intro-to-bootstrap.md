@@ -1,10 +1,10 @@
 ---
 title: Introduction to Bootstrap
-keywords: sample
+description: sample
 tags: CSS Frameworks
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/intro-to-bootstrap.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

@@ -1,10 +1,10 @@
 ---
 title: Course Assignment
-keywords: sample
+description: sample
 tags: Introduction to FEU2
 sidebar: introduction-feu2
-permalink: introduction-feu2/ca.html
-folder: introduction-feu2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Brief

@@ -1,10 +1,10 @@
 ---
 title: Persuasion and Design Values
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/persuasion-design-values.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -119,17 +119,17 @@ Another thing to take into account when considering elegant designs is whether t
 
 ## Activities
 
-|  | **Activity 1**<br>WATCH<br><br>Video: [Persuasive UX: Creating Credibility](https://www.linkedin.com/learning/persuasive-ux-creating-credibility/welcome?u=43268076) (20m) |
-| :-: | :-- |
+|     | **Activity 1**<br>WATCH<br><br>Video: [Persuasive UX: Creating Credibility](https://www.linkedin.com/learning/persuasive-ux-creating-credibility/welcome?u=43268076) (20m) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | <br><br>Video: [Persuasive UX: Influencing Behavior Patterns](https://www.linkedin.com/learning/persuasive-ux-influencing-behavior-patterns) (28m) |
-| :-: | :-- |
+|     | <br><br>Video: [Persuasive UX: Influencing Behavior Patterns](https://www.linkedin.com/learning/persuasive-ux-influencing-behavior-patterns) (28m) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | <br><br>Video: [Persuasive UX: The Power of Self Image](https://www.linkedin.com/learning/persuasive-ux-the-power-of-self-image) (22m) |
-| :-: | :-- |
+|     | <br><br>Video: [Persuasive UX: The Power of Self Image](https://www.linkedin.com/learning/persuasive-ux-the-power-of-self-image) (22m) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | <br><br>Video: [Persuasive UX: Harnessing Illogical Reactions](https://www.linkedin.com/learning/persuasive-ux-harnessing-illogical-reactions/welcome?u=43268076) (35m) |
-| :-: | :-- |
+|     | <br><br>Video: [Persuasive UX: Harnessing Illogical Reactions](https://www.linkedin.com/learning/persuasive-ux-harnessing-illogical-reactions/welcome?u=43268076) (35m) |
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 | | **Activity 2**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, 2014, by Alan Cooper et.al. <br>Chapter 7:'A Basis for Good Product Behavior'<br>Chapter 8:'Digital Etiquette' (2h)| | :-: |
 

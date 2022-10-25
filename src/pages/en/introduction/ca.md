@@ -1,10 +1,10 @@
 ---
 title: Course Assignment
-keywords: sample
+description: sample
 tags: Introduction
 sidebar: introduction
-permalink: introduction/ca.html
-folder: introduction
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Brief

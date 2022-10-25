@@ -1,10 +1,10 @@
 ---
 title: Module 1 Overview
-keywords: sample
+description: sample
 tags: JavaScript 1
 sidebar: javascript-1
-permalink: javascript-1/module-1.html
-folder: javascript-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module we will:

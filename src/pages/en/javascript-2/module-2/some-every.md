@@ -1,10 +1,10 @@
 ---
 title: some() and every()
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/array-method-some-every.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction: some()
@@ -50,7 +50,7 @@ const didMatchCondition = values.some((value, index) => {
   }
 });
 
-console.log('didMatchCondition:', didMatchCondition);
+console.log("didMatchCondition:", didMatchCondition);
 // Return/output:
 // index: 0 value: 0
 // index: 1 value: 1
@@ -75,7 +75,7 @@ const didMatchCondition = values.some((value, index) => {
   }
 });
 
-console.log('didMatchCondition:', didMatchCondition);
+console.log("didMatchCondition:", didMatchCondition);
 // Return/output:
 // index: 0 value: 0
 // index: 1 value: 1
@@ -100,14 +100,14 @@ In this example we have a list of modules as objects in an array. They each cont
 
 ```js
 const modules = [
-  { name: 'Introduction to Programming', isComplete: true },
-  { name: 'HTML', isComplete: true },
-  { name: 'CSS', isComplete: false },
-  { name: 'JavaScript', isComplete: true },
+  { name: "Introduction to Programming", isComplete: true },
+  { name: "HTML", isComplete: true },
+  { name: "CSS", isComplete: false },
+  { name: "JavaScript", isComplete: true },
 ];
 
 const isSomeCoursesFinished = modules.some((currentModule, index) => {
-  console.log('index', index);
+  console.log("index", index);
   return currentModule.isComplete === true;
 });
 
@@ -154,13 +154,13 @@ In this example, we check that all of our values are greater than/equal (`>=`) t
 const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const didAllMatchCondition = values.every((value, index) => {
-  console.log('index:', index, 'value:', value);
+  console.log("index:", index, "value:", value);
   if (value >= 0) {
     return true;
   }
 });
 
-console.log('didAllMatchCondition:', didAllMatchCondition);
+console.log("didAllMatchCondition:", didAllMatchCondition);
 // index: 0 value: 0
 // index: 1 value: 1
 // index: 2 value: 2
@@ -182,13 +182,13 @@ In this example, we are checking if any values are equal to or below 3. Once we 
 const values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const didAllMatchCondition = values.every((value, index) => {
-  console.log('index:', index, 'value:', value);
+  console.log("index:", index, "value:", value);
   if (value <= 3) {
     return true;
   }
 });
 
-console.log('didAllMatchCondition:', didAllMatchCondition);
+console.log("didAllMatchCondition:", didAllMatchCondition);
 // index: 0 value: 0
 // index: 1 value: 1
 // index: 2 value: 2
@@ -207,10 +207,10 @@ In this example we have a list of modules as objects in an array. They each cont
 
 ```js
 const modules = [
-  { name: 'Introduction to Programming', isComplete: true },
-  { name: 'HTML', isComplete: true },
-  { name: 'CSS', isComplete: false },
-  { name: 'JavaScript', isComplete: true },
+  { name: "Introduction to Programming", isComplete: true },
+  { name: "HTML", isComplete: true },
+  { name: "CSS", isComplete: false },
+  { name: "JavaScript", isComplete: true },
 ];
 
 const isCourseFinished = modules.every((currentModule) => {

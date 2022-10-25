@@ -1,10 +1,10 @@
 ---
 title: Understanding the colors of the web
-keywords: sample
+description: sample
 tags: Design 1
 sidebar: design-1
-permalink: design-1/colors-of-the-web.html
-folder: design-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

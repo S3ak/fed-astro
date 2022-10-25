@@ -1,10 +1,10 @@
 ---
 title: Building with Tailwind
-keywords: react, styling, tailwind
+description: react, styling, tailwind
 tags: JS Frameworks
 sidebar: css-frameworks
-permalink: css-frameworks/building-with-tailwind.html
-folder: css-frameworks
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 > This lesson is optional and will not be assessed.

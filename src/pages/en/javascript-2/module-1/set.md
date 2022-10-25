@@ -1,10 +1,10 @@
 ---
 title: Set
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/set.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -26,9 +26,9 @@ You can add a value to a set with the `add` method.
 ```js
 const mySet = new Set();
 
-mySet.add('a');
+mySet.add("a");
 // mySet is now ['a']
-mySet.add('1');
+mySet.add("1");
 // mySet is now ['a', 1]
 ```
 
@@ -39,13 +39,13 @@ You can check if a value exists in a `Set` with the `has` method.
 ```js
 const mySet = new Set();
 
-mySet.add('a');
+mySet.add("a");
 // mySet is now ['a']
 
-mySet.has('a');
+mySet.has("a");
 // Returns true because 'a' is in the set
 
-mySet.has('b');
+mySet.has("b");
 // Returns false because 'b' is not in the set
 ```
 
@@ -56,10 +56,10 @@ You can delete an item from a set with the `delete` method.
 ```js
 const mySet = new Set();
 
-mySet.add('a');
+mySet.add("a");
 // mySet is now ['a']
 
-mySet.delete('a');
+mySet.delete("a");
 // 'a' is now deleted from the set
 ```
 
@@ -68,14 +68,15 @@ mySet.delete('a');
 You can get the number of items in a set with the `size` method.
 
 ```js
-mySet.add('a');
-mySet.add('b');
+mySet.add("a");
+mySet.add("b");
 // mySet is now ['a', 'b']
 
 console.log(mySet.size);
 // Logs:
 // 2
 ```
+
 <hr>
 
 ## Lesson task

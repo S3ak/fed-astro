@@ -1,10 +1,10 @@
 ---
 title: Asynchronous code
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/asynchronous-code.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -26,9 +26,9 @@ const b = 10;
 const resultOne = a + b; // 60
 const resultTwo = a - b; // 40
 
-console.log('resultOne', resultOne);
+console.log("resultOne", resultOne);
 // Logs: 60
-console.log('resultTwo', resultTwo);
+console.log("resultTwo", resultTwo);
 // Logs: 40
 ```
 
@@ -49,12 +49,12 @@ In this following example, we are:
 3. Console.logging a value after a timer
 
 ```js
-console.log('Console.log BEFORE timer');
+console.log("Console.log BEFORE timer");
 // Creating a timer
 setTimeout(() => {
-  console.log('Code inside of timer');
+  console.log("Code inside of timer");
 }, 3000);
-console.log('Console.log AFTER timer');
+console.log("Console.log AFTER timer");
 ```
 
 ![Asynchronous code example](../images/javascript-2/async/asynchronous-code-example.png)

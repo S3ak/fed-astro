@@ -1,10 +1,10 @@
 ---
 title: Introduction to FEU2
-keywords: sample
+description: sample
 tags: Introduction to FEU2
 sidebar: introduction-feu2
-permalink: introduction-feu2/intro.html
-folder: introduction-feu2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction to FEU2

@@ -1,10 +1,10 @@
 ---
 title: Introduction to Bootstrap
-keywords: sample
+description: sample
 tags: CSS Frameworks
 sidebar: css-frameworks
-permalink: css-frameworks/intro-to-bootstrap.html
-folder: css-frameworks
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -47,7 +47,10 @@ If this is successful, you should find the Bootstrap directory inside the `node_
 The next step is to `reference` Bootstrap in your HTML file. This is done by adding the following to your HTML file:
 
 ```html
-<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link
+  rel="stylesheet"
+  href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+/>
 ```
 
 We will discuss using SASS to customise Bootstrap in a later lesson.
@@ -59,8 +62,18 @@ If you do not need to customise Bootstrap, you can find the available CDN links 
 These will be included in your HTML `<head>` like so:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+  crossorigin="anonymous"
+></script>
 ```
 
 ## Building with Bootstrap
@@ -158,8 +171,8 @@ Unlike utility classes, which refer directly to a specific style, component clas
   <button class="btn btn-primary">Primary</button>
   <div class="btn btn-info">Info</div>
   <a href="#" class="btn btn-danger">Danger</a>
-  <input type="reset" class="btn btn-warning" value="Warning">
-  <input type="submit" class="btn btn-success" value="Success">
+  <input type="reset" class="btn btn-warning" value="Warning" />
+  <input type="submit" class="btn btn-success" value="Success" />
 </div>
 ```
 
@@ -187,7 +200,7 @@ Other popular components include:
 
 These component groups form the basis of the Bootstrap framework and should be used like lego blocks to build up a layout.
 
-----
+---
 
 ## Lesson Task
 

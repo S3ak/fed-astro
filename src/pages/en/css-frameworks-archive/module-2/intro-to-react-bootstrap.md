@@ -1,10 +1,10 @@
 ---
 title: Introduction React Bootstrap
-keywords: react, styling, bootstrap
+description: react, styling, bootstrap
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/intro-to-react-bootstrap.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

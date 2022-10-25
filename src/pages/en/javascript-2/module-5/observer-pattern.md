@@ -1,10 +1,10 @@
 ---
 title: Observer pattern
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/observer-pattern.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -67,13 +67,13 @@ Subject.prototype = {
 // This example function will get added to the
 // Subject
 function ExampleFunction1() {
-  console.log('Example function 1');
+  console.log("Example function 1");
 }
 
 // This example function will also get added to the
 // Subject
 function ExampleFunction2() {
-  console.log('Example function 2');
+  console.log("Example function 2");
 }
 
 // Creating a new subject which we will add our

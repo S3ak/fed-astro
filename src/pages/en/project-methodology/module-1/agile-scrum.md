@@ -1,10 +1,10 @@
 ---
 title: Agile and Scrum
-keywords: sample
+description: sample
 tags: Project Methodology
 sidebar: proj-meth
-permalink: project-methodology/agile-scrum.html
-folder: project-methodology
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 # What is Agile?

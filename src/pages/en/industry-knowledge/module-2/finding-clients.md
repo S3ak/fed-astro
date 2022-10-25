@@ -1,10 +1,10 @@
 ---
 title: Finding Clients
-keywords: sample
+description: sample
 tags: Industry Knowledge
 sidebar: industry-knowledge
-permalink: industry-knowledge/finding-clients.html
-folder: industry-knowledge
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

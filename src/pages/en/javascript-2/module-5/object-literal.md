@@ -1,10 +1,10 @@
 ---
 title: Object literal
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/object-literal.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -47,12 +47,12 @@ const shoppingCart = {
   },
   // Displays the contents of the cart
   getCartItems: function () {
-    console.log('Cart:', this.cart);
+    console.log("Cart:", this.cart);
   },
 };
 
 // Add an item to the cart
-shoppingCart.addToCart({ name: 'Milk', price: 9.99 });
+shoppingCart.addToCart({ name: "Milk", price: 9.99 });
 // Display the cart contents
 shoppingCart.getCartItems();
 ```
@@ -67,14 +67,14 @@ Consider the following example:
 
 ```js
 const user = {
-  firstName: 'John',
-  lastName: 'Nordmann',
+  firstName: "John",
+  lastName: "Nordmann",
   setFirstName: function (newFirstName) {
     //
     this.firstName = newFirstName;
   },
 };
-user.setFirstName('Ola');
+user.setFirstName("Ola");
 // Logs 'Ola'
 console.log(user.firstName);
 ```
@@ -89,7 +89,7 @@ In this example, we have our pseudo private variable `_firstName`. We then have 
 
 ```js
 const user = {
-  _firstName: 'John',
+  _firstName: "John",
 
   // The 'setter'
   set firstName(newFirstName) {
@@ -103,7 +103,7 @@ const user = {
 };
 
 // Use the 'firstName' setter
-user.firstName = 'Ola';
+user.firstName = "Ola";
 // Use the 'firstName' getter
 console.log(user.firstName);
 ```

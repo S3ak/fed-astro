@@ -1,10 +1,10 @@
 ---
 title: HTTP DELETE request method
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/http-delete-request-method.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -30,8 +30,8 @@ fetch('https://jsonplaceholder.typicode.com/posts/1
 We now use this URL with the method of `DELETE`. If successful, this will delete the item with an ID of `1` from the server.
 
 ```js
-fetch('https://jsonplaceholder.typicode.com/posts/1', {
-  method: 'DELETE',
+fetch("https://jsonplaceholder.typicode.com/posts/1", {
+  method: "DELETE",
 });
 ```
 
@@ -50,8 +50,8 @@ In this example, we are adding the `Response` object to check the status. We can
 This is an indication that our `DELETE` request was successful.
 
 ```js
-fetch('https://jsonplaceholder.typicode.com/posts/1', {
-  method: 'DELETE',
+fetch("https://jsonplaceholder.typicode.com/posts/1", {
+  method: "DELETE",
 }).then((response) => {
   console.log(response);
 });

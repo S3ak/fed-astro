@@ -1,10 +1,10 @@
 ---
 title: Metaphors, Affordances, and Signifiers
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/affordances.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -93,14 +93,14 @@ On hover states can also be used to provide feedback to users that they can cont
 
 ## Activities
 
-|  | **Activity 1**<br>WATCH<br><br>Video: [Universal Principles of Design: Affordances](https://www.linkedin.com/learning/universal-principles-of-design/affordances?u=43268076) (8m) |
-| :-: | :-- |
+|     | **Activity 1**<br>WATCH<br><br>Video: [Universal Principles of Design: Affordances](https://www.linkedin.com/learning/universal-principles-of-design/affordances?u=43268076) (8m) |
+| :-: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | **Activity 2**<br>READ<br><br>Article: [What Is The Most Underrated Word In Web Design?](https://www.smashingmagazine.com/2014/06/affordance-most-underrated-word-in-web-design/) (1h) |
-| :-: | :-- |
+|     | **Activity 2**<br>READ<br><br>Article: [What Is The Most Underrated Word In Web Design?](https://www.smashingmagazine.com/2014/06/affordance-most-underrated-word-in-web-design/) (1h) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | **Activity 3**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 13: 'Metaphors, Idioms, and Affordances'(2hr) |
-| :-: | :-- |
+|     | **Activity 3**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 13: 'Metaphors, Idioms, and Affordances'(2hr) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <hr>
 

@@ -1,10 +1,10 @@
 ---
 title: Object Methods
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/object-methods.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -15,9 +15,9 @@ An object is one of the JavaScript data types. It allows you to store data using
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  module: 'JavaScript',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  module: "JavaScript",
 };
 ```
 
@@ -43,7 +43,7 @@ console.log(name);
 With `bracket notation`, we put the key, as a string with quotation marks, in square brackets right after the Object's name.
 
 ```js
-const name = person['firstName'];
+const name = person["firstName"];
 
 console.log(name);
 // Returns:
@@ -56,14 +56,14 @@ In this example, we have multiple keys that are the same except for a number at 
 
 ```js
 const recipe = {
-  ingredient_0: 'Egg',
-  ingredient_1: 'Milk',
-  ingredient_2: 'Flour',
+  ingredient_0: "Egg",
+  ingredient_1: "Milk",
+  ingredient_2: "Flour",
 };
 
-const ingredient0 = recipe['ingredient_' + 0];
-const ingredient1 = recipe['ingredient_' + 1];
-const ingredient2 = recipe['ingredient_' + 2];
+const ingredient0 = recipe["ingredient_" + 0];
+const ingredient1 = recipe["ingredient_" + 1];
+const ingredient2 = recipe["ingredient_" + 2];
 
 console.log(ingredient0);
 console.log(ingredient1);
@@ -79,14 +79,14 @@ Let's do another example with the same data as the last example. This time, we w
 
 ```js
 const recipe = {
-  ingredient_0: 'Egg',
-  ingredient_1: 'Milk',
-  ingredient_2: 'Flour',
+  ingredient_0: "Egg",
+  ingredient_1: "Milk",
+  ingredient_2: "Flour",
 };
 
 for (let index = 0; index <= 2; index++) {
   // We use
-  const ingredient = recipe['ingredient_' + index];
+  const ingredient = recipe["ingredient_" + index];
   console.log(ingredient);
 }
 
@@ -120,14 +120,14 @@ The following code is a more practical example of the `for...in` loop with an ob
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  module: 'JavaScript',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  module: "JavaScript",
 };
 
 for (const key in person) {
   // Use the key to access the value from the key/value pair
-  console.log('key:', key, 'value:', person[key]);
+  console.log("key:", key, "value:", person[key]);
 }
 // Returns:
 // key: firstName value: Ola
@@ -155,9 +155,9 @@ Let's have a look at the previous example we did with `for...in`. You can see th
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  module: 'JavaScript',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  module: "JavaScript",
 };
 
 const keysArray = Object.keys(person);
@@ -175,9 +175,9 @@ In this example we will use the `forEach` array method to loop through the keys 
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  module: 'JavaScript',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  module: "JavaScript",
 };
 
 Object.keys(person).forEach((key) => {
@@ -196,9 +196,9 @@ In this example, we use `map` to create a new array. Each element in the array w
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  module: 'JavaScript',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  module: "JavaScript",
 };
 
 // .map will return a new array that contains the same number
@@ -220,9 +220,9 @@ The `Object.values()` method will create an array of only the values from the ob
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  module: 'JavaScript',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  module: "JavaScript",
 };
 
 console.log(Object.values(person));
@@ -236,9 +236,9 @@ console.log(Object.values(person));
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  module: 'JavaScript',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  module: "JavaScript",
 };
 
 Object.entries(person).forEach((keyValuePair) => {
@@ -254,13 +254,13 @@ We can use array destructuring for the key/value pair as the value returned will
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  module: 'JavaScript',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  module: "JavaScript",
 };
 
 Object.entries(person).forEach(([key, value]) => {
-  console.log('key:', key, 'value:', value);
+  console.log("key:", key, "value:", value);
 });
 // Returns:
 // key: firstName value: Ola

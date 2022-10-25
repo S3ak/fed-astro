@@ -1,10 +1,10 @@
 ---
 title: Planning and Communication
-keywords: sample
+description: sample
 tags: Introduction
 sidebar: introduction
-permalink: introduction/planning-communication.html
-folder: introduction
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Course language for online students

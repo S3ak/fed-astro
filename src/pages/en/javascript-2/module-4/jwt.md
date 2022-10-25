@@ -1,10 +1,10 @@
 ---
 title: JWT
-keywords: jwt
+description: jwt
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/jwt.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -74,14 +74,14 @@ API end-point: `https://nf-api.onrender.com/api/v1/social/auth/register`
 **Note:** You will not be able to use the account we have used in our example. You will need to come up with your own account details.
 
 ```js
-const API_BASE_URL = 'https://nf-api.onrender.com';
+const API_BASE_URL = "https://nf-api.onrender.com";
 
 async function registerUser(url, data) {
   try {
     const postData = {
-      method: 'POST',
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
     };
@@ -97,9 +97,9 @@ async function registerUser(url, data) {
 }
 
 const user = {
-  name: 'test_account_a',
-  email: 'test-account-a@noroff.no',
-  password: 'my-password',
+  name: "test_account_a",
+  email: "test-account-a@noroff.no",
+  password: "my-password",
 };
 
 registerUser(`${API_BASE_URL}/api/v1/social/auth/register`, user);
@@ -109,11 +109,11 @@ If the registration request we sent was successful, then we would receive a stat
 
 ```js
 {
-  avatar: '';
-  banner: '';
-  email: 'test-account-a@noroff.no';
+  avatar: "";
+  banner: "";
+  email: "test-account-a@noroff.no";
   id: 116;
-  name: 'test_account_a';
+  name: "test_account_a";
 }
 ```
 
@@ -122,7 +122,6 @@ If the registration request we sent was successful, then we would receive a stat
 _Figure 2. JWT user registration response_
 
 **Note:** We have hard-coded our user details as an object called `user`. You would typically need to get these values from inputs in a login form.
-
 
 ### Account already exists
 
@@ -155,16 +154,16 @@ API end-point: `https://nf-api.onrender.com/api/v1/social/auth/login`
 
 ```js
 const userLogin = {
-  email: 'test-account-a@noroff.no',
-  password: 'my-password',
+  email: "test-account-a@noroff.no",
+  password: "my-password",
 };
 
 async function loginUser(url, data) {
   try {
     const postData = {
-      method: 'POST',
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
     };
@@ -172,7 +171,7 @@ async function loginUser(url, data) {
     console.log(response);
     const json = await response.json();
     const accessToken = json.accessToken;
-    localStorage.setItem('accessToken', accessToken);
+    localStorage.setItem("accessToken", accessToken);
     console.log(json);
     // Logs:
     // accessToken: "eyJhbGciOiJIuzI1NiIsInR...
@@ -209,11 +208,11 @@ API end-point: `/api/v1/social/posts`.
 ```js
 async function fetchWithToken(url) {
   try {
-    const token = localStorage.getItem('accessToken');
+    const token = localStorage.getItem("accessToken");
     const getData = {
-      method: 'GET',
+      method: "GET",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
         Authorization: `Bearer ${token}`,
       },
     };
@@ -230,7 +229,7 @@ async function fetchWithToken(url) {
   }
 }
 
-fetchWithToken(API_BASE_URL + '/api/v1/social/posts');
+fetchWithToken(API_BASE_URL + "/api/v1/social/posts");
 ```
 
 ![Getting posts with a token](../images/javascript-2/async/jwt-get-posts.png)

@@ -1,10 +1,10 @@
 ---
 title: SDLC
-keywords: sample
+description: sample
 tags: Project Methodology
 sidebar: proj-meth
-permalink: project-methodology/sdlc.html
-folder: project-methodology
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Project Manager
@@ -106,6 +106,7 @@ Once the developer has finalized the development and development testing, they w
 During the Implementation phase, the product is created. This means the product finally becomes tangible, and this can be an exciting milestone for the customer. This phase includes testing and installation - all while following the technical specification document.
 
 ## SDLC Methodologies
+
 Systems devlopment life Cycle(SDLC) can be categories into different methodologies/processes. The methodologies include:
 
 - Waterfall
@@ -116,6 +117,7 @@ Systems devlopment life Cycle(SDLC) can be categories into different methodologi
 - etc.
 
 Most modern software development processes can be vaguely classify as Agile. Hence we explore Agile Methodology.
+
 ## Activity
 
 **READ**

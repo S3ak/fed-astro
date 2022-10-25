@@ -2,10 +2,11 @@
 title: "Mobile Pages"
 search: exclude
 tagName: mobile
-permalink: tag_mobile.html
+
 sidebar: mydoc_sidebar
-folder: tags
+layout: ../../../../layouts/MainLayout.astro
 ---
+
 {% include taglogic.html %}
 
 {% include links.html %}

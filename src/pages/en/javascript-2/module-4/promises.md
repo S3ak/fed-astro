@@ -1,10 +1,10 @@
 ---
 title: Promises
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/promises.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -36,11 +36,11 @@ const myPromise = new Promise((resolve, reject) => {
   if (shouldResolve) {
     // If the code inside of the promise was able to do what
     // it needed to do, then it will call this 'resolve' callback
-    resolve('Promise resolved successfully.');
+    resolve("Promise resolved successfully.");
   } else {
     // If the code inside of the promise failed to do what
     // it needed to do then it will call this 'reject' callback
-    reject('Promise has failed');
+    reject("Promise has failed");
   }
 });
 
@@ -67,7 +67,7 @@ Let's now take a look at a more practical example. In this example, we are going
 
 ```js
 // We fetch the data from the URL
-fetch('https://jsonplaceholder.typicode.com/todos/1')
+fetch("https://jsonplaceholder.typicode.com/todos/1")
   // We have to asynchronously parse the data into JSON
   //   so we can make use of it
   .then((response) => response.json())
@@ -96,13 +96,13 @@ doSomething()
 Let's have a look at a more practical example. The `fetch` method from earlier has been expanded to include a `.catch` method. The URL has been changed to `abc`, which is not a real URL, so it will always cause the method to fail.
 
 ```js
-fetch('abc')
+fetch("abc")
   .then((response) => response.json())
   .then((json) => console.log(json))
   // An error is going to be thrown causing the code below
   // to run
   .catch((error) => {
-    console.log('An error has been thrown');
+    console.log("An error has been thrown");
     console.log(error);
   });
 ```

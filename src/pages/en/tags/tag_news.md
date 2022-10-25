@@ -2,10 +2,11 @@
 title: "News"
 tagName: news
 search: exclude
-permalink: tag_news.html
+
 sidebar: mydoc_sidebar
-folder: tags
+layout: ../../../../layouts/MainLayout.astro
 ---
+
 {% include taglogic.html %}
 
 {% include links.html %}

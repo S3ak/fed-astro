@@ -1,10 +1,10 @@
 ---
 title: Map
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/map.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -36,7 +36,7 @@ This `set` method takes two parameters:
 const myMap = new Map();
 
 // The 'a' key will be set to 1
-myMap.set('a', 1);
+myMap.set("a", 1);
 ```
 
 ### Getting a value from a Map
@@ -46,9 +46,9 @@ We use the `get` method on a `Map` object to get the value of a key.
 ```js
 const myMap = new Map();
 
-myMap.set('a', 1);
+myMap.set("a", 1);
 
-console.log(myMap.get('a'));
+console.log(myMap.get("a"));
 // Logs:
 // 1
 ```
@@ -60,9 +60,9 @@ You can delete values from a `Map` using the `delete` method on a `Map` object.
 ```js
 const myMap = new Map();
 
-myMap.set('a', 1);
+myMap.set("a", 1);
 
-myMap.delete('a');
+myMap.delete("a");
 ```
 
 ### Getting the number of items in a Map
@@ -72,8 +72,8 @@ You can get the number of items in a `Map` with the `size` method.
 ```js
 const myMap = new Map();
 
-myMap.set('a', 1);
-myMap.set('b', 2);
+myMap.set("a", 1);
+myMap.set("b", 2);
 
 console.log(myMap.size);
 // Logs:

@@ -1,10 +1,10 @@
 ---
 title: Working with child themes
-keywords: sample
+description: sample
 tags: Content Management Systems
 sidebar: cms
-permalink: cms/working-with-child-themes.html
-folder: cms
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Changing style

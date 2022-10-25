@@ -1,10 +1,10 @@
 ---
 title: Appearance
-keywords: sample
+description: sample
 tags: Content Management Systems
 sidebar: cms
-permalink: cms/appearance.html
-folder: cms
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

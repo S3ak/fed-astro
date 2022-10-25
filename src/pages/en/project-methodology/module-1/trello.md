@@ -1,17 +1,17 @@
 ---
 title: Trello
-keywords: sample
+description: sample
 tags: Project Methodology
 sidebar: proj-meth
-permalink: project-methodology/trello.html
-folder: project-methodology
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
 
 Trello is:
 
-- A popular and useful project management tool.  
+- A popular and useful project management tool.
 - Simple and easy to follow.
 - Great for working with increasing communication about who in a team is doing what.
 
@@ -26,12 +26,13 @@ A board is usually set up for a project. This could be a short-term or ongoing p
 An example of a board might be ‘Build Website for Pizza Palace’, or if you use Trello to keep track of personal tasks ‘DIY Projects’.
 
 You can add team members to a board and decide which team members are a part of which board.
- 
+
 #### Lists
 
 Lists keep cards organised so that you know where each task is in the process. Examples of a set of lists might be To Do, Doing, and Done. As you progress with the project, you will move cards between the lists.
 
 #### Cards
+
 Cards are individual tasks that need completing in the project.
 
 These tasks:
@@ -53,6 +54,7 @@ The setup with Trello is very simple and there is not much more that you need to
 ## Lesson Task
 
 ### Brief
+
 Make a Trello board for a personal project or tasks that you need to keep track of in your life. It could be something like DIY projects, or a meal plan, or a website you’ve been wanting to build. It’s up to you.
 
 Sign up for a Trello account, and create a board and tasks for the project. You can consider setting deadlines for tasks and assigning members to tasks.

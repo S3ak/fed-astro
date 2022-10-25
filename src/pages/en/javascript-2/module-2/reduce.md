@@ -1,10 +1,10 @@
 ---
 title: reduce()
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/array-method-reduce.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -61,7 +61,7 @@ const values = [100, 200, 300, 400, 500];
 const endResult = values.reduce(
   (previousValue, currentElement, index, array) => {
     return previousValue;
-  },
+  }
 );
 ```
 
@@ -141,10 +141,10 @@ In this example, we have a list of product objects, each containing a title and 
 
 ```js
 const products = [
-  { title: 'Cheese', price: 15.0 },
-  { title: 'Milk', price: 8.99 },
-  { title: 'Bread', price: 22.0 },
-  { title: 'Egg', price: 5 },
+  { title: "Cheese", price: 15.0 },
+  { title: "Milk", price: 8.99 },
+  { title: "Bread", price: 22.0 },
+  { title: "Egg", price: 5 },
 ];
 
 const totalCost = products.reduce((total, currentProduct) => {
@@ -162,15 +162,15 @@ Refactored to be more concise:
 
 ```js
 const products = [
-  { title: 'Cheese', price: 15.0 },
-  { title: 'Milk', price: 8.99 },
-  { title: 'Bread', price: 22.0 },
-  { title: 'Egg', price: 5 },
+  { title: "Cheese", price: 15.0 },
+  { title: "Milk", price: 8.99 },
+  { title: "Bread", price: 22.0 },
+  { title: "Egg", price: 5 },
 ];
 
 const totalCost = products.reduce(
   (total, currentProduct) => (total += currentProduct.price),
-  0,
+  0
 );
 
 console.log(totalCost);
@@ -185,10 +185,10 @@ In this example, we add the prices of a list of products like the previous examp
 ```js
 // All of the in-stock products added together equals 170.95
 const products = [
-  { title: 'Cheese', inStock: false, quantity: 2, price: 15.0 },
-  { title: 'Milk', inStock: true, quantity: 5, price: 8.99 },
-  { title: 'Bread', inStock: true, quantity: 3, price: 22.0 },
-  { title: 'Egg', inStock: true, quantity: 12, price: 5 },
+  { title: "Cheese", inStock: false, quantity: 2, price: 15.0 },
+  { title: "Milk", inStock: true, quantity: 5, price: 8.99 },
+  { title: "Bread", inStock: true, quantity: 3, price: 22.0 },
+  { title: "Egg", inStock: true, quantity: 12, price: 5 },
 ];
 
 const totalCost = products.reduce((total, currentProduct) => {
@@ -210,16 +210,16 @@ You could refactor the function so that all of the logic is handled with a terna
 ```js
 // All of the in-stock products added together equals 170.95
 const products = [
-  { title: 'Cheese', inStock: false, quantity: 2, price: 15.0 },
-  { title: 'Milk', inStock: true, quantity: 5, price: 8.99 },
-  { title: 'Bread', inStock: true, quantity: 3, price: 22.0 },
-  { title: 'Egg', inStock: true, quantity: 12, price: 5 },
+  { title: "Cheese", inStock: false, quantity: 2, price: 15.0 },
+  { title: "Milk", inStock: true, quantity: 5, price: 8.99 },
+  { title: "Bread", inStock: true, quantity: 3, price: 22.0 },
+  { title: "Egg", inStock: true, quantity: 12, price: 5 },
 ];
 
 const totalCost = products.reduce(
   (total, currentProduct) =>
     inStock ? (total += currentProduct.price * currentProduct.quantity) : total,
-  0,
+  0
 );
 
 console.log(totalCost);

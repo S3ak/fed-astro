@@ -1,10 +1,10 @@
 ---
 title: Module 4 Overview
-keywords: sample
+description: sample
 tags: HTML and CSS
 sidebar: html-css
-permalink: html-css/module-4.html
-folder: html-css
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module we will start by looking at bug fixing. Fixing bugs is a big part of what we do as developers. It shouldn’t be seen as a failure that you get bugs. It’s a natural part of the process. As you become more experienced as a developer, you’ll learn to avoid making certain mistakes and get better at finding what went wrong, but debugging will always be a part of your process. As a part of debugging we will be looking at how to use your developer tools.

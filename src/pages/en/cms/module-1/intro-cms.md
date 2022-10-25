@@ -1,10 +1,10 @@
 ---
 title: What are CMSs and why use them
-keywords: sample
+description: sample
 tags: Content Management Systems
 sidebar: cms
-permalink: cms/intro-cms.html
-folder: cms
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

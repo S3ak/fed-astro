@@ -1,10 +1,10 @@
 ---
 title: User Interface Design
-keywords: sample
+description: sample
 tags: Design 1
 sidebar: design-1
-permalink: design-1/user-interface.html
-folder: design-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

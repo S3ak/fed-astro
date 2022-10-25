@@ -1,10 +1,10 @@
 ---
 title: Local Storage
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/localstorage.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -61,7 +61,7 @@ To store data in `localStorage`, we use the `setItem` property. We then give the
 In the following example, we will set the `firstName` key to the value of `Ola`.
 
 ```js
-localStorage.setItem('firstName', 'Ola');
+localStorage.setItem("firstName", "Ola");
 ```
 
 ## Retrieving data: `getItem`
@@ -71,7 +71,7 @@ To retrieve data from `localStorage`, we use the `getItem` property. We simply s
 In this example, we are getting the value for the `firstName` key.
 
 ```js
-const firstName = localStorage.getItem('firstName');
+const firstName = localStorage.getItem("firstName");
 ```
 
 ## Removing item: `removeItem`
@@ -81,7 +81,7 @@ You can remove an item with `removeItem`. The `removeItem` method takes a key an
 In this example, we are removing an item with the key of `firstName`:
 
 ```js
-localStorage.removeItem('firstName');
+localStorage.removeItem("firstName");
 ```
 
 ## Clearing storage
@@ -132,8 +132,8 @@ You will use the different Local Storage methods available to you.
 
 ```js
 const pet = {
-  type: 'Dog',
-  name: 'Lilje',
+  type: "Dog",
+  name: "Lilje",
 };
 ```
 

@@ -1,10 +1,10 @@
 ---
 title: Building with Tailwind
-keywords: react, styling, tailwind
+description: react, styling, tailwind
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/building-with-tailwind.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

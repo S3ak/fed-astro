@@ -1,10 +1,10 @@
 ---
 title: Flexbox
-keywords: sample
+description: sample
 tags: HTML and CSS
 sidebar: html-css
-permalink: html-css/flexbox.html
-folder: html-css
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -22,24 +22,43 @@ To start using Flexbox you need to set a container to `display: flex`. This enab
 ```html
 <section class="container">
   <div class="item">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque vitae tortor nulla.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque
+      pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed
+      rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra
+      felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque
+      vitae tortor nulla.
+    </p>
   </div>
   <div class="item">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque vitae tortor nulla.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque
+      pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed
+      rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra
+      felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque
+      vitae tortor nulla.
+    </p>
   </div>
   <div class="item">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque vitae tortor nulla.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque
+      pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed
+      rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra
+      felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque
+      vitae tortor nulla.
+    </p>
   </div>
 </section>
 ```
 
 ```css
 .container {
- display: flex;
+  display: flex;
 }
-``` 
+```
+
 ```css
-.item{
+.item {
   margin: 5px;
 }
 ```
@@ -50,25 +69,44 @@ To set how much space the flex items take up, you can set flex followed by a num
 
 In the example below, the items are set to have `flex: 1`, but the class of ‘wider-item’ is set to `flex: 4`. That means the container has a total of 6 (4+1+1). The ‘.wider-item’ gets the space of 4/6 and the other two items get the space of 1/6 each.
 
-```html 
+```html
 <section class="container">
   <div class="item wider-item">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque vitae tortor nulla.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque
+      pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed
+      rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra
+      felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque
+      vitae tortor nulla.
+    </p>
   </div>
   <div class="item">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque vitae tortor nulla.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque
+      pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed
+      rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra
+      felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque
+      vitae tortor nulla.
+    </p>
   </div>
   <div class="item">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque vitae tortor nulla.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque
+      pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed
+      rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra
+      felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque
+      vitae tortor nulla.
+    </p>
   </div>
 </section>
 ```
+
 ```css
 .container {
   display: flex;
 }
 
-.item{
+.item {
   margin: 5px;
   flex: 1;
 }
@@ -87,23 +125,42 @@ You can also set the direction to row-reverse or column-reverse and the items wi
 ```html
 <section class="container">
   <div class="item wider-item">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque vitae tortor nulla.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque
+      pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed
+      rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra
+      felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque
+      vitae tortor nulla.
+    </p>
   </div>
   <div class="item">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque vitae tortor nulla.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque
+      pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed
+      rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra
+      felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque
+      vitae tortor nulla.
+    </p>
   </div>
   <div class="item">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque vitae tortor nulla.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec neque
+      pharetra, porta ipsum sed, porta turpis. Proin tristique quam nunc, sed
+      rutrum nulla varius vitae. Nulla non leo sapien. Pellentesque viverra
+      felis eu nunc ullamcorper imperdiet. Nulla a mattis elit. Pellentesque
+      vitae tortor nulla.
+    </p>
   </div>
 </section>
 ```
+
 ```css
 .container {
   display: flex;
   flex-direction: column;
 }
 
-.item{
+.item {
   margin: 5px;
   flex: 1;
 }
@@ -128,6 +185,7 @@ The `justify-content` property sets the alignment and spacing of the flexed item
   <section>Three</section>
 </main>
 ```
+
 ```css
 main {
   display: flex;

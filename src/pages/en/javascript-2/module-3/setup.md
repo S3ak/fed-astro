@@ -1,10 +1,10 @@
 ---
 title: Module setup
-keywords: modules
+description: modules
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/setup.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Setup

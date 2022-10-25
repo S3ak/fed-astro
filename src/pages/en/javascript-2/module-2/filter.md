@@ -1,10 +1,10 @@
 ---
 title: filter()
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/array-method-filter.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -120,16 +120,16 @@ In this example, we filter through a list of people and only select adults over 
 
 ```js
 const people = [
-  { name: 'Kari', age: 28 },
-  { name: 'Astrid', age: 32 },
-  { name: 'Hans', age: 22 },
-  { name: 'Inger', age: 19 },
-  { name: 'Liv', age: 42 },
-  { name: 'Kristoffer', age: 12 },
-  { name: 'Anne', age: 12 },
-  { name: 'Martin', age: 17 },
-  { name: 'Joakim', age: 45 },
-  { name: 'Ellen', age: 7 },
+  { name: "Kari", age: 28 },
+  { name: "Astrid", age: 32 },
+  { name: "Hans", age: 22 },
+  { name: "Inger", age: 19 },
+  { name: "Liv", age: 42 },
+  { name: "Kristoffer", age: 12 },
+  { name: "Anne", age: 12 },
+  { name: "Martin", age: 17 },
+  { name: "Joakim", age: 45 },
+  { name: "Ellen", age: 7 },
 ];
 
 const adults = people.filter((person) => {
@@ -154,16 +154,16 @@ We can refactor the above example to be more concise:
 
 ```js
 const people = [
-  { name: 'Kari', age: 28 },
-  { name: 'Astrid', age: 32 },
-  { name: 'Hans', age: 22 },
-  { name: 'Inger', age: 19 },
-  { name: 'Liv', age: 42 },
-  { name: 'Kristoffer', age: 12 },
-  { name: 'Anne', age: 12 },
-  { name: 'Martin', age: 17 },
-  { name: 'Joakim', age: 45 },
-  { name: 'Ellen', age: 7 },
+  { name: "Kari", age: 28 },
+  { name: "Astrid", age: 32 },
+  { name: "Hans", age: 22 },
+  { name: "Inger", age: 19 },
+  { name: "Liv", age: 42 },
+  { name: "Kristoffer", age: 12 },
+  { name: "Anne", age: 12 },
+  { name: "Martin", age: 17 },
+  { name: "Joakim", age: 45 },
+  { name: "Ellen", age: 7 },
 ];
 
 const adults = people.filter((person) => person.age >= 18);
@@ -186,11 +186,11 @@ In this example, we have a list of games. We want to filter the games that have 
 
 ```js
 const games = [
-  { title: 'Mayhem Fighter', isMultiplayer: true, rating: 8 },
-  { title: 'Build-a-farm', isMultiplayer: true, rating: 9 },
-  { title: 'Ghost Story', isMultiplayer: false, rating: 8 },
-  { title: 'Fast Car Racer', isMultiplayer: true, rating: 7 },
-  { title: 'Elf and Dwarf RPG', isMultiplayer: false, rating: 8 },
+  { title: "Mayhem Fighter", isMultiplayer: true, rating: 8 },
+  { title: "Build-a-farm", isMultiplayer: true, rating: 9 },
+  { title: "Ghost Story", isMultiplayer: false, rating: 8 },
+  { title: "Fast Car Racer", isMultiplayer: true, rating: 7 },
+  { title: "Elf and Dwarf RPG", isMultiplayer: false, rating: 8 },
 ];
 
 const filteredGames = games.filter((game) => {
@@ -219,15 +219,15 @@ The above example can be refactored to be more concise:
 
 ```js
 const games = [
-  { title: 'Mayhem Fighter', isMultiplayer: true, rating: 8 },
-  { title: 'Build-a-farm', isMultiplayer: true, rating: 9 },
-  { title: 'Ghost Story', isMultiplayer: false, rating: 8 },
-  { title: 'Fast Car Racer', isMultiplayer: true, rating: 7 },
-  { title: 'Elf and Dwarf RPG', isMultiplayer: false, rating: 8 },
+  { title: "Mayhem Fighter", isMultiplayer: true, rating: 8 },
+  { title: "Build-a-farm", isMultiplayer: true, rating: 9 },
+  { title: "Ghost Story", isMultiplayer: false, rating: 8 },
+  { title: "Fast Car Racer", isMultiplayer: true, rating: 7 },
+  { title: "Elf and Dwarf RPG", isMultiplayer: false, rating: 8 },
 ];
 
 const filteredGames = games.filter(
-  (game) => game.isMultiplayer && game.rating >= 8,
+  (game) => game.isMultiplayer && game.rating >= 8
 );
 
 console.log(filteredGames);

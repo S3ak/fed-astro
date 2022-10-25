@@ -1,10 +1,10 @@
 ---
 title: Course assignment
-keywords: sample
+description: sample
 tags: WCT
 sidebar: wct
-permalink: wct/ca.html
-folder: wct
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal
@@ -24,9 +24,9 @@ Please go to [this link](https://classroom.github.com/a/12wdMNN8) to create a re
 3. Create an index.html file in the root folder for your project. It must be called index.html because the server will look for this filename to show as the home page.
 4. Add the code under Resources to the index.html file.
 5. Answer the web security question in the p element with id web-security-answer
-5. Create folders called: ‘css’, ‘js’, and ‘images’. They can be empty folders for now (and if they are empty they won’t show on GitHub). We’ll add to them as we progress in the programme.
-6. Commit and push changes to your repository.
-7. Deploy the site using Netlify.
+6. Create folders called: ‘css’, ‘js’, and ‘images’. They can be empty folders for now (and if they are empty they won’t show on GitHub). We’ll add to them as we progress in the programme.
+7. Commit and push changes to your repository.
+8. Deploy the site using Netlify.
 
 ## Level 2 process
 
@@ -44,7 +44,11 @@ Please go to [this link](https://classroom.github.com/a/12wdMNN8) to create a re
     <h1>Hello world!</h1>
     <p>Welcome to my first website.</p>
     <h2>Web Security</h2>
-    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
+    <p id="web-security-question">
+      How would you advise a potential client to secure his/her website from web
+      security attacks? Note: the word count for your answer should not be
+      greater than 250 words
+    </p>
     <p id="web-security-answer">[Answer here]</p>
   </body>
 </html>

@@ -1,10 +1,10 @@
 ---
 title: Fundamentals of color
-keywords: sample
+description: sample
 tags: Design 1
 sidebar: design-1
-permalink: design-1/fundamentals-color.html
-folder: design-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -389,7 +389,7 @@ Adobe Colour is an excellent online tool to create colour palettes. Watch the fo
 
 This video shows you how to set colour styles in Figma. Video: [Creating colour styles](https://www.youtube.com/watch?v=gtQ_A3imzsg&t=127s)
 
-Another alternative to use for Figma is [Coolors](https://coolors.co/271f30-6c5a49-c8ad55-d0fcb3-9bc59d) 
+Another alternative to use for Figma is [Coolors](https://coolors.co/271f30-6c5a49-c8ad55-d0fcb3-9bc59d)
 
 ### Activity 4
 

@@ -1,10 +1,10 @@
 ---
 title: Module 2
-keywords: react, styling
+description: react, styling
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/module-2.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module we will be looking at styling in React including looking at React Bootstrap, CSS Modules and styled components.

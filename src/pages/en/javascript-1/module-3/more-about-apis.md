@@ -1,10 +1,10 @@
 ---
 title: More about calling APIs
-keywords: sample
+description: sample
 tags: JavaScript 1
 sidebar: javascript-1
-permalink: javascript-1/more-about-apis.html
-folder: javascript-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -80,14 +80,12 @@ A fetch request for this API would look like:
 ```js
 const url = "https://api.punkapi.com/v2/beers?brewed_before=11-2012";
 
-async function getData(url){
+async function getData(url) {
+  const response = await fetch(url);
 
-        const response = await fetch(url);
+  const data = await response.json();
 
-        const data = await response.json();
-
-        console.log(data);
-
+  console.log(data);
 }
 ```
 
@@ -102,18 +100,16 @@ For that endpoint we’re adding the API key as a parameter, and whether to incl
 A fetch request for this API would look like:
 
 ```js
-const key = "12345abcdef"
+const key = "12345abcdef";
 
-const url = `https://api.spoonacular.com/recipes/716429/information?apiKey=${key}&includeNutrition=true`
+const url = `https://api.spoonacular.com/recipes/716429/information?apiKey=${key}&includeNutrition=true`;
 
-async function getData(url){
+async function getData(url) {
+  const response = await fetch(url);
 
-            const response = await fetch(url);
+  const data = await response.json();
 
-            const data = await response.json();
-
-            console.log(data);
-
+  console.log(data);
 }
 ```
 
@@ -129,29 +125,23 @@ Rapid API offers a list of APIs we can use, some of them are free to use up to a
 
 ```js
 const options = {
+  method: "GET",
 
-          method: 'GET',
+  headers: {
+    "X-RapidAPI-Host": " tasty.p.rapidapi.com",
 
-          headers: {
-
-                    'X-RapidAPI-Host': ' tasty.p.rapidapi.com',
-
-                    'X-RapidAPI-Key': '12345abcdef'
-
-           }
-
+    "X-RapidAPI-Key": "12345abcdef",
+  },
 };
 
-const url = "https://tasty.p.rapidapi.com/recipes/auto-complete?prefix=pasta"
+const url = "https://tasty.p.rapidapi.com/recipes/auto-complete?prefix=pasta";
 
-async function getData(url){
+async function getData(url) {
+  const response = await fetch(url, options);
 
-           const response = await fetch(url, options);
+  const data = await response.json();
 
-           const data = await response.json();
-
-           console.log(data);
-
+  console.log(data);
 }
 ```
 

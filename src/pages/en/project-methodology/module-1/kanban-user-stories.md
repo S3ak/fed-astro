@@ -1,10 +1,10 @@
 ---
 title: Kanban and User Stories
-keywords: sample
+description: sample
 tags: Project Methodology
 sidebar: proj-meth
-permalink: project-methodology/kanban-user-stories.html
-folder: project-methodology
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

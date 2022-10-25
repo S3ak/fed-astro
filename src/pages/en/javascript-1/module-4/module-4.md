@@ -1,10 +1,10 @@
 ---
 title: Module 4 Overview
-keywords: sample
+description: sample
 tags: JavaScript 1
 sidebar: javascript-1
-permalink: javascript-1/module-4.html
-folder: javascript-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module, we begin with the most critical part of making API calls: examining the JSON they return.

@@ -1,10 +1,10 @@
 ---
 title: null, Objects and arrays of objects
-keywords: sample
+description: sample
 tags: Programming Foundations
 sidebar: prog-found
-permalink: programming-foundations/arrays-of-objects.html
-folder: programming-foundations
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Truthiness and Falsiness

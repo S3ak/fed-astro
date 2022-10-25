@@ -1,10 +1,10 @@
 ---
 title: Customising Bootstrap using Sass
-keywords: sample
+description: sample
 tags: CSS Frameworks
 sidebar: css-frameworks
-permalink: css-frameworks/bootstrap-with-sass.html
-folder: css-frameworks
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -35,7 +35,7 @@ npm install bootstrap
 
 If you do not already have SASS installed, you can do so with this command:
 
-```bash 
+```bash
 npm install -D sass
 ```
 
@@ -82,16 +82,16 @@ In total, 5 properties are controlled by either variables or mixins. Each of the
 
 ```scss
 // scss-docs-start color-variables
-$blue:    #0d6efd !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #d63384 !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #198754 !default;
-$teal:    #20c997 !default;
-$cyan:    #0dcaf0 !default;
+$blue: #0d6efd !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #198754 !default;
+$teal: #20c997 !default;
+$cyan: #0dcaf0 !default;
 ```
 
 The `!default` flag means that a second declaration of this variable will override the first one. This means that we can write our own SASS variables with the same names in order to start customising the theme.
@@ -108,17 +108,18 @@ Take this project structure for example:
 We have the original `_variables.scss` file which contains the default values for each variable. We also have a `_variables.scss` file in our `src/scss` directory containing our custom overrides. For example:
 
 `/src/scss/_variables.scss`
+
 ```scss
-$blue:    #5d95e8;
-$indigo:  #916fc8;
-$purple:  #5d3b9c;
-$pink:    #ab4578;
-$red:     #fa2f44;
-$orange:  #ffa053;
-$yellow:  #ffdf7e;
-$green:   #4fe49e;
-$teal:    #9fffe2;
-$cyan:    #8eecff;
+$blue: #5d95e8;
+$indigo: #916fc8;
+$purple: #5d3b9c;
+$pink: #ab4578;
+$red: #fa2f44;
+$orange: #ffa053;
+$yellow: #ffdf7e;
+$green: #4fe49e;
+$teal: #9fffe2;
+$cyan: #8eecff;
 ```
 
 You can read more about default values here: [Default Values](https://sass-lang.com/documentation/variables#default-values).
@@ -131,7 +132,7 @@ Inside our `src/scss/styles.scss` file we `@import` our custom variables before 
 
 .btn-custom {
   @extend .btn-warning;
-  
+
   &:hover {
     @extend .btn-danger;
   }
@@ -154,7 +155,7 @@ To unlock the full potential of your `_variables.scss` file, take a copy of Boot
 @import "../../node_modules/bootstrap/scss/functions";
 ```
 
-----
+---
 
 ## Lesson Task
 

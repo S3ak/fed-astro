@@ -1,10 +1,10 @@
 ---
 title: The World Wide Web and communication technology
-keywords: sample
+description: sample
 tags: WCT
 sidebar: wct
-permalink: wct/hypertext.html
-folder: wct
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -86,7 +86,7 @@ In summary, here is what the Domain Name System offers:
 
 ### Browser
 
-Modern web browsers have what is called ‘Developer Tools’, which help us test and debug our code in the browser. This is very useful as sometimes what we think we’re writing in the code doesn’t translate on an actual web browser. 
+Modern web browsers have what is called ‘Developer Tools’, which help us test and debug our code in the browser. This is very useful as sometimes what we think we’re writing in the code doesn’t translate on an actual web browser.
 
 Chrome, Safari, and Firefox are all popular browsers. Choosing which one to use is somewhat about personal preference. Chrome is certainly the most popular browser and so a good choice. We’d also like to suggest trying out Firefox. There are a few reasons to choose Firefox, including its better security and arguably a more intuitive developer experience.
 

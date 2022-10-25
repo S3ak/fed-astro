@@ -1,10 +1,10 @@
 ---
 title: Introduction to web development
-keywords: sample
+description: sample
 tags: WCT
 sidebar: wct
-permalink: wct/intro-web-dev.html
-folder: wct
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

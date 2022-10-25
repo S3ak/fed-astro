@@ -1,10 +1,10 @@
 ---
 title: Context and Platforms
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/context-platforms.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -109,11 +109,11 @@ Some sites also push users to download the app with no way of browsing the site 
 
 ## Activities
 
-|  | **Activity 1**<br>WATCH<br><br>Video: [UX Foundations: Multidevice Design](https://www.linkedin.com/learning/ux-foundations-multidevice-design-2/welcome?u=43268076) (1h 18m) <br><br>Note: If the video above has expired, please watch the following video: [UX Foundations: Multidevice Design](https://www.linkedin.com/learning/ux-foundations-multidevice-design-2/principles-for-multidevice-design?u=43268076) |
-| :-: | :-- |
+|     | **Activity 1**<br>WATCH<br><br>Video: [UX Foundations: Multidevice Design](https://www.linkedin.com/learning/ux-foundations-multidevice-design-2/welcome?u=43268076) (1h 18m) <br><br>Note: If the video above has expired, please watch the following video: [UX Foundations: Multidevice Design](https://www.linkedin.com/learning/ux-foundations-multidevice-design-2/principles-for-multidevice-design?u=43268076) |
+| :-: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | **Activity 2**<br>READ<br><br>From _About Face: The Essentials of Interaction Design Paperback_, 2014, by Alan Cooper et.al. <br>Chapter 9: 'Platform and Posture' (2h) |
-| :-: | :-- |
+|     | **Activity 2**<br>READ<br><br>From _About Face: The Essentials of Interaction Design Paperback_, 2014, by Alan Cooper et.al. <br>Chapter 9: 'Platform and Posture' (2h) |
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <hr>
 

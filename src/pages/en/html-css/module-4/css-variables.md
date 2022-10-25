@@ -1,10 +1,10 @@
 ---
 title: CSS Variables
-keywords: sample
+description: sample
 tags: HTML and CSS
 sidebar: html-css
-permalink: html-css/css-variables.html
-folder: html-css
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -24,10 +24,11 @@ Once we've set the variable name and assigned it a value, we can use it to style
 ```html
 <button>Click me</button>
 ```
+
 ```css
 :root {
   --bright-blue: #2b88ff;
-  --white: #FFF;
+  --white: #fff;
   --horizontal-space: 0px 10px;
 }
 

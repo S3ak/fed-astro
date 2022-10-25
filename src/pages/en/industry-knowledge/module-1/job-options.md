@@ -1,10 +1,10 @@
 ---
 title: Job Options in Web Development
-keywords: sample
+description: sample
 tags: Industry Knowledge
 sidebar: industry-knowledge
-permalink: industry-knowledge/job-options.html
-folder: industry-knowledge
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -72,7 +72,7 @@ Front-end developers should also be good at working in teams. If you get a job i
 ## Activity
 
 | READ<br><br>Article: [Job Titles in the Web Industry](https://css-tricks.com/job-titles-in-the-web-industry/), CSS Tricks. |
-| :-: |
+| :------------------------------------------------------------------------------------------------------------------------: |
 
 <hr>
 

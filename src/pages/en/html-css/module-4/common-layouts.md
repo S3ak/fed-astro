@@ -1,10 +1,10 @@
 ---
 title: Common Layouts
-keywords: sample
+description: sample
 tags: HTML and CSS
 sidebar: html-css
-permalink: html-css/common-layouts.html
-folder: html-css
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

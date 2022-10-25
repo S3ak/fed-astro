@@ -1,10 +1,10 @@
 ---
 title: Sort - Bubble Sort
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/sort-bubble-sort.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction:

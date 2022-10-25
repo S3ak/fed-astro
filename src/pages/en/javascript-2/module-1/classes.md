@@ -1,10 +1,10 @@
 ---
 title: Classes
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/classes.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -24,7 +24,7 @@ Consider the following class which contains a constructor, a method called `myMe
 ```js
 class MyClass {
   // This is a property in our class
-  basicProperty = 'My basic property';
+  basicProperty = "My basic property";
   // This is another property however it isn't initialized to a value
   emptyProperty;
   // The constructor lets us set values when we create an instance of a class
@@ -39,7 +39,7 @@ class MyClass {
   }
 }
 
-const myClassInstance = new MyClass('Hello world');
+const myClassInstance = new MyClass("Hello world");
 myClassInstance.myMethod();
 // Logs:
 // Hello world
@@ -52,7 +52,7 @@ As mentioned, a class is a template of an object. We create a copy of a class, c
 We create a new instance of a class by using the `new` keyword.
 
 ```js
-const myClassInstance = new MyClass('Hello world');
+const myClassInstance = new MyClass("Hello world");
 ```
 
 We can now call the `myMethod` method from this class:
@@ -120,7 +120,7 @@ The following is a basic example of a class called `User`. It takes in `firstNam
 
 ```js
 class User {
-  language = 'Norwegian';
+  language = "Norwegian";
   constructor(firstName, lastName) {
     // Set 'firstName' to the 'firstName' parameter
     this.firstName = firstName;
@@ -131,12 +131,12 @@ class User {
   // 'greetUser' method that logs a greeting message
   greetUser() {
     console.log(
-      `Hello ${this.firstName} ${this.lastName}! Language: ${this.language}`,
+      `Hello ${this.firstName} ${this.lastName}! Language: ${this.language}`
     );
   }
 }
 
-const newUser = new User('Ola', 'Nordmann');
+const newUser = new User("Ola", "Nordmann");
 // Logs "Hello Ola Nordmann! Language: Norwegian"
 newUser.greetUser();
 ```
@@ -174,7 +174,7 @@ class ShoppingCart {
     const idToFind = item.id;
     // Find the index to remove
     const indexToRemove = this.cart.findIndex(
-      (currentItem) => currentItem.id === idToFind,
+      (currentItem) => currentItem.id === idToFind
     );
     // If the index is -1 then it means no item was found, so
     //    we return null to break out of the function
@@ -198,25 +198,25 @@ class ShoppingCart {
 
   /** Displays the items in the cart **/
   displayCart() {
-    console.log('Your cart:');
-    console.log('-------------------');
+    console.log("Your cart:");
+    console.log("-------------------");
     this.cart.forEach((item) => {
       console.log(item.title);
     });
-    console.log('===================');
+    console.log("===================");
   }
 
   /** Displays the total cost of the items in the cart **/
   displayTotalCost() {
-    console.log('Total items: ', this.cart.length);
-    console.log('The total of the cart is:', this.calculateTotalCost());
+    console.log("Total items: ", this.cart.length);
+    console.log("The total of the cart is:", this.calculateTotalCost());
   }
 }
 
-const myCart = new ShoppingCart('Norway Bakery', 'USD');
+const myCart = new ShoppingCart("Norway Bakery", "USD");
 
-const cookies = { id: 23, title: 'Chocolate Chip Cookies', price: 20.0 };
-const cake = { id: 45, title: 'Vanilla Cake', price: 30.0 };
+const cookies = { id: 23, title: "Chocolate Chip Cookies", price: 20.0 };
+const cake = { id: 45, title: "Vanilla Cake", price: 30.0 };
 
 myCart.addToCart(cookies); // Add an item
 myCart.addToCart(cookies); // Add an item
@@ -250,15 +250,15 @@ class User {
     console.log(`Hello ${this.name}!`);
   }
 
-  static company = 'Acme';
+  static company = "Acme";
 
   // This method is available only on the User class itself
   static displayTime() {
-    console.log('12:00');
+    console.log("12:00");
   }
 }
 
-const newUser = new User('Ola Nordmann');
+const newUser = new User("Ola Nordmann");
 
 // This is called on the new instance of the class
 newUser.greetUser();
@@ -301,12 +301,12 @@ class Cat extends Animal {
   }
 }
 
-const sheep = new Animal('Lambert');
+const sheep = new Animal("Lambert");
 sheep.speak();
 // Logs:
 // Lambert makes a sound
 
-const cat = new Cat('Pookie');
+const cat = new Cat("Pookie");
 cat.speak();
 // Logs:
 // Pookie goes meow
@@ -337,7 +337,7 @@ class Person {
   }
 }
 
-const newPerson = new Person('Ola Nordmann');
+const newPerson = new Person("Ola Nordmann");
 
 console.log(newPerson.name);
 ```

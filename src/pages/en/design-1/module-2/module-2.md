@@ -1,10 +1,10 @@
 ---
 title: Module 2 Overview
-keywords: sample
+description: sample
 tags: Design 1
 sidebar: design-1
-permalink: design-1/module-2.html
-folder: design-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
-Here we learn more about using Colour in Online Design. 
+Here we learn more about using Colour in Online Design.

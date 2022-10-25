@@ -1,10 +1,10 @@
 ---
 title: Your First Job
-keywords: sample
+description: sample
 tags: Industry Knowledge
 sidebar: industry-knowledge
-permalink: industry-knowledge/first-job.html
-folder: industry-knowledge
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -54,7 +54,7 @@ Many companies look to hire junior developers into their team as a long term str
 ### Activity
 
 | WATCH<br><br>Video: [ Mastering Web Developer Interview Code ](https://www.linkedin.com/learning/mastering-web-developer-interview-code/what-questions-are-asked-in-developer-interviews-with-john-riviello?u=43268076)<br> - Section 3. Interviews with Working Professionals (2 hours) <br>_You can also watch Questions and Tasks videos in section 1 and 2 to see some of the questions you might be asked in a technical interview._ |
-| :-: |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 <hr>
 

@@ -1,10 +1,10 @@
 ---
 title: Course assignment
-keywords: CA, API, JavaScript
+description: CA, API, JavaScript
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/ca.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal
@@ -64,34 +64,34 @@ Commit regularly and use branches to prevent conflicts with your teammate as you
 2. Create a `js2` branch from the default `master` or `main` branch.
 3. You may use either Trello or GitHub Projects to manage your development tasks. If you are using Trello, please make sure that your board is public and that a link is provided in your `readme.md` file. Make sure to detail tasks accurately and divide them evenly if working a group.
 
-    Examples of overly vague tasks:
+   Examples of overly vague tasks:
 
-    - Make the HTML for the post page
-    - Website Styling
-    - JavaScript for API
-    - Test the website
+   - Make the HTML for the post page
+   - Website Styling
+   - JavaScript for API
+   - Test the website
 
-    Examples of detailed & accurate tasks:
+   Examples of detailed & accurate tasks:
 
-    - Create search form HTML
-    - Search form SCSS styling
-    - Filter posts function
-    - Implement search event listener
+   - Create search form HTML
+   - Search form SCSS styling
+   - Filter posts function
+   - Implement search event listener
 
 4. Review the [API Guide](https://noroff-api-docs.netlify.app/social-endpoints/authentication) and [API Documentation](https://nf-api.onrender.com/docs).
 5. Plan your approach, desired features and work strategy.
 6. Implement the required features as per your work plan.
 
-    > **Note:** All PRs should be made to `js2`, not to the default branch. For example, branch `search-functionality` should be created from, and merged into, branch `js2`.
+   > **Note:** All PRs should be made to `js2`, not to the default branch. For example, branch `search-functionality` should be created from, and merged into, branch `js2`.
 
-8. Submit a link to your repository at the correct branch on the Moodle forum for peer review.
-9. Review 2 of your peers projects. (4 per team)
+7. Submit a link to your repository at the correct branch on the Moodle forum for peer review.
+8. Review 2 of your peers projects. (4 per team)
 
-    > **Watch:** [Video: Branching and providing feedback](https://vimeo.com/725676411/fabede2ebb)
+   > **Watch:** [Video: Branching and providing feedback](https://vimeo.com/725676411/fabede2ebb)
 
-10. Open a Pull Request from `js2` into the default branch. Contact a teacher on Discord for their feedback. If there is a particular area of concern, please ensure to pass this on with your request. Add this teacher as a reviewer on your PR. Please make sure to plan for this review prior to your deadline.
-11. Implement the feedback gathered from your review, but leave the PR open.
-12. Deliver the link to this PR in Moodle. A passing submission will be approved and merged by the reviewer. This is a direct analogue of the professional review process.
+9. Open a Pull Request from `js2` into the default branch. Contact a teacher on Discord for their feedback. If there is a particular area of concern, please ensure to pass this on with your request. Add this teacher as a reviewer on your PR. Please make sure to plan for this review prior to your deadline.
+10. Implement the feedback gathered from your review, but leave the PR open.
+11. Deliver the link to this PR in Moodle. A passing submission will be approved and merged by the reviewer. This is a direct analogue of the professional review process.
 
 ## Restrictions
 

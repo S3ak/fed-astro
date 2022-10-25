@@ -1,10 +1,10 @@
 ---
 title: fetch()
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/fetch.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -32,7 +32,7 @@ fetch(url, options);
 A basic fetch request is actually very simple. Let's have a look at a basic example.
 
 ```js
-fetch('https://jsonplaceholder.typicode.com/todos/1')
+fetch("https://jsonplaceholder.typicode.com/todos/1")
   .then((response) => response.json())
   .then((json) => console.log(json));
 // Logs:
@@ -91,15 +91,15 @@ In this example, we will do a `POST` request, which is when we _send_ data to a 
 In this example, we are going to create a new blog post on the server:
 
 ```js
-fetch('https://jsonplaceholder.typicode.com/posts', {
-  method: 'POST',
+fetch("https://jsonplaceholder.typicode.com/posts", {
+  method: "POST",
   body: JSON.stringify({
-    title: 'foo',
-    body: 'bar',
+    title: "foo",
+    body: "bar",
     userId: 1,
   }),
   headers: {
-    'Content-type': 'application/json; charset=UTF-8',
+    "Content-type": "application/json; charset=UTF-8",
   },
 })
   .then((response) => response.json())
@@ -113,19 +113,19 @@ We can use our own `options` object and pass this into the `fetch()` function. T
 ```js
 // An object that contains our options
 const fetchOptions = {
-  method: 'POST',
+  method: "POST",
   body: JSON.stringify({
-    title: 'foo',
-    body: 'bar',
+    title: "foo",
+    body: "bar",
     userId: 1,
   }),
   headers: {
-    'Content-type': 'application/json; charset=UTF-8',
+    "Content-type": "application/json; charset=UTF-8",
   },
 };
 
 // Using the `fetchOptions` object we created aboves
-fetch('https://jsonplaceholder.typicode.com/posts', fetchOptions)
+fetch("https://jsonplaceholder.typicode.com/posts", fetchOptions)
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```

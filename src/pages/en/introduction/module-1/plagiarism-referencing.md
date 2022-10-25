@@ -1,10 +1,10 @@
 ---
 title: Plagiarism and Referencing
-keywords: sample
+description: sample
 tags: Introduction
 sidebar: introduction
-permalink: introduction/plagiarism-referencing.html
-folder: introduction
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

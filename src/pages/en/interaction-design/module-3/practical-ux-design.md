@@ -1,10 +1,10 @@
 ---
 title: Practical UX design
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/practical-ux-design.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -133,11 +133,11 @@ The important thing with the home page is getting the users back into the flow o
 
 ## Activities
 
-|  | **Activity 1**<br>WATCH<br><br>Video: [User Experience for Web Designers](https://www.linkedin.com/learning/user-experience-for-web-designers/welcome?u=43268076) (1h 49m) |
-| :-: | :-- |
+|     | **Activity 1**<br>WATCH<br><br>Video: [User Experience for Web Designers](https://www.linkedin.com/learning/user-experience-for-web-designers/welcome?u=43268076) (1h 49m) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-|  | **Activity 2**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 16: 'Designing for Different Needs'<br>Chapter 17: 'Integrating Visual Design' (2h) |
-| :-: | :-- |
+|     | **Activity 2**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 16: 'Designing for Different Needs'<br>Chapter 17: 'Integrating Visual Design' (2h) |
+| :-: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <hr>
 

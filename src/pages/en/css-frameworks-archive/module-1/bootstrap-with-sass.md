@@ -1,10 +1,10 @@
 ---
 title: Customising Bootstrap using Sass
-keywords: sample
+description: sample
 tags: CSS Frameworks
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/bootstrap-with-sass.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

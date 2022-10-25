@@ -1,10 +1,10 @@
 ---
 title: Adding Sass to a React app
-keywords: react, styling, sass
+description: react, styling, sass
 tags: JS Frameworks, Sass
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/sass-with-react.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

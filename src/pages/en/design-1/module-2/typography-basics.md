@@ -1,10 +1,10 @@
 ---
 title: Typography basics
-keywords: sample
+description: sample
 tags: Design 1
 sidebar: design-1
-permalink: design-1/typography-basics.html
-folder: design-1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -75,7 +75,7 @@ Here’s an interesting question: are all kinds of writing and letters seen as t
 
 The technology of duplicating letters plays an important role in the definition of typography. Although modern technologies have changed dramatically since Gutenberg’s time, the basic nature of typography has changed very little.
 
-## What typography is 
+## What typography is
 
 After reading the section above, we can add the following to our definition of typography: typography allows for the arrangement of letters and words (along with other visual material) to be reassembled and replicated as few or as many times as needed to communicate a message.
 

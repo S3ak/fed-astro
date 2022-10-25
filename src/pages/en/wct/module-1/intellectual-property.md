@@ -1,10 +1,10 @@
 ---
 title: Intellectual property
-keywords: sample
+description: sample
 tags: WCT
 sidebar: wct
-permalink: wct/intellectual-property.html
-folder: wct
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

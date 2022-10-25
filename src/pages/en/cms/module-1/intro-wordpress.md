@@ -1,10 +1,10 @@
 ---
 title: How to get set up with WordPress
-keywords: sample
+description: sample
 tags: Content Management Systems
 sidebar: cms
-permalink: cms/intro-wordpress.html
-folder: cms
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

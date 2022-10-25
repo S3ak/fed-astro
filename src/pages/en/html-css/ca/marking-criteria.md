@@ -1,10 +1,10 @@
 ---
 title: Marking Criteria
-keywords: sample
+description: sample
 tags: HTML and CSS
 sidebar: html-css
-permalink: html-css/marking-criteria.html
-folder: html-css
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 <table style="max-width: 100%">

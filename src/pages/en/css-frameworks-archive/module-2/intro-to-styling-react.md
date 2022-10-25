@@ -1,10 +1,10 @@
 ---
 title: Introduction to Styling in React
-keywords: react, styling
+description: react, styling
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/intro-to-styling-react.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -24,7 +24,7 @@ The next three lessons will cover:
 After cloning or downloading the example code from the repos, run the following commands in your command line or terminal:
 
 ```bash
-npm install  
+npm install
 npm run start
 ```
 
@@ -42,6 +42,7 @@ In the following video we'll look at how to create a new React app using npx, go
 <iframe src="https://player.vimeo.com/video/433956978" width="640" height="380" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
 
 ## Lesson Task
+
 ### Brief
 
 In this task you will create and style your first React app.
@@ -59,8 +60,7 @@ Download the XD file from [this repo](https://github.com/NoroffFEU/react-introdu
 
 You can find an example solution in the [answer branch](https://github.com/NoroffFEU/react-introduction-lesson-task/tree/answer) of the repo.
 
-
 ## Resources
-  
+
 - [Video Source Code](https://github.com/NoroffFEU/react-introduction)
 - [Official Create React App docs](https://reactjs.org/docs/create-a-new-react-app.html)

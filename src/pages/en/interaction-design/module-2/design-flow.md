@@ -1,10 +1,10 @@
 ---
 title: Design the Flow
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/design-flow.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -143,8 +143,8 @@ It's no wonder that whenever major websites do large changes to their UI, people
 
 ## Activities
 
-|  | **Activity 1**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 11:'Orchestration and Flow'<br>Chapter 12: Chapter 12: 'Reducing Work and Eliminating Excise' (3h) |
-| :-: | :-- |
+|     | **Activity 1**<br>READ<br><br>From _About Face: The Essentials of Interaction Design_, Paperback, 2014, by Alan Cooper et.al.<br>Chapter 11:'Orchestration and Flow'<br>Chapter 12: Chapter 12: 'Reducing Work and Eliminating Excise' (3h) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 <hr>
 
@@ -162,7 +162,7 @@ Draw a UI flow diagram for two different flows in [Netflix](https://www.netf
 
 - Browsing movies (optional). If you are a user, take some time to see how Netflix encourages you to stay 'in the flow' and continue browsing around until you've found the right film/series.
 
-[UI flows](https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows) gives a helpful shorthand for desinging UI flow. There are a number of ways of representing the flow including flowcharts. 
+[UI flows](https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows) gives a helpful shorthand for desinging UI flow. There are a number of ways of representing the flow including flowcharts.
 
 [This article](https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows) gives a helpful shorthand for desinging UI flow. There are a number of ways of representing the flow including flowcharts.
 

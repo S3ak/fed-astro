@@ -1,10 +1,10 @@
 ---
 title: Advanced Topics (Optional) Overview
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/advanced.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module we will look at advanced concepts which includes algorithms.

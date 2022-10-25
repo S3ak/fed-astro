@@ -1,10 +1,10 @@
 ---
 title: Additional info
-keywords: modules
+description: modules
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/additional-info.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -36,7 +36,7 @@ export addNumbers(a, b) {
 ```js
 // main.mjs
 async function doSum() {
-  const mathModule = './math.mjs';
+  const mathModule = "./math.mjs";
 
   const { addNumbers } = await import(mathModule);
 

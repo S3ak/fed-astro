@@ -1,10 +1,10 @@
 ---
 title: Introduction to Tailwind
-keywords: react, styling, tailwind
+description: react, styling, tailwind
 tags: JS Frameworks
 sidebar: css-frameworks
-permalink: css-frameworks/intro-to-tailwind.html
-folder: css-frameworks
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 > This lesson is optional and will not be assessed.

@@ -1,10 +1,10 @@
 ---
 title: Advanced topics
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/advanced-topics.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -56,7 +56,7 @@ A variable in global scope will be accessible throughout your app.
 **NOTE:** You should avoid using global variables as much as possible. They can be changed anywhere in the app which can lead to errors and unpredictable results.
 
 ```js
-let value = 'Hello';
+let value = "Hello";
 
 function displayValue() {
   console.log(value);
@@ -70,10 +70,10 @@ displayValue();
 A global variable can be changed anywhere in the app as it's accessible anywhere in the app:
 
 ```js
-let value = 'Hello';
+let value = "Hello";
 
 function displayValue() {
-  value = 'World';
+  value = "World";
   console.log(value);
   // Logs:
   // World
@@ -88,7 +88,7 @@ Local scoped variables are only accessible in the block of code they are created
 
 ```js
 function displayValue() {
-  let value = 'Hello';
+  let value = "Hello";
 }
 
 // We are going to log 'value` which will throw an error because
@@ -104,7 +104,7 @@ Lexical scope refers to the environment where a variable was defined, and how th
 
 ```js
 function outsideFunction() {
-  const value = 'Hello world';
+  const value = "Hello world";
 
   function insideFunction() {
     // 'value' from the outside function can be accessed inside
@@ -187,7 +187,7 @@ Let's have a look at an example that puts the above in effect. In this example, 
 
 ```js
 function changeValue(arrayIn) {
-  arrayIn.push('Hello world');
+  arrayIn.push("Hello world");
 }
 
 const initialArray = [0, 1, 2];
@@ -222,7 +222,7 @@ In this example, we use the spread syntax to create a new array which prevents u
 ```js
 function changeValue(arrayIn) {
   const newArray = [...arrayIn];
-  newArray.push('Hello world');
+  newArray.push("Hello world");
   console.log(newArray);
   // Logs:
   // [0, 1, 2, 'Hello world']
@@ -257,8 +257,8 @@ In this example, we duplicate an object by spreading it out.
 
 ```js
 const myObject = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
+  firstName: "Ola",
+  lastName: "Nordmann",
 };
 
 const newObject = { ...myObject };
@@ -266,6 +266,7 @@ console.log(newObject);
 // Logs
 // {firstName: 'Ola', lastName: 'Nordmann'}
 ```
+
 <hr>
 
 ## Lesson task

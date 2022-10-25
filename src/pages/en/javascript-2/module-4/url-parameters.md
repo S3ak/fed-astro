@@ -1,10 +1,10 @@
 ---
 title: URL parameters
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/url-parameters.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -44,21 +44,21 @@ In this example, we are generating HTML and are using variables to set our value
 
 ```js
 // Get the container
-const container = document.getElementById('container');
+const container = document.getElementById("container");
 
 // These values are hardcoded here but they could come from another
 // source such as an API
-const firstName = 'Ola';
-const lastName = 'Nordmann';
+const firstName = "Ola";
+const lastName = "Nordmann";
 
 // Create a new <a> anchor link
-const newLink = document.createElement('a');
+const newLink = document.createElement("a");
 
 // Here we use a template literal/template string to add our values
 newLink.href = `https://www.example.com/?firstName=${firstName}&lastName=${lastName}`;
 
 // We set the text content of our anchor link
-newLink.textContent = 'Submit';
+newLink.textContent = "Submit";
 
 // We add our anchor link to the parent container
 container.appendChild(newLink);
@@ -70,12 +70,12 @@ The following example is the same as the above, except it is setting the `innerH
 
 ```js
 // Get the container
-const container = document.getElementById('container');
+const container = document.getElementById("container");
 
 // These values are hardcoded here, but they could come from another
 // source such as an API
-const firstName = 'Ola';
-const lastName = 'Nordmann';
+const firstName = "Ola";
+const lastName = "Nordmann";
 
 // Setting the HTML for the container element
 container.innerHTML = `<a href="https://www.example.com/?firstName=${firstName}&lastName=${lastName}">Submit</a>`;
@@ -89,22 +89,22 @@ We can use JavaScript to navigate programmatically, i.e. navigate only using cod
 
 ```js
 // Get the button with id of "btn"
-const button = document.getElementById('btn');
+const button = document.getElementById("btn");
 
 // These values are hardcoded here, but they could come from another
 // source such as an API
-const firstName = 'Ola';
-const lastName = 'Nordmann';
+const firstName = "Ola";
+const lastName = "Nordmann";
 
 // Add a "click" event listener that calls "onButtonClick"
-button.addEventListener('click', onButtonClick);
+button.addEventListener("click", onButtonClick);
 
 // This function will fire each time the button is clicked
 function onButtonClick() {
   // Replace the URL with our newly created URL that contains our
   // dynamic URL parameters
   window.location.replace(
-    `https://www.example.com/?firstName=${firstName}&lastName=${lastName}`,
+    `https://www.example.com/?firstName=${firstName}&lastName=${lastName}`
   );
 }
 ```
@@ -164,7 +164,7 @@ We can use the `get()` method to obtain a specific value for a specific key.
 const parameterString = window.location.search;
 const searchParameters = new URLSearchParams(parameterString);
 
-console.log(searchParameters.get('firstName'));
+console.log(searchParameters.get("firstName"));
 // Logs:
 // ola
 ```
@@ -181,9 +181,9 @@ In this example, we are setting a new key/value pair:
 const parameterString = window.location.search;
 const searchParameters = new URLSearchParams(parameterString);
 
-searchParameters.set('country', 'Norway');
+searchParameters.set("country", "Norway");
 
-console.log(searchParameters.get('country'));
+console.log(searchParameters.get("country"));
 // Logs:
 // Norway
 ```

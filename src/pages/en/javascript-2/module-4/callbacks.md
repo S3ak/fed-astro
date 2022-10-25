@@ -1,10 +1,10 @@
 ---
 title: Callbacks
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/callbacks.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -20,7 +20,7 @@ Let's look at the basic principle behind a callback.
 ```js
 // Example function that will get passed as a callback
 function exampleFunction() {
-  console.log('Example function called');
+  console.log("Example function called");
 }
 
 // Our main function that will run the callback function

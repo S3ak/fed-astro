@@ -1,10 +1,10 @@
 ---
 title: Making Decisions
-keywords: sample
+description: sample
 tags: Programming Foundations
 sidebar: prog-found
-permalink: programming-foundations/making-decisions.html
-folder: programming-foundations
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Comparison operators

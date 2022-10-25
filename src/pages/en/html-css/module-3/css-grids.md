@@ -1,10 +1,10 @@
 ---
 title: CSS Grids
-keywords: sample
+description: sample
 tags: HTML and CSS
 sidebar: html-css
-permalink: html-css/css-grids.html
-folder: html-css
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -37,7 +37,10 @@ CSS Grids is so-named because it's based on the idea of a grid running horizonta
 ```html
 <section class="container">
   <div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque bibendum enim.</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque
+      bibendum enim.
+    </p>
   </div>
   <div>
     <p>Sed convallis malesuada nisl, id laoreet nulla vulputate nec.</p>
@@ -46,10 +49,14 @@ CSS Grids is so-named because it's based on the idea of a grid running horizonta
     <p>In varius ac ipsum in interdum.</p>
   </div>
   <div>
-    <p>Vivamus ornare pretium mauris, tristique vulputate ex porttitor non. Nullam mattis lorem mattis fermentum pulvinar.</p>
+    <p>
+      Vivamus ornare pretium mauris, tristique vulputate ex porttitor non.
+      Nullam mattis lorem mattis fermentum pulvinar.
+    </p>
   </div>
 </section>
 ```
+
 ```css
 .container {
   display: grid;
@@ -63,6 +70,7 @@ CSS Grids is so-named because it's based on the idea of a grid running horizonta
   background: lightblue;
 }
 ```
+
 - The CSS above creates a grid container with two columns. The first column is set to `auto` and takes up as much space as it requires on the page. The second column is set to `1fr` and takes up the remaining available space left over.
 - The grid container also has two rows. The first is set to 1fr meaning it takes up whatever space is left, the second is set to auto so only takes up the space it needs. It’s important to see the min-height which allows us to see the row heights.
 
@@ -85,26 +93,41 @@ CSS Grids is so-named because it's based on the idea of a grid running horizonta
 <main>
   <h2>This site is about a topic</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  <p>Donec scelerisque bibendum enim. Sed convallis malesuada nisl, id laoreet nulla vulputate nec.</p>
+  <p>
+    Donec scelerisque bibendum enim. Sed convallis malesuada nisl, id laoreet
+    nulla vulputate nec.
+  </p>
 </main>
-<footer>
-  &copy; Copyright
-</footer>
+<footer>&copy; Copyright</footer>
 ```
+
 ```css
-header {grid-area: myheader; background: orange;}
-nav {grid-area: mynav; background: lightblue;}
-main {grid-area: mymain; background: lightgreen;}
-footer {grid-area: myfooter; background: yellow;}
+header {
+  grid-area: myheader;
+  background: orange;
+}
+nav {
+  grid-area: mynav;
+  background: lightblue;
+}
+main {
+  grid-area: mymain;
+  background: lightgreen;
+}
+footer {
+  grid-area: myfooter;
+  background: yellow;
+}
 
 body {
   display: grid;
   grid-template-areas:
-  'myheader mynav'
-  'mymain mynav'
-  'mymain myfooter';
+    "myheader mynav"
+    "mymain mynav"
+    "mymain myfooter";
 }
 ```
+
 - Note the property `grid-area` is used to create the area, and the value `myheader` etc. is decided by the developer.
 - With the `grid-area`s defined, we can use `grid-template-area`s to arrange our content into rows and columns.
 

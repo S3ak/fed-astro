@@ -1,10 +1,10 @@
 ---
 title: Module 4 Overview
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/module-4.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module, you will be looking at synchronous/asynchronous code, how to make network requests and the different types of network requests.

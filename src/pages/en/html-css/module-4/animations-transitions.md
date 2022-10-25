@@ -1,10 +1,10 @@
 ---
 title: Animations and Transitions
-keywords: sample
+description: sample
 tags: HTML and CSS
 sidebar: html-css
-permalink: html-css/animations-transitions.html
-folder: html-css
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -28,6 +28,7 @@ Once you’ve set the animation-name and duration, you need to set what the anim
 ```html
 <div class="ball"></div>
 ```
+
 ```css
 .ball {
   animation-name: bounce;
@@ -41,9 +42,15 @@ Once you’ve set the animation-name and duration, you need to set what the anim
 }
 
 @keyframes bounce {
-  0%{top: 300px;}
-  50%{top: 0px;}
-  100%{top: 300px;}
+  0% {
+    top: 300px;
+  }
+  50% {
+    top: 0px;
+  }
+  100% {
+    top: 300px;
+  }
 }
 ```
 
@@ -53,7 +60,7 @@ You can choose what percentages you use and what styling is applied, but it's im
 
 ### Animation Properties
 
-**Animation Property** - What it Does <br> **animation-name** - Name to be used in the  `@keyframes` rule <br> **animation-duration** - How long the animation should run <br> **animation-iteration-count** - How many times the animation should run <br> **animation-fill-mode** - What styles should apply before/after animation has run <br> **animation-delay** - The delay before the animation starts <br>**animation-timing-function** - Manages acceleration in the animation <br>**animation-direction** - Direction the animation should run in. It can be reversed
+**Animation Property** - What it Does <br> **animation-name** - Name to be used in the `@keyframes` rule <br> **animation-duration** - How long the animation should run <br> **animation-iteration-count** - How many times the animation should run <br> **animation-fill-mode** - What styles should apply before/after animation has run <br> **animation-delay** - The delay before the animation starts <br>**animation-timing-function** - Manages acceleration in the animation <br>**animation-direction** - Direction the animation should run in. It can be reversed
 
 ## Transitions
 
@@ -64,8 +71,9 @@ To use a transition on an element, you need to set to what property you'd like t
 ```html
 <div class="ball"></div>
 ```
+
 ```css
- .ball {
+.ball {
   transition-property: background;
   transition-duration: 2s;
   height: 50px;

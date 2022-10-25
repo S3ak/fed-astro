@@ -1,10 +1,10 @@
 ---
 title: Adding a Sticky Footer
-keywords: react, styling
+description: react, styling
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/react-sticky-footer.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

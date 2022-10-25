@@ -1,10 +1,10 @@
 ---
 title: Intro to Materialize
-keywords: react, styling, materialize
+description: react, styling, materialize
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/intro-to-materialize.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

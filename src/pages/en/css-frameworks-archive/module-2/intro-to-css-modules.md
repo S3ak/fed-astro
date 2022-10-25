@@ -1,10 +1,10 @@
 ---
 title: Introduction to CSS Modules in React
-keywords: react, styling, modules
+description: react, styling, modules
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-permalink: css-frameworks-v1/intro-to-css-modules.html
-folder: css-frameworks-v1
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

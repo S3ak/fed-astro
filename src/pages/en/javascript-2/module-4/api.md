@@ -1,10 +1,10 @@
 ---
 title: API
-keywords: api
+description: api
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/api.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

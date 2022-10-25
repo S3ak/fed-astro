@@ -1,10 +1,10 @@
 ---
 title: Graphs - Dijkstra's Algorithm
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/graphs-dijkstras-algorithm.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ```js
@@ -12,7 +12,7 @@ folder: javascript-2
 
 export function getMinimum(graph: any): string {
   let lowestValue = Infinity;
-  let lowestKey = '';
+  let lowestKey = "";
   Object.keys(graph).forEach((key, index) => {
     if (graph[key][0] < lowestValue) {
       lowestValue = graph[key][0];
@@ -42,7 +42,7 @@ export function dijkstrasShortestPath(graph: any, startNode: string) {
 
   // Init the first hash table with infinite scores except first node
   Object.keys(graph).forEach(
-    (key: string) => (unvisited[key] = [Infinity, null]),
+    (key: string) => (unvisited[key] = [Infinity, null])
   );
   unvisited[startNode] = [0, null];
 
@@ -106,7 +106,7 @@ const graph = {
   E: { C: 9, D: 2 },
 };
 
-const visited = dijkstrasShortestPath(graph, 'A');
+const visited = dijkstrasShortestPath(graph, "A");
 ```
 
 ## Additional Resources:

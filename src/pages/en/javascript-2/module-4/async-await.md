@@ -1,10 +1,10 @@
 ---
 title: Async/Await
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/async-await.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -19,7 +19,7 @@ Async/Await addresses this by allowing us to write our code in a sequential way 
 
 Async/Await gives us two new keywords:
 
-**`async`**: This keyword must be added to the start of a function declaration so that it becomes an "async" function. 
+**`async`**: This keyword must be added to the start of a function declaration so that it becomes an "async" function.
 **Note:** We have to include this to make use of the `await` keyword.
 
 **`await`**: This keyword must be added at the start of any function call that needs to be dealt with asynchronously.
@@ -37,7 +37,7 @@ Let's look at a basic implementation. In this example, you will see that we have
 
 ```js
 async function doFetch() {
-  const data = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+  const data = await fetch("https://jsonplaceholder.typicode.com/todos/1");
 }
 ```
 
@@ -70,7 +70,7 @@ async function doFetch(url) {
 // instead get a promise
 async function main() {
   const articles = await doFetch(
-    'https://jsonplaceholder.typicode.com/todos/1',
+    "https://jsonplaceholder.typicode.com/todos/1"
   );
   console.log(articles);
   // Returns:
@@ -123,7 +123,7 @@ async function doFetch(url) {
   } catch (error) {
     console.log(error);
   } finally {
-    console.log('API call is done');
+    console.log("API call is done");
   }
 }
 ```
@@ -139,9 +139,9 @@ If we were to use `async await`, then we would have to wait for each request to 
 The syntax looks as follows:
 
 ```js
-const promise1 = Promise.resolve('Promise 1 result');
-const promise2 = Promise.resolve('Promise 2 result');
-const promise3 = Promise.resolve('Promise 3 result');
+const promise1 = Promise.resolve("Promise 1 result");
+const promise2 = Promise.resolve("Promise 2 result");
+const promise3 = Promise.resolve("Promise 3 result");
 
 Promise.all([promise1, promise2, promise3]).then((values) => {
   console.log(values);
@@ -167,9 +167,9 @@ async function doFetch(url) {
 
 async function main() {
   const data = await Promise.all([
-    doFetch('https://jsonplaceholder.typicode.com/todos/1'),
-    doFetch('https://jsonplaceholder.typicode.com/todos/2'),
-    doFetch('https://jsonplaceholder.typicode.com/todos/3'),
+    doFetch("https://jsonplaceholder.typicode.com/todos/1"),
+    doFetch("https://jsonplaceholder.typicode.com/todos/2"),
+    doFetch("https://jsonplaceholder.typicode.com/todos/3"),
   ]);
 }
 

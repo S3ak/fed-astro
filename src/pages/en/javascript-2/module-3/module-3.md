@@ -1,10 +1,10 @@
 ---
 title: Module 3 Overview
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/module-3.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module, you will be introduced to ES6 modules which allow you to split your code allowing to cleaner and more efficient code bases.

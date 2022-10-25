@@ -1,10 +1,10 @@
 ---
 title: Handling Errors
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/handling-errors.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -91,11 +91,11 @@ For both color and sound, it's important to think about accessibility and factor
 
 ## Activities
 
-|  | **Activity 1**<br>READ<br><br>Article: [Inline Validation in Web Forms](http://alistapart.com/article/inline-validation-in-web-forms) (30m) |
-| :-: | :-- |
+|     | **Activity 1**<br>READ<br><br>Article: [Inline Validation in Web Forms](http://alistapart.com/article/inline-validation-in-web-forms) (30m) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------ |
 
-|  | **Activity 2**<br>READ<br><br>From _About Face: The Essentials of Interaction Design Paperback_, 2014, by Alan Cooper et.al<br>Chapter 15: 'Preventing Errors and Informing Decisions'. (1h) |
-| :-: | :-- |
+|     | **Activity 2**<br>READ<br><br>From _About Face: The Essentials of Interaction Design Paperback_, 2014, by Alan Cooper et.al<br>Chapter 15: 'Preventing Errors and Informing Decisions'. (1h) |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <hr>
 

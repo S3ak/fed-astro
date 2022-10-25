@@ -1,12 +1,11 @@
 ---
 title: Best practices
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/array-method-best-practices.html
-folder: javascript-2
----
 
+layout: ../../../../layouts/MainLayout.astro
+---
 
 ## Use suitable names for the element parameter
 
@@ -32,8 +31,8 @@ In this example, we aren't destructuring any values:
 
 ```js
 const names = [
-  { firstName: 'Ola', lastName: 'Nordmann' },
-  { firstName: 'Jan', lastName: 'Jansen' },
+  { firstName: "Ola", lastName: "Nordmann" },
+  { firstName: "Jan", lastName: "Jansen" },
 ];
 
 const combinedNames = names.map((person) => {
@@ -45,8 +44,8 @@ This is the same example. However, we destructure the `firstName` and `lastName`
 
 ```js
 const names = [
-  { firstName: 'Ola', lastName: 'Nordmann' },
-  { firstName: 'Jan', lastName: 'Jansen' },
+  { firstName: "Ola", lastName: "Nordmann" },
+  { firstName: "Jan", lastName: "Jansen" },
 ];
 
 const combinedNames = names.map(({ firstName, lastName }) => {
@@ -58,12 +57,12 @@ The example above can be reduced even further by making use of the implicit retu
 
 ```js
 const names = [
-  { firstName: 'Ola', lastName: 'Nordmann' },
-  { firstName: 'Jan', lastName: 'Jansen' },
+  { firstName: "Ola", lastName: "Nordmann" },
+  { firstName: "Jan", lastName: "Jansen" },
 ];
 
 const combinedNames = names.map(
-  ({ firstName, lastName }) => `${firstName} ${lastName}`,
+  ({ firstName, lastName }) => `${firstName} ${lastName}`
 );
 ```
 

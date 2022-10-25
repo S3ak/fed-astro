@@ -1,10 +1,10 @@
 ---
 title: Displaying your site on the web
-keywords: sample
+description: sample
 tags: WCT
 sidebar: wct
-permalink: wct/display-on-web.html
-folder: wct
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

@@ -1,10 +1,10 @@
 ---
 title: Marking Criteria
-keywords: sample
+description: sample
 tags: CSS Frameworks
 sidebar: css-frameworks
-permalink: css-frameworks/marking-criteria.html
-folder: css-frameworks
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 <table style="max-width: 100%">

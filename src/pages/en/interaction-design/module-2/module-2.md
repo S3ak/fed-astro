@@ -1,8 +1,8 @@
 ---
 title: Module 2 Overview
-keywords: sample
+description: sample
 tags: Interaction Design
 sidebar: interaction-design
-permalink: interaction-design/module-2.html
-folder: interaction-design
+
+layout: ../../../../layouts/MainLayout.astro
 ---

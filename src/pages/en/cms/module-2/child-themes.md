@@ -1,10 +1,10 @@
 ---
 title: Child themes
-keywords: sample
+description: sample
 tags: Content Management Systems
 sidebar: cms
-permalink: cms/child-themes.html
-folder: cms
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

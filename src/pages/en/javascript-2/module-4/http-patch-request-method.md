@@ -1,10 +1,10 @@
 ---
 title: HTTP PATCH request method
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/http-patch-request-method.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -24,13 +24,13 @@ We would also need to include data in the `body` of the `options` as we are upda
 Let's have a look at how we can do a `PATCH` request.
 
 ```js
-fetch('https://jsonplaceholder.typicode.com/posts/1', {
-  method: 'PATCH',
+fetch("https://jsonplaceholder.typicode.com/posts/1", {
+  method: "PATCH",
   body: JSON.stringify({
-    title: 'foo',
+    title: "foo",
   }),
   headers: {
-    'Content-type': 'application/json; charset=UTF-8',
+    "Content-type": "application/json; charset=UTF-8",
   },
 })
   .then((response) => response.json())

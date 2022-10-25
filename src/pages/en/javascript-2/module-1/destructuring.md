@@ -1,10 +1,10 @@
 ---
 title: Destructuring
-keywords: sample
+description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-permalink: javascript-2/destructuring.html
-folder: javascript-2
+
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
@@ -36,9 +36,9 @@ Consider the following object which contains `firstName`, `lastName` and `countr
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  country: 'Norway',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  country: "Norway",
 };
 
 const greeting = `Hello, I am ${person.firstName} ${person.lastName} from ${person.country}.`;
@@ -55,9 +55,9 @@ Let's assign the properties to variables this time to make the code more concise
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  country: 'Norway',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  country: "Norway",
 };
 
 const firstName = person.firstName;
@@ -99,9 +99,9 @@ Let's continue with our example from earlier. We will now destructure the `first
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  country: 'Norway',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  country: "Norway",
 };
 
 // Destructured the properties here
@@ -117,9 +117,9 @@ Let's do a direct comparison of normal variable assignment to properties of the 
 
 ```js
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
-  country: 'Norway',
+  firstName: "Ola",
+  lastName: "Nordmann",
+  country: "Norway",
 };
 
 // Normal variable assignment to object properties
@@ -146,8 +146,8 @@ function greetPerson(personObject) {
 }
 
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
+  firstName: "Ola",
+  lastName: "Nordmann",
 };
 
 greetPerson(person);
@@ -161,8 +161,8 @@ function greetPerson({ firstName, lastName }) {
 }
 
 const person = {
-  firstName: 'Ola',
-  lastName: 'Nordmann',
+  firstName: "Ola",
+  lastName: "Nordmann",
 };
 
 greetPerson(person);
@@ -173,18 +173,18 @@ Let's have a look at the values being destructured in an Array method. You will 
 ```js
 const people = [
   {
-    firstName: 'Ola',
-    lastName: 'Nordmann',
+    firstName: "Ola",
+    lastName: "Nordmann",
     score: 8,
   },
   {
-    firstName: 'Kari',
-    lastName: 'Nordmann',
+    firstName: "Kari",
+    lastName: "Nordmann",
     score: 9,
   },
   {
-    firstName: 'Joakim',
-    lastName: 'Nordmann',
+    firstName: "Joakim",
+    lastName: "Nordmann",
     score: 4,
   },
 ];
@@ -201,18 +201,18 @@ Let's change the code so that it is destructured as a parameter:
 ```js
 const people = [
   {
-    firstName: 'Ola',
-    lastName: 'Nordmann',
+    firstName: "Ola",
+    lastName: "Nordmann",
     score: 8,
   },
   {
-    firstName: 'Kari',
-    lastName: 'Nordmann',
+    firstName: "Kari",
+    lastName: "Nordmann",
     score: 9,
   },
   {
-    firstName: 'Joakim',
-    lastName: 'Nordmann',
+    firstName: "Joakim",
+    lastName: "Nordmann",
     score: 4,
   },
 ];
@@ -261,7 +261,7 @@ console.log(x, y);
 Let's have a look at another example. We have an array of names (`names`) and then destructure index 0 and index 1 to the variable names `name0` and `name1`.
 
 ```js
-const names = ['Ola', 'Kari', 'Joakim', 'Ole'];
+const names = ["Ola", "Kari", "Joakim", "Ole"];
 
 // 'name0' is index 0 in the array
 // 'name1' is index 1 in the array
@@ -281,7 +281,7 @@ The syntax is simply `...rest`.
 **NOTE:** You do not have to call the variable `rest`, you can use any name you would like.
 
 ```js
-const names = ['Ola', 'Kari', 'Joakim', 'Ole'];
+const names = ["Ola", "Kari", "Joakim", "Ole"];
 
 // 'name0' is index 0 in the array
 // 'name1' is index 1 in the array
