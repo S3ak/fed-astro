@@ -127,19 +127,19 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "Positioning",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-3/positioning",
                 },
                 {
                   text: "Flexbox",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-3/flexbox",
                 },
                 {
                   text: "CSS Grids",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-3/css-grids",
                 },
                 {
                   text: "Media Queries",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-3/media-queries",
                 },
               ],
             },
@@ -148,23 +148,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-4/module-4",
                 },
                 {
                   text: "Bug Fixing",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-4/bug-fixing",
                 },
                 {
                   text: "Animations and transitions",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-4/animations-transitions",
                 },
                 {
                   text: "CSS Variables",
-                  link: "en/coming-soon",
+                  link: "en/html-css/module-4/css-variables",
                 },
                 {
-                  text: "COmmon layouts",
-                  link: "en/coming-soon",
+                  text: "Common layouts",
+                  link: "en/html-css/module-4/common-layouts",
                 },
               ],
             },
