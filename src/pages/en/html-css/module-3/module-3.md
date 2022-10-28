@@ -2,8 +2,6 @@
 title: Module 3 Overview
 description: sample
 tags: HTML and CSS
-sidebar: html-css
-
 layout: ../../../../layouts/MainLayout.astro
 ---
 

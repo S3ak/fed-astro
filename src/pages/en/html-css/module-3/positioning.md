@@ -8,190 +8,18 @@ layout: ../../../../layouts/MainLayout.astro
 
 ## Introduction
 
-In this lesson we will be taking a look at how to place elements on the page using float and position.
-
-## Float
-
-If you want to place an image beside text and have the text wrap around the image, float is the ideal tool. We used to use `float` to build layouts, but shouldn't anymore because we now have Flexbox and CSS Grids to help create solid, multi-column responsive sites.
-
-Floating removes an element from the normal flow of HTML elements and places it on the left or right side of its container or nearest element.
-
-```html
-<div>
-  <div class="float floated-right">Floated</div>
-  <h2>Float right</h2>
-  <p>The image has been floated to the right side of the text.</p>
-</div>
-
-<div>
-  <div class="float floated-left">Floated</div>
-  <h2>Float left</h2>
-  <p>The image has been floated to the right side of the text.</p>
-</div>
-
-<br /><br /><br />
-```
-
-```css
-span {
-.float{
-  background: lightblue;
-  padding: 30px;
-  margin: 10px;
-}
-
-.floated-right{
-  float: right;
-}
-
-.floated-left{
-  float: left;
-}
-```
-
-**Two other properties that work with floating are clear and clearfix:**
-
-### Clear
-
-Depending on your layout, you might not want elements to be able to float alongside an element. To help restore the normal flow of the document, we can use the clear property.
-
-Essentially what the clear property says is that nothing can float to the left side or right side or both sides of an element. In the example below, you can see the content has two topics: dogs and cats. It only makes sense that the dog image is next to the text about dogs. Unfortunately, we don't know how long the paragraph will be depending on the screen, and so we use clear on the section about cats so that the cat's text doesn't appear next to the dog's image.
-
-```html
-<div>
-  <img
-    src="https://images.unsplash.com/photo-1489417139533-915815598d31"
-    class="float"
-  />
-  <h2>Dogs</h2>
-  <p>
-    The domestic dog (Canis lupus familiaris when considered a subspecies of the
-    gray wolf or Canis familiaris when considered a distinct species).
-  </p>
-
-  <h2 class="clear">Cats</h2>
-  <p class="clear">
-    The domestic cat (Felis silvestris catus or Felis catus) is a small,
-    typically furry, carnivorous mammal. They are often called house cats when
-    kept as indoor pets or simply cats when there is no need to distinguish them
-    from other felids and felines. They are often valued by humans for
-    companionship and for their ability to hunt vermin. There are more than
-    seventy cat breeds recognized by various cat registries.
-  </p>
-</div>
-
-<i
-  >Content used under the Creative Commons Attribution-ShareAlike License from
-  Wikipedia</i
->
-```
-
-```css
-.float {
-  margin: 10px;
-  float: right;
-  width: 300px;
-}
-
-.clear {
-  clear: right;
-}
-```
-
-```css
-.float {
-  margin: 10px;
-  float: right;
-  width: 300px;
-}
-
-.clear {
-  clear: right;
-}
-```
-
-### Clearfix
-
-Sometimes the floated content will be larger than the container it is inside and this will make the layout break. Remember, floated elements are outside of normal document flow and so parent element doesn't know to adjust to the floated element's height.
-
-A problem:
-
-```html
-<div>
-  <img
-    src="https://images.unsplash.com/photo-1489417139533-915815598d31"
-    class="float"
-  />
-  <h2>Dogs</h2>
-  <p>
-    The domestic dog (Canis lupus familiaris when considered a subspecies of the
-    gray wolf or Canis familiaris when considered a distinct species).
-  </p>
-</div>
-<br /><br />
-```
-
-```css
-.float {
-  margin: 10px;
-  float: right;
-  height: 150px;
-}
-
-.clear {
-  clear: right;
-}
-
-div {
-  border: 1px solid black;
-}
-```
-
-A solution:
-
-```html
-<div class="clearfix">
-  <img
-    src="https://images.unsplash.com/photo-1489417139533-915815598d31"
-    class="float"
-  />
-  <h2>Dogs</h2>
-  <p>
-    The domestic dog (Canis lupus familiaris when considered a subspecies of the
-    gray wolf or Canis familiaris when considered a distinct species).
-  </p>
-</div>
-
-<br /><br />
-```
-
-```css
-.float {
-  margin: 10px;
-  float: right;
-  height: 150px;
-}
-
-.clear {
-  clear: right;
-}
-
-div {
-  border: 1px solid black;
-}
-
-.clearfix::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-```
-
-To help solve this issue, developers created a workaround called clearfix. We create a pseudo-element '::after', which goes at the end of the div. We then clear it to force the container to adjust to the height of the floated element.
+In this lesson we will be taking a look at how to place elements on the page using position.
 
 ## Position
 
 Using the position property is another useful technique for page layout. It’s important to properly understand positioning before diving in - many junior developers get tripped up using position incorrectly. There are five types of positioning: static, relative, absolute, fixed and sticky.
+
+<iframe src="https://codesandbox.io/embed/htmlcss-m3-positioning-mdh892?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="htmlcss-m3-positioning"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ### Static
 
@@ -409,7 +237,7 @@ With positioning, it’s easy to get elements on top of one another. To determin
 }
 ```
 
-<hr>
+---
 
 ## Activities
 
@@ -417,7 +245,7 @@ With positioning, it’s easy to get elements on top of one another. To determin
 
 [This video on float and position.](https://scrimba.com/scrim/c4PN2LTp?pl=paaBbTa) (7m 36s)
 
-<hr>
+---
 
 ## Lesson Task
 

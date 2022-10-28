@@ -1,9 +1,7 @@
 ---
 title: Module 4 Overview
-description: sample
+description: Overview
 tags: HTML and CSS
-sidebar: html-css
-
 layout: ../../../../layouts/MainLayout.astro
 ---
 
