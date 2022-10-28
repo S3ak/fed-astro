@@ -11,7 +11,7 @@ Variables are how a programming language stores information in a computer's memo
 
 ##### Variables sitting in the computer's RAM - Random Access Memory
 
-<img src="../images/programming-foundations/variable-containers.png" alt="variable containers" style="max-width: 379px; margin-top: -10px" />
+<img src="/images/programming-foundations/variable-containers.png" alt="variable containers" style="max-width: 379px; margin-top: -10px" />
 
 We are going to look at these types of data that JavaScript variables can store:
 

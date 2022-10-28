@@ -2,9 +2,7 @@
 title: Making Decisions
 description: sample
 tags: Programming Foundations
-sidebar: prog-found
-
-layout: ../../../../layouts/MainLayout.astro
+layout: ../../../../../layouts/MainLayout.astro
 ---
 
 ## Comparison operators
@@ -131,13 +129,13 @@ We check if a certain condition is true using a comparison operator, and if it i
 
 If it is false, we run different code.
 
-![Conditional statement](../images/programming-foundations/conditional-statement.png)
+![Conditional statement](/images/programming-foundations/conditional-statement.png)
 
 To carry out the above, we use `if...else statements.`
 
 `if` a certain condition is true, run this code. `else`, run this other code.
 
-![if statement](../images/programming-foundations/if-statement.png)
+![if statement](/images/programming-foundations/if-statement.png)
 
 <a id="if-else-example"></a> Perhaps you need to check whether a user is logged in:
 
