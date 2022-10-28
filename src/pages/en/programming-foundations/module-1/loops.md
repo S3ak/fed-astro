@@ -2,9 +2,6 @@
 title: Loops
 description: sample
 tags: Programming Foundations
-sidebar: prog-found
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 `Loops` are used to do the same thing over and over again.

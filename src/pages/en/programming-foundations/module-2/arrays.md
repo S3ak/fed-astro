@@ -2,9 +2,6 @@
 title: Arrays
 description: sample
 tags: Programming Foundations
-sidebar: prog-found
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction to arrays

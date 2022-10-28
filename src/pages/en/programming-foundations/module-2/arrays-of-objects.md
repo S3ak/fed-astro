@@ -2,9 +2,6 @@
 title: null, Objects and arrays of objects
 description: sample
 tags: Programming Foundations
-sidebar: prog-found
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Truthiness and Falsiness

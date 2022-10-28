@@ -3,8 +3,6 @@ title: Getting Started
 description: sample
 tags: Programming Foundations
 sidebar: prog-found
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

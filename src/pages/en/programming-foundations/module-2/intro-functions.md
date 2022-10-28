@@ -2,9 +2,6 @@
 title: Introduction to Functions
 description: sample
 tags: Programming Foundations
-sidebar: prog-found
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 Every line of javascript we write is called a _statement_, and when we write multiple statements together we create a _procedure_.

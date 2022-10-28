@@ -2,9 +2,6 @@
 title: String properties and methods, multiple if conditions and nested if statements
 description: sample
 tags: Programming Foundations
-sidebar: prog-found
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## String properties and methods
