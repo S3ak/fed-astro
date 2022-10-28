@@ -2,7 +2,6 @@
 title: Making Decisions
 description: sample
 tags: Programming Foundations
-layout: ../../../../../layouts/MainLayout.astro
 ---
 
 ## Comparison operators
