@@ -3,8 +3,6 @@ title: What are CMSs and why use them
 description: sample
 tags: Content Management Systems
 sidebar: cms
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

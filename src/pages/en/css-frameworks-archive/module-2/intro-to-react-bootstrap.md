@@ -3,8 +3,6 @@ title: Introduction React Bootstrap
 description: react, styling, bootstrap
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

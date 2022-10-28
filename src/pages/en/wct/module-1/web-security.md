@@ -3,8 +3,6 @@ title: Web Security
 description: sample
 tags: WCT
 sidebar: wct
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 # Introduction

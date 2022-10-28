@@ -2,9 +2,6 @@
 title: Course Assignment
 description: sample
 tags: Project Methodology
-sidebar: proj-meth
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal

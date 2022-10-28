@@ -3,8 +3,6 @@ title: some() and every()
 description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction: some()

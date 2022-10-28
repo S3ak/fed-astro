@@ -3,8 +3,6 @@ title: Course Assignment
 description: sample
 tags: HTML and CSS
 sidebar: html-css
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal

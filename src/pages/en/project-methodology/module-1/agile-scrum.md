@@ -3,8 +3,6 @@ title: Agile and Scrum
 description: sample
 tags: Project Methodology
 sidebar: proj-meth
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 # What is Agile?

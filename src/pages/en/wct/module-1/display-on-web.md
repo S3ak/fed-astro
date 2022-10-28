@@ -3,8 +3,6 @@ title: Displaying your site on the web
 description: sample
 tags: WCT
 sidebar: wct
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

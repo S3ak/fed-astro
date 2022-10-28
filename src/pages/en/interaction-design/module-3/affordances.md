@@ -3,8 +3,6 @@ title: Metaphors, Affordances, and Signifiers
 description: sample
 tags: Interaction Design
 sidebar: interaction-design
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

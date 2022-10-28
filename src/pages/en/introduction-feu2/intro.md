@@ -3,8 +3,6 @@ title: Introduction to FEU2
 description: sample
 tags: Introduction to FEU2
 sidebar: introduction-feu2
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction to FEU2

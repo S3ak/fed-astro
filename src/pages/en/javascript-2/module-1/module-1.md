@@ -3,8 +3,6 @@ title: Module 1 Overview
 description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module, you will be introduced to JavaScript subjects and tools that are essential to know for you to write more professional code.

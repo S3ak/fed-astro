@@ -3,8 +3,6 @@ title: Introduction to CSS Modules in React
 description: react, styling, modules
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

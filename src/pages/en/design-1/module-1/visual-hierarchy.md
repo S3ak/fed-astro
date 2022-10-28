@@ -3,8 +3,6 @@ title: Organising visual language and establishing visual hierarchy
 description: sample
 tags: Design 1
 sidebar: design-1
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

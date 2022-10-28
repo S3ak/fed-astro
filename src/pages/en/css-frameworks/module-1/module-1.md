@@ -3,8 +3,6 @@ title: Module 1 Overview
 description: sample
 tags: CSS Frameworks
 sidebar: css-frameworks
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 Welcome to the CSS Framework course.

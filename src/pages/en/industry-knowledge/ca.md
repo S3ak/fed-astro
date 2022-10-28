@@ -3,8 +3,6 @@ title: Course Assignment
 description: sample
 tags: Industry Knowledge
 sidebar: industry-knowledge
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal

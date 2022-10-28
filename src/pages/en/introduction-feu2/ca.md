@@ -3,8 +3,6 @@ title: Course Assignment
 description: sample
 tags: Introduction to FEU2
 sidebar: introduction-feu2
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Brief

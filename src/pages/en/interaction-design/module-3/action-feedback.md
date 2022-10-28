@@ -3,8 +3,6 @@ title: Take Action and Get Feedback
 description: sample
 tags: Interaction Design
 sidebar: interaction-design
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

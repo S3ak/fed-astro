@@ -3,8 +3,6 @@ title: Course Assignment
 description: sample
 tags: JavaScript 1
 sidebar: javascript-1
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Course Assignment

@@ -3,8 +3,6 @@ title: Moodle and Reflective Journal
 description: sample
 tags: Introduction
 sidebar: introduction
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

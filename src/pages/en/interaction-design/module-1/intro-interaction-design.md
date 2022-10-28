@@ -3,8 +3,6 @@ title: What is Interaction Design
 description: sample
 tags: Interaction Design
 sidebar: interaction-design
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

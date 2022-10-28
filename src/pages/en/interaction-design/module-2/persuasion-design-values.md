@@ -3,8 +3,6 @@ title: Persuasion and Design Values
 description: sample
 tags: Interaction Design
 sidebar: interaction-design
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

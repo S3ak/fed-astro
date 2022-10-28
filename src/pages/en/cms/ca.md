@@ -3,8 +3,6 @@ title: Course Assignment
 description: sample
 tags: Content Management Systems
 sidebar: cms
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal

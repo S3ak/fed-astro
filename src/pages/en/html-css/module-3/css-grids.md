@@ -3,8 +3,6 @@ title: CSS Grids
 description: sample
 tags: HTML and CSS
 sidebar: html-css
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

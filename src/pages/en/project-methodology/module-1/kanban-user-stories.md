@@ -2,9 +2,6 @@
 title: Kanban and User Stories
 description: sample
 tags: Project Methodology
-sidebar: proj-meth
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

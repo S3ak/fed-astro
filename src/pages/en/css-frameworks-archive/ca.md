@@ -2,9 +2,6 @@
 title: Course Assignment
 description: react, styling
 tags: JS Frameworks
-sidebar: css-frameworks-v1
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Brief

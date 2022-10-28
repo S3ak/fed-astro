@@ -3,8 +3,6 @@ title: Working with child themes
 description: sample
 tags: Content Management Systems
 sidebar: cms
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Changing style

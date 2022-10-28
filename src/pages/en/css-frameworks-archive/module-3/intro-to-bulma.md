@@ -3,8 +3,6 @@ title: Introduction to Bulma
 description: react, styling, bulma
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

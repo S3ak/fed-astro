@@ -3,8 +3,6 @@ title: Adding a Sticky Footer
 description: react, styling
 tags: JS Frameworks
 sidebar: css-frameworks-v1
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

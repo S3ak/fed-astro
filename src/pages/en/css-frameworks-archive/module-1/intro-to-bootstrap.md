@@ -2,9 +2,6 @@
 title: Introduction to Bootstrap
 description: sample
 tags: CSS Frameworks
-sidebar: css-frameworks-v1
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

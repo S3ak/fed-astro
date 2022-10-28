@@ -3,8 +3,6 @@ title: Course assignment
 description: sample
 tags: WCT
 sidebar: wct
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal

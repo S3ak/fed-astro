@@ -3,8 +3,6 @@ title: Course Assignment
 description: sample
 tags: Introduction
 sidebar: introduction
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Brief

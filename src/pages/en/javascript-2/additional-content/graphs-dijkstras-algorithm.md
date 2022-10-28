@@ -3,8 +3,6 @@ title: Graphs - Dijkstra's Algorithm
 description: sample
 tags: JavaScript 2
 sidebar: javascript-2
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ```js

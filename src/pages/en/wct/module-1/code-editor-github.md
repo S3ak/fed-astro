@@ -3,8 +3,6 @@ title: Installing a code editor and using GitHub
 description: sample
 tags: WCT
 sidebar: wct
-
-layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
