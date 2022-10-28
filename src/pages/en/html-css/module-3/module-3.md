@@ -2,6 +2,7 @@
 title: Module 3 Overview
 description: sample
 tags: HTML and CSS
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module we look at building layouts. This is a crucial aspect of CSS and one with which you’ll need to become familiar.
