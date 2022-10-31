@@ -2,7 +2,7 @@
 title: Course assignment
 description: CA, API, JavaScript
 tags: JavaScript 2
-layout: ../../../layouts/MainLayout.astro
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal

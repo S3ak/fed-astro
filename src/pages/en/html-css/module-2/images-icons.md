@@ -1,6 +1,7 @@
 ---
 title: Images and Icons
 description: Module 2 Images and Icons
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

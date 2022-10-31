@@ -1,6 +1,7 @@
 ---
 title: Module 2 Overview
 description: Module 2 Overview
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this module we look at specific elements and how to style them. These will include adding and styling images and icons to make your page look better and more engaging.
