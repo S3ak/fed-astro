@@ -2,7 +2,7 @@
 title: Course Assignment
 description: sample
 tags: HTML and CSS
-layout: ../../../layouts/MainLayout.astro
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal
