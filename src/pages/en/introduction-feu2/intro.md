@@ -2,7 +2,7 @@
 title: Introduction to FEU2
 description: sample
 tags: Introduction to FEU2
-layout: ../../../../layouts/MainLayout.astro
+layout: ../../../layouts/MainLayout.astro
 ---
 
 ## Introduction to FEU2
