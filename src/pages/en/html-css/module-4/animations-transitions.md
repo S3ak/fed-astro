@@ -58,7 +58,14 @@ You can choose what percentages you use and what styling is applied, but it's im
 
 ### Animation Properties
 
-**Animation Property** - What it Does <br> **animation-name** - Name to be used in the `@keyframes` rule <br> **animation-duration** - How long the animation should run <br> **animation-iteration-count** - How many times the animation should run <br> **animation-fill-mode** - What styles should apply before/after animation has run <br> **animation-delay** - The delay before the animation starts <br>**animation-timing-function** - Manages acceleration in the animation <br>**animation-direction** - Direction the animation should run in. It can be reversed
+**Animation Property** - What it Does
+**animation-name** - Name to be used in the `@keyframes` rule
+**animation-duration** - How long the animation should run
+**animation-iteration-count** - How many times the animation should run
+**animation-fill-mode** - What styles should apply before/after animation has run
+**animation-delay** - The delay before the animation starts
+**animation-timing-function** - Manages acceleration in the animation
+**animation-direction** - Direction the animation should run in. It can be reversed
 
 ## Transitions
 
@@ -89,7 +96,7 @@ In the code above, the ball will change colour on hover, but instead of it being
 
 You can't use a transition on any styling. There needs to be a way of finding middle points for the transition. For example, transitions won't work on the display property because there's no middle point. If you did want to reveal/hide an element, then you would need to use the opacity property because there you can transition between 0.5 and 1 for example.
 
-<hr>
+---
 
 ## Activities
 
@@ -99,7 +106,7 @@ The below tutorial video on animations and transitions (13m 28s).
 
 <iframe src="https://player.vimeo.com/video/630771102?h=9ff631e16b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1914" height="1034" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Animations and Transitions"></iframe>
 
-<hr>
+---
 
 ## Lesson Task
 
