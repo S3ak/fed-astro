@@ -2,7 +2,7 @@
 title: Introduction to Node
 description: node, npm, workflow
 tags: Node, NPM, Workflow
-layout: ../../../../layouts/MainLayout.astro
+layout: ../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
