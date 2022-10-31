@@ -2,9 +2,9 @@
 title: Sass
 description: sample
 tags: CSS Frameworks
-sidebar: css-frameworks-v1
-
+layout: ../../../../layouts/MainLayout.astro
 ---
+
 ## Introduction
 
 Sass stands for Syntactically Awesome Style Sheets.

@@ -2,7 +2,7 @@
 title: Overview
 description: sample
 tags: Introduction
-sidebar: introduction
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 Welcome to the Front-end Development study-programme! We're excited to have you joining us on this course.

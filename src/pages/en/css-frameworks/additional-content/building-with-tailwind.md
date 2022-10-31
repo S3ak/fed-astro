@@ -2,7 +2,7 @@
 title: Building with Tailwind
 description: react, styling, tailwind
 tags: JS Frameworks
-sidebar: css-frameworks
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 > This lesson is optional and will not be assessed.

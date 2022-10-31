@@ -2,7 +2,7 @@
 title: File delivery and Lånekassen
 description: sample
 tags: Introduction
-sidebar: introduction
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

@@ -2,7 +2,7 @@
 title: Marking Criteria
 description: sample
 tags: Design 1
-sidebar: design-1
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 <table style="max-width: 100%">

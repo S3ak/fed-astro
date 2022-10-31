@@ -2,7 +2,7 @@
 title: Modules Introduction
 description: modules
 tags: JavaScript 2
-sidebar: javascript-2
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

@@ -2,7 +2,7 @@
 title: Module 1 Overview
 description: sample
 tags: WCT
-sidebar: wct
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 In this first module of Web and Communications Technology we will be:

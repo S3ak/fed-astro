@@ -2,7 +2,7 @@
 title: Course Assignment
 description: sample
 tags: CSS Frameworks
-sidebar: css-frameworks
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal

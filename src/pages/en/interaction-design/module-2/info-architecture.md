@@ -2,7 +2,7 @@
 title: Info Architecture and Design for the Middle
 description: sample
 tags: Interaction Design
-sidebar: interaction-design
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

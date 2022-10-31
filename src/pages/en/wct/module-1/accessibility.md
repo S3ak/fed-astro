@@ -2,7 +2,7 @@
 title: Accessibility and useful tools
 description: sample
 tags: WCT
-sidebar: wct
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

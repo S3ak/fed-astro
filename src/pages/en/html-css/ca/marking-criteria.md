@@ -2,7 +2,7 @@
 title: Marking Criteria
 description: sample
 tags: HTML and CSS
-sidebar: html-css
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 <table style="max-width: 100%">

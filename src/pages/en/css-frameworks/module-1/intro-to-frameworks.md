@@ -2,7 +2,7 @@
 title: Introduction to Frameworks
 description: CSS, frameworks
 tags: CSS Frameworks
-sidebar: css-frameworks
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

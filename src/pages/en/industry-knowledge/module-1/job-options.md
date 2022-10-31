@@ -2,7 +2,7 @@
 title: Job Options in Web Development
 description: sample
 tags: Industry Knowledge
-sidebar: industry-knowledge
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

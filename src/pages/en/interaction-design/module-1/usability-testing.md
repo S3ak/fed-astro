@@ -2,7 +2,7 @@
 title: Usability Testing
 description: sample
 tags: Interaction Design
-sidebar: interaction-design
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

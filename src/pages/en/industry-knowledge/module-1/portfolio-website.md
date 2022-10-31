@@ -2,7 +2,7 @@
 title: Creating a Portfolio Website
 description: sample
 tags: Industry Knowledge
-sidebar: industry-knowledge
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

@@ -2,7 +2,7 @@
 title: Installing NVM
 description: node, npm, nvm, workflow
 tags: Node, NPM, NVM, Workflow
-sidebar: node
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

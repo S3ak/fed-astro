@@ -2,7 +2,7 @@
 title: Intellectual property
 description: sample
 tags: WCT
-sidebar: wct
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

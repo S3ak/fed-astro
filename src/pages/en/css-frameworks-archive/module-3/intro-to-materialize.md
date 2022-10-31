@@ -2,7 +2,7 @@
 title: Intro to Materialize
 description: react, styling, materialize
 tags: JS Frameworks
-sidebar: css-frameworks-v1
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

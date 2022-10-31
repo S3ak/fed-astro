@@ -2,7 +2,7 @@
 title: WordPress REST API
 description: sample
 tags: Content Management Systems
-sidebar: cms
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

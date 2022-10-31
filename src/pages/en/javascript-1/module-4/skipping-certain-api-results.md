@@ -2,7 +2,7 @@
 title: Skipping certain API results
 description: sample
 tags: JavaScript 1
-sidebar: javascript-1
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

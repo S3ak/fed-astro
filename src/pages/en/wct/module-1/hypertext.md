@@ -2,7 +2,7 @@
 title: The World Wide Web and communication technology
 description: sample
 tags: WCT
-sidebar: wct
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

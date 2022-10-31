@@ -2,7 +2,7 @@
 title: Module 2 Overview
 description: sample
 tags: Content Management Systems
-sidebar: cms
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 This module will look at how we can go beyond just using the WordPress admin panel to control our website. Because WordPress is written in PHP, we’ll start with an introduction to understanding what the code is doing when working with the PHP files.

@@ -2,7 +2,7 @@
 title: Planning and Communication
 description: sample
 tags: Introduction
-sidebar: introduction
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Course language for online students

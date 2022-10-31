@@ -2,7 +2,7 @@
 title: Preparing Your GitHub Account
 description: sample
 tags: Industry Knowledge
-sidebar: industry-knowledge
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

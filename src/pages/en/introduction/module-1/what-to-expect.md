@@ -2,7 +2,7 @@
 title: What to expect from first year
 description: sample
 tags: Introduction
-sidebar: introduction
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 To get you excited about your first year of Front-end Development and give you an insight into the sorts of things we’ll be doing on the programme, we’ve created an introduction video showing you the basics of HTML, CSS and JavaScript. You can watch the video below and see the code from the video in a GitHub repository:

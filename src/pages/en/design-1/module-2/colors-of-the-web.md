@@ -2,7 +2,7 @@
 title: Understanding the colors of the web
 description: sample
 tags: Design 1
-sidebar: design-1
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

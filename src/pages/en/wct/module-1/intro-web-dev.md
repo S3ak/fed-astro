@@ -2,7 +2,7 @@
 title: Introduction to web development
 description: sample
 tags: WCT
-sidebar: wct
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction

@@ -2,7 +2,7 @@
 title: Introduction to Tailwind
 description: react, styling, tailwind
 tags: JS Frameworks
-sidebar: css-frameworks-v1
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Introduction
