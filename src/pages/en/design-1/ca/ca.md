@@ -2,7 +2,7 @@
 title: Course Assignment
 description: sample
 tags: Design 1
-layout: ../../../layouts/MainLayout.astro
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal
