@@ -145,6 +145,72 @@ body {
 - Note the property `grid-area` is used to create the area, and the value `myheader` etc. is decided by the developer.
 - With the `grid-area`s defined, we can use `grid-template-area`s to arrange our content into rows and columns.
 
+## Special Units & Functions
+
+### fr units
+
+You’ll likely end up using a lot of fractional units in CSS Grid, like 1fr. They essentially mean “portion of the remaining space”. So a declaration like:
+
+```css
+grid-template-columns: 1fr 3fr;
+```
+
+Means, loosely, 25% 75%. Except that those percentage values are much more firm than fractional units are. For example, if you added padding to those percentage-based columns, now you’ve broken 100% width (assuming a content-box box model). Fractional units also much more friendly in combination with other units, as you can imagine:
+
+```css
+grid-template-columns: 50px min-content 1fr;
+```
+
+### Sizing Keywords
+
+When sizing rows and columns, you can use all the lengths you are used to, like px, rem, %, etc, but you also have keywords:
+
+- min-content: the minimum size of the content. Imagine a line of text like “E pluribus unum”, the min-content is likely the width of the word “pluribus”.
+- max-content: the maximum size of the content. Imagine the sentence above, the max-content is the length of the whole sentence.
+  auto: this keyword is a lot like fr units, except that they “lose” the fight in sizing against fr units when allocating the remaining space.
+- fit-content: use the space available, but never less than - min-content and never more than max-content.
+- fractional units: see above
+
+### Sizing Functions
+
+The minmax() function does exactly what it seems like: it sets a minimum and maximum value for what the length is able to be. This is useful for in combination with relative units. Like you may want a column to be only able to shrink so far. This is extremely useful and probably what you want:
+
+```css
+grid-template-columns: minmax(100px, 1fr) 3fr;
+```
+
+- The min() function.
+- The max() function.
+
+### The repeat() Function and Keywords
+
+The repeat() function can save some typing:
+
+```css
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+/* easier: */
+grid-template-columns: repeat(8, 1fr);
+
+/* especially when: */
+grid-template-columns: repeat(8, minmax(10px, 1fr));
+```
+
+But repeat() can get extra fancy when combined with keywords:
+
+auto-fill: Fit as many possible columns as possible on a row, even if they are empty.
+auto-fit: Fit whatever columns there are into the space. Prefer expanding columns to fill space rather than empty columns.
+
+<iframe
+  src="https://q4iszl.csb.app/example-3.html"
+  style="width:100%; height:85vh; border:0; border-radius: 4px; overflow:hidden;"
+  title="jovial-joji-q4iszl"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+/>
+
+## Excerise (20min)
+
 <iframe
   src="https://codesandbox.io/embed/jovial-joji-q4iszl?fontsize=14&hidenavigation=1&theme=dark"
   style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
