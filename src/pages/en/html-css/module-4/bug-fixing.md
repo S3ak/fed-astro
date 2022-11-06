@@ -35,7 +35,7 @@ Slowly remove elements from the page until you eventually see which element is c
 
 To remove elements from the page, right click and select ‘delete node’.
 
-![Delete node](../images/htmlcss/4-1-deletenode.png)
+![Delete node](/images/htmlcss/4-1-deletenode.png)
 
 You can also create a new node, or duplicate a node.
 
@@ -58,13 +58,13 @@ We can see the following:
 - the sizing of 2em is overridden by the media query and is crossed out.
 - it inherits its font from the body element set on line 1.
 
-![Style rules](../images/htmlcss/4-1-stylerules.png)
+![Style rules](/images/htmlcss/4-1-stylerules.png)
 
 ### WCAG Checker
 
 Another useful tool is the WCAG checker which allows you to see if the colour of your text is WCAG compliant. Simply click the colour circle under ‘Rules’ and it’ll open up an option for you to adjust the colour. At the bottom it compares the text colour with the background colour and tells you whether it is compliant or not. In this case, the colours are not WCAG compliant.
 
-![WCAG](../images/htmlcss/4-1-wcag.png)
+![WCAG](/images/htmlcss/4-1-wcag.png)
 
 ### Layout
 
@@ -74,17 +74,17 @@ In the example below, we can see that the main is set to flex, and we can see wh
 
 Below that, we can see that the selected element has a margin of 10px, a border of 0px, and padding of 5px. These values can be edited directly in the developer tools.
 
-![Layout](../images/htmlcss/4-1-layout.png)
+![Layout](/images/htmlcss/4-1-layout.png)
 
 ### Responsive Design Mode
 
 The Responsive Design Mode allows you to test your site at various screen sizes. To toggle it on, you can click the icon which looks like a phone and tablet, or press Ctrl + Shift + M on PC and or Cmd + Opt + M on macOS.
 
-![Design mode](../images/htmlcss/4-1-designmode.png)
+![Design mode](/images/htmlcss/4-1-designmode.png)
 
 From here you can choose a preset screen to view on. You can update and choose which device screen size you’d like it to mimic. You can also update the orientation to see how a user might see the screen in landscape on a tablet, for example.
 
-![Design mode 2](../images/htmlcss/4-1-designmode2.png)
+![Design mode 2](/images/htmlcss/4-1-designmode2.png)
 
 A nice feature on Firefox is that it allows you to close the inspector and still have the responsive design mode on.
 
