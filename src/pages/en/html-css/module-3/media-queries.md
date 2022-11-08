@@ -238,6 +238,7 @@ Make the Side Navigation visible on desktop but invisible on mobile. The hamburg
 ## Activities
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9XJLAXnYIQLc3GLpqFtHDxPZnd2-O6uRfWqN1GvZEnsWfoQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 ### Activity 1
 
 **WATCH**
