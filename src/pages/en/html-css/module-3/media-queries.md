@@ -1,7 +1,7 @@
 ---
 title: Media Queries
-description: sample
-tags: HTML and CSS
+description: How to use media queries to create responsive websites
+tags: HTML, CSS, media, query, queries, responsive
 layout: ../../../../layouts/MainLayout.astro
 ---
 
