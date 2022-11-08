@@ -25,6 +25,8 @@ By the end of the lesson you shoud have the following skills;
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0bvE2KLD44ggMs0tGrzJ2G2pVGm2xqU49FI1vsUu04nVNGQ/viewform?embedded=true" width="100%" height="85vh" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 ## Media Queries
 
 Media queries are initiated with the @media keyword (a CSS at-rule), and can be used for a variety of use cases.
@@ -235,6 +237,7 @@ Make the Side Navigation visible on desktop but invisible on mobile. The hamburg
 
 ## Activities
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9XJLAXnYIQLc3GLpqFtHDxPZnd2-O6uRfWqN1GvZEnsWfoQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 ### Activity 1
 
 **WATCH**
