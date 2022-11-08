@@ -48,16 +48,24 @@ Once you’ve set the animation-name and duration, you need to set what the anim
 
 @keyframes bounce {
   0% {
-    top: 300px;
+    transform: translateY(300px);
   }
   50% {
-    top: 0px;
+    transform: translateY(0px);
   }
   100% {
-    top: 300px;
+    transform: translateY(300px);
   }
 }
 ```
+
+<iframe
+  src="https://codesandbox.io/embed/htmlcss-animations-and-transitions-rg01x9?fontsize=14&hidenavigation=1&theme=dark"
+  style="border:0; border-radius: 4px; overflow:hidden;"
+  title="htmlcss Animations and Transitions"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 At 0% of the animation we want the ball to be at 300px from the top of the page. At 50% of the way through the animation, we want the ball to be at the top of the page, and by 100% of the animation we want to be at 300px from the top again.
 
@@ -65,14 +73,24 @@ You can choose what percentages you use and what styling is applied, but it's im
 
 ### Animation Properties
 
-**Animation Property** - What it Does
-**animation-name** - Name to be used in the `@keyframes` rule
-**animation-duration** - How long the animation should run
-**animation-iteration-count** - How many times the animation should run
-**animation-fill-mode** - What styles should apply before/after animation has run
-**animation-delay** - The delay before the animation starts
-**animation-timing-function** - Manages acceleration in the animation
-**animation-direction** - Direction the animation should run in. It can be reversed
+- **Animation Property** - What it Does
+- **animation-name** - Name to be used in the `@keyframes` rule
+- **animation-duration** - How long the animation should run
+- **animation-iteration-count** - How many times the animation should run
+- **animation-fill-mode** - What styles should apply before/after animation has run
+- **animation-delay** - The delay before the animation starts
+- **animation-timing-function** - Manages acceleration in the animation
+- **animation-direction** - Direction the animation should run in. It can be reversed
+
+### Excercise
+
+<iframe
+  src="https://codesandbox.io/embed/htmlcss-animations-and-transitions-rg01x9?fontsize=14&hidenavigation=1&initialpath=%2Fexercise-1.html&module=%2Fexercise-1.html&theme=dark"
+  style="border:0; border-radius: 4px; overflow:hidden;"
+  title="htmlcss Animations and Transitions"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 ## Transitions
 
@@ -98,6 +116,14 @@ To use a transition on an element, you need to set to what property you'd like t
   background: blue;
 }
 ```
+
+<iframe
+  src="https://codesandbox.io/embed/htmlcss-animations-and-transitions-rg01x9?fontsize=14&hidenavigation=1&theme=dark&initialpath=%2Fexample-1.html&module=%2Fexample-1.html"
+  style="border:0; border-radius: 4px; overflow:hidden;"
+  title="htmlcss Animations and Transitions"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 In the code above, the ball will change colour on hover, but instead of it being a jarring change from red to blue, there is a 2s transition which will ease the change.
 
