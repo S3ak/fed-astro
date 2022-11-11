@@ -1,6 +1,6 @@
 ---
 title: Marking Criteria
-description: sample
+description: Marking criteria
 tags: HTML and CSS
 layout: ../../../../layouts/MainLayout.astro
 ---
