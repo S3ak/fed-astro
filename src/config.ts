@@ -175,10 +175,10 @@ export const SIDEBAR: DeepSidebar = {
                   text: "Brief",
                   link: "en/html-css/ca/ca",
                 },
-                // {
-                //   text: "Marking Criteria",
-                //   link: "en/html-css/ca/marking-criteria",
-                // },
+                {
+                  text: "Marking Criteria",
+                  link: "en/html-css/ca/marking-criteria",
+                },
               ],
             },
             {
