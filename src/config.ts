@@ -181,6 +181,19 @@ export const SIDEBAR: DeepSidebar = {
                 // },
               ],
             },
+            {
+              title: "Semester Project 1",
+              items: [
+                {
+                  text: "Brief",
+                  link: "en/semester-project/brief",
+                },
+                // {
+                //   text: "Marking Criteria",
+                //   link: "en/html-css/ca/marking-criteria",
+                // },
+              ],
+            },
           ],
         },
       ],
