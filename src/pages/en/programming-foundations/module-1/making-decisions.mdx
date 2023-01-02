@@ -2,13 +2,14 @@
 title: Making Decisions
 description: sample
 tags: Programming Foundations
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Comparison operators
 
 Comparison operators compare their operands (the values on either side of the operator) and return a boolean value.
 
-<img src="/images/programming-foundations/operator.png" alt="variable types" style="max-width: 316px"/>
+![Operators](/images/programming-foundations/operator.png)
 
 ---
 
@@ -46,27 +47,18 @@ Comparison operators compare their operands (the values on either side of the op
         <td>true</td>
     </tr>
     <tr>
-        <td><</td>
+        <td>`<`</td>
         <td>less than</td>
         <td>5 < 4</td>
         <td>false</td>
     </tr>
     <tr>
-        <td><=</td>
+        <td>`<=`</td>
         <td>less than or equal to</td>
-        <td>3 <= 4</td>
+        <td>3 `<=` 4</td>
         <td>true</td>
     </tr>
 </table>
-
-<!-- | Operator      | Description               | Example  | Result
-| ------------- |:----------------------:   | :-----:  |  :---:
-| `===`           | equal to                  | 3 `===` 2  |  false
-| `!==`           | not equal to              | 3 `!==` 2  |  true
-| `>`             | greater than              | 6 `>` 4    |  true
-| `>=`            | greater than or equal to  | 5 `>=` 5   |  true
-| `<`             | less than                 | 5 `>` 4    |  false
-| `<=`            | less than or equal to     | 3 `>` 4    |  true -->
 
 ---
 
@@ -136,7 +128,7 @@ To carry out the above, we use `if...else statements.`
 
 ![if statement](/images/programming-foundations/if-statement.png)
 
-<a id="if-else-example"></a> Perhaps you need to check whether a user is logged in:
+Perhaps you need to check whether a user is logged in:
 
 ```js
 var isLoggedIn = true;
@@ -151,7 +143,7 @@ if (isLoggedIn === true) {
 Or whether a user has entered valid data into an input field in a form:
 
 ```js
-var inputIsValid = false;
+const inputIsValid = false;
 
 if (inputIsValid === false) {
   // show error message
@@ -162,11 +154,18 @@ if (inputIsValid === false) {
 
 The video below examines if statements.
 
-<iframe src="https://player.vimeo.com/video/490374916" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe
+  src="https://player.vimeo.com/video/490374916"
+  frameborder="0"
+  allow="autoplay; fullscreen"
+  allowfullscreen
+></iframe>
 
-<a href="https://vimeo.com/490374916/7525452c5d" target="_blank">Watch on Vimeo</a>
+<a href="https://vimeo.com/490374916/7525452c5d" target="_blank">
+  Watch on Vimeo
+</a>
 
-<a href="https://github.com/NoroffFEU/if-statements/blob/master/script.js" target="_blank">Code from the video</a>
+[Code from the video](https://github.com/NoroffFEU/if-statements/blob/master/script.js)
 
 ### if...else if...else
 
@@ -241,17 +240,27 @@ The code after `default:` runs if none of the conditions in the case blocks are 
 
 The `break` keyword is important. If you leave it out, the code will below will be executed so be sure to include it in your case blocks.
 
-<iframe src="https://player.vimeo.com/video/490429454" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe
+  src="https://player.vimeo.com/video/490429454"
+  frameborder="0"
+  allow="autoplay; fullscreen"
+  allowfullscreen
+></iframe>
 
-<a href="https://vimeo.com/490429454/a23aa576f2" target="_blank">Watch on Vimeo</a>
+<a href="https://vimeo.com/490429454/a23aa576f2" target="_blank">
+  Watch on Vimeo
+</a>
 
-<a href="https://github.com/NoroffFEU/switch-statement/blob/master/script.js" target="_blank">Code from the video</a>
+<a
+  href="https://github.com/NoroffFEU/switch-statement/blob/master/script.js"
+  target="_blank"
+>
+  Code from the video
+</a>
 
 ### When to use switch instead of if
 
 If you find yourself writing more than one `else if` statement, consider using a `switch` instead.
-
-<a id="assignment-v-comparison"></a>
 
 ## Assignment vs comparison
 
@@ -277,13 +286,18 @@ If your `if` statements are behaving strangely, remember to check for this easy-
 
 This video looks at the assignment operator (=) versus the comparison operator (===).
 
-<iframe src="https://player.vimeo.com/video/490410473" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe
+  src="https://player.vimeo.com/video/490410473"
+  frameborder="0"
+  allow="autoplay; fullscreen"
+  allowfullscreen
+></iframe>
 
-<a href="https://vimeo.com/490410473/a48458dce1" target="_blank">Watch on Vimeo</a>
+<a href="https://vimeo.com/490410473/a48458dce1" target="_blank">
+  Watch on Vimeo
+</a>
 
 ---
-
-<hr>
 
 ## Lesson Task
 

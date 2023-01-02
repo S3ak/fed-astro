@@ -212,15 +212,15 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "Strings, Numbers, Booleans",
-                  link: "en/programming-foundations/overview",
+                  link: "en/programming-foundations/module-1/strings-numbers-booleans",
                 },
                 {
                   text: "Making Decisions",
-                  link: "en/programming-foundations/overview",
+                  link: "en/programming-foundations/module-1/making-decisions",
                 },
                 {
                   text: "Loops",
-                  link: "en/programming-foundations/overview",
+                  link: "en/programming-foundations/module-1/loops",
                 },
               ],
             },
