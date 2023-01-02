@@ -1,0 +1,363 @@
+---
+title: Programming foundations getting started
+description: Overview of the course and how to get started
+tags: Programming Foundations
+layout: ../../../../layouts/MainLayout.astro
+---
+
+## Learning outcomes
+
+- Understand the purpose of programming
+- Understanding the folder structure of websites
+
+## Introduction
+
+Programming is the act of writing a series of instructions for a computer to carry out. Imagine a pocket calculator sitting on a desk. It is capable of performing a huge range of tasks, but will not do anything until its buttons are pressed. A computer behaves in the same way; each thread within the processor can only perform one calculation at one time, producing a single result.
+
+![Code on a laptop](https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2831&q=80)
+Photo by <a href="https://unsplash.com/@pankajpatel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pankaj Patel</a> on <a href="https://unsplash.com/photos/Fi-GJaLRGKc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Fundamentally, a computer can only perform four operations: `addition ➕`, `subtraction ➖`, `multiplication ✖️` and `division ➗`. Every other operation is created using a series of these `logical` building blocks. For example, `squaring` involves two rounds of `multiplication`. To average a set of numbers would involve many rounds of `addition` and one round of `division`.
+
+Computers can only interpret `numbers` represented as `binary` (Base 2), which is written in `0`s and `1`s. Most cultures use a base 10 counting system, and thinking in terms of another can be quite difficult. Thankfully, we do not have to learn how to perform mathematics in Base 2 in order to write software. This is the purpose of a `programming language`, to convert a human-friendly input into a computer-friendly output.
+
+![Binary Code](https://images.unsplash.com/photo-1569396116180-210c182bedb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80)
+Photo by <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> on <a href="https://unsplash.com/photos/KgLtFCgfC28?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+As we are social creatures that communicate with speech, this is the most friendly format for us to read and write code with. To be specific, we use a format called `logic` to describe instructions to the computer. The language of `logic` is intentionally similar to plain English to make it as easy as possible to learn and work with. No coding knowledge is required to read and write logic:
+
+```
+IF the weather is rainy THEN bring umbrella.
+WHILE cars are passing DO NOT cross the road.
+IF still hungry THEN order more icecream.
+```
+
+```js
+if (weather === "rainy") {
+  bringUmbrella();
+}
+```
+
+Each of these statements transmits a logical declaration, including conditions and outcomes. We use this language on a daily basis intuitively to set boundaries, conditions and requirements. This is the core skill required from any programmer. The main difference is that while our brains can operate on fluid concepts like `raininess` or `hungriness` - a computer is only able to operate on numbers.
+
+If we want to make decisions about concepts, we must find a way to `quantify` these as numbers at some point in the process. For example, we may first measure rainfall over a period of time to establish how much rain equates to `rainy` or `dry`. Once we have this number to hand we can use `logic` to determine this outcome on a computer:
+
+```
+IF current rainfall (10mm) IS GREATER THAN raininess
+threshold (5mm) THEN bring umbrella
+```
+
+```js
+const currentRainfall = 10;
+
+if (currentRainfall > 5) {
+  bringUmbrella();
+}
+```
+
+Now we have enough information needed to `encode` this logical statement for a computer.
+
+## Encoding
+
+Before we examine any code, it is important to think about _what code is_ and _what it is for_. In our every day lives we encounter and perform many different types of `encoding` without necessarily using that word for it. For example, when driving a vehicle we use a series of levers to operate indication lights that `encode` and broadcast our intentions to other drivers. The other drivers `decode` the light patterns they see to understand where you are planning to move on the road.
+
+When telecommunications were invented, the available `bandwidth` of these communication channels was very small. Messages had to be sent one character at a time with a pause in between each character. This required telegraph operators to perform two rounds of `encoding` on each message:
+
+1. Convert long form English into shorthand to reduce characters
+2. Turn each character into a morse code symbol to be sent on the wire
+
+On the other end, an operator would read the message in morse code and decode it into shorthand so that it could be typed into long form English again. This two-step encoding is very common within computer science as it allows for a large amount of information to be delivered with relatively few resources.
+
+## Notation
+
+When we refer to `notation` or `syntax` we are describing the specific symbols, keywords and phrases that are used to write code in a given language. Writing code, as the name suggests, is a process of `encoding` our intentions for a computer using text. Although there are many programming languages with many different forms of `notation` and `syntax`, they are more alike than they are different.
+
+In this course we will be using `JavaScript Notation` to describe each concept. Just like the telegraph operator, this requires us to perform two levels of `encoding`:
+
+1. Convert our desired behaviour into JavaScript notation
+2. Turn each line of JavaScript into raw binary instructions
+
+The browser handles the tricky second task, meaning that as developers our main task when writing code is **expressing what we mean** correctly to the computer. Without an understanding of syntax, it is much harder to communicate our intentions. Without intentions, our computer is just like the untouched calculator - not very helpful.
+
+## Arranging your code
+
+Every software project is represented by a group of files within a folder. Originally this was a physical folder in a laboratory containing physical files made from paper. A programme was typically a box containing more than one folder of files. Each file contained a small amount of software code and together these were used to perform the first computations.
+
+Although we are no longer limited to keeping our work in physical boxes full of punch-cards, the need to organise and structure our files remains for the same reason as for the pioneers. Well named files in well named folders are more likely to be understood, located and maintained. A messy, nondescriptive `filesystem` makes projects harder to remember, find and continue.
+
+### What is a folder?
+
+A folder, in the context of computing, is simply a part of a `filename` used to group related files together. The reality of your computer's storage drive is that files are not physically located next to each other simply because they share a folder name. When a file is moved from one folder to another - the only thing that changes is the name of that file. It's contents, stored on your disk, do not move at all.
+
+![Hard disk drive](https://images.unsplash.com/photo-1597852074816-d933c7d2b988?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80)
+Photo by <a href="https://unsplash.com/@benjaminlehman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">benjamin lehman</a> on <a href="https://unsplash.com/photos/GNyjCePVRs8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Since folders are irrelevant to the computer, this means they must be designed for our understanding and convenience alone. We as developers _use_ the concept of folders to help organise our work. This property also makes folders `computationally cheap`, meaning that there is no performance cost to having many vs few.
+
+![Folder structure](/images/programming-foundations/file-system.png)
+
+### The Root Folder
+
+Each software project has one `root` folder that acts as the top level. Anything outside of this project root folder is not part of the project, anything within the project root folder belongs to that project. This root folder has a direct relationship with the default URL of a given domain name. For example:
+
+```bash
+/Users/ExampleUser/projects/example-root-folder/ # <-- root folder
+
+https://example.org/ # <-- root folder
+```
+
+Any files within this folder will correspond when the application is hosted:
+
+```bash
+/Users/ExampleUser/projects/example-root-folder/images/test.png
+
+https://example.org/images/test.png
+```
+
+When working on a web development project, the main filetypes that we handle are:
+
+1. HTML (HyperText Markup Language)
+2. CSS (Cascading Style Sheets)
+3. JS (JavaScript)
+
+We may also have supplemental content:
+
+- JSON
+- Images
+- Audio
+- Video
+
+It might make sense to have 3 matching folders to store these assets, take this example written with `path notation`:
+
+```
+/my-project-root/html/index.html
+/my-project-root/css/styles.css
+/my-project-root/js/scripts.js
+```
+
+HTML is the only type of file that we place directly into the root of the project. Let's update the example above with this new consideration:
+
+```
+/my-project-root/index.html
+/my-project-root/css/styles.css
+/my-project-root/js/scripts.js
+```
+
+### The Index Files
+
+When naming and positioning HTML files, the main consideration will always be the effect that this has on the URL bar of your end user. Remember that a folder doesn't really exist to a computer, it only exists as part of the name of a file. However it is possible to request a folder using a browser, for example:
+
+```
+https://example.org/blog/2022/coding/
+```
+
+This URL represents the folder `coding` within the folder `2022` within the folder `blog` at the root of the project. There is no `coding.html` file in this case either. What we do not see in this example is an `Index File`:
+
+```
+https://example.org/blog/2022/coding/index.html
+```
+
+An `Index File` can be `ommitted` (left out) of a URL because it's role is to **represent the contents of a folder**. When we open a book, it is common for the index to appear before the content. At it's most basic it is simply a list of links to the contents of the folder, for example, a folder may contain many image files and one `index.html` file. The purpose of that file is to `reference` the images as `<img>` tags in HTML to speed up the process of locating the correct image.
+
+This principle applies in full to web applications and websites. As a result, do not be alarmed if you find yourself generating many very similar HTML files all named `index.html`. This is a sign that you are doing things correctly, even if it seems counter intuitive to use the same name for each of these files.
+
+This principle is not limited to HTML and applies to most programming paradigms. It is common to see `index.css` and `index.js` files and the purpose of such a file should follow the same logic.
+
+### Referencing Scripts
+
+As a script file is a `non-visible` asset (unlike an image file, for example) it should be referenced in the `<head>` section of an HTML file:
+
+```html
+<html>
+  <head>
+    <script src="/js/script.js"></script>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+  </body>
+</html>
+```
+
+Referencing a script file in this way will cause the code to be run **before** any of the HTML contents have been rendered. In this case, the `script.js` file would not be able to access or manipulate the `<h1>` element. Thankfully, there is an easy solution to this, we can add the keyword: `defer`:
+
+```html
+<html>
+  <head>
+    <script defer src="/js/script.js"></script>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+  </body>
+</html>
+```
+
+With this keyword attribute added, our script file will have full access to the contents of the HTML file, making it more useful and convenient to use.
+
+## Visual Studio Code
+
+We recommended using Visual Studio Code for web development. You can download it <a href="https://code.visualstudio.com/" target="_blank">here</a>.
+
+The video below covers automatic formatting, themes and the live server extension you can use to run your projects.
+
+It also covers adding a JavaScript file to an HTML page.
+
+```html
+<iframe
+  src="https://player.vimeo.com/video/488987197"
+  height="500"
+  frameborder="0"
+  allow="autoplay; fullscreen"
+  allowfullscreen
+></iframe>
+
+<a href="https://vimeo.com/488987197/7bf305b3bb" target="_blank">
+  Watch on Vimeo
+</a>
+
+<a
+  href="https://github.com/NoroffFEU/getting-started-with-vscode"
+  target="_blank"
+>
+  Code from the video
+</a>
+```
+
+> [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) is a VSCode plugin that will allow you to run a local server from within VSCode and reload your pages automatically when code changes. Once installed, right-click on an html page and select `Open with Live Server
+
+---
+
+## Using the development console
+
+> We recommend using <a href="https://www.google.com/chrome" target="_blank">Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a> as your web browser when developing for the web.
+
+We can use a browser's `console` tab in the developer tools to write and run JavaScript without needing any other program.
+
+To open the developer tools, do one of the following:
+
+- right-click anywhere on a web page and select `Inspect` from the menu
+- In Chrome, from the menu in the top right (the three vertical dots) go to `More Tools` and then `Developer Tools`
+- use the keyboard shortcut `Ctrl` `Shift` `J` (Windows) or `Cmd Option J` (Mac).
+- press the F12 key
+
+**_Paying attention to the console in your browser is very important as this is where errors in your code will appear_**.
+
+The video below is an introduction to the Developer Tools and the console.
+
+<iframe
+  src="https://player.vimeo.com/video/489131095"
+  height="500"
+  frameborder="0"
+  allow="autoplay; fullscreen"
+  allowfullscreen
+></iframe>
+
+```
+<a href="https://vimeo.com/489131095/041f15e3c5" target="_blank">
+Watch on Vimeo
+
+</a>
+```
+
+---
+
+If you'd prefer the dev tools dark theme in Chrome to the default light one, [here are instructions on enabling it](https://developers.google.com/web/tools/chrome-devtools/customize/dark-theme).
+
+---
+
+## Formatting
+
+Formatting your code properly is **_very important_**. Well-formatted code is far easier to read and follow, for you and other developers, and it makes it easier to catch bugs and mistakes.
+
+For now, concentrate on the following:
+
+- consistent indentation - use tabs to properly align your code
+- use semi-colons after your code statements
+
+This is an example of poorly formatted and indented code:
+
+```js
+console.log(" hello");
+console.log("world");
+```
+
+This is an example of well-formatted and indented code:
+
+```js
+console.log("hello");
+console.log("world");
+```
+
+The `Format on save` automatic formatting setting is discussed in the video above. You can also format a file by right-clicking anywhere inside a file and selecting `Format Document`.
+
+### A note on semi-colons
+
+Semi-colons at the end of statmements are technically only necessary if you have more than one statement on a line.
+
+For the most part, using semi-colons is a matter of preference. Different companies and dev studios will have their own `style guides` - a set of rules, including whether to use semi-colons or not, that all devs must follow.
+
+Noroff's preference is to use semi-colons, so please include them in your code.
+
+## Comments
+
+Comments are statements in our code that are not run by the JavaScript engine, but are used to prevent code from running and provide information to ourselves and other developers.
+
+Comments can be single-line comments using double forward slashes `//`:
+
+```js
+// this is a single-line comment
+```
+
+They can also be multi-line comments using a single forward slash `/` and an asterisk `*`:
+
+```js
+/*
+this is a multi-line comment
+notice that the / and * are swapped around when the comment is closed
+*/
+```
+
+Single-line comments are often combined together:
+
+```js
+// this is a single-line comment
+// with another single-line comment
+```
+
+When learning JavaScript, comments are also often used to explain what we want to do in the future at a particular place in the code, either for ourselves or other people.
+
+When asking a tutor for help, they will often use comments to indicate what code you should write in that position in your code.
+
+```js
+// create a for loop here that counts from 1 to 10
+```
+
+The video below discusses comments.
+
+<iframe
+  src="https://player.vimeo.com/video/489566490"
+  width="640"
+  height="500"
+  frameborder="0"
+  allow="autoplay; fullscreen"
+  allowfullscreen
+></iframe>
+
+[Watch on Vimeo](https://vimeo.com/489566490/338e17f909)
+
+---
+
+## Activities
+
+### Watch
+
+[The Weird History of JavaScript](https://www.youtube.com/watch?v=Sh6lK57Cuk4)
+
+---
+
+## Lesson Task
+
+There is a practice question in the master branch of <a href="https://github.com/NoroffFEU/lesson-task-pf-module1-lesson1" target="_blank">this repo</a>.
+
+There is an example answer in the <a href="https://github.com/NoroffFEU/lesson-task-pf-module1-lesson1/tree/answer" target="_blank">answer branch</a>.
+
+Try the exercise before checking the solution.

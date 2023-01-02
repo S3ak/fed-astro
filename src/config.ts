@@ -196,6 +196,36 @@ export const SIDEBAR: DeepSidebar = {
             },
           ],
         },
+        {
+          title: "Programming foundations",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/programming-foundations/overview",
+                },
+                {
+                  text: "Getting Started",
+                  link: "en/programming-foundations/module-1/getting-started",
+                },
+                {
+                  text: "Strings, Numbers, Booleans",
+                  link: "en/programming-foundations/overview",
+                },
+                {
+                  text: "Making Decisions",
+                  link: "en/programming-foundations/overview",
+                },
+                {
+                  text: "Loops",
+                  link: "en/programming-foundations/overview",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],
