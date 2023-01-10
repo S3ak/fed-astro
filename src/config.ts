@@ -224,6 +224,31 @@ export const SIDEBAR: DeepSidebar = {
                 },
               ],
             },
+            {
+              title: "Module 2",
+              items: [
+                {
+                  text: "Introduction",
+                  link: "en/programming-foundations/module-2/intro-functions",
+                },
+                {
+                  text: "Getting Started",
+                  link: "en/programming-foundations/module-1/getting-started",
+                },
+                {
+                  text: "Strings, Numbers, Booleans",
+                  link: "en/programming-foundations/module-1/strings-numbers-booleans",
+                },
+                {
+                  text: "Making Decisions",
+                  link: "en/programming-foundations/module-1/making-decisions",
+                },
+                {
+                  text: "Loops",
+                  link: "en/programming-foundations/module-1/loops",
+                },
+              ],
+            },
           ],
         },
       ],
