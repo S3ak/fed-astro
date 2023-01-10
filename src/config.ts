@@ -228,24 +228,20 @@ export const SIDEBAR: DeepSidebar = {
               title: "Module 2",
               items: [
                 {
-                  text: "Introduction",
+                  text: "String properties",
+                  link: "en/programming-foundations/module-2/string-properties",
+                },
+                {
+                  text: "Arrays",
                   link: "en/programming-foundations/module-2/intro-functions",
                 },
                 {
-                  text: "Getting Started",
-                  link: "en/programming-foundations/module-1/getting-started",
+                  text: "null, Objects and arrays of objects",
+                  link: "en/programming-foundations/module-2/intro-functions",
                 },
                 {
-                  text: "Strings, Numbers, Booleans",
-                  link: "en/programming-foundations/module-1/strings-numbers-booleans",
-                },
-                {
-                  text: "Making Decisions",
-                  link: "en/programming-foundations/module-1/making-decisions",
-                },
-                {
-                  text: "Loops",
-                  link: "en/programming-foundations/module-1/loops",
+                  text: "Introduction to functions",
+                  link: "en/programming-foundations/module-2/intro-functions",
                 },
               ],
             },
