@@ -233,7 +233,7 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "Arrays",
-                  link: "en/programming-foundations/module-2/intro-functions",
+                  link: "en/programming-foundations/module-2/arrays",
                 },
                 {
                   text: "null, Objects and arrays of objects",
