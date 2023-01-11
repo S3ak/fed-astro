@@ -228,6 +228,10 @@ export const SIDEBAR: DeepSidebar = {
               title: "Module 2",
               items: [
                 {
+                  text: "Overview",
+                  link: "en/programming-foundations/module-2/module-2",
+                },
+                {
                   text: "String properties",
                   link: "en/programming-foundations/module-2/string-properties",
                 },
@@ -237,7 +241,7 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "null, Objects and arrays of objects",
-                  link: "en/programming-foundations/module-2/intro-functions",
+                  link: "en/programming-foundations/module-2/arrays-of-objects",
                 },
                 {
                   text: "Introduction to functions",
