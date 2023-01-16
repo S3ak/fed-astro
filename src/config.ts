@@ -249,6 +249,19 @@ export const SIDEBAR: DeepSidebar = {
                 },
               ],
             },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "CA Breif",
+                  link: "en/programming-foundations/ca",
+                },
+                {
+                  text: "String properties",
+                  link: "en/programming-foundations/ca-guide",
+                },
+              ],
+            },
           ],
         },
       ],
