@@ -253,7 +253,7 @@ export const SIDEBAR: DeepSidebar = {
               title: "Course Assignment",
               items: [
                 {
-                  text: "CA Breif",
+                  text: "CA Brief",
                   link: "en/programming-foundations/ca",
                 },
                 {
