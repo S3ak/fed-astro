@@ -69,6 +69,14 @@ We cannot give it a different value. We cannot now do this, for example:
 count = 2;
 ```
 
+<iframe
+  src="https://codesandbox.io/embed/fed-js-introductory-concepts-51fny3?expanddevtools=1&fontsize=14&module=%2Fsrc%2Fexamples.js&moduleview=1&theme=dark&view=editor"
+  style="border:0; border-radius: 4px; overflow:hidden;"
+  title="fed-js-Introductory Concepts"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
 [There are more details on const and let in this Scrimba video.](https://scrimba.com/scrim/cDkbEWTM)
 
 The cast begins with a brief look at the undefined value.
@@ -85,6 +93,14 @@ Using backticks:
 - Provides a cleaner way to embed variables in strings.
 
 On many keyboards the key is situated top left.
+
+<iframe
+  src="https://codesandbox.io/embed/fed-js-introductory-concepts-51fny3?expanddevtools=1&fontsize=14&module=%2Fsrc%2Fexamples.js&moduleview=1&theme=dark&view=editor"
+  style="border:0; border-radius: 4px; overflow:hidden;"
+  title="fed-js-Introductory Concepts"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 <details>
   <summary>View Video</summary>
@@ -112,6 +128,14 @@ const pet = { type: "dog" };
 console.log(pet["type"]);
 ```
 
+<iframe
+  src="https://codesandbox.io/embed/fed-js-introductory-concepts-51fny3?expanddevtools=1&fontsize=14&module=%2Fsrc%2Fexamples.js&moduleview=1&theme=dark&view=editor"
+  style="border:0; border-radius: 4px; overflow:hidden;"
+  title="fed-js-Introductory Concepts"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
 [This Scrimba video explores this further.](https://scrimba.com/scrim/cMgvkECv)
 
 ## Functions inside objects
@@ -124,6 +148,14 @@ Objects can also have functions as properties. These are often called <b>methods
 const camera = { snap: () => console.log("snap!") };
 console.log(camera.snap());
 ```
+
+<iframe
+  src="https://codesandbox.io/embed/fed-js-introductory-concepts-51fny3?expanddevtools=1&fontsize=14&module=%2Fsrc%2Fexamples.js&moduleview=1&theme=dark&view=editor"
+  style="border:0; border-radius: 4px; overflow:hidden;"
+  title="fed-js-Introductory Concepts"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 [Scrimba video.](https://scrimba.com/c/cMgvJKHK)
 
@@ -142,31 +174,39 @@ There are two kinds of exports:
 
 Named exports are exported with the <b>export</b> keyword and imported using their name between braces.
 
-![Named exports](images/js/1-1-namedexports.png)
+![Named exports](/images/js/1-1-namedexports.png)
 
 One file can contain many named exports.
 
 You can alias a named export using the <b>as</b> keyword.
 
-![Named exports](images/js/1-1-namedexports2.png)
+![Named exports](/images/js/1-1-namedexports2.png)
 
 ### Default exports
 
 Default exports are exported with the <b>export default</b> keywords and imported without braces.
 
-![Default exports](images/js/1-1-defaultexports.png)
+![Default exports](/images/js/1-1-defaultexports.png)
 
 When you import a default export, you can import it using any name, the name you use in the import is just an alias.
+
+<iframe
+  src="https://codesandbox.io/embed/fed-js-introductory-concepts-51fny3?expanddevtools=1&fontsize=14&module=%2Fsrc%2Fexamples.js&moduleview=1&theme=dark&view=editor"
+  style="border:0; border-radius: 4px; overflow:hidden;"
+  title="fed-js-Introductory Concepts"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 ### Navigating directories
 
 **- Go up a folder**
 
-../ - go back (or up) one directory (folder) from the current directory. You can use several of these, the below will go back three folders: ../../../
+`../` - go back (or up) one directory (folder) from the current directory. You can use several of these, the below will go back three folders: `../../../`
 
 **- Look in the current folder**
 
-./ - look in the current folder for the path Using imports and exports
+`./` - look in the current folder for the path Using imports and exports
 
 The following video looks at using imports and exports.
 
