@@ -257,9 +257,127 @@ export const SIDEBAR: DeepSidebar = {
                   link: "en/programming-foundations/ca",
                 },
                 {
-                  text: "String properties",
+                  text: "Marking Criteria",
                   link: "en/programming-foundations/ca-guide",
                 },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Javascript 1",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/javascript-1/module-1/overview",
+                },
+                {
+                  text: "Introductory concepts",
+                  link: "en/javascript-1/module-1/intro-concepts",
+                },
+                {
+                  text: "Manipulating the DOM",
+                  link: "en/programming-foundations/module-1/strings-numbers-booleans",
+                },
+                {
+                  text: "Creating HTML from objects",
+                  link: "en/programming-foundations/module-1/making-decisions",
+                },
+                {
+                  text: "Creating HTML in functions",
+                  link: "en/programming-foundations/module-1/loops",
+                },
+              ],
+            },
+            {
+              title: "Module 2",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/programming-foundations/module-2/module-2",
+                },
+                {
+                  text: "forEach, setTimeout and setInterval",
+                  link: "en/programming-foundations/module-2/string-properties",
+                },
+                {
+                  text: "DOM events",
+                  link: "en/programming-foundations/module-2/arrays",
+                },
+                {
+                  text: "length, trim, addEventListener and onkeyup",
+                  link: "en/programming-foundations/module-2/arrays-of-objects",
+                },
+                {
+                  text: "More DOM concepts",
+                  link: "en/programming-foundations/module-2/intro-functions",
+                },
+              ],
+            },
+            {
+              title: "Module 3",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/programming-foundations/module-2/module-2",
+                },
+                {
+                  text: "Query Strings and GET requests",
+                  link: "en/programming-foundations/module-2/string-properties",
+                },
+                {
+                  text: "Handling errors",
+                  link: "en/programming-foundations/module-2/arrays",
+                },
+                {
+                  text: "Arrow functions and promises",
+                  link: "en/programming-foundations/module-2/arrays-of-objects",
+                },
+                {
+                  text: "More about calling APIs",
+                  link: "en/programming-foundations/module-2/intro-functions",
+                },
+              ],
+            },
+            {
+              title: "Module 4",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/programming-foundations/module-2/module-2",
+                },
+                {
+                  text: "Skipping Certain API results",
+                  link: "en/programming-foundations/module-2/string-properties",
+                },
+                {
+                  text: "Single API results and the filter method",
+                  link: "en/programming-foundations/module-2/arrays",
+                },
+                {
+                  text: "Query string parameters",
+                  link: "en/programming-foundations/module-2/arrays-of-objects",
+                },
+                {
+                  text: "Form validation",
+                  link: "en/programming-foundations/module-2/intro-functions",
+                },
+              ],
+            },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "Course Assignment Brief",
+                  link: "en/javascript-1/ca",
+                },
+                // {
+                //   text: "Marking Criteria",
+                //   link: "en/javascript-1/ca-guide",
+                // },
               ],
             },
           ],

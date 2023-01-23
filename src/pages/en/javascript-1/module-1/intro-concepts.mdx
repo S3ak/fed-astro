@@ -1,6 +1,6 @@
 ---
 title: Introductory Concepts
-description: sample
+description: JavaScript 1 concepts
 tags: JavaScript 1
 layout: ../../../../layouts/MainLayout.astro
 ---
@@ -24,11 +24,22 @@ The browser console is one of your most essential tools when writing JavaScript.
 
 It is a good idea to keep it always open to view variables that you log and any errors that you may encounter.
 
-We suggest using either Firefox or Chrome when developing with JavaScript.
+We suggest using either Firefox and Chrome when developing with JavaScript.
 
 In the video below, we'll look at logging variable values using the console.
 
-<iframe src="https://player.vimeo.com/video/443132927?h=bb68f831f5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="2560" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Console Commands"></iframe>
+<details>
+  <summary>View Video</summary>
+  <iframe
+    src="https://player.vimeo.com/video/443132927?h=bb68f831f5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    frameborder="0"
+    width="2560"
+    height="1080"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen
+    title="Console Commands"
+  ></iframe>
+</details>
 
 ## ES6
 
@@ -75,7 +86,18 @@ Using backticks:
 
 On many keyboards the key is situated top left.
 
-<iframe src="https://player.vimeo.com/video/443988703?h=fa6ab718df&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="2560" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Creating strings with backticks (template literals)"></iframe>
+<details>
+  <summary>View Video</summary>
+  <iframe
+    src="https://player.vimeo.com/video/443988703?h=fa6ab718df&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    frameborder="0"
+    width="2560"
+    height="1080"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen
+    title="Creating strings with backticks (template literals)"
+  ></iframe>
+</details>
 
 [Code](https://github.com/NoroffFEU/creating-strings-with-backticks) from the video.
 
@@ -98,6 +120,11 @@ We've previously seen objects with properties having string, number, or Boolean 
 
 Objects can also have functions as properties. These are often called <b>methods</b>.
 
+```js
+const camera = { snap: () => console.log("snap!") };
+console.log(camera.snap());
+```
+
 [Scrimba video.](https://scrimba.com/c/cMgvJKHK)
 
 ## Imports/exports
@@ -115,19 +142,19 @@ There are two kinds of exports:
 
 Named exports are exported with the <b>export</b> keyword and imported using their name between braces.
 
-![Named exports](../images/js/1-1-namedexports.png)
+![Named exports](images/js/1-1-namedexports.png)
 
 One file can contain many named exports.
 
 You can alias a named export using the <b>as</b> keyword.
 
-![Named exports](../images/js/1-1-namedexports2.png)
+![Named exports](images/js/1-1-namedexports2.png)
 
 ### Default exports
 
 Default exports are exported with the <b>export default</b> keywords and imported without braces.
 
-![Default exports](../images/js/1-1-defaultexports.png)
+![Default exports](images/js/1-1-defaultexports.png)
 
 When you import a default export, you can import it using any name, the name you use in the import is just an alias.
 
@@ -143,17 +170,39 @@ When you import a default export, you can import it using any name, the name you
 
 The following video looks at using imports and exports.
 
-<iframe src="https://player.vimeo.com/video/457199012?h=f3e2f37cfe&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="2560" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Imports and exports with modules"></iframe>
+<details>
+  <summary>View Video</summary>
+  <iframe
+    src="https://player.vimeo.com/video/457199012?h=f3e2f37cfe&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    frameborder="0"
+    width="2560"
+    height="1080"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen
+    title="Imports and exports with modules"
+  ></iframe>
+</details>
 
 **Import/export example**
 
 The following video converts a small existing project to use modules, splitting the code up using imports and exports.
 
-<iframe src="https://player.vimeo.com/video/456346771?h=61a3fcad19&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="2560" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Import and export example"></iframe>
+<details>
+  <summary>View Video</summary>
+  <iframe
+    src="https://player.vimeo.com/video/456346771?h=61a3fcad19&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    frameborder="0"
+    width="2560"
+    height="1080"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen
+    title="Import and export example"
+  ></iframe>
+</details>
 
 [Code](https://github.com/NoroffFEU/import-export-example) from the video.
 
-<hr>
+---
 
 ## Lesson Task
 
