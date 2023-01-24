@@ -280,15 +280,15 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "Manipulating the DOM",
-                  link: "en/programming-foundations/module-1/strings-numbers-booleans",
+                  link: "en/javascript-1/module-1/manipulating-dom",
                 },
                 {
                   text: "Creating HTML from objects",
-                  link: "en/programming-foundations/module-1/making-decisions",
+                  link: "en/javascript-1/module-1/html-from-objects",
                 },
                 {
                   text: "Creating HTML in functions",
-                  link: "en/programming-foundations/module-1/loops",
+                  link: "en/javascript-1/module-1/html-in-functions",
                 },
               ],
             },
