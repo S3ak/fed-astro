@@ -44,6 +44,10 @@ One of the properties of the window object is **screen** that holds information 
 
 Type **window.screen** or just **screen** into a console and press enter to see information about your screen.
 
+```js
+console.log(window.screen);
+```
+
 Another property of window is **document**. The document is the D in DOM.
 
 On any web page, enter the following into the console: **window document** or just **document**.
@@ -51,6 +55,10 @@ On any web page, enter the following into the console: **window document** or ju
 document contains all the nodes (HTML elements) in the DOM and all the methods (functions) and properties the browser and developers can use to manipulate those elements.
 
 The video below is an intro to the DOM.
+
+```js
+console.log(document.URL);
+```
 
 <details>
   <summary>View Video</summary>
@@ -76,7 +84,10 @@ A lot of tutorials use getElementById to select a node - an HTML element - by it
 
 We can call both these methods from the document object:
 
-**document.querySelector();** **document.querySelectorAll();**
+```js
+document.querySelector("#my-button");
+document.querySelectorAll(".images");
+```
 
 The argument we pass into each of these methods is the element we want to select: a tag ("h1"), a class (".heading2") or an id ("#accordion").
 
