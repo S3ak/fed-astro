@@ -39,7 +39,7 @@ In this video, we will add a variable to the href value in an <a> tag, retrieve 
 
 [Code](https://github.com/NoroffFEU/passing-variables-to-other-pages-in-the-querystring) from the video.
 
-<hr>
+---
 
 ## Lesson Task
 

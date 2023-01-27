@@ -53,7 +53,7 @@ In this video we will add error handling to our API call with a try-catch statem
 
 [Code](https://github.com/NoroffFEU/get-requests-handling-errors) from the video.
 
-<hr>
+---
 
 ## Lesson Task
 

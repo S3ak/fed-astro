@@ -133,7 +133,7 @@ In this video we will rewrite the async/await API call to use regular promise sy
 
 [Code](https://github.com/NoroffFEU/get-request-with-regular-promise-syntax) from the video.
 
-<hr>
+---
 
 ## Lesson Task
 

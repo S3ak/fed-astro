@@ -75,7 +75,7 @@ The following video takes another look at the same code.
 
 [Code](https://github.com/NoroffFEU/get-requests-introduction) from the video.
 
-<hr>
+---
 
 ## Lesson Task
 

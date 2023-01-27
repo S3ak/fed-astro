@@ -59,7 +59,7 @@ The find method is similar to the filter method, though it only returns a single
 
 [Scrimba video](https://scrimba.com/scrim/cVvLZLhp)
 
-<hr>
+---
 
 ## Lesson Task
 

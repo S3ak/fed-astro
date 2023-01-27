@@ -70,7 +70,7 @@ We're going to use the **trim()** method and the **length** property to help us 
 
 [Code](https://github.com/NoroffFEU/simple-form-validation) from the video.
 
-<hr>
+---
 
 ## Lesson Task
 

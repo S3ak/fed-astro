@@ -41,7 +41,7 @@ Like **break**, continue cannot be used inside a forEach function.
 
 [Code](https://github.com/NoroffFEU/get-requests-skipping-certain-results) from the video.
 
-<hr>
+---
 
 ## Lesson Task
 

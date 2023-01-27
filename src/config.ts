@@ -204,7 +204,7 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/programming-foundations/overview",
+                  link: "en/javascript-1/overview",
                 },
                 {
                   text: "Getting Started",
@@ -297,23 +297,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/programming-foundations/module-2/module-2",
+                  link: "en/javascript-1/module-2/module-2",
                 },
                 {
                   text: "forEach, setTimeout and setInterval",
-                  link: "en/programming-foundations/module-2/string-properties",
+                  link: "en/javascript-1/module-2/callback-functions",
                 },
                 {
                   text: "DOM events",
-                  link: "en/programming-foundations/module-2/arrays",
+                  link: "en/javascript-1/module-2/dom-events",
                 },
                 {
                   text: "length, trim, addEventListener and onkeyup",
-                  link: "en/programming-foundations/module-2/arrays-of-objects",
+                  link: "en/javascript-1/module-2/length-trim-eventlistener",
                 },
                 {
                   text: "More DOM concepts",
-                  link: "en/programming-foundations/module-2/intro-functions",
+                  link: "en/javascript-1/module-2/more-dom-concepts",
                 },
               ],
             },
@@ -322,23 +322,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/programming-foundations/module-2/module-2",
+                  link: "en/javascript-1/module-3/module-3",
                 },
                 {
                   text: "Query Strings and GET requests",
-                  link: "en/programming-foundations/module-2/string-properties",
+                  link: "en/javascript-1/module-3/query-string-parameters",
                 },
                 {
                   text: "Handling errors",
-                  link: "en/programming-foundations/module-2/arrays",
+                  link: "en/javascript-1/module-3/handling-errors",
                 },
                 {
                   text: "Arrow functions and promises",
-                  link: "en/programming-foundations/module-2/arrays-of-objects",
+                  link: "en/javascript-1/module-3/arrow-functions-promises",
                 },
                 {
                   text: "More about calling APIs",
-                  link: "en/programming-foundations/module-2/intro-functions",
+                  link: "en/javascript-1/module-3/more-about-apis",
                 },
               ],
             },
@@ -347,23 +347,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/programming-foundations/module-2/module-2",
+                  link: "en/javascript-1/module-4/module-4",
                 },
                 {
                   text: "Skipping Certain API results",
-                  link: "en/programming-foundations/module-2/string-properties",
+                  link: "en/javascript-1/module-4/skipping-certain-api-results",
                 },
                 {
                   text: "Single API results and the filter method",
-                  link: "en/programming-foundations/module-2/arrays",
+                  link: "en/javascript-1/module-4/single-api-results",
                 },
                 {
                   text: "Query string parameters",
-                  link: "en/programming-foundations/module-2/arrays-of-objects",
+                  link: "en/javascript-1/module-3/query-string-parameters",
                 },
                 {
                   text: "Form validation",
-                  link: "en/programming-foundations/module-2/intro-functions",
+                  link: "en/javascript-1/module-4/form-validation",
                 },
               ],
             },

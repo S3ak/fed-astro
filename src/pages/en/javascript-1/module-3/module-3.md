@@ -5,7 +5,7 @@ tags: JavaScript 1
 layout: ../../../../layouts/MainLayout.astro
 ---
 
-In this module we will:
+## In this module we will:
 
 - look at what truthy and falsy values are.
 - look at what query strings are.
