@@ -12,6 +12,16 @@ const currentPageMatch = currentPage.endsWith("/")
   : currentPage.slice(1);
 const langCode = getLanguageFromURL(currentPage);
 const sidebar = SIDEBAR[langCode];
+
+console.log("currentPAge", currentPage);
+
+// FIXME
+function isOpen(arg) {
+  console.log("currentPage", currentPage);
+  console.log("arg", encodeURIComponent(arg.title));
+
+  return currentPage.includes(encodeURIComponent(arg.title));
+}
 ---
 
 <nav aria-labelledby="grid-left">
@@ -24,7 +34,7 @@ const sidebar = SIDEBAR[langCode];
             <ul>
               {year.items.map((topic) => (
                 <li class="module-section">
-                  <details>
+                  <details open={isOpen(topic)}>
                     <summary>
                       <h3>{topic.title}</h3>
                     </summary>

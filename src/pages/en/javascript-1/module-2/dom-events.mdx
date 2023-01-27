@@ -62,6 +62,14 @@ const remainder = 5 % 2;
 
 The following video looks at the onchange event of a select element and how to create HTML inside that event function.
 
+```js
+const myDomElement = document.querySelector("input");
+
+myDomElement.addEventListener("change", function () {
+  console.log("The value of the input has changed");
+});
+```
+
 <iframe
   src="https://player.vimeo.com/video/446960321?h=90ff412ae1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
   width="2560"
