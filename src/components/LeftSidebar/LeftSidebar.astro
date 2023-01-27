@@ -24,31 +24,39 @@ const sidebar = SIDEBAR[langCode];
             <ul>
               {year.items.map((topic) => (
                 <li class="module-section">
-                  <h3>{topic.title}</h3>
-                  <ul>
-                    {topic.items.map((module) => (
-                      <li class="top-section">
-                        <h4>{module.title}</h4>
-                        <ul>
-                          {module.items.map(({ text, link }) => {
-                            const url = Astro.site?.pathname + link;
-                            console.warn(url);
-                            const isActive = currentPageMatch === link;
-                            return (
-                              <li class="nav-link">
-                                <a
-                                  href={url}
-                                  aria-current={isActive ? "page" : false}
-                                >
-                                  {text}
-                                </a>
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      </li>
-                    ))}
-                  </ul>
+                  <details>
+                    <summary>
+                      <h3>{topic.title}</h3>
+                    </summary>
+                    <ul>
+                      {topic.items.map((module) => (
+                        <li class="top-section">
+                          <details>
+                            <summary>
+                              <h4>{module.title}</h4>
+                            </summary>
+                            <ul>
+                              {module.items.map(({ text, link }) => {
+                                const url = Astro.site?.pathname + link;
+                                console.warn(url);
+                                const isActive = currentPageMatch === link;
+                                return (
+                                  <li class="nav-link">
+                                    <a
+                                      href={url}
+                                      aria-current={isActive ? "page" : false}
+                                    >
+                                      {text}
+                                    </a>
+                                  </li>
+                                );
+                              })}
+                            </ul>
+                          </details>
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
                 </li>
               ))}
             </ul>
@@ -81,6 +89,14 @@ const sidebar = SIDEBAR[langCode];
     overflow-x: visible;
     overflow-y: auto;
     max-height: 100vh;
+  }
+
+  .nav-groups summary {
+    list-style: none;
+  }
+
+  .nav-groups summary:hover {
+    cursor: pointer;
   }
 
   .nav-groups > li + li {
