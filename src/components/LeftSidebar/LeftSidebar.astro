@@ -13,14 +13,12 @@ const currentPageMatch = currentPage.endsWith("/")
 const langCode = getLanguageFromURL(currentPage);
 const sidebar = SIDEBAR[langCode];
 
-console.log("currentPAge", currentPage);
+function isOpen({ title }) {
+  return currentPage.includes(formatTitle(title));
+}
 
-// FIXME
-function isOpen(arg) {
-  console.log("currentPage", currentPage);
-  console.log("arg", encodeURIComponent(arg.title));
-
-  return currentPage.includes(encodeURIComponent(arg.title));
+function formatTitle(title) {
+  return title.replace(/\s+/g, "-").toLowerCase();
 }
 ---
 
@@ -41,7 +39,7 @@ function isOpen(arg) {
                     <ul>
                       {topic.items.map((module) => (
                         <li class="top-section">
-                          <details>
+                          <details open={isOpen(module)}>
                             <summary>
                               <h4>{module.title}</h4>
                             </summary>
