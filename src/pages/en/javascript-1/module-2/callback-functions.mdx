@@ -21,6 +21,19 @@ We will first take a look at how that works, and then discuss practical implemen
 
 These are often called **callbacks**. It is very common to pass functions as arguments to other functions and have the receiving function execute them.
 
+```js
+function foo(callbackFn) {
+  callbackFn();
+}
+
+const myFunction = function () {
+  console.log("I am in the function");
+};
+
+foo(myFunction);
+// "I am in the function"
+```
+
 [Scrimba video](https://scrimba.com/c/cMgggbHG)
 
 ## forEach method
