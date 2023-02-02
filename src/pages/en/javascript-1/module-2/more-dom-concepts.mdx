@@ -17,6 +17,42 @@ In this lesson we will look at:
 
 ## Event bubbling
 
+Event bubbling is a behavior in JavaScript where an event that is triggered on a child element will also trigger on its parent elements in the DOM. This happens because when an event is fired, it starts at the target element (the element that directly received the event), and then bubbles up the DOM tree, triggering any event handlers that are attached to its ancestors.
+
+```html
+<div id="ancestor">
+  <p id="parent">
+    <button id="button">Click me</button>
+  </p>
+</div>
+```
+
+```js
+const div1 = document.querySelector("#ancestor");
+const p1 = document.querySelector("#parent");
+const button = document.querySelector("#button");
+
+div1.addEventListener("click", function () {
+  console.log("div1 was clicked");
+});
+
+p1.addEventListener("click", function () {
+  console.log("p1 was clicked");
+});
+
+button.addEventListener("click", function () {
+  console.log("button was clicked");
+});
+```
+
+In this example, when the button is clicked, the click event will trigger on the button, and then bubble up to its parent p1 element, and finally to its parent div1 element. The result will be that all three event handlers will be executed, and the following will be logged to the console:
+
+```shell
+button was clicked
+p1 was clicked
+div1 was clicked
+```
+
 Events "bubble up" through the DOM. This video explores what that means.
 
 <iframe
@@ -33,21 +69,99 @@ Events "bubble up" through the DOM. This video explores what that means.
 
 ## Data attributes
 
-Data attributes are a way to store information (or values) on DOM elements.
+Data attributes are a way to store information (or values) on DOM elements, in the form of custom attributes that begin with "data-". These attributes allow you to store data on an HTML element that can be accessed and used with JavaScript.
+
+```html
+<button data-message="Hello, World">Click me</button>
+```
+
+```js
+const button = document.querySelector("button");
+
+button.addEventListener("click", function () {
+  console.log(button.getAttribute("data-message")); // `Hello, World`
+});
+```
+
+In this example, the data-message attribute is added to a button element. When the button is clicked, the event handler accesses the value of the data-message attribute using the getAttribute method, and logs it to the console. The result will be that the message "Hello, World" will be logged to the console.
+
+The most common use is in testing, but they can also be used to store information that you want to use in JavaScript.
 
 We will look at how to use them in the Scrimba in the next section.
 
 ## Adding event handlers in a loop
 
+Adding JavaScript event handlers in a loop is a technique used to attach the same event handler to multiple elements in a page, by using a loop. This is useful when you want to apply the same behavior to a group of elements, rather than attaching individual event handlers to each element.
+
+```html
+<div class="js-box">Box 1</div>
+<div class="js-box">Box 2</div>
+<div class="js-box">Box 3</div>
+```
+
+```js
+const boxes = document.querySelectorAll(".js-box");
+
+boxes.forEach((box) => {
+  box.addEventListener("click", function () {
+    this.style.backgroundColor = "red";
+  });
+});
+```
+
+In this example, the querySelectorAll method is used to select all the elements with a class of box, and the resulting collection of elements is stored in the boxes variable. A for loop is then used to iterate over the collection, and the addEventListener method is used to attach a click event handler to each element in the collection. The event handler changes the background color of the element to red when it is clicked. The result is that when the user clicks on any of the div elements with the class of box, the background color of that element changes to red.
+
 [This Scrimba looks at data attributes and adding click event handlers to a variable number of elements using a loop.](https://scrimba.com/scrim/c36wvqh8)
 
 ## mouseover and mouseout events
+
+The mouseover and mouseout events in JavaScript are triggered when the mouse cursor enters or leaves an element, respectively. These events can be used to create interactive experiences on a webpage, such as changing the appearance of an element when the mouse hovers over it.
+
+```html
+<div id="box">Hover over me</div>
+```
+
+```js
+const box = document.querySelector("#box");
+
+box.addEventListener("mouseover", function () {
+  box.style.backgroundColor = "red";
+});
+
+box.addEventListener("mouseout", function () {
+  box.style.backgroundColor = "";
+});
+```
+
+In this example, when the mouse cursor enters the div element with the ID of box, the mouseover event is triggered and the background color of the element is set to red. When the mouse cursor leaves the element, the mouseout event is triggered and the background color is reset. The result is that when the mouse cursor is over the element, the background color is red, and when the mouse cursor is not over the element, the background color is the default.
 
 The following Scrimba looks at the mouseover and mouseout events and then provides an example of using them together with data attributes.
 
 [Scrimba video](https://scrimba.com/c/cyw3zwu4)
 
 ## scroll event
+
+The scroll event in JavaScript is triggered when the user scrolls the page, either horizontally or vertically. This event can be used to track the position of the user's scroll, and to perform actions based on that position.
+
+```html
+<div id="box">Scroll down</div>
+```
+
+```js
+const box = document.querySelector("#box");
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 100) {
+    box.style.backgroundColor = "red";
+  } else {
+    box.style.backgroundColor = "";
+  }
+});
+```
+
+In this example, the scroll event is attached to the window object, which represents the entire browser window. When the user scrolls the page, the scroll event is triggered and the position of the user's scroll is checked using the scrollY property. If the user has scrolled down more than 100 pixels, the background color of the div element with the ID of box is set to red, otherwise the background color is reset. The result is that when the user scrolls down more than 100 pixels, the background color of the div element changes to red.
+
+The scroll event is an important tool for creating interactive experiences that respond to the user's actions on the page, and can be used to create a wide range of effects and behaviors.
 
 Here we'll look at the window.scroll event using a practical example.
 

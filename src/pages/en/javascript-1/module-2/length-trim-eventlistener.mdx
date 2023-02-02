@@ -19,15 +19,46 @@ We can use the length property to count the number of characters in a string.
 
 The trim() method is used to remove the spaces at the beginning and end of strings.
 
+```js
+"how long is a piece of string".length; // 29
+
+"  a string with empty spaces at the beginning and end  ".trim(); // "a string with empty spaces at the beginning and end
+```
+
 [Scrimba video](https://scrimba.com/c/cQRRVdTq)
 
 ## addEventListener
+
+addEventListener is a method in JavaScript that allows you to attach an event handler to a specific element in the HTML DOM (Document Object Model). It listens for a specific event, such as a click, mouseover, or keypress, and executes a callback function when the event is triggered.
+
+```js
+const button = document.querySelector("button");
+button.addEventListener("click", () => {
+  console.log("button clicked");
+});
+```
+
+In this example, the button constant is a reference to a button element in the HTML. The addEventListener method is then used to attach a click event handler to the button. When the button is clicked, the callback function inside addEventListener will be executed, logging the message "Button was clicked!" to the console.
 
 The Scrimba below explains how to use the addEventListener method to add event listeners to elements.
 
 [Scrimba video](https://scrimba.com/c/ckwGdkCv)
 
 ## onkeyup event
+
+The keyup event in JavaScript is fired when a user releases a keyboard key. This event is often used to perform some action based on the key that was pressed, such as updating the contents of a text field.
+
+Here is an example of using the keyup event to log the value of a text field to the console when a user releases a key:
+
+```js
+const textField = document.querySelector("input[type='text']");
+
+textField.addEventListener("keyup", function () {
+  console.log(textField.value);
+});
+```
+
+In this example, the textField constant is a reference to a text field element in the HTML. The addEventListener method is then used to attach a keyup event handler to the text field. When a user releases a key while typing in the text field, the callback function inside addEventListener will be executed, logging the current value of the text field to the console.
 
 The following explores the onkeyup event by building a character counter for a message input.
 
