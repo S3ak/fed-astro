@@ -12,6 +12,8 @@ In this lesson we will look at:
 - Retrieving parameters from the query string.
 - Passing variables to other pages in the query string.
 
+[Lesson Exercise Link](https://classroom.github.com/a/POHylKQK)
+
 ## Retrieving parameters
 
 In this video, we will look at how we can retrieve parameter values (essential variables) from the query string using code like the below:
@@ -26,6 +28,14 @@ const params = new URLSearchParams(queryString);
 // get the id parameter from the query string
 const id = params.get("id");
 ```
+
+<iframe
+  src="https://stackblitz.com/edit/vitejs-vite-y6pft5?embed=1&file=examples/retrieving-parameters.html&hideExplorer=1"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  title="Retrieving parameters from the querystring"
+></iframe>
 
 <details>
   <summary>View Video</summary>
@@ -43,6 +53,14 @@ const id = params.get("id");
 [Code](https://github.com/NoroffFEU/retrieving-parameters-from-querystrings) from the video.
 
 ## Adding parameters
+
+<iframe
+  src="https://stackblitz.com/edit/vitejs-vite-y6pft5?embed=1&file=examples/adding-parameters-list.html&hideExplorer=1"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  title="Retrieving parameters from the querystring"
+></iframe>
 
 In this video, we will add a variable to the href value in an `<a>` tag, retrieve it from the query string on a separate page, and then use its value in an API call.
 

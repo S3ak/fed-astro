@@ -13,3 +13,5 @@ layout: ../../../../layouts/MainLayout.astro
 - examine default parameters values in functions, building reusable functions to create HTML, and error handling.
 - see how to use arrow functions and what promises are when we use the regular promise syntax to make API calls.
 - look at what CORS errors are and how to get around them.
+
+[Lesson Exercise Link](https://classroom.github.com/a/POHylKQK)
