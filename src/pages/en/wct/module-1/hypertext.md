@@ -28,7 +28,7 @@ It was this desire to have associative links connecting multiple texts which lea
 
 Tim Berners-Lee, a British computer scientist, worked at the largest internet node in Europe, CERN. During his time there, a lot of information was being shared, but the sharing process was cumbersome and time-consuming. Berners-Lee’s "great idea" was to combine the existing technologies of the internet and Hypertext to create the World Wide Web. He wanted to be able to share knowledge and information in a "Web" of documents using hypertext. Working with Robert Cailliau, he proposed a model for the World Wide Web and developed the first web browser/editor, appropriately named WorldWideWeb.
 
-![Tim Berners-Lee](../images/wct/wct-tim-berners-lee.jpg)
+![Tim Berners-Lee](/images/wct/wct-tim-berners-lee.jpg)
 
 Berners-Lee chose not to license or patent the technology but allowed it to be used by anyone. Some of the first web pages were descriptions of the technology and instructions on how it could be used. The world's first web server was based at CERN and the first web page was launched on the 6th of August, 1991. This page is still active - [have a look](http://info.cern.ch/hypertext/WWW/TheProject.html).
 
@@ -64,9 +64,9 @@ It is up to the owner of a website to make sure that URLs to their website work 
 
 When we talk about web domains, we are talking about addresses connected to servers or other devices. Top-level domains, as the name implies, are the highest web domains in the domain name system hierarchy. There are currently over 1000 top-level domains; examples are .com, .org, and .net.
 
-![New York Times domain](../images/wct/wct-nytimes.png)
+![New York Times domain](/images/wct/wct-nytimes.png)
 
-![Wikipedia domain](../images/wct/wct-wikipedia.png)
+![Wikipedia domain](/images/wct/wct-wikipedia.png)
 
 Each device that connects to a network using the Internet Protocol (IP) is assigned an IP address written using a notation that looks like 2001:4860:4860::8888. IP addresses are great, but they aren’t easy to remember – imagine how difficult it would be to remember all the IP addresses of the websites you visit daily! This is where a Domain Name System (DNS) comes into play.
 

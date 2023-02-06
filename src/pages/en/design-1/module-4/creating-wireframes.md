@@ -15,7 +15,7 @@ As we have learned in the previous lesson, wireframes are an essential step in t
 
 One other key aspect of wireframes is that when introduced early in the design process, it will iron out minor issues and ensure the basic structure is decided on, making the whole process less taxing and saving money and time in the long run.
 
-![Invision](../images/design-1/Wireframes-intro/Creating/Creatingwireframes-1.png)
+![Invision](/images/design-1/Wireframes-intro/Creating/Creatingwireframes-1.png)
 
 _Figure 1: Team members contributing in InVision’s Freehand app (Source: invisionapp.com/freehand)_
 
@@ -37,7 +37,7 @@ The steps are discussed below:
 
 Wireframes may be the first step in the design process, but we first need to spend some time researching before creating a wireframe. We need to understand our target audience. We will perform this step by conducting user research and creating user personas and mood boards. It's also a good idea to see what competitors are doing in the market and the latest trends in the world of UX.
 
-![Target audience example](../images/design-1/Wireframes-intro/Creating/Creatingwireframes-2.png)
+![Target audience example](/images/design-1/Wireframes-intro/Creating/Creatingwireframes-2.png)
 
 _Figure 2: An example target audience for an online bookstore_
 
@@ -45,7 +45,7 @@ _Figure 2: An example target audience for an online bookstore_
 
 After conducting the user research, you should have a good idea of who your target audience is and the problems you need to solve. It will also give you a clear idea of what should be included on the wireframe, how many pages you will need and the different journeys users will take to meet their goals. Ensure you have a clear plan of the user flows and information architecture of the site.
 
-![Wireframe user flow](../images/design-1/Wireframes-intro/Creating/Creatingwireframes-3.png)
+![Wireframe user flow](/images/design-1/Wireframes-intro/Creating/Creatingwireframes-3.png)
 
 _Figure 3: An example of a wireframe user flow for a job-hunting app_
 
@@ -57,7 +57,7 @@ With your wireframe recreated digitally, you will be able to share it with other
 
 An online, digital wireframe also alleviates problems with incorporating the thoughts from the various team members. It may allow for comments from specific team members to be visible to all team members. The image below demonstrates how the process started on paper and was then created digitally using InVision’s Freehand.
 
-![Job-hunting app](../images/design-1/Wireframes-intro/Creating/Creatingwireframes-4.jpeg)
+![Job-hunting app](/images/design-1/Wireframes-intro/Creating/Creatingwireframes-4.jpeg)
 
 _Figure 4: The job-hunting app from paper to computer_
 
@@ -81,7 +81,7 @@ InVision Freehand assist designers in getting ideas to paper. Freehand design al
 
 For more information on Freehand, [visit their website](https://www.invisionapp.com/freehand)
 
-![InVision app](../images/design-1/Wireframes-intro/Creating/Creatingwireframes-6.png)
+![InVision app](/images/design-1/Wireframes-intro/Creating/Creatingwireframes-6.png)
 
 _Figure 6: InVision’s Freehand app (Source: invisionapp.com/freehand)_
 
@@ -91,7 +91,7 @@ Figma is a web-based graphics editing and user interface design app. You can use
 
 For more on wireframes using Figma, [visit their website here](hhttps://www.figma.com/blog/how-to-wireframe/)
 
-![Figma](../images/design-1/Wireframes-intro/Creating/Creatingwireframes-10.png)
+![Figma](/images/design-1/Wireframes-intro/Creating/Creatingwireframes-10.png)
 
 _Figure 8: Wireframes in Figma (Source: figma.com)_
 
@@ -119,7 +119,7 @@ Wireframes may differ from one website to another, and you may need to add some 
 
 - **Contact information** - This can be the phone number, social media and a physical address.
 
-![Wireframe elements of an app](../images/design-1/Wireframes-intro/Creating/Creatingwireframes-8.png)
+![Wireframe elements of an app](/images/design-1/Wireframes-intro/Creating/Creatingwireframes-8.png)
 
 _Figure 8: An example of wireframe elements used to illustrate a mobile app_
 
@@ -135,7 +135,7 @@ For the body content, you will be looking at grouping the content boxes and butt
 
 This is just a very basic example, as there are many different ways to group page elements. You will most probably come up with many different versions of one page.
 
-![Grouping wireframe elements](../images/design-1/Wireframes-intro/Creating/Creatingwireframes-9.png)
+![Grouping wireframe elements](/images/design-1/Wireframes-intro/Creating/Creatingwireframes-9.png)
 
 _Figure 9: Grouping of wireframe elements_
 

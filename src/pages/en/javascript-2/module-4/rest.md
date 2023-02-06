@@ -11,7 +11,7 @@ REST (REpresentational State Transfer) is an architectural style for providing w
 
 A system that complies with these standards can be called a RESTful system.
 
-![Web API](../images/javascript-2/async/rest-api.png)
+![Web API](/images/javascript-2/async/rest-api.png)
 
 ## How REST APIs work
 

@@ -13,7 +13,7 @@ There are many different types of themes, some are free and some you pay for. Th
 
 ## Appearance
 
-![Appearance](../images/cms/1-4-appearance.jpg)
+![Appearance](/images/cms/1-4-appearance.jpg)
 
 To add a theme, you click ‘Add New Theme’, search for the theme you want and then install and activate. If you change the theme, navigate to your site by hovering over your website’s name in the top left and clicking ‘Visit site’ - you’ll see the content is displayed differently.
 

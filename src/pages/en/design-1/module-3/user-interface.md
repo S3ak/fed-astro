@@ -13,7 +13,7 @@ This lesson will look at user interface design and how UI kits help designers cr
 
 User interface design refers to the visual elements of a product. Simply put, it is the look and feel of a website. The branding for a company should come through in the user interface design to attract and engage the target audience.
 
-![User-Interface example on app](../images/design-1/User-Interface/Userinterfacedesign-1.png)
+![User-Interface example on app](/images/design-1/User-Interface/Userinterfacedesign-1.png)
 
 _Figure 1. The interface of a banking app._
 
@@ -23,13 +23,13 @@ UI design is focused specifically on the point of contact where a human user int
 
 A food ordering app's user interface is there to make the user feel good about ordering food and guides them towards satisfying their hunger.
 
-![Food delivery app](../images/design-1/User-Interface/Userinterfacedesign-2+.jpg)
+![Food delivery app](/images/design-1/User-Interface/Userinterfacedesign-2+.jpg)
 
 _Figure 2. Mr. Delivery Mobile food app, 2022._
 
 The most crucial UI design aspect is to make the interaction between human (user) and software (product) easy and smooth while also keeping the look attractive and straightforward.
 
-![A relaxing app](../images/design-1/User-Interface/Userinterfacedesign-3.png) _Figure 3. An example of an app that helps users relax and fall asleep easily._
+![A relaxing app](/images/design-1/User-Interface/Userinterfacedesign-3.png) _Figure 3. An example of an app that helps users relax and fall asleep easily._
 
 ## UI elements
 
@@ -39,7 +39,7 @@ UI elements refer to the app or website's design elements that the user will be 
 
 Input controls let the user input information on the website or app. An excellent example of input controls is list boxes, where users can select multiple items at once. Another good example is text fields where the user enters text like an email address, name, surname and phone number.
 
-![Input controls](../images/design-1/User-Interface/Userinterfacedesign-4.png)
+![Input controls](/images/design-1/User-Interface/Userinterfacedesign-4.png)
 
 _Figure 4. Input controls._
 
@@ -49,7 +49,7 @@ Navigational components focus on steering the user in a specific direction. Any 
 
 Good examples are icons and pagination. When the user clicks on the cart's icon, they will be directed to the cart page, and when a user searches for an item, they will be directed to the search results page.
 
-![Navigational components](../images/design-1/User-Interface/Userinterfacedesign-5.png)
+![Navigational components](/images/design-1/User-Interface/Userinterfacedesign-5.png)
 
 _Figure 5: Navigational components._
 
@@ -57,7 +57,7 @@ _Figure 5: Navigational components._
 
 Any form of communication with the user can be seen as an information component. This includes items such as the notification that an item was successfully added to your shopping cart. Information components inform the user of progress, give them tips on how to use specific tools and allow them to become involved with a brand by signing up for newsletters, for example.
 
-![Informational components](../images/design-1/User-Interface/Userinterfacedesign-6.png)
+![Informational components](/images/design-1/User-Interface/Userinterfacedesign-6.png)
 
 _Figure 6: Informational components._
 
@@ -65,7 +65,7 @@ _Figure 6: Informational components._
 
 Containers are elements that contain other elements. One such design element is the accordion. An accordion consists of a list of items that are vertically stacked. Each of these elements hides a series of other design elements that are revealed when the user clicks on the accordion panel. More information is revealed when the specific accordion panel is activated by pushing existing page content further down the page.
 
-![An accordion](../images/design-1/User-Interface/Userinterfacedesign-7.png)
+![An accordion](/images/design-1/User-Interface/Userinterfacedesign-7.png)
 
 _Figure 7: An example of an accordion._
 
@@ -92,7 +92,7 @@ The process starts by taking screenshots of the design components. Every element
 - lists
 - interactive components.
 
-![An interface inventory](../images/design-1/User-Interface/Userinterfacedesign-8.png)
+![An interface inventory](/images/design-1/User-Interface/Userinterfacedesign-8.png)
 
 _Figure. 8: An example of an interface inventory._
 
@@ -146,7 +146,7 @@ Design systems are assembled in code and provide designers and developers with a
 
 A UI kit is a useful resource that can assist UI designers in designing an interface. UI kits are handy tools to get inspiration from and help save time in the design process. A UI kit consists of components such as fonts, icons, buttons, checkboxes, to name a few. Below is an example of Material Design UI kits that are open for designers to use. [Downlaod UI kits here](https://material.io/design/color/dark-theme.html#resources)
 
-![Material UI kit](../images/design-1/User-Interface/Userinterfacedesign-9.png)
+![Material UI kit](/images/design-1/User-Interface/Userinterfacedesign-9.png)
 
 _Figure 9: Material Design UI example (Source: [material.io](https://material.io/design/material-theming/))._
 

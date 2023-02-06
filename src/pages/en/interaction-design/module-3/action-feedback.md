@@ -81,7 +81,7 @@ Use dropdowns, check-boxes, and dialog boxes. These reduce errors and increase e
 
 Warnings and visual clues are a good way to alert users to potential problems, but don't hold everything up just to force them to write the data correctly.
 
-![A warning example](../images/interaction-design/3-2-1.jpeg)
+![A warning example](/images/interaction-design/3-2-1.jpeg)
 
 ## What to Feel
 
@@ -89,7 +89,7 @@ As the user starts to interact with the interface we need to provide quick and d
 
 Without feedback the user wouldn't know if their actions were getting them closer to their goal. It lets the user know whether they should keep doing what they're doing, or stop it and change.
 
-![Ease of use example](../images/interaction-design/3-2-2.gif)
+![Ease of use example](/images/interaction-design/3-2-2.gif)
 
 It is essential that the feedback we create enhance the user's experience and makes things more easily understood, rather than adding unnecessary complications. If the feedback is too dominant it can distract the user. Feedback that is too removed and quiet can be missed by users.
 

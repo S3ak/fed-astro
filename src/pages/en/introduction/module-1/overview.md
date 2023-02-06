@@ -11,7 +11,7 @@ Front-end Development is an exciting, new field that is quickly becoming an impo
 
 Front-end differs from other areas of programming because of its dual-focus: code on the one hand, and design on the other. A Front-end Developer is able to understand the needs and wants of a user, and then how to use code and design to achieve those results.
 
-![HTMl, CSS, JS plus Design](../images/introduction/introduction-code-and-design.png)
+![HTMl, CSS, JS plus Design](/images/introduction/introduction-code-and-design.png)
 
 We will be giving you all the skills and building blocks you need to become a great front-end developer; able to design user-friendly websites and use HTML, CSS, and JavaScript to build them.
 

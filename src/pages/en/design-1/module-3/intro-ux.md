@@ -19,7 +19,7 @@ UX permeates all of our interactions in the digital and physical world. Anything
 
 But herein lies the problem; when the mouse is connected to the USB charger, the user can't use it. Even though the design of the mouse is sleek and stylish, it's unusable while charging. Would you say this is good or bad UX?
 
-![Poor user experience](../images/design-1/UX-Design/IntroductiontoUXdesign-1.jpeg)
+![Poor user experience](/images/design-1/UX-Design/IntroductiontoUXdesign-1.jpeg)
 
 _Figure 1: This is a bad UX experience for a user who has to work while the mouse is charging._
 
@@ -46,7 +46,7 @@ The UX designer has one goal: to ensure the website/app is easy to understand an
 
 A product that leaves users frustrated, confused or lost doesn't have good UX. The ideal is to have a website/app that looks good and has a useful UI. If an app only looks nice but doesn't work as you intend it to, there's no point in using it.
 
-![A UX designer defining user experience](../images/design-1/UX-Design/IntroductiontoUXdesign-2.jpeg)
+![A UX designer defining user experience](/images/design-1/UX-Design/IntroductiontoUXdesign-2.jpeg)
 
 _Figure 2: A UX designer defining user experience._
 
@@ -84,13 +84,13 @@ What are the reasons and motivations behind this decision? It could be because o
 
 Target audience research will assist in the creation of user personas. These personas are fictional, but they represent users' needs, goals and lifestyles to help you better understand your audience and identify where the users’ needs lie.
 
-![User Persona example](../images/design-1/UX-Design/IntroductiontoUXdesign-3.jpeg)
+![User Persona example](/images/design-1/UX-Design/IntroductiontoUXdesign-3.jpeg)
 
 _Figure 3: An example of a user persona._
 
 Storyboards take these user personas and place them in real-life situations to determine how a person could use your product and where they will interact with it.
 
-![Storyboard example](../images/design-1/UX-Design/IntroductiontoUXdesign-4.jpeg)
+![Storyboard example](/images/design-1/UX-Design/IntroductiontoUXdesign-4.jpeg)
 
 _Figure 4: Storyboard of Audi’s customer engagement (source: slickandquick.com)._
 
@@ -102,7 +102,7 @@ Information should be laid out logically so that content across the website or a
 
 Humans crave structure and will interact much better with a system that is intuitive and sensible.
 
-![Information Architecture](../images/design-1/UX-Design/IntroductiontoUXdesign-5.png)
+![Information Architecture](/images/design-1/UX-Design/IntroductiontoUXdesign-5.png)
 
 _Figure 5: Information on the architecture of a simple website._
 
@@ -110,11 +110,11 @@ _Figure 5: Information on the architecture of a simple website._
 
 Mapping the basic user journey and route a user will follow - from beginning to end - when using your product is the user flow and helps you optimise and plan the user's process and experience.
 
-![User flow example](../images/design-1/UX-Design/IntroductiontoUXdesign-6.png)
+![User flow example](/images/design-1/UX-Design/IntroductiontoUXdesign-6.png)
 
 _Figure 6: User flow beginning (planning) stage (Source: [careerfoundry.com](http://careerfoundry.com/))._
 
-![User flow end stage](../images/design-1/UX-Design/IntroductiontoUXdesign-7.png)
+![User flow end stage](/images/design-1/UX-Design/IntroductiontoUXdesign-7.png)
 
 _Figure 7: User flow end stage (Source: [careerfoundry.com](http://careerfoundry.com/))._
 
@@ -122,11 +122,11 @@ _Figure 7: User flow end stage (Source: [careerfoundry.com](http://careerfoundry
 
 Wireframes and prototypes are things that UI designers usually work on with UX designers and are the beginning stages of the visual design process. This topic will be covered more thoroughly later on in the programme.
 
-![A simple wireframe](../images/design-1/UX-Design/IntroductiontoUXdesign-8.png)
+![A simple wireframe](/images/design-1/UX-Design/IntroductiontoUXdesign-8.png)
 
 _Figure 8: An example of a simple wireframe._
 
-![Wireframes with user flow](../images/design-1/UX-Design/IntroductiontoUXdesign-9.png)
+![Wireframes with user flow](/images/design-1/UX-Design/IntroductiontoUXdesign-9.png)
 
 _Figure 9: An example of wireframes within a user flow._
 

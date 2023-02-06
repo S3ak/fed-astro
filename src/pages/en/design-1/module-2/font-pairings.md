@@ -35,13 +35,13 @@ But before you go crazy with the decorative fonts, make sure they are:
 
 Keep in mind that most online users scan through information. If a headline consists of a font that is too intricate and hard to read, the user may be confused and, in the end, waste time trying to figure out what the headline is communicating. It’s never a good idea to let the user think too long about information.
 
-![Font pairings](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-1.png)
+![Font pairings](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-1.png)
 
 _Figure 1. An example of a decorative font._
 
 Serif fonts are usually used for headings as they have small lines on the letters giving the font character. They stand out more and are a good choice for headings. But again, it’s crucial to consider the brand. Would a serif font appeal to a company selling dirt bikes or would it be better suited to a bookstore? The bookstore would most likely be the best fit.
 
-![Serif fonts](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-2.png)
+![Serif fonts](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-2.png)
 
 _Figure 2. The serif font fits the genre of the brand better._
 
@@ -51,7 +51,7 @@ The content text for your website should be clean and legible with proper spacin
 
 Cursive and handwriting fonts can be harder to read in more significant blocks of text. Reserve these fonts for specific areas or use them for only a select few words, such as for quotations.
 
-![Cursive and script fonts](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-3.png)
+![Cursive and script fonts](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-3.png)
 
 _Figure 3. Cursive and handwriting fonts are harder to read._
 
@@ -75,7 +75,7 @@ Using too many fonts on the website may confuse users and clutter the design. Us
 
 Hierarchy in typography is arranging the text in order of importance. The word hierarchy is fundamental in the world of design. It’s important because it helps to convey a sequence for the user visually. The user needs to know by looking at the design which text is more important and therefore, which text needs to be read first.
 
-![Type hierarchy](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-4.jpeg)
+![Type hierarchy](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-4.jpeg)
 
 _Figure 4. Hierarchy with typography._
 
@@ -99,7 +99,7 @@ It can be achieved with:
 
 In the above example, we have a different creative font used for the headings, compared to a simple serif font used for the body text. The headings are more significant than the content text, in font size and weight. The thicker and bolder letters help emphasise the headings on the page and there is colour added in the heading. This allows the first couple of words to stand out.
 
-![Good contrast example](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-5.png)
+![Good contrast example](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-5.png)
 
 _Figure 5. A good example of contrast._
 
@@ -119,7 +119,7 @@ If a website text is not legible, the user won't be able to use your website. Ma
 
 Remember that not all typefaces/font choices are the same with regards to their sizing, for example 16px Verdana may be smaller than 16px of a different font. Responsive testing of the website is needed to check if your text is readable on smaller screens.
 
-![Different sizes of text](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-6.png)
+![Different sizes of text](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-6.png)
 
 _Figure 6. The difference between bigger text and text that is too small._
 
@@ -131,7 +131,7 @@ Justifying text may work in print design, but it is something to avoid in websit
 
 Text that is centre aligned is generally harder to read because the eye works harder to find where the line begins to continue reading. Centre alignment can be used on a headline but should be avoided on long blocks to text.
 
-![Centre-aligned text](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-7.jpeg)
+![Centre-aligned text](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-7.jpeg)
 
 _Figure 7. Centre-aligned text vs. Left aligned text._
 
@@ -143,7 +143,7 @@ Text on images can be hard to read for the online user. If needed for text on im
 
 Avoid using low contrast, i.e. dark text on a dark background or light text on a light background. Reverse type should be used sparingly. Studies show that it's much better to use black text on white, compared to white text on black. Sometimes reverse type can bring in a dramatic feel to the page, but it should be used sparingly and specifically for areas with minimal or bigger text.
 
-![Dark text on dark background](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-8.png)
+![Dark text on dark background](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-8.png)
 
 _Figure 8. Dark text on a dark background colour is hard to read._
 
@@ -157,7 +157,7 @@ For smaller screen sizes, i.e. mobile, this number would obviously be less. Too 
 
 Having all your letters capitalised makes it harder for your user to read the text. It actually slows down the time it takes to read the content. Also, it gives the impression of shouting which is not a friendly user experience. If you need to use capital letters in some words, make sure not to write the text in caps but make use of the CSS text-transform property to change the style easily later.
 
-![Lowercase usage](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-9.png)
+![Lowercase usage](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-9.png)
 
 _Figure 9. Using lowercase in paragraph text is a lot easier to read_
 
@@ -197,19 +197,19 @@ There are some disadvantages to using Google fonts:
 
 Go to the Google fonts website and search for a font. Make use of the categories section to refine your search - as you can select categories like serif, sans serif, handwriting and others.
 
-![Google fonts](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-10.png)
+![Google fonts](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-10.png)
 
 _Figure 10. Google fonts (Google Fonts, 2020)_
 
 Choose your font and click on the + icon. A great way to preview your font and test out the fonts is to highlight the text and write your own text in its place.
 
-![Applying a text sample](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-11.png)
+![Applying a text sample](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-11.png)
 
 _Figure 11. Applying a sample of text to all fonts (Google Fonts, 2020)_
 
 The embed tab shows the code to use. Copy and paste this code into your HTML and CSS files. There is link code for your font, which you can use in the /head/ tag of your html page. There is a standard option or import option.
 
-![Embed tab](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-12.png)
+![Embed tab](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-12.png)
 
 _Figure 12. The embed tab showing the code (Google Fonts, 2020)._
 
@@ -231,7 +231,7 @@ Variable fonts offer this as a single file and gives more flexibility with weigh
 
 With CSS3, one can use the font-stretch property with different values which - until variable fonts came along - one could only use the values specified when providing different font files for each width.
 
-![Decovar variations](../images/design-1/Fonts/Fontpairingsusabilityandthestyletile-13.png)
+![Decovar variations](/images/design-1/Fonts/Fontpairingsusabilityandthestyletile-13.png)
 
 _Figure 13. The decovar font in different variations._
 

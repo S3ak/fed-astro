@@ -107,13 +107,13 @@ As a student at Noroff, you get free access to the LinkedIn Learning library of 
 
 Log into https://student.noroff.no
 
-![My page](../images/introduction/introduction-login.jpg)
+![My page](/images/introduction/introduction-login.jpg)
 
 ### 2. Click LinkedIn icon
 
 Once logged in, click on the LinkedIn Learning icon.
 
-![My page](../images/introduction/introduction-student-access.jpg)
+![My page](/images/introduction/introduction-student-access.jpg)
 
 ### 3. Sync
 

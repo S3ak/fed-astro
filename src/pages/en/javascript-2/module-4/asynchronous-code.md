@@ -30,7 +30,7 @@ console.log("resultTwo", resultTwo);
 // Logs: 40
 ```
 
-![Synchronous code example](../images/javascript-2/async/asynchronous-code-example.png)
+![Synchronous code example](/images/javascript-2/async/asynchronous-code-example.png)
 
 ## Asynchronous code
 
@@ -55,7 +55,7 @@ setTimeout(() => {
 console.log("Console.log AFTER timer");
 ```
 
-![Asynchronous code example](../images/javascript-2/async/asynchronous-code-example.png)
+![Asynchronous code example](/images/javascript-2/async/asynchronous-code-example.png)
 
 Take note of how the timer code inside the timer runs _after_ the other console.logs.
 

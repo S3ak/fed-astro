@@ -49,7 +49,7 @@ export default function Greeting() {
 
 If you were to use the above function or component, you would get a tooltip that contains what's written in our JSDocs comment. This is very useful for other developers who want to use our functions and/or React components:
 
-![JSDocs Tooltip](../images/javascript-2/jsdocs/jsdocs-image-0.png)
+![JSDocs Tooltip](/images/javascript-2/jsdocs/jsdocs-image-0.png)
 
 So far we've only added a description for our function and React component. This is useful on its own but we can extend the functionality to make JSDocs even more useful.
 
@@ -173,7 +173,7 @@ Note the following in the tooltip:
 1. The data types at the top (`function addNumbers(a: number, b: number): number`), lets a developer quickly see what data types they need to be passing in.
 2. The `@example` field. This lets a developer quickly see how to use the function. It also adds an extra level of professionalism.
 
-![JSDocs @example Tooltip](../images/javascript-2/jsdocs/jsdocs-image-1.png)
+![JSDocs @example Tooltip](/images/javascript-2/jsdocs/jsdocs-image-1.png)
 
 ## Optional parameters
 
@@ -317,7 +317,7 @@ We have documented the `addNumbers` function from earlier and run the JSDocs gen
 
 **Note:** The styling and layout might look slightly different to yours if the JSDocs versions are different. This is not an issue and you'll want to make sure you'll use the latest stable version of JSDocs.
 
-![JSDocs Generated HTML](../images/javascript-2/jsdocs/jsdocs-image-2.png)
+![JSDocs Generated HTML](/images/javascript-2/jsdocs/jsdocs-image-2.png)
 
 ### Generating documentation for a whole project
 

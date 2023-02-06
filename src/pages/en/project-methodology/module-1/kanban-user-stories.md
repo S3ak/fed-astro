@@ -12,7 +12,7 @@ The toughest part of a project is always how to start, prioritize, and when to f
 
 A basic workflow in Kanban looks like this:
 
-![Kanban](../images/project-methodology/1-3-kanban.jpg)
+![Kanban](/images/project-methodology/1-3-kanban.jpg)
 
 ## Kanban values, principles and agenda
 
@@ -20,11 +20,11 @@ Like Agile, Kanban also has values and principles.
 
 ## Kanban values
 
-![Kanban values](../images/project-methodology/1-3-kanbanvalues.png)
+![Kanban values](/images/project-methodology/1-3-kanbanvalues.png)
 
 ## Kanban principles
 
-![Kanban principles](../images/project-methodology/1-3-kanbanprinciples.png)
+![Kanban principles](/images/project-methodology/1-3-kanbanprinciples.png)
 
 ### The general practices of Kanban
 
@@ -41,7 +41,7 @@ As Kanban is a workflow system, there are general practices used to make the wor
 
 Kanban has 2 specific roles, namely:
 
-![Kanban roles](../images/project-methodology/1-3-kanbanroles.png)
+![Kanban roles](/images/project-methodology/1-3-kanbanroles.png)
 
 To use an example: imagine a Toyota Corolla workshop is installing 10 new doors onto various cars. When you only have 5 doors left in a pack, you use a Kanban card to write an order for another 10 doors. By the time you have reached your last door in your first pack, you can be sure that you will have a pack of 10 new doors manufactured and ready to be used.
 
@@ -69,7 +69,7 @@ User stories are normally written down on sticky note sized sheets. They are stu
 
 ### Theme
 
-![Theme](../images/project-methodology/1-3-theme.jpg)
+![Theme](/images/project-methodology/1-3-theme.jpg)
 
 A theme is a collection of stories within a category and often has organization-wide importance and is generally quite broad in its focus. An example of a theme might be ‘customer contact’.
 

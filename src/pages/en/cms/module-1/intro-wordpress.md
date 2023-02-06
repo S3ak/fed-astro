@@ -19,7 +19,7 @@ There are a few to choose from, but Xampp, Wamp or Mamp are commonly used. Xampp
 
 In our example, we’re going to be running Xampp which you can download here. Once downloaded and installed, you should be able to open an application that looks like this:
 
-![Local server](../images/cms/1-2-localserver.jpg)
+![Local server](/images/cms/1-2-localserver.jpg)
 
 _Note: Mac users may prefer to choose MAMP from the beginning as it’s well suited for Mac._
 
@@ -31,17 +31,17 @@ Next, you need to download the WordPress files from here. Take the zip file you�
 
 Navigate in your file explorer to where you have installed Xampp. On a Windows PC, it will likely be C:\xampp. For Mac go to the Volumes tab, click Mount and then Explore.
 
-![Xampp](../images/cms/1-2-download.jpg)
+![Xampp](/images/cms/1-2-download.jpg)
 
 Now click into the htdocs folder and create a new folder called ‘flower-power’. Inside this folder, paste your zip file with all your WordPress files and extract the zip file.
 
-![Zip file](../images/cms/1-2-download2.jpg)
+![Zip file](/images/cms/1-2-download2.jpg)
 
 ### 3. Create a database for WordPress
 
 It’s essential to understand the relationship WordPress has with its database. All the posts, pages, and comments made on WordPress’s admin side are stored in this database. To create a MySQL database, go to http://localhost/phpmyadmin/ and click Databases.
 
-![Create database](../images/cms/1-2-createdatabase.jpg)
+![Create database](/images/cms/1-2-createdatabase.jpg)
 
 Enter a database name called ‘flower-power’ and click create.
 
@@ -51,7 +51,7 @@ Go to localhost/flower-power, which will begin the installation wizard. Firstly,
 
 Enter ‘flower-power’ as the database name. Set the username to “root”, leave the password blank and leave database host as localhost and table prefix as wp\_.
 
-![Wordpress install](../images/cms/1-2-wordpressinstall.jpg)
+![Wordpress install](/images/cms/1-2-wordpressinstall.jpg)
 
 It’s important to note that this only works for installation on your local computer. When you upload the website to your web host, you’ll need to create a user and assign a password with access to the database.
 
@@ -59,7 +59,7 @@ Next click ‘Run the installation’. Now set the Site Title to ‘Flower Power
 
 Finally, click ‘Login’ and input your username and password you just created. You should now be logged into your WordPress admin site.
 
-![Wordpress install](../images/cms/1-2-final.jpg)
+![Wordpress install](/images/cms/1-2-final.jpg)
 
 ## Activity
 

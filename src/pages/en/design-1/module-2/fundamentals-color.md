@@ -23,7 +23,7 @@ Communicating about colour becomes important in design, as the mere words “blu
 
 Every corporate identity has its own colour combination, and this must be applied uniformly across all elements, consistently. To achieve this, we need to be able to code and standardize colours. Pantone is an example of such a colour-code; printers and designers use it to determine which exact colour to use. Pantone also provides a standard to measure colours from. In web development, colours may be specified as an RGB (sRGB) triplet or in hexadecimal (HEX) code. Later in these lessons, we will learn and explore more about how the hexadecimal colour model works.
 
-![Youtube colours](../images/design-1/Colours/Fundamentalsofcolour-1.png)
+![Youtube colours](/images/design-1/Colours/Fundamentalsofcolour-1.png)
 
 _Figure 1. YouTube colours (youtube.com, 2020)_
 
@@ -45,7 +45,7 @@ A colour is described in three ways:
 
 - Its value or brightness (intensity)
 
-![Color values](../images/design-1/Colours/Fundamentalsofcolour-2.png)
+![Color values](/images/design-1/Colours/Fundamentalsofcolour-2.png)
 
 _Figure 2. An example of hue, saturation and brightness._
 
@@ -55,7 +55,7 @@ Although pink, crimson, and brick are all variations of the colour red, each hue
 
 Hue, saturation, and brightness (HSB, sometimes called HSV) are aspects of colour in the red (R), green (G), and blue (B) scheme. All possible colours can be specified according to hue, saturation, and brightness, just as colours can be represented in terms of the R, G, and B components.
 
-![HSB colour](../images/design-1/Colours/Fundamentalsofcolour-3.jpeg)
+![HSB colour](/images/design-1/Colours/Fundamentalsofcolour-3.jpeg)
 
 _Figure 3. The HSB colour cylinder (Wikimedia, 2015)_
 
@@ -73,7 +73,7 @@ _Value (a.k.a. brightness, lightness/ luminance)_
 
 A measure of the amount of light reflected from a hue. Hues with a high content of white have a higher luminance or value. Goes from bright colour or white at 100% to black at 0%.
 
-![Color models](../images/design-1/Colours/Fundamentalsofcolour-4.jpeg)
+![Color models](/images/design-1/Colours/Fundamentalsofcolour-4.jpeg)
 
 _Figure 4. The CMYK, RGB and HSB Lab colour models in Illustrator CC 2020. They appear in the same way in Photoshop and other graphic programs._
 
@@ -99,7 +99,7 @@ Y = Yellow
 
 K = Black / key
 
-![CMYK method](../images/design-1/Colours/Fundamentalsofcolour-5.png)
+![CMYK method](/images/design-1/Colours/Fundamentalsofcolour-5.png)
 
 _Figure 5. Subtractive (CMYK) colour method._
 
@@ -111,7 +111,7 @@ When we work on a computer, the colours we see on the screen are created with li
 
 The R = Red, G = Green and B = Blue colours are light primaries and colours are created with light.
 
-![RGB colours](../images/design-1/Colours/Fundamentalsofcolour-6.png)
+![RGB colours](/images/design-1/Colours/Fundamentalsofcolour-6.png)
 
 _Figure 6. Addictive (RGB) colour method._
 
@@ -131,7 +131,7 @@ Colour gamut is the entire range of colours and tones achievable by an imaging s
 
 Reproducing colour can be problematic in terms of printed and digital media; what we see on a monitor cannot be printed. Although a monitor may be able to display “true colour” (16,000,000 colours), millions of these colours are outside of the spectrum available to printers. Since digital designs are generated using the RGB colour system, colours used in those designs must be part of the CMYK spectrum or they will not be reproduced with proper colour rendering. Working within the CMYK colour system, or choosing colours from Pantone© palettes, ensures proper colour rendering.
 
-![Colour gamut](../images/design-1/Colours/Fundamentalsofcolour-7.jpeg)
+![Colour gamut](/images/design-1/Colours/Fundamentalsofcolour-7.jpeg)
 
 _Figure 7. Colour gamut (myworldofcolour.wordpress.com, 2010)_
 
@@ -139,7 +139,7 @@ _Figure 7. Colour gamut (myworldofcolour.wordpress.com, 2010)_
 
 A colour wheel (also referred to as a colour circle) is a visual representation of colours, arranged according to their colour relationship. Begin a colour wheel by positioning primary hues (the main colours from which others are created – red, yellow and blue) at equal distances from one another, and then create a bridge between primaries using secondary and tertiary colours.
 
-![Colour wheel](../images/design-1/Colours/Fundamentalsofcolour-8.png)
+![Colour wheel](/images/design-1/Colours/Fundamentalsofcolour-8.png)
 
 _Figure 8. The colour wheel._
 
@@ -147,7 +147,7 @@ _Primary Colours_
 
 As the name suggests, primary colours are the main colours at the top. These can be seen as the parents of all the other colour combinations. They are the foundation of every other colour and can create millions of colours by mixing the three primary pigments which are yellow, red, and blue.
 
-![Primary colours](../images/design-1/Colours/Fundamentalsofcolour-9.png)
+![Primary colours](/images/design-1/Colours/Fundamentalsofcolour-9.png)
 
 _Figure 9. Primary colours._
 
@@ -155,7 +155,7 @@ _Secondary Colour_
 
 They can be seen as the children of the primary colours and consist of green, orange and purple. In colour theory when we mix yellow and red it becomes orange. Red and blue becomes purple and blue and yellow becomes green. The end result of mixing the primary colours are then called secondary colours.
 
-![Secondary colours](../images/design-1/Colours/Fundamentalsofcolour-10.png)
+![Secondary colours](/images/design-1/Colours/Fundamentalsofcolour-10.png)
 
 _Figure 10. Secondary colours._
 
@@ -163,7 +163,7 @@ _Tertiary Colours_
 
 Tertiary colours are the colours in between the primary and secondary colours and can be seen as the grandchildren of the three primary colours. They consist of yellow/orange, red/orange, red/purple, blue/purple, blue/green and yellow/green.
 
-![Tertiary colours](../images/design-1/Colours/Fundamentalsofcolour-11.png)
+![Tertiary colours](/images/design-1/Colours/Fundamentalsofcolour-11.png)
 
 _Figure 11. Tertiary colours._
 
@@ -171,13 +171,13 @@ _Complementary Colour_
 
 These are located opposite one another on a colour wheel. To call those hues that are directly opposite one another “complements of each other” is correct. Complementary colours bring out the best in each other.
 
-![Complementary colours](../images/design-1/Colours/Fundamentalsofcolour-12.png)
+![Complementary colours](/images/design-1/Colours/Fundamentalsofcolour-12.png)
 
 _Figure 12. Complementary colours._
 
 When fully saturated complements are brought together, interesting effects are noticeable. This may be a desirable illusion, or a problem if you are creating visuals that needs to be read.
 
-![Saturated colours](../images/design-1/Colours/Fundamentalsofcolour-13.png)
+![Saturated colours](/images/design-1/Colours/Fundamentalsofcolour-13.png)
 
 _Figure 13. A problem occurs when reading the red text on the green background._
 
@@ -185,7 +185,7 @@ _Analogous colours_
 
 Analogous colours are colours located close together on a colour wheel.
 
-![Analogous colours](../images/design-1/Colours/Fundamentalsofcolour-14.png)
+![Analogous colours](/images/design-1/Colours/Fundamentalsofcolour-14.png)
 
 _Figure 14. Analogous colours._
 
@@ -193,7 +193,7 @@ _Colour Ranges_
 
 A colour wheel can be divided into ranges that are visually active or passive. Active colours will seem to advance (pop) when placed against passive hues. Passive colours seem to recede (fade) when positioned against active hues. This becomes important when dealing with the interaction of colours.
 
-![Passive colours](../images/design-1/Colours/Fundamentalsofcolour-15.png)
+![Passive colours](/images/design-1/Colours/Fundamentalsofcolour-15.png)
 
 _Figure 15. Passive and active colours._
 
@@ -215,7 +215,7 @@ We determine whether or not our colour usage is successful by critically assessi
 
 Using a colour wheel and a template, the relationships between colours are easy to identify:
 
-![Complementary colours](../images/design-1/Colours/Fundamentalsofcolour-15.png)
+![Complementary colours](/images/design-1/Colours/Fundamentalsofcolour-15.png)
 
 _Figure 16. Complementary colours._
 
@@ -227,7 +227,7 @@ When creating designs that are intended to be read, it is important to offer the
 
 Yellow text on a white background or blue text on a black background is difficult to read due to the low level of contrast between figure and ground.
 
-![Low contrast](../images/design-1/Colours/Fundamentalsofcolour-17.jpeg)
+![Low contrast](/images/design-1/Colours/Fundamentalsofcolour-17.jpeg)
 
 _Figure 17. Difficult to read text due to the low level of contrast between figure and ground._
 
@@ -235,7 +235,7 @@ An occurrence known as “simultaneous contrast” (or chromo stereopsis) may ha
 
 Some colour combinations, such as red text on a blue background, cause illusions when positioned together.
 
-![Red text](../images/design-1/Colours/Fundamentalsofcolour-18.jpeg)
+![Red text](/images/design-1/Colours/Fundamentalsofcolour-18.jpeg)
 
 _Figure 18. Red text on a blue background._
 
@@ -243,7 +243,7 @@ _Figure 18. Red text on a blue background._
 
 It is good to have some knowledge in understanding the different emotional attributes the main colour groups can bring to a design. The main colours are: Red, Orange, Yellow, Green, Blue, Purple, White and Black.
 
-![Colour guide](../images/design-1/Colours/Fundamentalsofcolour-19.jpeg)
+![Colour guide](/images/design-1/Colours/Fundamentalsofcolour-19.jpeg)
 
 _Figure 19. Color psychology guide (Decary, 2019)_
 
@@ -255,7 +255,7 @@ Red is also often used in food, wine and beverage websites due to its indulgent 
 
 Red is a warm, brighter colour and can make a user more alert since it attracts attention and creates energy.
 
-![Example of red](../images/design-1/Colours/Fundamentalsofcolour-20.jpeg)
+![Example of red](/images/design-1/Colours/Fundamentalsofcolour-20.jpeg)
 
 _Figure 20. An example of red used on a lifestyle blog (Markiewicz, 2018)_
 
@@ -269,7 +269,7 @@ Orange is also a warm and versatile colour. It can be energizing, but a lighter 
 
 Orange can stimulate metabolism and appetite as well.
 
-![Orange in use](../images/design-1/Colours/Fundamentalsofcolour-21.jpeg)
+![Orange in use](/images/design-1/Colours/Fundamentalsofcolour-21.jpeg)
 
 _Figure 21. A good example of orange being used on (fixate.it, 2022)_
 
@@ -283,7 +283,7 @@ Yellow is also an energetic colour without the extreme of red.
 
 However, too much yellow can be overpowering.
 
-![Yellow in use](../images/design-1/Colours/Fundamentalsofcolour-22.jpeg)
+![Yellow in use](/images/design-1/Colours/Fundamentalsofcolour-22.jpeg)
 
 _Figure 22. A good example of yellow being used on website (pittoridicinema, 2020)_
 
@@ -299,7 +299,7 @@ _Green_
 
 - Green can also represent stability.
 
-![Green in use](../images/design-1/Colours/Fundamentalsofcolour-23.jpeg)
+![Green in use](/images/design-1/Colours/Fundamentalsofcolour-23.jpeg)
 
 _Figure 23. Green on a website creating a feeling of growth and freshness (fiverr.com, 2020)_
 
@@ -315,7 +315,7 @@ _Blue_
 
 - Blue is found in the sea and the sky and gives a sense of ease, so it is a colour often found in airline and cruise websites.
 
-![Blue in use](../images/design-1/Colours/Fundamentalsofcolour-24.jpeg)
+![Blue in use](/images/design-1/Colours/Fundamentalsofcolour-24.jpeg)
 
 _Figure 24. Blue promotes reliability and stability (evolvewealth.co.uk, 2019)_
 
@@ -329,7 +329,7 @@ _Purple_
 
 - Purple is not often used in websites. But if used correctly, it can create a lavish and indulgent feel.
 
-![Purple in use](../images/design-1/Colours/Fundamentalsofcolour-25.jpeg)
+![Purple in use](/images/design-1/Colours/Fundamentalsofcolour-25.jpeg)
 
 _Figure 25. Purple to create a lavish and indulgent feel (cadbury.co.za, 2020)_
 
@@ -341,7 +341,7 @@ _White_
 
 - White is often used as a background in minimalistic websites. It is great to use when you want to draw attention to other elements/colours on the page. For example, in art websites when you want the user to focus on artwork.
 
-![White in use](../images/design-1/Colours/Fundamentalsofcolour-26.png)
+![White in use](/images/design-1/Colours/Fundamentalsofcolour-26.png)
 
 _Figure 26. White is often used in minimalistic websites (Wieland, 2020)_
 
@@ -355,7 +355,7 @@ _Black_
 
 - It is also often used to give a feeling of sophistication.
 
-![Black in use](../images/design-1/Colours/Fundamentalsofcolour-27.png)
+![Black in use](/images/design-1/Colours/Fundamentalsofcolour-27.png)
 
 _Figure 27. Black is often associated with elegance and a feeling of sophistication (eattheordinary.com, 2020)_
 

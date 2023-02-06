@@ -29,7 +29,7 @@ Personas differ from market segmentation which is focussed on dividing users bas
 
 You might find that some personas will be more important to you and can become your primary persona, while other personas form a secondary group. You might even have negative personas, these are users you don't want to build your product for.
 
-![Example of Personas](../images/interaction-design/1-3-1.jpeg)
+![Example of Personas](/images/interaction-design/1-3-1.jpeg)
 
 _"ST020: Figure 7.2" by Rosenfeld Media, photo licensed under CC BY 2.0 (https://www.flickr.com/photos/rosenfeldmedia/4459979060)_
 
@@ -75,7 +75,7 @@ Mainly used by film-makers to prepare for scenes they want to shoot, storyboards
 
 There is no place for unnecessary details in our storyboards and so this forces us to focus on the most critical components of the story. We want to map only the important actions and functions. The focus here is not on the interface design but on how a persona achieves their goal using the product.
 
-![Example of storyboard](../images/interaction-design/1-3-2.jpeg)
+![Example of storyboard](/images/interaction-design/1-3-2.jpeg)
 
 _"Customer journey storyboard" by visualpun.ch, photo licensed under CC BY 2.0 (https://www.flickr.com/photos/visualpunch/7245095196/in/album-72157629838187586/) _
 

@@ -19,7 +19,7 @@ An example of the above is how you would log into your social media platforms an
 
 The principle behind JWTs is quite simple. It involves the client receiving a token from the back-end and then using it in requests to the server.
 
-![JWT Illustration](../images/javascript-2/async/jwt.png)
+![JWT Illustration](/images/javascript-2/async/jwt.png)
 
 _Figure 1. JWT process_
 
@@ -115,7 +115,7 @@ If the registration request we sent was successful, then we would receive a stat
 }
 ```
 
-![Registering account: Register response](../images/javascript-2/async/jwt-register-response.png)
+![Registering account: Register response](/images/javascript-2/async/jwt-register-response.png)
 
 _Figure 2. JWT user registration response_
 
@@ -132,7 +132,7 @@ statusCode: 400
 [[Prototype]]: Object
 ```
 
-![Registering account: Account already exists](../images/javascript-2/async/jwt-register-user-already-exists.png)
+![Registering account: Account already exists](/images/javascript-2/async/jwt-register-user-already-exists.png)
 
 _Figure 3. Profile already exists_
 
@@ -187,7 +187,7 @@ loginUser(`${API_BASE_URL}/api/v1/social/auth/login`, user);
 
 You can see above that we get a token back called `accessToken`. The server will now expect this token to be included in subsequent requests as part of the `Authorization` header, which we will look at shortly.
 
-![Login: Access token](../images/javascript-2/async/jwt-login-token.png)
+![Login: Access token](/images/javascript-2/async/jwt-login-token.png)
 
 _Figure 4. JWT login token received when logging in_
 
@@ -230,7 +230,7 @@ async function fetchWithToken(url) {
 fetchWithToken(API_BASE_URL + "/api/v1/social/posts");
 ```
 
-![Getting posts with a token](../images/javascript-2/async/jwt-get-posts.png)
+![Getting posts with a token](/images/javascript-2/async/jwt-get-posts.png)
 
 _Figure 5. Getting social posts by using the JWT token_
 

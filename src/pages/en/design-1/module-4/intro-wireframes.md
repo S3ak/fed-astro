@@ -15,7 +15,7 @@ As you continue the journey to becoming a front-end developer, you will hear the
 
 Not only are wireframes there to get the structure and layout of a page in order, but it is an excellent way to organise ideas and test new ones. It also allows designers to see how users can interact with an interface beforehand.
 
-![Hand-drawn wireframe](../images/design-1/Wireframes-intro/Introductiontowireframes-1.jpeg)
+![Hand-drawn wireframe](/images/design-1/Wireframes-intro/Introductiontowireframes-1.jpeg)
 
 _Figure 1: An example of a hand-drawn wireframe (Source: careerfoundry.com)_
 
@@ -31,7 +31,7 @@ Wireframes are static representations of the design, and should essentially answ
 
 Simply put, the wireframing process is essential as it is the foundation of a design and helps map out the information architecture, the user flow and overall structure of a page.
 
-![A basic wireframe](../images/design-1/Wireframes-intro/Introductiontowireframes-2.jpeg)
+![A basic wireframe](/images/design-1/Wireframes-intro/Introductiontowireframes-2.jpeg)
 
 _Figure 2: A basic wireframe created by using Balsamiq (Source: balsamiq.com)_
 
@@ -39,7 +39,7 @@ _Figure 2: A basic wireframe created by using Balsamiq (Source: balsamiq.com)_
 
 Wireframes are created early in the design process before designers start thinking about an interface's visual elements. This allows designers to make significant changes early on in the process and not later when the design is close to being finalised.
 
-![Wireframes process](../images/design-1/Wireframes-intro/Introductiontowireframes-3.jpeg)
+![Wireframes process](/images/design-1/Wireframes-intro/Introductiontowireframes-3.jpeg)
 
 _Figure 3: Wireframes and the design process_
 
@@ -47,7 +47,7 @@ _Figure 3: Wireframes and the design process_
 
 Wireframes should be kept simple and to the point, as the essential purpose is not to communicate the site's visual characteristics but instead the structure and layout of the interface. Wireframes are a simple representation of a design, and as such, normally consist of black, white and grey basic layout designs. For example, a block with a cross can show image placement, and grey lines can represent written text.
 
-![Wireframe elements](../images/design-1/Wireframes-intro/Introductiontowireframes-4.jpeg)
+![Wireframe elements](/images/design-1/Wireframes-intro/Introductiontowireframes-4.jpeg)
 
 _Figure 4: Wireframe elements_
 
@@ -69,7 +69,7 @@ Low-fidelity wireframes can be seen as the starting blocks of the design process
 
 Another thing that makes low fidelity wireframes so useful is that it creates conversations around the overall layout, the navigation of the interface and outlining the user's flow.
 
-![Low-fidelity wireframe](../images/design-1/Wireframes-intro/Introductiontowireframes-5.png)
+![Low-fidelity wireframe](/images/design-1/Wireframes-intro/Introductiontowireframes-5.png)
 
 _Figure 5: An example of low-fidelity wireframes (Source: uxdesign.cc)_
 
@@ -79,7 +79,7 @@ Mid-fidelity wireframes are a bit more detailed than low-fidelity wireframes but
 
 Designers can add text weights to highlight headings and paragraph text and boxes that represent images. It also assists in visualising the hierarchy of the elements in the design. Mid-fidelity wireframes are digitally created using tools such as Balsamiq and Figma.
 
-![Mid-fidelity wireframe](../images/design-1/Wireframes-intro/Introductiontowireframes-6.png)
+![Mid-fidelity wireframe](/images/design-1/Wireframes-intro/Introductiontowireframes-6.png)
 
 _Figure 6: A mid-fidelity wireframe of the Emov app (Source: medium.com)_
 
@@ -89,7 +89,7 @@ High-fidelity wireframes should communicate the interface's look and feel. These
 
 Here placeholder text like Lorem Ipsum is replaced with relevant written content, and instead of a box indicating an image, real images are used. Other visual elements such as colour, typography and the company's branding elements are also added.
 
-![Wireframe examples](../images/design-1/Wireframes-intro/Introductiontowireframes-7.png)
+![Wireframe examples](/images/design-1/Wireframes-intro/Introductiontowireframes-7.png)
 
 _Figure 7: An example of low-fidelity, medium-fidelity and high-fidelity wireframes_
 

@@ -47,7 +47,7 @@ You might wonder, what the difference between User Experience and Interaction De
 
 UX design includes interaction design alongside the visuals and content.
 
-![Disciplines of Interaction Design](../images/design-1/UX/1-1-1.png)
+![Disciplines of Interaction Design](/images/design-1/UX/1-1-1.png)
 
 _By Thomas-pluralvonglas(Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons_
 

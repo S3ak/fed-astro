@@ -17,7 +17,7 @@ Typography is the art and technique of arranging type to make language visible.
 
 The arrangement of type involves the selection of typefaces, point size, line length, leading (line spacing), adjusting the spaces between groups of letters (tracking), and adjusting the space between pairs of letters (kerning).
 
-![Explaining typograhy](../images/design-1/Typography/Typographybasics-1.jpeg)
+![Explaining typograhy](/images/design-1/Typography/Typographybasics-1.jpeg)
 
 _Figure 1. A good explanation on typography by Herman Zapf (Morgan Cole, 2019)_
 
@@ -53,7 +53,7 @@ Typography comes into play when we:
 
 In our daily lives, we are surrounded by so much typographic matter and designs that we don’t even notice it anymore. Go and grab a magazine, chocolate wrapper, or your mobile phone. Look at all the different types of these different elements. Can you see that a lot of time, energy, and detail went into each design? Did you ever think about the fact that a chocolate wrapper not only has to showcase the branding of the product, but it also must communicate nutritional value? It’s not news to us that the text in the books, magazines, or websites we read and use on a daily basis is easy to follow. It is easy to follow not just because of its informative and entertaining content, but also because it was designed typographically, allowing us to read with ease.
 
-![Lindt Chocolate](../images/design-1/Typography/Typographybasics-2.jpeg)
+![Lindt Chocolate](/images/design-1/Typography/Typographybasics-2.jpeg)
 
 _Figure 2. Lindt chocolate wrapper front and back (Ally’s Basket, 2020)_
 
@@ -63,7 +63,7 @@ Imagine removing all the typography from the main local road. How would we find 
 
 Although typography can be found in almost every aspect of our lives, identifying what it is can be quite difficult. It’s almost like listening to music. You may know that you are listening to Poker Face by Lady Gaga, but do you know what style of music it is? Which instruments are being played? What timing is the music set to and in which key it is played? Recognising typography is similar in many ways. Awareness of what we are looking at in the case of typography is part of the key to understanding the subject.
 
-![Book about typography](../images/design-1/Typography/Typographybasics-3.jpeg)
+![Book about typography](/images/design-1/Typography/Typographybasics-3.jpeg)
 
 _Figure 3. Bad typography is everywhere. Good typography is invisible (Craig Ward, 2016)._
 
@@ -83,7 +83,7 @@ Keep in mind that typography isn’t just a creative art or craft, it is a very 
 
 Typography uses signs (letters) to represent spoken and written language. There are, however, elements of language that typography doesn’t have any signs for (like tone of voice). There are also other “typographic” signs that have no utterance in language. Letters are signs that represent sound, but as signs alone, they have no meaning, just as the individual sounds (phonemes) have no meaning. Only when arranged together do they form words; and words are in turn signs (or labels) used to describe our environment, experiences, and concepts.
 
-![Letters image](../images/design-1/Typography/Typographybasics-4.jpeg)
+![Letters image](/images/design-1/Typography/Typographybasics-4.jpeg)
 
 _Figure 4. Letters alone are meaningless. Words with meaning._
 
@@ -95,7 +95,7 @@ These two levels are sometimes referred to as “macro” and “micro” typogr
 
 Remember, the main purpose of typography is to convey information and to make reading easy, not to hinder it. It is also important for typography to act appropriately. So, when you work with typography, keep the content and the context of the text in mind.
 
-![Example of how fonts change](../images/design-1/Typography/Typographybasics-5.jpeg)
+![Example of how fonts change](/images/design-1/Typography/Typographybasics-5.jpeg)
 
 _Figure 5. An example of how the type of font can change the context of the message._
 
@@ -111,7 +111,7 @@ This is also true when we are reading a novel. We want to get into the narrative
 
 Of course, there are exceptions to the rule. For example, if we are at a busy train station, we do want to be aware of the typography around us, because we need to figure out how to get from point A to point B, or just buy a ticket. Firstly, we should notice the typography and secondly, it should be easy to read.
 
-![Trilingual sign example](../images/design-1/Typography/Typographybasics-6.jpeg)
+![Trilingual sign example](/images/design-1/Typography/Typographybasics-6.jpeg)
 
 _Figure 6. Example of trilingual sign (John van Weelden, 2018)._
 
@@ -119,11 +119,11 @@ Did you know that people read before they read? That may sound odd, but we do th
 
 Take a quick look at these two websites:
 
-![Hard to read text](../images/design-1/Typography/Typographybasics-7.jpeg)
+![Hard to read text](/images/design-1/Typography/Typographybasics-7.jpeg)
 
 _Figure 7. An example of a website where information is hard to comprehend._
 
-![Easy to read text](../images/design-1/Typography/Typographybasics-8.png)
+![Easy to read text](/images/design-1/Typography/Typographybasics-8.png)
 
 _Figure 8. This website is trustful and the information easy to comprehend._
 
@@ -153,7 +153,7 @@ In short, typography does not involve producing letters uniquely and one-by-one 
 
 This does not mean that the above ways of creating letters cannot lead to typography. A typographer may be inspired by handwriting, matchsticks, or graffiti and create a typeface that looks similar to that. There are even fonts that allow letters to appear different each time. For example, Johannes Gutenberg’s original Textura type contained alternative versions of letters that helped the type appear closer to the handwriting look that he tried to create.
 
-![Simon Alander blue artwork](../images/design-1/Typography/Typographybasics-9.jpeg)
+![Simon Alander blue artwork](/images/design-1/Typography/Typographybasics-9.jpeg)
 
 _Figure 9. Artwork by Simon Ålander (Simon Ålander, 2011)_
 
@@ -173,7 +173,7 @@ The Thesaurus dictionary defines it as follows:
 
 - Typeface = a particular design of type.
 
-![Typefaces and fonts](../images/design-1/Typography/Typographybasics-10.png)
+![Typefaces and fonts](/images/design-1/Typography/Typographybasics-10.png)
 
 _Figure 10. An example of typefaces and fonts._
 
@@ -185,7 +185,7 @@ The FontShop's description of the difference between a typeface and font is exce
 
 There are many different classifications of typefaces, but the two most common types you will hear of are serif and sans serif. Serif typefaces are the more traditional ones. They are distinguished by a short line or finishing stroke on the end of character strokes and stems (see the picture below). Sans serif typefaces are distinguished by their lack of any serifs. They only became popular in the nineteenth century and as a result, they are considered modern.
 
-![An example of serif and sans serif fonts](../images/design-1/Typography/Typographybasics-11.png)
+![An example of serif and sans serif fonts](/images/design-1/Typography/Typographybasics-11.png)
 
 _Figure 11. An example of serif and sans serif font._
 
@@ -195,7 +195,7 @@ As you can see, there are a few different classes of typefaces and it's worth le
 
 Below are some of the basic parts of the anatomy of typographic characters.
 
-![Anatomy of typography](../images/design-1/Typography/Typographybasics-12.png)
+![Anatomy of typography](/images/design-1/Typography/Typographybasics-12.png)
 
 _Figure 12. Anatomy of typography (Nikita Prokhorov, 2019)._
 
@@ -205,7 +205,7 @@ Kerning is the adjustment of the spacing between individual characters. Tracking
 
 These two are often confused. Use this simple way to remember the difference between the two: “tracking” sounds like the lines of railway tracks which consist of individual tracks grouped together into one long track line, whereas “kerning” sounds like the kernel of a seed, which is one (individual) object.
 
-![Kerning and tracking](../images/design-1/Typography/Typographybasics-13.png)
+![Kerning and tracking](/images/design-1/Typography/Typographybasics-13.png)
 
 _Figure 13. Kerning and Tracking._
 
@@ -219,7 +219,7 @@ _Figure 13. Kerning and Tracking._
 
 - If you justify text in a small column size, it can cause irregular spacing between words as the software attempts to adjust your text to fit.
 
-![Left-align text visual](../images/design-1/Typography/Typographybasics-14.jpeg)
+![Left-align text visual](/images/design-1/Typography/Typographybasics-14.jpeg)
 
 _Figure 14. Left aligned and justified text._
 
@@ -227,7 +227,7 @@ _Figure 14. Left aligned and justified text._
 
 This refers to the length of lines of text in a paragraph or column. Most people tend to just refer to it as column width though. Measure is an important thing to get right in typography because it can be crucial to the readability of the text. If the measure is too wide the text may be difficult to read since the eye has to move a lot more after each line is read.
 
-![Column measure](../images/design-1/Typography/Typographybasics-15.png)
+![Column measure](/images/design-1/Typography/Typographybasics-15.png)
 
 _Figure 15. Column measure._
 
@@ -235,7 +235,7 @@ _Figure 15. Column measure._
 
 Vertical line spacing is referred to as leading in typography. In the old days of printing and setting blocks of type, strips of lead were inserted between the lines based on how much space was needed. Leading’s role in typography is to ensure that there is enough space between the lines to make it readable. As with all matters of typography, it is a balance between reading comfort and aesthetic style.
 
-![Leading visual](../images/design-1/Typography/Typographybasics-16.jpeg)
+![Leading visual](/images/design-1/Typography/Typographybasics-16.jpeg)
 
 _Figure 16. Leading spacing._
 
@@ -243,7 +243,7 @@ _Figure 16. Leading spacing._
 
 When parts of the anatomy of characters either clash, or appear too closely together, they can be combined in ligatures. These can be for functional or decorative reasons depending on how obvious the clash is. Mostly, this is only an issue with serif fonts, although sometimes sans serifs will need ligatures to be set too.
 
-![Ligatures visual](../images/design-1/Typography/Typographybasics-17.png)
+![Ligatures visual](/images/design-1/Typography/Typographybasics-17.png)
 
 _Figure 17. Ligatures._
 
@@ -263,7 +263,7 @@ Rag refers to the uneven vertical edge of a block of type. Since text is normall
 
 Look at the examples below. They may look quite similar to an untrained eye, but can you see that the edge of the paragraph on the left-hand side is more uneven than the one on the right? If you struggle to see it, squint a little.
 
-![An example of rag](../images/design-1/Typography/Typographybasics-18.jpeg)
+![An example of rag](/images/design-1/Typography/Typographybasics-18.jpeg)
 
 _Figure 18. An example of rag._
 
@@ -275,7 +275,7 @@ _Figure 18. An example of rag._
 
 Both are considered bad typography because they create distracting shapes in a block of type. They can usually be easily fixed in the same way as the rag: by reworking the line breaks in the column or by editing the copy.
 
-![Orphan and widow example](../images/design-1/Typography/Typographybasics-19.png)
+![Orphan and widow example](/images/design-1/Typography/Typographybasics-19.png)
 
 _Figure 19. An example of an orphan and a widow_
 
@@ -283,7 +283,7 @@ _Figure 19. An example of an orphan and a widow_
 
 The term “type family” refers to all the variations of a typeface or font, like different weights, widths, and italics. Type families are useful design tools because they offer designers a set of variations that work together to create harmony and clean designs. To give an artwork a feeling of unity, many designers restrict themselves to using only two type families in a project. This creates a typographic hierarchy.
 
-![A typeface family](../images/design-1/Typography/Typographybasics-20.png)
+![A typeface family](/images/design-1/Typography/Typographybasics-20.png)
 
 _Figure 20. An example of a typeface family_
 
@@ -303,7 +303,7 @@ At first glance, the grid may seem complicated but it’s actually quite easy to
 
 Frutiger’s numbering system has been applied to various typefaces, including Frutiger’s Serifa, Avenir, Glyphic, Frutiger and Helvetica Neue.
 
-![Frutiger’s grid](../images/design-1/Typography/Typographybasics-21.png)
+![Frutiger’s grid](/images/design-1/Typography/Typographybasics-21.png)
 
 _Figure 21. Frutiger’s grid (James Brook, 2011)_
 
@@ -311,7 +311,7 @@ _Figure 21. Frutiger’s grid (James Brook, 2011)_
 
 The grid is especially useful for combining different types of weights. The 65 is different enough from the 45 to stand apart from it, plus moving to italics, 46, can be done seamlessly. The difference between 25 and 95 might be too great for general usage, but it can perhaps be used to create a specific effect. The beauty of the grid is that even when choosing a heavier cut like 95, an italic option is instantly available in 96. Visual harmony is produced by combining weights that are two places apart from each other on the grid, like 65 and 45. Weights that are too similar, for example, 65 and 55, should preferably not be used together.
 
-![How fonts work](../images/design-1/Typography/Typographybasics-22.jpeg)
+![How fonts work](/images/design-1/Typography/Typographybasics-22.jpeg)
 
 _Figure 22. A good example of different fonts working together (byrosanna.co.uk, 2017)_
 
@@ -380,7 +380,7 @@ The target audience:
 
 This is the logo of the company:
 
-![Logo](../images/design-1/Typography/Lessontask-typographybasics-1.png)
+![Logo](/images/design-1/Typography/Lessontask-typographybasics-1.png)
 
 > **NOTE:** The Lesson Tasks are not submitted to Moodle and won’t be assessed by tutors. They are mainly for you to practise your skill as a designer and to prepare for the Course Assignment (CA) to come.
 

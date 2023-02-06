@@ -11,7 +11,7 @@ Big O notation is a way for computer scientists to measure the complexity of an 
 
 When we're working with a small amount of data it doesn't really matter if our program is efficient or not. What about in the case of a database that has thousands, or maybe even millions, of records? An inefficient program in this case is going to take significantly much longer to finish working through the set of records. Big O notation addresses this by determining the time complexity (time to run) for a function to finish.
 
-![Big O Notation](../images/javascript-2/algorithms/big-o-notation-main.png)
+![Big O Notation](/images/javascript-2/algorithms/big-o-notation-main.png)
 
 ## O(1) - Constant time:
 
@@ -42,7 +42,7 @@ Examples of O(1) notation include:
 - Insertion and removal of items from a queue
 - Math operations
 
-![O(1) Constant Time](../images/javascript-2/algorithms/big-o-notation-o1.png)
+![O(1) Constant Time](/images/javascript-2/algorithms/big-o-notation-o1.png)
 
 ## O(n) - Linear Time
 
@@ -54,19 +54,19 @@ For example, if it took 1 minute to process a record then if we had 100 records 
 
 Examples of O(n) notation include:
 
-![O(n) Linear Time](../images/javascript-2/algorithms/big-o-notation-on.png)
+![O(n) Linear Time](/images/javascript-2/algorithms/big-o-notation-on.png)
 
 ## O(n<sup>2</sup>) - Quadratic Time
 
 O(n<sup>2</sup>) means that the running time is directly proportional to the squared size of the input.
 
-![O(n)^2](../images/javascript-2/algorithms/big-o-notation-on2.png)
+![O(n)^2](/images/javascript-2/algorithms/big-o-notation-on2.png)
 
 ## O(log n) - Logarithmic Time
 
 O(log n) means that the running time grows proportionally to the logarithm of the input size. The result of this is that the run time barely increases as you exponentially increase the input.
 
-![O(log n) Logarithmic Time](../images/javascript-2/algorithms/big-o-notation-ologn.png)
+![O(log n) Logarithmic Time](/images/javascript-2/algorithms/big-o-notation-ologn.png)
 
 ## Calculating
 

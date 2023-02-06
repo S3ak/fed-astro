@@ -43,7 +43,7 @@ Affordances are great when they work, but can be problematic when they don't. Do
 
 In the example below, do you push or pull? The same handles are on the other side as well, so you can't know until you try.
 
-![Door handle example](../images/interaction-design/3-1-1.jpeg)
+![Door handle example](/images/interaction-design/3-1-1.jpeg)
 
 _Alan Levine 'Door of Zero Affordances' https://www.flickr.com/photos/cogdog/7313104802_
 
@@ -69,7 +69,7 @@ You need to analyse the users coming to your site in order to understand what pa
 
 We can indicate an affordance through physically showing the user that they can interact. On a button you can use drop shadows, outlines, blurs etc. to indicate that the object is pressable. By making it seem 3D it stands out from the 2D screen as something we can interact with.
 
-![Examples of buttons](../images/interaction-design/3-1-2.jpeg)
+![Examples of buttons](/images/interaction-design/3-1-2.jpeg)
 
 Some people argue that we can move on from using more obvious affordances where people are used to them because they already have a pattern affordance. It all depends on your user and how they will interpret the affordance. Some users don't need to be lead and can enjoy a cleaner look, others need the physical affordance.
 

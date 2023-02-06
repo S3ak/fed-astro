@@ -23,7 +23,7 @@ Front-end developers must design the look and feel of a website in a manner that
 
 **Example:** A developer wants to build a website for Minecraft, a decade-old, computer-based video game. 70% of Minecraft players fall within the 12 to 17-year age bracket. Thus, the developer should choose design elements wisely that young gamers would find it appealing.
 
-![Minecraft characters](../images/design-1/Introductiontobranding-1.jpg)
+![Minecraft characters](/images/design-1/Introductiontobranding-1.jpg)
 
 _Figure 1. Pixel-art style graphics. One of the most characteristic elements of the game Minecraft (Nintendo, 2018)_
 
@@ -67,7 +67,7 @@ According to Wheeler (2020), _branding is a disciplined process used to build aw
 
 The physical appearance of a person includes the clothes that they wear, their physical body and their facial features. These are aspects to an individual that are visual. Along with these aspects comes how the individual interacts with the world through sense of humour, tone of voice, personality and manner of expression. A person is thus a mix of physical appearance and manner or style of communicating. The branding of a product is similar. The product has a physical appearance in the form of a logo (visual identity). However, this logo communicates and interacts with the world, impacting people differently based on their perceptions, emotions and backgrounds (brand identity).
 
-![Adidas brand](../images/design-1/Introductiontobranding-2.jpeg)
+![Adidas brand](/images/design-1/Introductiontobranding-2.jpeg)
 
 _Figure 2. Adidas doing a fine job at showcasing their brand to the world (adsoftheworld.com, 2016)_
 
@@ -77,7 +77,7 @@ In most cases, the logo is the essential building block of the brand. Adam, et a
 
 It is also worth noting that the word “logo” has multiple meanings. There are also different words to describe this thing we call a "logo". It´s rare that you, as a front-end developer, will work with logo design, but it can be useful to understand some of the fundamental ideas and principles.
 
-![Adidas Logos](../images/design-1/Introductiontobranding-3.png)
+![Adidas Logos](/images/design-1/Introductiontobranding-3.png)
 
 _Figure 3. The adidas logo through the years. Notice how it has change, but is still recognisable (1000logos.com, 2019)_
 

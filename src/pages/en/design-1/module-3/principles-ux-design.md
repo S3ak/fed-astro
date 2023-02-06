@@ -23,7 +23,7 @@ We need to centralise the user as the focal point for all our design decisions. 
 
 This is essentially what you need to focus on when it comes to the UX design of a website or app. Every decision should be based on the users' need and how they will interact with the interface. Giving the user what they need will ensure a happy user who will most probably return to your website.
 
-![Example of user needs](../images/design-1/Principles-UX/PrinicplesofUXdesign-1.png)
+![Example of user needs](/images/design-1/Principles-UX/PrinicplesofUXdesign-1.png)
 
 _Figure 1: An example of user and business needs._
 
@@ -37,7 +37,7 @@ The image below demonstrates a bad information hierarchy. The hamburger menu on 
 
 The article itself is hard to read. The header, subheader and body text are the same text size and not enticing enough for a user to want to know more about the news story. The 'sign up' should also be more prominent. The way it looks now, a user will scroll past it and not even notice it.
 
-![Poor information hierarchy example](../images/design-1/Principles-UX/PrinicplesofUXdesign-2.png)
+![Poor information hierarchy example](/images/design-1/Principles-UX/PrinicplesofUXdesign-2.png)
 
 _Figure 2: Poor information hierarchy._
 
@@ -63,7 +63,7 @@ The image below is the same website, but the designers paid more attention to th
 
 The way information is presented in the design below will entice the user to read the article. Not only that, but the user will be able to scan through the story quickly, get the details and move on to the next headline.
 
-![Good information hierarchy](../images/design-1/UI-Design/Principlesofuserinterfacedesign-3.jpeg)
+![Good information hierarchy](/images/design-1/UI-Design/Principlesofuserinterfacedesign-3.jpeg)
 
 _Figure 3: An example of good information hierarchy._
 
@@ -73,7 +73,7 @@ Consistency helps users become familiar with your product quickly, making it eas
 
 Elements on a page need to look consistent and function similarly from one page to another. When you look at the example below, you can see CTAs are the same from one page to another. The icons are consistent in their placement, and the use of colour is also the same throughout.
 
-![Good use of consistency](../images/design-1/Principles-UX/PrinicplesofUXdesign-4.png)
+![Good use of consistency](/images/design-1/Principles-UX/PrinicplesofUXdesign-4.png)
 
 _Figure 4: An example of good consistency on a fitness app._
 
@@ -85,13 +85,13 @@ Ensuring there is a good contrast between background and text colour is one way 
 
 The example below demonstrates bad colour contrast, which will make the message hard to read for users without disabilities, let alone those whose vision is impaired.
 
-![Inaccessible website image](../images/design-1/Principles-UX/PrinicplesofUXdesign-5.png)
+![Inaccessible website image](/images/design-1/Principles-UX/PrinicplesofUXdesign-5.png)
 
 _Figure 5: An example of an inaccessible web page._
 
 The example below shows good colour contrast and is more accessible.
 
-![Good colour contrast](../images/design-1/Principles-UX/PrinicplesofUXdesign-6.png)
+![Good colour contrast](/images/design-1/Principles-UX/PrinicplesofUXdesign-6.png)
 
 _Figure 6: Good colour use ensures an accessible website_
 
@@ -105,7 +105,7 @@ Usually, when a user is given bad news, designers will do it with more empathy t
 
 Think of when adding an item to your online cart. You’ll receive immediate feedback saying your item was successfully added, and you can then proceed to checkout.
 
-![Good user feedback](../images/design-1/Principles-UX/PrinicplesofUXdesign-7.png)
+![Good user feedback](/images/design-1/Principles-UX/PrinicplesofUXdesign-7.png)
 
 _Figure 7: Good user feedback with the 'add to cart' process._
 
@@ -115,7 +115,7 @@ The Nielsen Norman Group summed up the definition of user experience design perf
 
 Clarity and simplicity ensure a good user experience. It leads the user on a smooth and uncluttered journey that avoids confusion. Overwhelming the user with too many options and/or complex solutions could make them give up the process. Keep all aspects of your product as simple, linear and straightforward as possible.
 
-![An app for booking flights](../images/design-1/Principles-UX/PrinicplesofUXdesign-8.png)
+![An app for booking flights](/images/design-1/Principles-UX/PrinicplesofUXdesign-8.png)
 
 _Figure 8: A simple, uncluttered flight booking app._
 

@@ -37,7 +37,7 @@ Creating proper navigation that the user will see when they enter the site will 
 
 The interaction between the user and the interface immediately comes across as user-friendly and informative.
 
-![Good navigation](../images/design-1/UI-Design/Principlesofuserinterfacedesign-1.jpeg)
+![Good navigation](/images/design-1/UI-Design/Principlesofuserinterfacedesign-1.jpeg)
 
 _Figure 1: Good navigation gives the user a clear indication of what they can achieve on the website (Source: [https://superbalist.com/women](https://superbalist.com/women))._
 
@@ -49,13 +49,13 @@ Think of a website with a busy background image, and on top of this image is ano
 
 The example below demonstrates a design with bad colour use and an overall cluttered look and feel. The user won't know what to do or how to interact with the website. The choice in colour is also overwhelming and strenuous on the eye.
 
-![Poor use of colour](../images/design-1/UI-Design/Prinicplesofuserinterfacedesign-2.jpeg)
+![Poor use of colour](/images/design-1/UI-Design/Prinicplesofuserinterfacedesign-2.jpeg)
 
 _Figure 2: An example of bad use of colour and imagery._
 
 Good use of colour ensures a more comfortable experience and will allow users to see what they need to do to reach their goal.
 
-![Better use of colour](../images/design-1/UI-Design/Principlesofuserinterfacedesign-3.jpeg)
+![Better use of colour](/images/design-1/UI-Design/Principlesofuserinterfacedesign-3.jpeg)
 
 _Figure 3: Better use of colour and imagery._
 
@@ -71,7 +71,7 @@ Before you add any component to your design, ask these questions:
 
 Don't use elements to make the overall design appealing. Use elements to make the design purposeful. In the image below, we can see which choices were made to make the overall design purposeful.
 
-![Good use of design elements](../images/design-1/UI-Design/Principlesofuserinterfacedesign-4.png)
+![Good use of design elements](/images/design-1/UI-Design/Principlesofuserinterfacedesign-4.png)
 
 _Figure 4: Good use of design elements that serve a purpose on the app design._
 
@@ -85,7 +85,7 @@ Navigation should always be straightforward. Look at the example below. The user
 
 Also, pay attention to the use of colour on the page. It's consistent from top to bottom, and the buttons are bright and prominent.
 
-![Consistent page structure](../images/design-1/UI-Design/Principlesofuserinterfacedesign-5.png)
+![Consistent page structure](/images/design-1/UI-Design/Principlesofuserinterfacedesign-5.png)
 
 _Figure 5: Good page structure and consistency_
 
@@ -93,7 +93,7 @@ _Figure 5: Good page structure and consistency_
 
 The design should be adaptable and look good in all situations - on a brand-new iPhone, an old desktop PC and a slick MacBook Pro. This ties in with accessibility and legibility, important factors to consider when you start the design process.
 
-![Good responsive design](../images/design-1/UI-Design/Prinicplesofuserinterfacedesign-6.jpeg)
+![Good responsive design](/images/design-1/UI-Design/Prinicplesofuserinterfacedesign-6.jpeg)
 
 _Figure 6: An example of good responsive design._
 
@@ -103,7 +103,7 @@ Users respond well to patterns they know and feel comfortable using. There is no
 
 The example below shows two different confirmation messages. The one on the left will be more familiar to users than the one on the right because of how the pattern is presented. The confirmation message on the right is confusing, and users could instantly feel uncomfortable.
 
-![Examples of confirmation](../images/design-1/UI-Design/Prinicplesofuserinterfacedesign-7.png)
+![Examples of confirmation](/images/design-1/UI-Design/Prinicplesofuserinterfacedesign-7.png)
 
 _Figure 7: Two examples of confirmation messages._
 
@@ -113,7 +113,7 @@ A user should always feel in control when using an interface. They should know w
 
 The example below shows how the user is in control of the checkout process. Every step is indicated by the process bar. The user even has a way to back out and start over. The information icon will provide them with extra information if there is uncertainty. The bright green CTA is prominent and guides them further through the process.
 
-![An example of user control](../images/design-1/UI-Design/Prinicplesofuserinterfacedesign-8.png)
+![An example of user control](/images/design-1/UI-Design/Prinicplesofuserinterfacedesign-8.png)
 
 _Figure 8: An example of good feedback and user control._
 

@@ -31,7 +31,7 @@ From v5.0 and later, WordPress rolled out an editor called Gutenberg with a uniq
 
 Using their block editor, you can add individual blocks of content like Paragraph, Image, Gallery, Quote, List etc. into the page or post and edit it.
 
-![Block editor](../images/cms/1-3-blockeditor.jpg)
+![Block editor](/images/cms/1-3-blockeditor.jpg)
 
 The WordPress admin panel is quite intuitive, but if you want more information about how to set up the admin panel and use all the elements correctly, you can look at the following video.
 
@@ -47,7 +47,7 @@ A plugin is a piece of software written on PHP which you can download and instal
 
 Most plugins are free with limited functionality. You pay extra for added functionality.
 
-![Plugins](../images/cms/1-3-plugins.jpg)
+![Plugins](/images/cms/1-3-plugins.jpg)
 
 The following video covers content management and introduces you to the WordPress block editor.
 

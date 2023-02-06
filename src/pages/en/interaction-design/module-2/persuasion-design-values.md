@@ -31,7 +31,7 @@ People tend to follow the group and thus it is important to use what is called '
 
 The way we can create social proofing is through testimonials, reviews, case studies, comment sections, "users currently on site" counters, and more.
 
-![Social proofing example](../images/interaction-design/2-1-1.jpeg)
+![Social proofing example](/images/interaction-design/2-1-1.jpeg)
 
 _An example of social proofing from Atlassian.com_
 
@@ -61,7 +61,7 @@ Using scarcity to attract users is a great technique. When there is a limited of
 
 We've all seen websites advertising "only 10 items left" or "only available for 4 more hours" or "here's a special deal for you" or even "6 other customers are currently browsing this product". These techniques all make users feel like they need to take action soon to secure the scarce item.
 
-![An example of scarcity](../images/interaction-design/2-1-2.jpeg)
+![An example of scarcity](/images/interaction-design/2-1-2.jpeg)
 
 _An example of scarcity and time constraints from onedayonly.co.za_
 

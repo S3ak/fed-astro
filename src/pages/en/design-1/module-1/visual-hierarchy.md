@@ -21,7 +21,7 @@ One needs to understand the importance of visual language before starting to des
 
 When you plan your design, you need to decide what you want the viewer to focus on first. What are the most important parts of the design? The viewer might have to read the headline first before the picture or the body copy would make sense.
 
-![Visual hierarchy](../images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-1.png)
+![Visual hierarchy](/images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-1.png)
 
 _Figure 1. Visual hierarchy is achieved with different font sizes, widths, and colour_
 
@@ -37,7 +37,7 @@ Our eyes are remarkably alert and responsive (Malamed, 2009). This helps us perf
 
 Similarly, without even thinking about it, we scan a picture or design to gain information. We immediately notice if there is anything important or interesting. All of this happens effortlessly before we have consciously focused our attention. The following print advert by the Agency Network JWT serves as an excellent example of how a well-designed advert can immediately capture the imagination of the audience (JWT, 2010).
 
-![Hiererchy](../images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-2.jpeg)
+![Hiererchy](/images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-2.jpeg)
 
 _Figure 2. Band-aid Hulk. A good example of visual hierarchy achieved by the agency network JWT (JWT, 2010)_
 
@@ -59,13 +59,13 @@ The most common way to communicate is verbally. When you tell a friend a story, 
 
 The boundaries that form the edges of a graphic, also known as the frame, have a powerful effect on a composition. Whether it is a postcard, a page, a poster, or a screen, the frame creates meaning for the elements inside it. It is generally accepted that the position of an object within a frame creates a certain tension. This tension affects the perceived importance of an object and thus where we place our attention. Look at this webpage with a big splat of colour near the edge of the screen:
 
-![Position](../images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-3.png)
+![Position](/images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-3.png)
 
 _Figure 3. Paint splash in near the edge of the page_
 
 Now look at the same splat of colour right in the centre of the screen. Which would be more comfortable to focus on?
 
-![Colour](../images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-4.png)
+![Colour](/images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-4.png)
 
 _Figure 4. Paint splash in the centre of the page._
 
@@ -83,25 +83,25 @@ Our understanding of positioning in a frame is a metaphor for how we view hierar
 
 Look at the following layouts. What feeling arise when you look at them?
 
-![Gestalt](../images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-5.png)
+![Gestalt](/images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-5.png)
 
 _Figure 5. Gestalt compositions (Iott, 2012)_
 
 Now view the following images one at a time and consider if you agree with the descriptions given below.
 
-![Composition](../images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-6.png)
+![Composition](/images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-6.png)
 
 _Figure 6. An example of compositions comfort and playfulness (Iott, 2012)_
 
 The first image (left) brings a feeling of comfort to the viewer as the different elements are placed in the form of a hammock. The second image (right) is more playful because the elements are placed in the middle and their orientation is unpredictable and more carefree.
 
-![Tension](../images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-7.png)
+![Tension](/images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-7.png)
 
 _Figure 7. An example of compositions tension and congestion (Iott, 2012)_
 
 The layout on the left can be described as tension in a sense. There is no room to breathe because there is no white space present between the various elements. The layout on the right represents a feeling of congestion as the elements are placed to represent somewhat of a bottleneck effect.
 
-![Order](../images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-8.png)
+![Order](/images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-8.png)
 
 _Figure 8. An example of compositions order and tension (Iott, 2012)_
 
@@ -113,7 +113,7 @@ Creating energy and life in design is achieved by variation and emphasis. Making
 
 Emphasis can be created by size, weight, position, colour, shape, and style. Contrast and emphasis are often confused and seen as the same thing, but in reality, they are a bit different from each other. Contrast is the difference between two objects whereas emphasis is the impact on an object and how that object forms a focal point in the overall design. Think of a pattern of black dots, and now imagine one dot being red. Your eye would immediately go to the red dot. That would be your focal point, created by emphasis (Invision, 2020).
 
-![Emphasis](../images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-9.jpeg)
+![Emphasis](/images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-9.jpeg)
 
 _Figure 9. An example of emphasis in design._
 
@@ -125,7 +125,7 @@ Consider your design and how you would like the viewer's eyes to move through th
 
 Look at the example below. Notice how the motion in the image draws your eyes to the call to action button.
 
-![Motion in a website](../images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-10.jpeg)
+![Motion in a website](/images/design-1/Visual-Language/Organisingvisuallanguageandestablishingvisualhierarchy-10.jpeg)
 
 _Figure 10. An example of motion on a website._
 

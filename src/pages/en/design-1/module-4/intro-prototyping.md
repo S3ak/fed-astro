@@ -29,7 +29,7 @@ A prototype is also:
 
 - a process that should be seen as a time-saving tool.
 
-![Example of high-fidelity prototype](../images/design-1/Prototyping/Introductiontoprototyping-1.gif)
+![Example of high-fidelity prototype](/images/design-1/Prototyping/Introductiontoprototyping-1.gif)
 
 _Figure 1: An example of a high-fidelity prototype created in Adobe XD (Source: letsxd.com)_
 
@@ -51,7 +51,7 @@ This is the most basic prototype level, with minimal detail. It is usually done 
 
 The advantage of this type of prototype is that there is no visual aspect to distract from the project outlook. It is a very accessible way to prototype, as everyone can draw! It's also quick to set up.
 
-![Paper prototyping](../images/design-1/Prototyping/Introductiontoprototyping-2.jpeg)
+![Paper prototyping](/images/design-1/Prototyping/Introductiontoprototyping-2.jpeg)
 
 _Figure 2: Paper prototyping_
 
@@ -61,7 +61,7 @@ This process usually consists of wireframe designs with limited visual design. T
 
 It is a lesser-used level of the prototype but still brings useful feedback to the project. A medium-fidelity prototype should essentially demonstrate the screen layouts and have basic clickability and navigation between screens.
 
-![Medium fidelity prototype example](../images/design-1/Prototyping/Introductiontoprototyping-3.gif)
+![Medium fidelity prototype example](/images/design-1/Prototyping/Introductiontoprototyping-3.gif)
 
 _Figure 3: An example of a low to medium fidelity prototype (Source: Jad Limcaco)_
 
@@ -73,11 +73,11 @@ It's a great way to present final designs and concepts for clients, as it looks 
 
 This version should be almost fully functional, with as many features, motions, functionality and visual elements as possible.
 
-![High-fidelity prototype](../images/design-1/Prototyping/Introductiontoprototyping-4.png)
+![High-fidelity prototype](/images/design-1/Prototyping/Introductiontoprototyping-4.png)
 
 _Figure 4: High fidelity prototyping by Jae-seong Jeong (Source: dribbble.com/johnjbrown)_
 
-![High-fidelity prototyping](../images/design-1/Prototyping/Introductiontoprototyping-5.gif)
+![High-fidelity prototyping](/images/design-1/Prototyping/Introductiontoprototyping-5.gif)
 
 _Figure 5: High fidelity prototyping by Jae-seong Jeong (Source: dribbble.com/johnjbrown)_
 
@@ -87,7 +87,7 @@ So, which one should you use? There is no one-size-fits-all solution. Each situa
 
 When you have done more work on the product's functionality than the UI, medium-fidelity will work well. However, when the process has advanced to where your designs are close to a final phase, a high-fidelity prototype will probably showcase the product best.
 
-![Various wireframes](../images/design-1/Prototyping/Introductiontoprototyping-6.jpeg)
+![Various wireframes](/images/design-1/Prototyping/Introductiontoprototyping-6.jpeg)
 
 _Figure 6: Low, medium and high-fidelity prototypes_
 

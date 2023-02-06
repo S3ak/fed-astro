@@ -35,7 +35,7 @@ When the users are grouping the cards it's important that they are neither too b
 
 Once the users have grouped the cards together, ask them to create category labels for the different groupings. This gives us insight into how they see the groups and offer potential options for our hierachy.
 
-![Card sorting example](../images/interaction-design/2-3-1.jpeg)
+![Card sorting example](/images/interaction-design/2-3-1.jpeg)
 
 _"CS003: Figure 1.3" by Rosenfeld Media, photo licensed under CC BY 2.0 (https://www.flickr.com/photos/rosenfeldmedia/3343498557/in/photostream/)_
 
@@ -119,4 +119,4 @@ Design the information architecture for your cross-course site.
 
   You can use a format like the image below, to show your site’s information architecture.
 
-![Site architecture example](../images/interaction-design/task2-3_information-architecture.jpeg)
+![Site architecture example](/images/interaction-design/task2-3_information-architecture.jpeg)

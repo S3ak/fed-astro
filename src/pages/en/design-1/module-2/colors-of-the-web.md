@@ -15,7 +15,7 @@ Understanding the colours of the web and knowing how they work is fundamental fo
 
 Hexadecimal colour codes are used in web design for the colours in a website and are often referred to as hex. Hex can be used in your CSS styling and are supported in all browsers.
 
-![Hex codes](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-1.jpeg)
+![Hex codes](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-1.jpeg)
 
 _Figure 1. An example of HEX and RGB colour codes in Adobe Photoshop._
 
@@ -27,13 +27,13 @@ RGB define all colours as a combination of three different values for Red, Green
 
 - RGB (0, 0, 0) - this is black
 
-![Black](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-2.jpeg)
+![Black](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-2.jpeg)
 
 _Figure 2. RGB 000 – black._
 
 - RGB (255, 255, 255) - this is white
 
-![White](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-3.jpeg)
+![White](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-3.jpeg)
 
 _Figure 3. RGB 255, 255, 255 – white._
 
@@ -43,19 +43,19 @@ Each parameter (red, green, and blue) defines the intensity of the colour as an 
 
 Hexadecimal uses 16 unique digits (0-F). Decimal only consists of the numbers 0 to 9, so in order to have 16 unique numbers or digits, the letters A to F are used for the extra 6 digits in hexadecimal:
 
-![Hex digits](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-4.png)
+![Hex digits](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-4.png)
 
 _Figure 4. Hex digits._
 
 A hexadecimal colour code is a 6-digit colour code prefixed with #. They look like this:
 
-![Hex codes](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-5.png)
+![Hex codes](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-5.png)
 
 _Figure 5. #CC3300._
 
 To understand the letters and numbers used after the #, a hexadecimal colour is specified as:
 
-![Hexadecimal colour](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-6.png)
+![Hexadecimal colour](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-6.png)
 
 _Figure 6. #RRGGBB a hexadecimal colour._
 
@@ -83,29 +83,29 @@ For example:
 
 #0000FF - is displayed as blue, because the blue component is set to its highest value (FF), and the others are set to 00.
 
-![Blue colourtone](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-7.jpeg)
+![Blue colourtone](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-7.jpeg)
 
 _Figure 7. #0000FF displayed as blue._
 
 Each number denotes the intensity of that particular colour, some other examples:
 
-![Red colourtone](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-8.jpeg)
+![Red colourtone](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-8.jpeg)
 
 _Figure 8. #FF0000 only red (no green, no blue)_
 
-![Green colourtone](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-9.jpeg))
+![Green colourtone](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-9.jpeg))
 
 _Figure 9. #00FF00 -- only green (no red, no blue)_
 
 #FFFFFF -- if all colours are in equal intensity, you get white.
 
-![White colourtone](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-10.png)
+![White colourtone](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-10.png)
 
 _Figure 10. #FFFFFF all white text._
 
 #000000 -- if no colour is present, you get full black.
 
-![Black colourtone](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-11.png)
+![Black colourtone](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-11.png)
 
 _Figure 11. #000000 all black text._
 
@@ -119,7 +119,7 @@ Many developers find hex values easier to read, so they use hex. Most design pro
 
 See the infographic below for a better understanding of the use of the different colour system and when to use each one.
 
-![Colours explained](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-12.jpeg)
+![Colours explained](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-12.jpeg)
 
 _Figure 12. PMS, CMYK, RGB and HEX explained (Kiss, 2020)_
 
@@ -149,11 +149,11 @@ _Red-green colour blindness_
 
 **Protanopia and Deuteranopia.** Both of these make individuals unable to tell the difference between red and green.
 
-![Normal vision differentiation](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-13.jpeg)
+![Normal vision differentiation](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-13.jpeg)
 
 _Figure 13. The difference between normal vision and Deuteranopia._
 
-![Normal vision comparision](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-14.jpeg)
+![Normal vision comparision](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-14.jpeg)
 
 _Figure 14. The difference between normal vision and Protanopia._
 
@@ -165,7 +165,7 @@ Tritanomaly makes it hard to tell the difference between blue and green, and bet
 
 Tritanopia makes it hard to tell the difference between blue and green, purple and red, and yellow and pink. It also makes colours look less bright.
 
-![Normal vision and Tritanopia](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-15.jpeg)
+![Normal vision and Tritanopia](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-15.jpeg)
 
 _Figure 15. The difference between normal vision and Tritanopia._
 
@@ -173,7 +173,7 @@ _Complete colour blindness_
 
 Monochromacy is when someone is completely colour blind, they can’t see colour at all. This deficiency is quite rare.
 
-![Normal vs. blindness](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-16.jpeg)
+![Normal vs. blindness](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-16.jpeg)
 
 _Figure 16. The difference between normal vision and someone who is completely colour blind._
 
@@ -185,7 +185,7 @@ _Color Oracle_
 
 Color Oracle is a free colour blindness simulator for Windows, Mac, and Linux. It takes the guesswork out of designing for colour blindness by showing you in real time what people with common colour vision impairments will see. Download the app and install it on your device. Then check you work to see if there is a clear differentiation between colours.
 
-![Colororracle visual](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-17.png)
+![Colororracle visual](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-17.png)
 
 _Figure 17. colororracle.org._
 
@@ -193,7 +193,7 @@ _Toptal_
 
 With toptal.com you enter the website URL that needs to be colour checked. The website will then provide you with filters from which you can choose from. These include common colour impairments. After the website has generated the result it will be displayed in the preferred colour filter.
 
-![Colourblind filter](../images/design-1/Colours-of-web/Understandingthecoloursoftheweb-18.jpeg)
+![Colourblind filter](/images/design-1/Colours-of-web/Understandingthecoloursoftheweb-18.jpeg)
 
 _Figure 18. Topal.com colorblind web page filter._
 

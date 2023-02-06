@@ -24,7 +24,7 @@ Gantt charts come with a wide range of benefits, but the five most significant r
 
 **1. Circumvent completion confusion**: Gantt charts allow users to stay on track by granting a visual timeline displaying the start and finish for each task. Since the key dates and milestones are all noticeable on the visual overview of these charts, it becomes easier to maintain timescale-based tasks and deliverables as they can be tracked on a yearly, monthly, weekly or even a daily basis. The diagram given below shows the benefit of visualization offered by Gantt charts:
 
-![Gantt charts](../images/project-methodology/ganttchart.png)
+![Gantt charts](/images/project-methodology/ganttchart.png)
 
 _Zorkow [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]_
 

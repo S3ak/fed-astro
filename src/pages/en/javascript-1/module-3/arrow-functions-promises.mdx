@@ -82,7 +82,7 @@ Running all the statements above will log:
 
 The code is called statement by statement and each statement waits for the previous one to finish before running. This is called synchronous code.
 
-![Asynchronous code](../images/js/3-3-asyncode.png)
+![Asynchronous code](/images/js/3-3-asyncode.png)
 
 That might seem obvious, but sometimes it's not a good idea to wait for the previous statement to finish before executing the next one.
 
@@ -94,11 +94,11 @@ If we made a call to a server and the user's Internet connection was slow or the
 
 Promises are a way to execute code asynchronously. When we call a promise, our code doesn’t wait for a response, but moves on to the next line of code.
 
-![Promises](../images/js/3-3-promises.png)
+![Promises](/images/js/3-3-promises.png)
 
 Once executed, the promise is **pending**. At some point it will return and will either have been **fulfilled** or **rejected**.
 
-![Promises2](../images/js/3-3-promises2.png)
+![Promises2](/images/js/3-3-promises2.png)
 
 From [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise):
 
@@ -112,7 +112,7 @@ A Promise is in one of these states:
 
 Sometimes what is executed in our fulfilled function also returns a promise. This is called promise chaining.
 
-![Promises chaining](../images/js/3-3-promisechaining.png)
+![Promises chaining](/images/js/3-3-promisechaining.png)
 
 - **Fulfilled** states are handled by a Promise's **then** method.
 - **Rejected** states are handled by a **catch** method.
@@ -121,7 +121,7 @@ Both these methods take a function as an argument. This is where we can write co
 
 These functions in turn receive an argument which is the return value of the promise (if successful and the promise has resolved) or the error from a rejected promise.
 
-![Promises chaining 2](../images/js/3-3-promisechaining2.png)
+![Promises chaining 2](/images/js/3-3-promisechaining2.png)
 
 Most of the time you won't write your own promises but will rather use libraries and other existing code built on promises.
 
@@ -129,7 +129,10 @@ Most of the time you won't write your own promises but will rather use libraries
 
 In this video we will rewrite the async/await API call to use regular promise syntax.
 
+<details>
+  <summary>View Video</summary>
 <iframe src="https://player.vimeo.com/video/450776515?h=1adda6b1fd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="2560" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="GET request with regular promises"></iframe>
+</details>
 
 [Code](https://github.com/NoroffFEU/get-request-with-regular-promise-syntax) from the video.
 

@@ -60,7 +60,7 @@ Like in the traditional project management methodology, Scrum also has a set of 
 - Scrum master – 1 person who is the Scrum Coach and assists the team to reach their goals
 - Development team – usually between 3 – 9 people.
 
-![Scrum roles](../images/project-methodology/1-2-scrum.png)
+![Scrum roles](/images/project-methodology/1-2-scrum.png)
 
 **Product owner**
 
@@ -88,7 +88,7 @@ Sprint planning is usually conducted in a time contained meeting. During this me
 
 Each product backlog is noted on a sticky paper and pasted to the board. During the sprint planning meeting, these sticky notes are broken down further into detailed tasks which is then assigned to the development team.
 
-![Sprint planning](../images/project-methodology/1-2-sprintplanning.jpg) _By Wiki Education Foundation [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], from Wikimedia Commons_
+![Sprint planning](/images/project-methodology/1-2-sprintplanning.jpg) _By Wiki Education Foundation [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], from Wikimedia Commons_
 
 ### Daily Scrum or stand up
 
@@ -100,7 +100,7 @@ Each person in the developments has a few minutes to speak about three things.
 
 In case you needed a visualization of Scrum, here's NASA in the 1970s during a daily stand-up:
 
-![Daily scrum](../images/project-methodology/1-2-dailyscrum.jpg) _By NASA on The Commons [No restrictions], via Wikimedia Commons_
+![Daily scrum](/images/project-methodology/1-2-dailyscrum.jpg) _By NASA on The Commons [No restrictions], via Wikimedia Commons_
 
 ## Sprint review
 

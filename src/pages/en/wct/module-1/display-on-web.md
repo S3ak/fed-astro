@@ -110,11 +110,11 @@ Web hosts differ slightly in how they present information.
 
 On one.com you can find your FTP credentials under ‘SSH and FTP’.
 
-![Advanced Settings on One.com](../images/wct/wct-advanced-settings.jpg)
+![Advanced Settings on One.com](/images/wct/wct-advanced-settings.jpg)
 
 Then you can go to FTP Administration, copy the credentials, and send yourself the FTP password to use on FileZilla.
 
-![FTP Admin on One.com](../images/wct/wct-ftp-admin.png)
+![FTP Admin on One.com](/images/wct/wct-ftp-admin.png)
 
 Different web hosts will have different ways of finding this information, but it should be relatively easy to find. Most web hosts have a help section that will guide you through finding FTP credentials on their system.
 

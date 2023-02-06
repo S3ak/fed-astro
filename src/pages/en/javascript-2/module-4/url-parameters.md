@@ -13,7 +13,7 @@ URL parameters (also called "query strings" or "URL query parameters") are ways 
 
 URL parameters begin with a question mark (`?`). After that, URL parameters contain key/value pairs separated by an ampersand (`&`). The key and value have an equal sign (`=`) between them.
 
-![Web API](../images/javascript-2/async/url-parameters.png)
+![Web API](/images/javascript-2/async/url-parameters.png)
 
 URL parameters can be beneficial within your own applications. An example of where they could be helpful is a dynamic product page (e.g. `https://www.example.com/product/?id=1`). This page would check the URL parameters for an ID and then use this ID to do an API call to fetch a product with a specific ID. In this example, it would get a product with an ID of `1`.
 
