@@ -31,6 +31,14 @@ You can't make assumptions about what the JSON will contain and what properties 
 
 You can use a simple **console.log** or software like [Postman](https://www.postman.com/downloads/).
 
+<iframe
+  src="https://stackblitz.com/edit/vitejs-vite-y6pft5?embed=1&file=examples/postman.html&hideExplorer=1&view=editor"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  title="Skipping certain objects when looping over an array of objects"
+></iframe>
+
 <details>
   <summary>View Video</summary>
   <iframe
@@ -58,6 +66,24 @@ Like **break**, continue cannot be used inside a forEach function.
 
 - **break** - exit the loop entirely.
 - **continue** - skip this particular iteration of the loop.
+
+```js
+for (let i = 0; i < array.length; i++) {
+  if (array[i].property < condition) {
+    // if condition is met, skip this iteration
+    continue;
+  }
+  doSomething(array[i]);
+}
+```
+
+<iframe
+  src="https://stackblitz.com/edit/vitejs-vite-y6pft5?embed=1&file=examples/break.html&hideExplorer=1&view=editor"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  title="Skipping certain objects when looping over an array of objects"
+></iframe>
 
 <details>
   <summary>View Video</summary>
