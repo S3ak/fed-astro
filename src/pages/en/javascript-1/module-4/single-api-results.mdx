@@ -31,13 +31,17 @@ Because we are not working with an array, we access the result properties direct
 
 [Code](https://github.com/NoroffFEU/get-requests-fetching-a-single-result) from the video.
 
+### Exercise
+
+Create the details page for the single result. The URL can be hard coded for now.
+
 ## Filter method
 
 If you want to filter the data displayed to a user, you can use the filter method. The filter method is used to create a new array from an existing array that the filter method is called on.
 
-The filter method takes a function as an argument. This function receives each item in the array as an argument. If the function returns true, the item is added to the new array.
+The filter method takes a callback function as an argument, and this function is used to determine which elements should be included in the new array. This function receives each item in the array as an argument. If the function returns true, the item is added to the new array.
 
-The filter method in JavaScript is a built-in array method that allows you to create a new array with only the elements that pass a certain test. The method takes a callback function as an argument, and this function is used to determine which elements should be included in the new array.
+### Filter method with numbers
 
 Here is an example of using the filter method in JavaScript:
 
@@ -51,15 +55,45 @@ const evenNumbers = numbers.filter(function (number) {
 console.log(evenNumbers); // Output: [2, 4]
 ```
 
-### Filter method with numbers
-
 [This Scrimba looks at using the filter method on an array of numbers.](https://scrimba.com/scrim/cvwqVzT8)
 
 ### Filter method with strings
 
+```js
+const words = ["apple", "banana", "cherry", "date", "elderberry"];
+
+const longWords = words.filter(function (word) {
+  return word.length >= 6;
+});
+
+console.log(longWords); // Output: ['banana', 'elderberry']
+```
+
 [This Scrimba looks at using the filter method on an array of strings.](https://scrimba.com/scrim/cpMKVPTa)
 
 ### Filter method with objects
+
+```js
+const students = [
+  { name: "John", grade: "A" },
+  { name: "Jane", grade: "B" },
+  { name: "Jim", grade: "C" },
+  { name: "Jack", grade: "A" },
+  { name: "Jill", grade: "D" },
+];
+
+const topStudents = students.filter(function (student) {
+  return student.grade === "A";
+});
+
+console.log(topStudents);
+/* Output:
+[ 
+  { name: 'John', grade: 'A' },
+  { name: 'Jack', grade: 'A' }
+]
+*/
+```
 
 [This Scrimba looks at using the filter method on an array of objects.](https://scrimba.com/scrim/cwwvEJt9)
 
@@ -103,6 +137,10 @@ The video below builds on the one above, adding data from an API call and moving
 
 [Code](https://github.com/NoroffFEU/filter-example-with-api-call) from the video.
 
+#### Exercise
+
+Create a search input field and filter the results based on the search term.
+
 ## Find method
 
 The find method is similar to the filter method, though it only returns a single item (or undefined) rather than an array of items.
@@ -112,13 +150,13 @@ The find method in JavaScript is a built-in array method that allows you to find
 Here is an example of using the find method in JavaScript:
 
 ```js
-const words = ["apple", "banana", "cherry", "date", "elderberry"];
+const numbers = [1, 2, 3, 4, 5];
 
-const longWords = words.filter(function (word) {
-  return word.length >= 6;
+const firstEvenNumber = numbers.find(function (number) {
+  return number % 2 === 0;
 });
 
-console.log(longWords); // Output: ['banana', 'elderberry']
+console.log(firstEvenNumber); // Output: 2
 ```
 
 [Scrimba video](https://scrimba.com/scrim/cVvLZLhp)
