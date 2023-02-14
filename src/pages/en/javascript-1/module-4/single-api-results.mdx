@@ -15,7 +15,19 @@ Sometimes we retrieve only a single result from an API call. In this case, we wi
 
 Because we are not working with an array, we access the result properties directly.
 
-<iframe src="https://player.vimeo.com/video/453002751?h=9420e026bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="2560" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Fetching and displaying a single result from an API call"></iframe>
+<details>
+  <summary>View video</summary>
+
+    <iframe
+        src="https://player.vimeo.com/video/453002751?h=9420e026bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        width="2560"
+        height="1080"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+        title="Fetching and displaying a single result from an API call"></iframe>
+
+</details>
 
 [Code](https://github.com/NoroffFEU/get-requests-fetching-a-single-result) from the video.
 
@@ -24,6 +36,20 @@ Because we are not working with an array, we access the result properties direct
 If you want to filter the data displayed to a user, you can use the filter method. The filter method is used to create a new array from an existing array that the filter method is called on.
 
 The filter method takes a function as an argument. This function receives each item in the array as an argument. If the function returns true, the item is added to the new array.
+
+The filter method in JavaScript is a built-in array method that allows you to create a new array with only the elements that pass a certain test. The method takes a callback function as an argument, and this function is used to determine which elements should be included in the new array.
+
+Here is an example of using the filter method in JavaScript:
+
+```js
+const numbers = [1, 2, 3, 4, 5];
+
+const evenNumbers = numbers.filter(function (number) {
+  return number % 2 === 0;
+});
+
+console.log(evenNumbers); // Output: [2, 4]
+```
 
 ### Filter method with numbers
 
@@ -41,7 +67,20 @@ The filter method takes a function as an argument. This function receives each i
 
 In the video below, the filter method is used to filter a static array of objects on a keyup event.
 
-<iframe src="https://player.vimeo.com/video/457404171?h=47b82295b4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="2560" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Filter method example"></iframe>
+<details>
+  <summary>View video</summary>
+
+<iframe
+  src="https://player.vimeo.com/video/457404171?h=47b82295b4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+  width="2560"
+  height="1080"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  title="Filter method example"
+></iframe>
+
+</details>
 
 [Code](https://github.com/NoroffFEU/filter-example) from the video.
 
@@ -49,13 +88,38 @@ In the video below, the filter method is used to filter a static array of object
 
 The video below builds on the one above, adding data from an API call and moving the code into reusable functions.
 
-<iframe src="https://player.vimeo.com/video/457423739?h=2f671f7298&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Filter example with API data"></iframe>
+<details>
+  <summary>View video</summary>
+  <iframe
+    src="https://player.vimeo.com/video/457423739?h=2f671f7298&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    width="1280"
+    height="720"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen
+    title="Filter example with API data"
+  ></iframe>
+</details>
 
 [Code](https://github.com/NoroffFEU/filter-example-with-api-call) from the video.
 
 ## Find method
 
 The find method is similar to the filter method, though it only returns a single item (or undefined) rather than an array of items.
+
+The find method in JavaScript is a built-in array method that allows you to find the first element in an array that satisfies a certain test. The method takes a callback function as an argument, and this function is used to determine which element to return. The method returns the value of the first element in the array that satisfies the test, or undefined if no elements pass the test.
+
+Here is an example of using the find method in JavaScript:
+
+```js
+const words = ["apple", "banana", "cherry", "date", "elderberry"];
+
+const longWords = words.filter(function (word) {
+  return word.length >= 6;
+});
+
+console.log(longWords); // Output: ['banana', 'elderberry']
+```
 
 [Scrimba video](https://scrimba.com/scrim/cVvLZLhp)
 

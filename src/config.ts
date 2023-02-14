@@ -359,7 +359,7 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "Query string parameters",
-                  link: "en/javascript-1/module-3/query-string-parameters",
+                  link: "en/javascript-1/module-4/get-requests",
                 },
                 {
                   text: "Form validation",
