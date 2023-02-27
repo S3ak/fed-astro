@@ -382,6 +382,99 @@ export const SIDEBAR: DeepSidebar = {
             },
           ],
         },
+        {
+          title: "Interaction design",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/interaction-design/module-1/module-1",
+                },
+                {
+                  text: "What is Interaction Design",
+                  link: "en/interaction-design/module-1/intro-interaction-design",
+                },
+                {
+                  text: "Design Research",
+                  link: "en/interaction-design/module-1/design-research",
+                },
+                {
+                  text: "Personas and Scenarios",
+                  link: "en/interaction-design/module-1/personas-scenarios",
+                },
+                {
+                  text: "Usability Testing",
+                  link: "en/interaction-design/module-1/usability-testing",
+                },
+              ],
+            },
+            {
+              title: "Module 2",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/interaction-design/module-2/module-2",
+                },
+                {
+                  text: "Persuasion and Design Values",
+                  link: "en/interaction-design/module-2/persuasion-design-values",
+                },
+                {
+                  text: "Context and Platforms",
+                  link: "en/interaction-design/module-2/context-platforms",
+                },
+                {
+                  text: "Info Architecture and Design for the Middle",
+                  link: "en/interaction-design/module-2/info-architecture",
+                },
+                {
+                  text: "Design the Flow",
+                  link: "en/interaction-design/module-2/design-flow",
+                },
+              ],
+            },
+            {
+              title: "Module 3",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/interaction-design/module-3/module-3",
+                },
+                {
+                  text: "Metaphors, Affordances, and Signifiers",
+                  link: "en/interaction-design/module-3/affordances",
+                },
+                {
+                  text: "Take Action and Get Feedback",
+                  link: "en/interaction-design/module-3/action-feedback",
+                },
+                {
+                  text: "Handling Errors",
+                  link: "en/interaction-design/module-3/handling-errors",
+                },
+                {
+                  text: "Practical UX design",
+                  link: "en/interaction-design/module-3/practical-ux-design",
+                },
+              ],
+            },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "Course Assignment Brief",
+                  link: "en/interaction-design/ca",
+                },
+                // {
+                //   text: "Marking Criteria",
+                //   link: "en/javascript-1/ca-guide",
+                // },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],
