@@ -71,11 +71,25 @@ Video: [Local by Flywheel](https://www.linkedin.com/learning/installing-and-runn
 
 Video: [MAMP](https://www.linkedin.com/learning/installing-and-running-wordpress-mamp-3/hosting-wordpress-on-your-mac-with-mamp?u=43268076) (1h 15m)
 
-<hr>
+---
 
 ## Lesson Task
 
 ### Brief
+
+To run PHP files, we need a server to run them on. When developing the site, we can use our localhost to host the files, but we need to upload them to a web host to make them live.
+
+If you already have a web host, you can create a folder on your domain and upload files there. If you don’t have a domain, continue with the task.
+
+#### level 1 proccess
+
+- Choose a web host. You can choose any web host you like, just make sure the package runs PHP and gives you at least one database. Generally, the entry-level packages should cover that. (If you’re unsure, the Beginner package on one.com will be fine.)
+
+- Next, you will choose a name for your domain. You can choose whatever you like.
+
+- Follow their setup wizard, and once complete, you can connect to the web host using FTP. FileZilla is a popular application for connecting to a web host using FTP.
+
+- Once you have connected to the web host using FTP, upload a file to your web host and test that it’s coming through correctly. Your web host likely has a folder called ‘public_html’ or ‘www’. This is where you’ll place the files and folders that should be displayed on your web host. We advise you to place assignments into their own folder instead of the website’s root for our programme.
 
 Once you’ve completed installing an application to run a local server on your computer and installed WordPress, take some time to explore the admin panel and get familiar with how WordPress works.
 

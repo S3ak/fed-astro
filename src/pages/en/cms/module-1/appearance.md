@@ -31,7 +31,7 @@ You can change the value of the text that appears in the links. You can create s
 
 **WATCH** Video: [WordPress 5 Essential Training: Site Administration](https://www.linkedin.com/learning/wordpress-5-essential-training-site-administration/site-identity?u=43268076) 2. Configuration with the customizer
 
-<hr>
+---
 
 ## Lesson Task
 
