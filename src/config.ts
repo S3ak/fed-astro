@@ -475,6 +475,74 @@ export const SIDEBAR: DeepSidebar = {
             },
           ],
         },
+        {
+          title: "CMS",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/cms/module-1/module-1",
+                },
+                {
+                  text: "What are CMSs and why use them",
+                  link: "en/cms/module-1/intro-cms",
+                },
+                {
+                  text: "How to get set up with WordPress",
+                  link: "en/cms/module-1/intro-wordpress",
+                },
+                {
+                  text: "Site Administration",
+                  link: "en/cms/module-1/site-administration",
+                },
+                {
+                  text: "Appearance",
+                  link: "en/cms/module-1/appearance",
+                },
+              ],
+            },
+            {
+              title: "Module 2",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/cms/module-2/module-2",
+                },
+                {
+                  text: "Introduction to PHP",
+                  link: "en/cms/module-2/intro-php",
+                },
+                {
+                  text: "Child themes",
+                  link: "en/cms/module-2/child-themes",
+                },
+                {
+                  text: "Working with child themes",
+                  link: "en/cms/module-2/working-with-child-themes",
+                },
+                {
+                  text: "WordPress REST API",
+                  link: "en/cms/module-2/wordpress-rest-api",
+                },
+              ],
+            },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "Course Assignment Brief",
+                  link: "en/cms/ca",
+                },
+                // {
+                //   text: "Marking Criteria",
+                //   link: "en/cms/ca-guide",
+                // },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],

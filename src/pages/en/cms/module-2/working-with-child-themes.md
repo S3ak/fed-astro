@@ -53,7 +53,7 @@ Let’s say we want to update the heading to include our tagline underneath our 
 
 ![Pluggable functions 2](/images/cms/2-3-4.jpg)
 
-Next, we can search through our WordPress files for a mention of <div class="site-branding">.
+Next, we can search through our WordPress files for a mention of `<div class="site-branding">`.
 
 ![Pluggable functions 3](/images/cms/2-3-5.jpg)
 
@@ -87,13 +87,13 @@ A simpler version, instead of creating the $html variable, is simply to echo the
 
 Another way to edit your website using a child theme is to edit the template files.
 
-Let’s say we want to add a generic image below each product. First, we’d find out which template edits our product pages. In this case we’re looking for <div class="summary entry-summary">.
+Let’s say we want to add a generic image below each product. First, we’d find out which template edits our product pages. In this case we’re looking for `<div class="summary entry-summary">`.
 
 ![Template files](/images/cms/2-3-12.jpg)
 
 Search for that div in your WordPress files. You’ll find it’s in content-single-product.php in WooCommerce’s template files.
 
-Here is where the product details are added to <div class="summary entry-summary">.
+Here is where the product details are added to `<div class="summary entry-summary"`>.
 
 ![Template files 2](/images/cms/2-3-13.jpg)
 
