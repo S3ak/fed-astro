@@ -543,6 +543,24 @@ export const SIDEBAR: DeepSidebar = {
             },
           ],
         },
+        {
+          title: "Exam",
+          items: [
+            {
+              title: "Semester Exam",
+              items: [
+                {
+                  text: "Exam Brief",
+                  link: "en/exam-1/brief",
+                },
+                // {
+                //   text: "Marking Criteria",
+                //   link: "en/cms/ca-guide",
+                // },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],
