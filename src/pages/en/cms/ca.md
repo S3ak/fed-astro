@@ -5,13 +5,11 @@ tags: Content Management Systems
 layout: ../../../layouts/MainLayout.astro
 ---
 
-## Goal
-
-You’ll continue the cross-course project you designed and built in the first semester.
+## cross-course project you designed and built in the first semester.
 
 ## Brief
 
-In this assignment, you’ll be using the WordPress REST API to manage the products for your website deployed on Netlify. Instead of having the products hardcoded into the HTML, you will use JavaScript to fetch the list of WordPress products and display them on your site.
+In this assignment, you’ll be using the WordPress REST API to manage the blogs for your website deployed on Netlify. Instead of having the blogs hardcoded into the HTML, you will use JavaScript to fetch the list of WordPress blogs and display them on your site.
 
 It’s essential to note the two different aspects of the assignment: the WordPress REST API running on your web host, and your JavaScript in the cross-course project, making a call to that API. WordPress will generate a front-end, but that’s not what we’re using it for in this assignment; we’re using it as a Headless CMS.
 
@@ -44,8 +42,8 @@ Article: [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web
 
 By the end of the CA, you will:
 
-- have installed WordPress on a web host and created a list of products
-- be making an API call to fetch the products to your cross-course project
+- have installed WordPress on a web host and created a list of blogs
+- be making an API call to fetch the blogs to your cross-course project
 - be using query strings to let the user click to view an individual product.
 
 You need to complete all of the above to receive a passing grade.
