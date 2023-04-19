@@ -549,10 +549,10 @@ export const SIDEBAR: DeepSidebar = {
             {
               title: "Semester Exam",
               items: [
-                // {
-                //   text: "Exam Brief",
-                //   link: "en/exam-1/brief",
-                // },
+                {
+                  text: "Exam Brief",
+                  link: "en/exam-1/brief",
+                },
                 // {
                 //   text: "Marking Criteria",
                 //   link: "en/cms/ca-guide",
