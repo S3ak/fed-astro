@@ -561,6 +561,24 @@ export const SIDEBAR: DeepSidebar = {
             },
           ],
         },
+        {
+          title: "Portfolio",
+          items: [
+            {
+              title: "Semester Portfolio",
+              items: [
+                {
+                  text: "Portfolio Brief",
+                  link: "en/portfolio-1/brief",
+                },
+                // {
+                //   text: "Marking Criteria",
+                //   link: "en/cms/ca-guide",
+                // },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],
