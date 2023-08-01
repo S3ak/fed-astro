@@ -581,5 +581,943 @@ export const SIDEBAR: DeepSidebar = {
         },
       ],
     },
+    {
+      title: "Year 2",
+      items: [
+        {
+          title: "Introduction",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/html-css/module-1/overview",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "CSS Frameworks",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/javascript-1/overview",
+                },
+                {
+                  text: "Introduciton to frameworks",
+                  link: "en/programming-foundations/module-1/getting-started",
+                },
+                {
+                  text: "Introduction to Bootstrap",
+                  link: "en/programming-foundations/module-1/strings-numbers-booleans",
+                },
+                {
+                  text: "Introduction to SASS",
+                  link: "en/programming-foundations/module-1/making-decisions",
+                },
+                {
+                  text: "Customising Bootstrap",
+                  link: "en/programming-foundations/module-1/loops",
+                },
+              ],
+            },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "CA Brief",
+                  link: "en/programming-foundations/ca",
+                },
+                {
+                  text: "Marking Criteria",
+                  link: "en/programming-foundations/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Addtional Content",
+              items: [
+                {
+                  text: "Introduction to Tailwind CSS",
+                  link: "en/programming-foundations/ca",
+                },
+                {
+                  text: "Building with Tailwind CSS",
+                  link: "en/programming-foundations/ca-guide",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Javascript 2",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/javascript-1/module-1/overview",
+                },
+                {
+                  text: "Debugging",
+                  link: "en/javascript-1/module-1/intro-concepts",
+                },
+                {
+                  text: "JSDocs",
+                  link: "en/javascript-1/module-1/manipulating-dom",
+                },
+                {
+                  text: "JSON",
+                  link: "en/javascript-1/module-1/html-from-objects",
+                },
+                {
+                  text: "Local Storage",
+                  link: "en/javascript-1/module-1/html-in-functions",
+                },
+                {
+                  text: "Destructing",
+                  link: "en/javascript-1/module-1/html-in-functions",
+                },
+                {
+                  text: "Map",
+                  link: "en/javascript-1/module-1/html-in-functions",
+                },
+                {
+                  text: "Set",
+                  link: "en/javascript-1/module-1/html-in-functions",
+                },
+                {
+                  text: "Classes",
+                  link: "en/javascript-1/module-1/html-in-functions",
+                },
+                {
+                  text: "Advanced Topics",
+                  link: "en/javascript-1/module-1/html-in-functions",
+                },
+              ],
+            },
+            {
+              title: "Module 2",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/javascript-1/module-2/module-2",
+                },
+                {
+                  text: "Array Methods",
+                  link: "en/javascript-1/module-2/callback-functions",
+                },
+                {
+                  text: "Map()",
+                  link: "en/javascript-1/module-2/dom-events",
+                },
+                {
+                  text: "filter()",
+                  link: "en/javascript-1/module-2/length-trim-eventlistener",
+                },
+                {
+                  text: "Reduce()",
+                  link: "en/javascript-1/module-2/more-dom-concepts",
+                },
+                {
+                  text: "Find() and findIndex()",
+                  link: "en/javascript-1/module-2/more-dom-concepts",
+                },
+                {
+                  text: "Some() and every()",
+                  link: "en/javascript-1/module-2/more-dom-concepts",
+                },
+                {
+                  text: "Object Methods",
+                  link: "en/javascript-1/module-2/more-dom-concepts",
+                },
+                {
+                  text: "Chaining",
+                  link: "en/javascript-1/module-2/more-dom-concepts",
+                },
+                {
+                  text: "Best Practices",
+                  link: "en/javascript-1/module-2/more-dom-concepts",
+                },
+              ],
+            },
+            {
+              title: "Module 3",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/javascript-1/module-3/module-3",
+                },
+                {
+                  text: "ES6 Modules Introduction",
+                  link: "en/javascript-1/module-3/query-string-parameters",
+                },
+                {
+                  text: "ES6 Modules Setup",
+                  link: "en/javascript-1/module-3/handling-errors",
+                },
+                {
+                  text: "ES6 Modules Basics",
+                  link: "en/javascript-1/module-3/arrow-functions-promises",
+                },
+                {
+                  text: "Splitting Code",
+                  link: "en/javascript-1/module-3/more-about-apis",
+                },
+                {
+                  text: "Additional Info",
+                  link: "en/javascript-1/module-3/more-about-apis",
+                },
+              ],
+            },
+            {
+              title: "Module 4",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/javascript-1/module-4/module-4",
+                },
+                {
+                  text: "Asynchoronous Code",
+                  link: "en/javascript-1/module-4/skipping-certain-api-results",
+                },
+                {
+                  text: "Callbacks",
+                  link: "en/javascript-1/module-4/single-api-results",
+                },
+                {
+                  text: "Promises",
+                  link: "en/javascript-1/module-4/get-requests",
+                },
+                {
+                  text: "Async/Await",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "API",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "REST",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "fetch()",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "HTTP Response status codes",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "HTTP Request Methods",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "Postman",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "HTTP GET Request Method",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "HTTP POST Request Method",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "HTTP PUT Request Method",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "HTTP PATCH Request Method",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "HTTP DELETE Request Method",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "URL Parameters",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+                {
+                  text: "JWT",
+                  link: "en/javascript-1/module-4/form-validation",
+                },
+              ],
+            },
+            {
+              title: "Module 5",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/javascript-1/module-4/module-4",
+                },
+                {
+                  text: "Factory functions",
+                  link: "en/javascript-1/module-4/module-4",
+                },
+                {
+                  text: "Object literal",
+                  link: "en/javascript-1/module-4/module-4",
+                },
+                {
+                  text: "IIFE",
+                  link: "en/javascript-1/module-4/module-4",
+                },
+                {
+                  text: "Module pattern",
+                  link: "en/javascript-1/module-4/module-4",
+                },
+                {
+                  text: "Singleton pattern",
+                  link: "en/javascript-1/module-4/module-4",
+                },
+                {
+                  text: "Observer pattern",
+                  link: "en/javascript-1/module-4/module-4",
+                },
+              ],
+            },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "Course Assignment Brief",
+                  link: "en/javascript-1/ca",
+                },
+                // {
+                //   text: "Marking Criteria",
+                //   link: "en/javascript-1/ca-guide",
+                // },
+              ],
+            },
+            {
+              title: "Additional Content",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/javascript-1/ca",
+                },
+                {
+                  text: "Algorithms",
+                  link: "en/javascript-1/ca-guide",
+                },
+                {
+                  text: "Big O Notation",
+                  link: "en/coming-soon",
+                },
+                {
+                  text: "Sort - Bubble sort",
+                  link: "en/javascript-1/ca-guide",
+                },
+                {
+                  text: "Sort - Insert sort",
+                  link: "en/javascript-1/ca-guide",
+                },
+                {
+                  text: "Sort - Selection Sort",
+                  link: "en/javascript-1/ca-guide",
+                },
+                {
+                  text: "Search - Linear Search",
+                  link: "en/javascript-1/ca-guide",
+                },
+                {
+                  text: "Search - Interploation Search",
+                  link: "en/javascript-1/ca-guide",
+                },
+                {
+                  text: "Graphs - Breadth First",
+                  link: "en/javascript-1/ca-guide",
+                },
+                {
+                  text: "Graphs - Dijkstra's Algorithm",
+                  link: "en/javascript-1/ca-guide",
+                },
+                {
+                  text: "Data Structures - Linked Lists",
+                  link: "en/javascript-1/ca-guide",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Workflow",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/interaction-design/module-1/module-1",
+                },
+                {
+                  text: "Git command line",
+                  link: "en/interaction-design/module-1/intro-interaction-design",
+                },
+                {
+                  text: "Git your own adventure",
+                  link: "en/interaction-design/module-1/design-research",
+                },
+                {
+                  text: "Introduction to Github Actions",
+                  link: "en/interaction-design/module-1/personas-scenarios",
+                },
+                {
+                  text: "Managing Secrets",
+                  link: "en/interaction-design/module-1/usability-testing",
+                },
+              ],
+            },
+            {
+              title: "Module 2",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/interaction-design/module-2/module-2",
+                },
+                {
+                  text: "Your working enviromnent",
+                  link: "en/interaction-design/module-2/persuasion-design-values",
+                },
+                {
+                  text: "Tailoring your enviromnent",
+                  link: "en/interaction-design/module-2/context-platforms",
+                },
+                {
+                  text: "Automating your workflow",
+                  link: "en/interaction-design/module-2/info-architecture",
+                },
+                {
+                  text: "Using a Bundler",
+                  link: "en/interaction-design/module-2/design-flow",
+                },
+              ],
+            },
+            {
+              title: "Module 3",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/interaction-design/module-3/module-3",
+                },
+                {
+                  text: "Introduction to testing",
+                  link: "en/interaction-design/module-3/affordances",
+                },
+                {
+                  text: "Unit testing",
+                  link: "en/interaction-design/module-3/action-feedback",
+                },
+                {
+                  text: "End-to-end testing",
+                  link: "en/interaction-design/module-3/handling-errors",
+                },
+                {
+                  text: "Automated testing",
+                  link: "en/interaction-design/module-3/practical-ux-design",
+                },
+              ],
+            },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "Course Assignment Brief",
+                  link: "en/interaction-design/ca",
+                },
+                // {
+                //   text: "Marking Criteria",
+                //   link: "en/javascript-1/ca-guide",
+                // },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Semester Project 2",
+          items: [
+            {
+              title: "Project",
+              items: [
+                {
+                  text: "Brief",
+                  link: "en/cms/module-1/module-1",
+                },
+                {
+                  text: "Marketing Criteria",
+                  link: "en/cms/module-1/intro-cms",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Industry Knowledge",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/exam-1/brief",
+                },
+                {
+                  text: "Job options in web development",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Your first job",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Preparing your GitHub Account",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Creating your Portfolio website",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Module 2",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/exam-1/brief",
+                },
+                {
+                  text: "Freelancing",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Positioning and pricing",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Finding clients",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Contracts",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/exam-1/brief",
+                },
+                {
+                  text: "Assessment guide",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Sorting Hat",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Finding clients",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Contracts",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Development platforms",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "Relational Datastores",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Non-Relational Datastores",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Caching",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "DBaaS",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Module 2",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "Hosting",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Networking",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Baas",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "BaaS starter",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Module 3",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "DevOps",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Security",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Containerization",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Machine learning",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "Marking Criteria",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Collaboration guide",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Case Studies",
+              items: [
+                {
+                  text: "Text template",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "Video template",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "JavaScript Frameworks",
+          items: [
+            {
+              title: "Module 1",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "Introduction",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Getting started with React",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "JSX",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Components",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Props",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Events",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "State",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Mapping out lists",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Conditional rendering",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "React dev tools",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Best practices",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Module 2",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "Basic classes",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "CSS Modules",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "SASS",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Styled-components",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "UI & CSS Frameworks",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Using images",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Module 3",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "useState",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "useEffect",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "useReducer",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "useContext",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "State Management",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Zustand",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Redux Toolkit (Depreciated)",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Module 4",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "React Router",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "API Calls",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Using route params to fetch data",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Creating our own hooks",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "API Hook",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Forms",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "react-hook-form",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Module 5",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "Testing in React",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "Deploying a site ot Netlify",
+                  link: "en/cms/ca-guide",
+                },
+                {
+                  text: "TypeScript",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Course Assignment",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "Marking Criteria",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Additional content",
+              items: [
+                {
+                  text: "RTK Query",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "TanStack Query",
+                  link: "https://tanstack.com/query/latest",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Project Exam 2",
+          items: [
+            {
+              title: "Brief",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "Marking Criteria",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Additional content",
+              items: [
+                {
+                  text: "RTK Query",
+                  link: "en/portfolio-1/brief",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          title: "Portfolio 2",
+          items: [
+            {
+              title: "Brief",
+              items: [
+                {
+                  text: "Overview",
+                  link: "en/portfolio-1/brief",
+                },
+                {
+                  text: "Marking Criteria",
+                  link: "en/cms/ca-guide",
+                },
+              ],
+            },
+            {
+              title: "Additional content",
+              items: [
+                {
+                  text: "RTK Query",
+                  link: "en/portfolio-1/brief",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
 };
