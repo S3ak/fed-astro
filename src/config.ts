@@ -592,7 +592,7 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/html-css/module-1/overview",
+                  link: "en/css-frameworks/module-1/module-1",
                 },
               ],
             },
@@ -606,23 +606,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/javascript-1/overview",
+                  link: "en/css-frameworks/module-1/module-1",
                 },
                 {
                   text: "Introduciton to frameworks",
-                  link: "en/programming-foundations/module-1/getting-started",
+                  link: "en/css-frameworks/module-1/intro-to-frameworks",
                 },
                 {
                   text: "Introduction to Bootstrap",
-                  link: "en/programming-foundations/module-1/strings-numbers-booleans",
+                  link: "en/css-frameworks/module-1/intro-to-bootstrap",
                 },
                 {
                   text: "Introduction to SASS",
-                  link: "en/programming-foundations/module-1/making-decisions",
+                  link: "en/css-frameworks/module-1/intro-to-sass",
                 },
                 {
                   text: "Customising Bootstrap",
-                  link: "en/programming-foundations/module-1/loops",
+                  link: "en/css-frameworks/module-1/bootstrap-with-sass",
                 },
               ],
             },
@@ -631,24 +631,24 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "CA Brief",
-                  link: "en/programming-foundations/ca",
+                  link: "en/css-frameworks/ca/ca",
                 },
                 {
                   text: "Marking Criteria",
-                  link: "en/programming-foundations/ca-guide",
+                  link: "en/css-frameworks/marking-criteria",
                 },
               ],
             },
             {
-              title: "Addtional Content",
+              title: "Additional Content",
               items: [
                 {
                   text: "Introduction to Tailwind CSS",
-                  link: "en/programming-foundations/ca",
+                  link: "en/css-frameworks/building-with-tailwind-css",
                 },
                 {
                   text: "Building with Tailwind CSS",
-                  link: "en/programming-foundations/ca-guide",
+                  link: "en/css-frameworks/intro-to-tailwind",
                 },
               ],
             },
