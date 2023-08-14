@@ -13,12 +13,50 @@ const currentPageMatch = currentPage.endsWith("/")
 const langCode = getLanguageFromURL(currentPage);
 const sidebar = SIDEBAR[langCode];
 
-function isOpen({ title }) {
+function isModuleOpen(title: string) {
   return currentPage.includes(formatTitle(title));
 }
 
 function formatTitle(title) {
   return title.replace(/\s+/g, "-").toLowerCase();
+}
+
+function findMatchingItem(targetTitle: string, key: "year" | "topic"): boolean {
+  const formattedCurrentPage = currentPage.replace("/", "");
+  let isOpen = false;
+
+  sidebar.forEach((year) => {
+    if (isOpen) return;
+
+    year.items.forEach((topic) => {
+      if (isOpen) return;
+
+      topic.items.forEach((module) => {
+        if (isOpen) return;
+
+        module.items.forEach(({ link }) => {
+          if (link === formattedCurrentPage) {
+            if (
+              (key === "year" && year.title === targetTitle) ||
+              (key === "topic" && topic.title === targetTitle)
+            ) {
+              isOpen = true;
+            }
+          }
+        });
+      });
+    });
+  });
+
+  return isOpen;
+}
+
+function isYearOpen(title: string): boolean {
+  return findMatchingItem(title, "year");
+}
+
+function isTopicOpen(title: string): boolean {
+  return findMatchingItem(title, "topic");
 }
 ---
 
@@ -28,46 +66,54 @@ function formatTitle(title) {
       sidebar.map((year) => (
         <li>
           <div class="nav-group">
-            <h2>{year.title}</h2>
-            <ul>
-              {year.items.map((topic) => (
-                <li class="module-section">
-                  <details open={isOpen(topic)}>
-                    <summary>
-                      <h3>{topic.title}</h3>
-                    </summary>
-                    <ul>
-                      {topic.items.map((module) => (
-                        <li class="top-section">
-                          <details open={isOpen(module)}>
-                            <summary>
-                              <h4>{module.title}</h4>
-                            </summary>
-                            <ul>
-                              {module.items.map(({ text, link }) => {
-                                const url = Astro.site?.pathname + link;
-                                console.warn(url);
-                                const isActive = currentPageMatch === link;
-                                return (
-                                  <li class="nav-link">
-                                    <a
-                                      href={url}
-                                      aria-current={isActive ? "page" : false}
-                                    >
-                                      {text}
-                                    </a>
-                                  </li>
-                                );
-                              })}
-                            </ul>
-                          </details>
-                        </li>
-                      ))}
-                    </ul>
-                  </details>
-                </li>
-              ))}
-            </ul>
+            <details open={isYearOpen(year.title)}>
+              <summary>
+                <h2>{year.title}</h2>
+              </summary>
+
+              <ul>
+                {year.items.map((topic) => (
+                  <li class="module-section">
+                    <details open={isTopicOpen(topic.title)} id="test-topic">
+                      <summary>
+                        <h3>{topic.title}</h3>
+                      </summary>
+                      <ul>
+                        {topic.items.map((module) => (
+                          <li class="top-section">
+                            <details
+                              open={isModuleOpen(module.title)}
+                              id="test-module"
+                            >
+                              <summary>
+                                <h4>{module.title}</h4>
+                              </summary>
+                              <ul>
+                                {module.items.map(({ text, link }) => {
+                                  const url = Astro.site?.pathname + link;
+                                  console.warn(url);
+                                  const isActive = currentPageMatch === link;
+                                  return (
+                                    <li class="nav-link">
+                                      <a
+                                        href={url}
+                                        aria-current={isActive ? "page" : false}
+                                      >
+                                        {text}
+                                      </a>
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                            </details>
+                          </li>
+                        ))}
+                      </ul>
+                    </details>
+                  </li>
+                ))}
+              </ul>
+            </details>
           </div>
         </li>
       ))

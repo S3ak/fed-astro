@@ -1,6 +1,22 @@
 # FED Class lesson teaching material
 
 - [Production Website](https://fed-vocational-astro-course.vercel.app/en/introduction)
+- [Staging Website](https://fed-vocational-astro-course.vercel.app/en/introduction)
+- [Deployment pipeline](https://vercel.com/seak/fed-vocational-astro-course/deployments)
+- [Moodle](https://lms.noroff.no/course/view.php?id=722)
+- [Teams](https://teams.microsoft.com/l/team/19%3adY1Rc-2kHaeAMsJoAM5F_QR4v__ZAXruYEhmnC3inEk1%40thread.tacv2/conversations?groupId=34ed33bc-4016-498e-aa6e-822186045b08&tenantId=849aef27-5aa9-4c40-a7ad-38cf10c2f3fb)
+
+This project is a teaching Toolkit for teaching in vocational in person lessons using the didactic model and teaching principles. I've tailor made this teaching aid for my pedagogical practice. This project contains lesson material with examples, lesson tasks & course assignments.
+
+My framework will facilitate a higher quality of education while remaining constant throughout the semesters. The main aim is to develop a sense of self directed learning in my students as that is the fundamental skill needed in out profession (front-end development).
+
+<!-- ![moseak_A_robotic_human_searching_the_web_in_a_cyberpunk_theme](/iamges/moseak_A_robotic_human_searching_the_web_in_a_cyberpunk_theme._fb3669f4-cb6f-4743-b703-b4925c1f45af.png) -->
+
+## Why
+
+Although I’ve produce graduates that can find employment I’m concerned about the quality of their education and how proficient they are once they leave. I would like to improve the quality of my education and understand how to adapt the lesson structure to better suit the individual needs of my students. I believe that knowledge retention is very low. I’ve witness this when students have to complete course assignments and semester projects where they are required to execute on all their previous learnings, my students struggle and require too much assistance from me when they should be working alone.
+
+A secondary reason is that, from my experience students find it difficult to study asynchronously after the lesson on their own. My **Toolkit** needs to address this challenge which the current course material does not effectively solve.
 
 ## Features
 

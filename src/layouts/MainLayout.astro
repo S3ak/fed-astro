@@ -40,7 +40,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`;
       body {
         width: 100%;
         display: grid;
-        grid-template-rows: var(--theme-navbar-height) 1fr;
+        grid-template-rows: minmax(var(--theme-navbar-height), auto) 1fr auto;
         --gutter: 0.5rem;
         --doc-padding: 2rem;
       }
@@ -144,8 +144,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`;
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-G8KW9PTY47"
-      is:inline
-    ></script>
+      is:inline></script>
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
