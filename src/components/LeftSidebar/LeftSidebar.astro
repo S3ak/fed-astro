@@ -1,6 +1,6 @@
 ---
 import { getLanguageFromURL } from "../../languages";
-import { SIDEBAR, Frontmatter, DeepSidebar } from "../../config";
+import { SIDEBAR } from "../../config";
 
 type Props = {
   currentPage: string;
@@ -13,8 +13,7 @@ const currentPageMatch = currentPage.endsWith("/")
 const langCode = getLanguageFromURL(currentPage);
 const sidebar = SIDEBAR[langCode];
 
-function isOpen({ title }) {
-  console.log("text", title);
+function isModuleOpen(title: string) {
   return currentPage.includes(formatTitle(title));
 }
 
@@ -82,7 +81,10 @@ function isTopicOpen(title: string): boolean {
                       <ul>
                         {topic.items.map((module) => (
                           <li class="top-section">
-                            <details open={isOpen(module)} id="test-module">
+                            <details
+                              open={isModuleOpen(module.title)}
+                              id="test-module"
+                            >
                               <summary>
                                 <h4>{module.title}</h4>
                               </summary>
