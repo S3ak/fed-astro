@@ -13,10 +13,6 @@ const currentPageMatch = currentPage.endsWith("/")
 const langCode = getLanguageFromURL(currentPage);
 const sidebar = SIDEBAR[langCode];
 
-function isModuleOpen(title: string) {
-  return currentPage.includes(formatTitle(title));
-}
-
 function formatTitle(title) {
   return title.replace(/\s+/g, "-").toLowerCase();
 }
@@ -57,6 +53,10 @@ function isYearOpen(title: string): boolean {
 
 function isTopicOpen(title: string): boolean {
   return findMatchingItem(title, "topic");
+}
+
+function isModuleOpen(title: string) {
+  return currentPage.includes(formatTitle(title));
 }
 ---
 
