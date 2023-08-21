@@ -62,7 +62,7 @@ type Year = {
   items: Topic[];
 };
 
-export type DeepSidebar = Record<typeof KNOWN_LANGUAGE_CODES[number], Year[]>;
+export type DeepSidebar = Record<(typeof KNOWN_LANGUAGE_CODES)[number], Year[]>;
 
 export const SIDEBAR: DeepSidebar = {
   en: [
@@ -588,11 +588,11 @@ export const SIDEBAR: DeepSidebar = {
           title: "Introduction",
           items: [
             {
-              title: "Module 1",
+              title: "Welcome",
               items: [
                 {
                   text: "Overview",
-                  link: "en/css-frameworks/module-1/module-1",
+                  link: "en/introduction-feu2/intro",
                 },
               ],
             },
@@ -609,7 +609,7 @@ export const SIDEBAR: DeepSidebar = {
                   link: "en/css-frameworks/module-1/module-1",
                 },
                 {
-                  text: "Introduciton to frameworks",
+                  text: "Introduction to frameworks",
                   link: "en/css-frameworks/module-1/intro-to-frameworks",
                 },
                 {
@@ -662,43 +662,43 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/javascript-1/module-1/overview",
+                  link: "en/javascript-2/module-1/overview",
                 },
                 {
                   text: "Debugging",
-                  link: "en/javascript-1/module-1/intro-concepts",
+                  link: "en/javascript-2/module-1/debugging",
                 },
                 {
                   text: "JSDocs",
-                  link: "en/javascript-1/module-1/manipulating-dom",
+                  link: "en/javascript-2/module-1/jsdocs",
                 },
                 {
                   text: "JSON",
-                  link: "en/javascript-1/module-1/html-from-objects",
+                  link: "en/javascript-2/module-1/json",
                 },
                 {
                   text: "Local Storage",
-                  link: "en/javascript-1/module-1/html-in-functions",
+                  link: "en/javascript-2/module-1/localstorage",
                 },
                 {
                   text: "Destructing",
-                  link: "en/javascript-1/module-1/html-in-functions",
+                  link: "en/javascript-2/module-1/destructuring",
                 },
                 {
                   text: "Map",
-                  link: "en/javascript-1/module-1/html-in-functions",
+                  link: "en/javascript-2/module-1/map",
                 },
                 {
                   text: "Set",
-                  link: "en/javascript-1/module-1/html-in-functions",
+                  link: "en/javascript-2/module-1/set",
                 },
                 {
                   text: "Classes",
-                  link: "en/javascript-1/module-1/html-in-functions",
+                  link: "en/javascript-2/module-1/classes",
                 },
                 {
                   text: "Advanced Topics",
-                  link: "en/javascript-1/module-1/html-in-functions",
+                  link: "en/javascript-2/module-1/advanced-topics",
                 },
               ],
             },
@@ -707,43 +707,43 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/javascript-1/module-2/module-2",
+                  link: "en/javascript-2/module-2/module-2",
                 },
                 {
                   text: "Array Methods",
-                  link: "en/javascript-1/module-2/callback-functions",
+                  link: "en/javascript-2/module-2/array-methods",
                 },
                 {
                   text: "Map()",
-                  link: "en/javascript-1/module-2/dom-events",
+                  link: "en/javascript-2/module-2/map",
                 },
                 {
                   text: "filter()",
-                  link: "en/javascript-1/module-2/length-trim-eventlistener",
+                  link: "en/javascript-2/module-2/filter",
                 },
                 {
                   text: "Reduce()",
-                  link: "en/javascript-1/module-2/more-dom-concepts",
+                  link: "en/javascript-2/module-2/reduce",
                 },
                 {
                   text: "Find() and findIndex()",
-                  link: "en/javascript-1/module-2/more-dom-concepts",
+                  link: "en/javascript-2/module-2/find",
                 },
                 {
                   text: "Some() and every()",
-                  link: "en/javascript-1/module-2/more-dom-concepts",
+                  link: "en/javascript-2/module-2/some-every",
                 },
                 {
                   text: "Object Methods",
-                  link: "en/javascript-1/module-2/more-dom-concepts",
+                  link: "en/javascript-2/module-2/object-methods",
                 },
                 {
                   text: "Chaining",
-                  link: "en/javascript-1/module-2/more-dom-concepts",
+                  link: "en/javascript-2/module-2/chaining",
                 },
                 {
                   text: "Best Practices",
-                  link: "en/javascript-1/module-2/more-dom-concepts",
+                  link: "en/javascript-2/module-2/best-practices",
                 },
               ],
             },
@@ -752,27 +752,27 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/javascript-1/module-3/module-3",
+                  link: "en/javascript-2/module-3/module-3",
                 },
                 {
                   text: "ES6 Modules Introduction",
-                  link: "en/javascript-1/module-3/query-string-parameters",
+                  link: "en/javascript-2/module-3/introduction",
                 },
                 {
                   text: "ES6 Modules Setup",
-                  link: "en/javascript-1/module-3/handling-errors",
+                  link: "en/javascript-2/module-3/setup",
                 },
                 {
                   text: "ES6 Modules Basics",
-                  link: "en/javascript-1/module-3/arrow-functions-promises",
+                  link: "en/javascript-2/module-3/basics",
                 },
                 {
                   text: "Splitting Code",
-                  link: "en/javascript-1/module-3/more-about-apis",
+                  link: "en/javascript-2/module-3/splitting-code",
                 },
                 {
                   text: "Additional Info",
-                  link: "en/javascript-1/module-3/more-about-apis",
+                  link: "en/javascript-2/module-3/additional-info",
                 },
               ],
             },
@@ -781,75 +781,75 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/javascript-1/module-4/module-4",
+                  link: "en/javascript-2/module-4/module-4",
                 },
                 {
                   text: "Asynchoronous Code",
-                  link: "en/javascript-1/module-4/skipping-certain-api-results",
+                  link: "en/javascript-2/module-4/asynchronous-code",
                 },
                 {
                   text: "Callbacks",
-                  link: "en/javascript-1/module-4/single-api-results",
+                  link: "en/javascript-2/module-4/callbacks",
                 },
                 {
                   text: "Promises",
-                  link: "en/javascript-1/module-4/get-requests",
+                  link: "en/javascript-2/module-4/promises",
                 },
                 {
                   text: "Async/Await",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/async-await",
                 },
                 {
                   text: "API",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/api",
                 },
                 {
                   text: "REST",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/rest",
                 },
                 {
                   text: "fetch()",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/fetch",
                 },
                 {
                   text: "HTTP Response status codes",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/http-response-status-codes",
                 },
                 {
                   text: "HTTP Request Methods",
-                  link: "en/javascript-1/module-4/form-validation",
-                },
-                {
-                  text: "Postman",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/http-request-methods",
                 },
                 {
                   text: "HTTP GET Request Method",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/http-get-request-method",
                 },
                 {
                   text: "HTTP POST Request Method",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/http-post-request-method",
                 },
                 {
                   text: "HTTP PUT Request Method",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/http-put-request-method",
                 },
                 {
                   text: "HTTP PATCH Request Method",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/http-patch-request-method",
                 },
                 {
                   text: "HTTP DELETE Request Method",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/http-delete-request-method",
+                },
+                {
+                  text: "Postman",
+                  link: "en/javascript-2/module-4/postman",
                 },
                 {
                   text: "URL Parameters",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/url-parameters",
                 },
                 {
                   text: "JWT",
-                  link: "en/javascript-1/module-4/form-validation",
+                  link: "en/javascript-2/module-4/jwt",
                 },
               ],
             },
@@ -858,31 +858,31 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/javascript-1/module-4/module-4",
+                  link: "en/javascript-2/module-5/module-5",
                 },
                 {
                   text: "Factory functions",
-                  link: "en/javascript-1/module-4/module-4",
+                  link: "en/javascript-2/module-5/factory",
                 },
                 {
                   text: "Object literal",
-                  link: "en/javascript-1/module-4/module-4",
+                  link: "en/javascript-2/module-5/object-literal",
                 },
                 {
                   text: "IIFE",
-                  link: "en/javascript-1/module-4/module-4",
+                  link: "en/javascript-2/module-5/iife",
                 },
                 {
                   text: "Module pattern",
-                  link: "en/javascript-1/module-4/module-4",
+                  link: "en/javascript-2/module-5/module-pattern",
                 },
                 {
                   text: "Singleton pattern",
-                  link: "en/javascript-1/module-4/module-4",
+                  link: "en/javascript-2/module-5/singleton-pattern",
                 },
                 {
                   text: "Observer pattern",
-                  link: "en/javascript-1/module-4/module-4",
+                  link: "en/javascript-2/module-5/observer-pattern",
                 },
               ],
             },
@@ -891,12 +891,12 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Course Assignment Brief",
-                  link: "en/javascript-1/ca",
+                  link: "en/javascript-2/ca/ca",
                 },
-                // {
-                //   text: "Marking Criteria",
-                //   link: "en/javascript-1/ca-guide",
-                // },
+                {
+                  text: "Marking Criteria",
+                  link: "en/javascript-2/ca/marking-criteria",
+                },
               ],
             },
             {
@@ -904,47 +904,47 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/javascript-1/ca",
+                  link: "en/javascript-2/additional-content/advanced",
                 },
                 {
                   text: "Algorithms",
-                  link: "en/javascript-1/ca-guide",
+                  link: "en/javascript-2/additional-content/algorithms",
                 },
                 {
                   text: "Big O Notation",
-                  link: "en/coming-soon",
+                  link: "en/javascript-2/additional-content/big-o-notation",
                 },
                 {
                   text: "Sort - Bubble sort",
-                  link: "en/javascript-1/ca-guide",
+                  link: "en/javascript-2/additional-content/sort-bubble-sort",
                 },
                 {
                   text: "Sort - Insert sort",
-                  link: "en/javascript-1/ca-guide",
+                  link: "en/javascript-2/additional-content/sort-insertion-sort",
                 },
                 {
                   text: "Sort - Selection Sort",
-                  link: "en/javascript-1/ca-guide",
+                  link: "en/javascript-2/additional-content/sort-selection-sort",
                 },
                 {
                   text: "Search - Linear Search",
-                  link: "en/javascript-1/ca-guide",
+                  link: "en/javascript-2/additional-content/search-linear-search",
                 },
                 {
-                  text: "Search - Interploation Search",
-                  link: "en/javascript-1/ca-guide",
+                  text: "Search - Interpolation Search",
+                  link: "en/javascript-2/additional-content/search-interpolation-search",
                 },
                 {
                   text: "Graphs - Breadth First",
-                  link: "en/javascript-1/ca-guide",
+                  link: "en/javascript-2/additional-content/graphs-breadth-first",
                 },
                 {
                   text: "Graphs - Dijkstra's Algorithm",
-                  link: "en/javascript-1/ca-guide",
+                  link: "en/javascript-2/additional-content/graphs-dijkstras-algorithm",
                 },
                 {
                   text: "Data Structures - Linked Lists",
-                  link: "en/javascript-1/ca-guide",
+                  link: "en/javascript-2/additional-content/data-structures-linked-list",
                 },
               ],
             },
@@ -958,23 +958,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/interaction-design/module-1/module-1",
+                  link: "en/workflow/module-1",
                 },
                 {
                   text: "Git command line",
-                  link: "en/interaction-design/module-1/intro-interaction-design",
+                  link: "en/workflow/git-cli",
                 },
                 {
                   text: "Git your own adventure",
-                  link: "en/interaction-design/module-1/design-research",
+                  link: "en/workflow/git-your-own-adventure",
                 },
                 {
                   text: "Introduction to Github Actions",
-                  link: "en/interaction-design/module-1/personas-scenarios",
+                  link: "en/workflow/intro-to-actions",
                 },
                 {
                   text: "Managing Secrets",
-                  link: "en/interaction-design/module-1/usability-testing",
+                  link: "en/workflow/managing-secrets",
                 },
               ],
             },
@@ -983,23 +983,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/interaction-design/module-2/module-2",
+                  link: "en/workflow/module-2",
                 },
                 {
                   text: "Your working enviromnent",
-                  link: "en/interaction-design/module-2/persuasion-design-values",
+                  link: "en/workflow/intro-to-environment",
                 },
                 {
                   text: "Tailoring your enviromnent",
-                  link: "en/interaction-design/module-2/context-platforms",
+                  link: "en/workflow/tailoring-your-environment",
                 },
                 {
                   text: "Automating your workflow",
-                  link: "en/interaction-design/module-2/info-architecture",
+                  link: "en/workflow/automating-your-workflow",
                 },
                 {
                   text: "Using a Bundler",
-                  link: "en/interaction-design/module-2/design-flow",
+                  link: "en/workflow/using-a-bundler",
                 },
               ],
             },
@@ -1008,23 +1008,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/interaction-design/module-3/module-3",
+                  link: "en/workflow/module-3",
                 },
                 {
                   text: "Introduction to testing",
-                  link: "en/interaction-design/module-3/affordances",
+                  link: "en/workflow/intro-to-testing",
                 },
                 {
                   text: "Unit testing",
-                  link: "en/interaction-design/module-3/action-feedback",
+                  link: "en/workflow/unit-testing",
                 },
                 {
                   text: "End-to-end testing",
-                  link: "en/interaction-design/module-3/handling-errors",
+                  link: "en/workflow/end-to-end-testing",
                 },
                 {
                   text: "Automated testing",
-                  link: "en/interaction-design/module-3/practical-ux-design",
+                  link: "en/workflow/automated-testing",
                 },
               ],
             },
@@ -1033,12 +1033,12 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Course Assignment Brief",
-                  link: "en/interaction-design/ca",
+                  link: "en/workflow/ca/ca",
                 },
-                // {
-                //   text: "Marking Criteria",
-                //   link: "en/javascript-1/ca-guide",
-                // },
+                {
+                  text: "Marking Criteria",
+                  link: "en/javascript-1/ca-guide",
+                },
               ],
             },
           ],
@@ -1049,14 +1049,14 @@ export const SIDEBAR: DeepSidebar = {
             {
               title: "Project",
               items: [
-                {
-                  text: "Brief",
-                  link: "en/cms/module-1/module-1",
-                },
-                {
-                  text: "Marketing Criteria",
-                  link: "en/cms/module-1/intro-cms",
-                },
+                // {
+                //   text: "Brief",
+                //   link: "en/semester-project-2/brief",
+                // },
+                // {
+                //   text: "Marketing Criteria",
+                //   link: "en/semester-project-2/marking-criteria",
+                // },
               ],
             },
           ],
@@ -1069,23 +1069,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/exam-1/brief",
+                  link: "en/industry-knowledge/module-1/module-1",
                 },
                 {
                   text: "Job options in web development",
-                  link: "en/cms/ca-guide",
+                  link: "en/industry-knowledge/module-1/job-options",
                 },
                 {
                   text: "Your first job",
-                  link: "en/cms/ca-guide",
+                  link: "en/industry-knowledge/module-1/first-job",
                 },
                 {
                   text: "Preparing your GitHub Account",
-                  link: "en/cms/ca-guide",
+                  link: "en/industry-knowledge/module-1/github-account",
                 },
                 {
                   text: "Creating your Portfolio website",
-                  link: "en/cms/ca-guide",
+                  link: "en/industry-knowledge/module-1/portfolio-website",
                 },
               ],
             },
@@ -1094,23 +1094,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/exam-1/brief",
+                  link: "en/industry-knowledge/module-2/module-2",
                 },
                 {
                   text: "Freelancing",
-                  link: "en/cms/ca-guide",
+                  link: "en/industry-knowledge/module-2/freelancing",
                 },
                 {
                   text: "Positioning and pricing",
-                  link: "en/cms/ca-guide",
+                  link: "en/industry-knowledge/module-2/pricing",
                 },
                 {
                   text: "Finding clients",
-                  link: "en/cms/ca-guide",
+                  link: "en/industry-knowledge/module-2/finding-clients",
                 },
                 {
                   text: "Contracts",
-                  link: "en/cms/ca-guide",
+                  link: "en/industry-knowledge/module-2/contracts",
                 },
               ],
             },
@@ -1119,23 +1119,7 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/exam-1/brief",
-                },
-                {
-                  text: "Assessment guide",
-                  link: "en/cms/ca-guide",
-                },
-                {
-                  text: "Sorting Hat",
-                  link: "en/cms/ca-guide",
-                },
-                {
-                  text: "Finding clients",
-                  link: "en/cms/ca-guide",
-                },
-                {
-                  text: "Contracts",
-                  link: "en/cms/ca-guide",
+                  link: "en/industry-knowledge/ca",
                 },
               ],
             },
@@ -1149,23 +1133,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/portfolio-1/brief",
+                  link: "en/development-platforms/module-1/module-1",
                 },
                 {
                   text: "Relational Datastores",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-1/relational-datastores",
                 },
                 {
                   text: "Non-Relational Datastores",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-1/non-relational-datastores",
                 },
                 {
                   text: "Caching",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-1/caching",
                 },
                 {
                   text: "DBaaS",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-1/dbaas",
                 },
               ],
             },
@@ -1174,23 +1158,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/portfolio-1/brief",
+                  link: "en/development-platforms/module-2/module-2",
                 },
                 {
                   text: "Hosting",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-2/hosting",
                 },
                 {
                   text: "Networking",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-2/networking",
                 },
                 {
                   text: "Baas",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-2/baas",
                 },
                 {
                   text: "BaaS starter",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-2/baas-starter",
                 },
               ],
             },
@@ -1199,23 +1183,23 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/portfolio-1/brief",
+                  link: "en/development-platforms/module-3/module-3",
                 },
                 {
                   text: "DevOps",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-3/devops",
                 },
                 {
                   text: "Security",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-3/security",
                 },
                 {
                   text: "Containerization",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-3/containerization",
                 },
                 {
                   text: "Machine learning",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/module-3/machine-learning",
                 },
               ],
             },
@@ -1224,28 +1208,15 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/portfolio-1/brief",
+                  link: "en/development-platforms/ca/ca",
                 },
                 {
                   text: "Marking Criteria",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/ca/assignment-guide",
                 },
                 {
                   text: "Collaboration guide",
-                  link: "en/cms/ca-guide",
-                },
-              ],
-            },
-            {
-              title: "Case Studies",
-              items: [
-                {
-                  text: "Text template",
-                  link: "en/portfolio-1/brief",
-                },
-                {
-                  text: "Video template",
-                  link: "en/cms/ca-guide",
+                  link: "en/development-platforms/ca/collaboration-guide",
                 },
               ],
             },
@@ -1259,51 +1230,51 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/portfolio-1/brief",
+                  link: "en/front-end-frameworks/module-1/module-1",
                 },
                 {
                   text: "Introduction",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/introduction",
                 },
                 {
                   text: "Getting started with React",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/getting-started-with-react",
                 },
                 {
                   text: "JSX",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/jsx",
                 },
                 {
                   text: "Components",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/components",
                 },
                 {
                   text: "Props",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/props",
                 },
                 {
                   text: "Events",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/events",
                 },
                 {
                   text: "State",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/state",
                 },
                 {
                   text: "Mapping out lists",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/mapping-out-lists",
                 },
                 {
                   text: "Conditional rendering",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/conditional-rendering",
                 },
                 {
                   text: "React dev tools",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/react-dev-tools",
                 },
                 {
                   text: "Best practices",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-1/best-practices",
                 },
               ],
             },
@@ -1312,31 +1283,31 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/portfolio-1/brief",
+                  link: "en/front-end-frameworks/module-2/module-2",
                 },
                 {
                   text: "Basic classes",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-2/basic-classes",
                 },
                 {
                   text: "CSS Modules",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-2/css-modules",
                 },
                 {
                   text: "SASS",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-2/sass",
                 },
                 {
                   text: "Styled-components",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-2/styled-components",
                 },
                 {
                   text: "UI & CSS Frameworks",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-2/ui-and-css-frameworks",
                 },
                 {
                   text: "Using images",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-2/using-images",
                 },
               ],
             },
@@ -1345,35 +1316,35 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/portfolio-1/brief",
+                  link: "en/front-end-frameworks/module-3/module-3",
                 },
                 {
                   text: "useState",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-3/useState",
                 },
                 {
                   text: "useEffect",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-3/useEffect",
                 },
                 {
                   text: "useReducer",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-3/useReducer",
                 },
                 {
                   text: "useContext",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-3/useContext",
                 },
                 {
                   text: "State Management",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-3/state-management",
                 },
                 {
                   text: "Zustand",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-3/zustand",
                 },
                 {
                   text: "Redux Toolkit (Depreciated)",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-3/redux-toolkit",
                 },
               ],
             },
@@ -1382,35 +1353,35 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/portfolio-1/brief",
+                  link: "en/front-end-frameworks/module-4/module-4",
                 },
                 {
                   text: "React Router",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-4/react-router",
                 },
                 {
                   text: "API Calls",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-4/api-calls",
                 },
                 {
                   text: "Using route params to fetch data",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-4/using-params-to-fetch-data",
                 },
                 {
                   text: "Creating our own hooks",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-4/creating-our-own-hooks",
                 },
                 {
                   text: "API Hook",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-4/api-hook",
                 },
                 {
                   text: "Forms",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-4/forms",
                 },
                 {
                   text: "react-hook-form",
-                  link: "en/cms/ca-guide",
+                  link: "https://www.react-hook-form.com/",
                 },
               ],
             },
@@ -1419,19 +1390,19 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/portfolio-1/brief",
+                  link: "en/front-end-frameworks/module-5/module-5",
                 },
                 {
                   text: "Testing in React",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-5/testing-in-react",
                 },
                 {
                   text: "Deploying a site ot Netlify",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-5/deploying-a-site-to-netlify",
                 },
                 {
                   text: "TypeScript",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/module-5/typescript",
                 },
               ],
             },
@@ -1439,12 +1410,12 @@ export const SIDEBAR: DeepSidebar = {
               title: "Course Assignment",
               items: [
                 {
-                  text: "Overview",
-                  link: "en/portfolio-1/brief",
+                  text: "Brief",
+                  link: "en/front-end-frameworks/ca/ca",
                 },
                 {
                   text: "Marking Criteria",
-                  link: "en/cms/ca-guide",
+                  link: "en/front-end-frameworks/ca/marking-criteria",
                 },
               ],
             },
@@ -1453,7 +1424,7 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "RTK Query",
-                  link: "en/portfolio-1/brief",
+                  link: "https://redux-toolkit.js.org/rtk-query/overview",
                 },
                 {
                   text: "TanStack Query",
@@ -1469,23 +1440,18 @@ export const SIDEBAR: DeepSidebar = {
             {
               title: "Brief",
               items: [
-                {
-                  text: "Overview",
-                  link: "en/portfolio-1/brief",
-                },
-                {
-                  text: "Marking Criteria",
-                  link: "en/cms/ca-guide",
-                },
-              ],
-            },
-            {
-              title: "Additional content",
-              items: [
-                {
-                  text: "RTK Query",
-                  link: "en/portfolio-1/brief",
-                },
+                // {
+                //   text: "Overview",
+                //   link: "en/project-exam-2/brief",
+                // },
+                // {
+                //   text: "Overview (Open source)",
+                //   link: "en/project-exam-2/open-source/brief",
+                // },
+                // {
+                //   text: "Delivery template",
+                //   link: "en/project-exam-2/delivery-template",
+                // },
               ],
             },
           ],
@@ -1498,20 +1464,7 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/portfolio-1/brief",
-                },
-                {
-                  text: "Marking Criteria",
-                  link: "en/cms/ca-guide",
-                },
-              ],
-            },
-            {
-              title: "Additional content",
-              items: [
-                {
-                  text: "RTK Query",
-                  link: "en/portfolio-1/brief",
+                  link: "en/portfolio-2/brief",
                 },
               ],
             },

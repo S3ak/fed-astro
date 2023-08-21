@@ -5,8 +5,6 @@ tags: JavaScript 2
 layout: ../../../../layouts/MainLayout.astro
 ---
 
-# Graphs: Breadth First Search
-
 ## Introduction
 
 Breadth First Search (or Traversal) is a way to search for a node that contains a specified value.
