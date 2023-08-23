@@ -7,13 +7,15 @@ layout: ../../../../layouts/MainLayout.astro
 
 ## Goal
 
-To apply knowledge of Bootstrap and SASS to build a responsive front end for a social media application.
+To apply knowledge of CSS Frameworks and SASS/ Tailwind to build a responsive front end for a social media application.
+
+[Get Started](https://classroom.github.com/a/WzuOnFrK)
 
 ## Brief
 
-You are tasked with creating 3 pages in HTML using Bootstrap and SASS:
+You are tasked with creating 3 pages in HTML a CSS Framework of your choice:
 
-1. Homepage
+1. Home page
 2. Profile page
 3. Login page
 
@@ -27,21 +29,42 @@ You will only be working on the visuals for this project at this stage, forms do
 
 Submission for this project will follow the pattern used in professional development. You are required to seek feedback from your peers as well as the teachers in order to complete this assignment.
 
-## Process
+## Framework options
 
-1. Create a design or wireframe for each page
-2. Create a new public repository on GitHub
-3. Create a new project folder for this repository
-4. Create a new git branch for this project
-5. Create a `package.json` file
-6. Install Bootstrap, SASS and Live Server
-7. Configure NPM scripts in `package.json`
-8. Implement your design using Bootstrap and SASS overrides
-9. Create a Pull Request to merge your changes to the main branch
-10. Share this Pull Request and request peer review
-11. Discuss and implement the feedback gathered from peer review
-12. Share this Pull Request with a teacher for their approval
-13. Complete the approved Pull Request, or implement the required changes
+Some popular frameworks that work with react are. You are free to use anyone of your choice, these are just popular suggestings.
+
+- [React Bootstrap (SASS)](https://react-bootstrap.github.io/)
+- [Material UI (Emotion/ styled-components)](https://mui.com/material-ui/)
+- [Mantine (Emotion/ styled-components)](https://mantine.dev/)
+- [Shade CN (Tailwind)](https://ui.shadcn.com/)
+- [Rebass (Styled-components)](https://github.com/rebassjs/rebass)
+- [Grommet (Emotion/ styled-components)](https://v2.grommet.io/)
+- [More](https://www.lambdatest.com/blog/best-css-frameworks-for-react/)
+
+## Learning outcomes
+
+- To be able to build a website using Advanced CSS frameworks and libraries.
+- To be able to use a CSS with React.
+- To be able to build consistant UI patterns.
+- To demonstrate knowledfe of DRY principles development of stylesheets
+- can assess their own stylesheets in relation to the DRY principle
+- has knowledge of arranging stylesheets appropriately.
+- can assess and implement code from documentation on a CSS framework
+- can explain their choices for using the CSS framework and relevant tools for developing digital solutions
+- can reflect over his/her own application of the CSS framework in the development of stylesheets and adjust it under supervision, or in relation to the general development of industry tools
+- can find and refer to information on new versions of the CSS framework, relevant tools and assess the relevance in relation to his/her own projects
+
+## Restrictions
+
+- You must use A CSS framework to build your website.
+- You can use React or Vanilla JS. (Using React will reflect better on your CV)
+- Please comment on the code when you use any code from Stack Overflow or other websites.
+- You can use all other aids.
+- Design needs to be your own and not a template.
+
+## Duration
+
+You have one week in total.
 
 ## Delivery
 
@@ -52,6 +75,20 @@ Please submit your public GitHub repository URL along with any supplementary fil
 Design files will not be included in your grade but help to provide additional context to the marker.
 
 > Please make sure to exclude `node_modules` by using a `.gitignore` file.
+
+## Required Delieverables
+
+- [ ] A link to your deployment production website (Netlify/ Vercel/ GitHub Pages)
+- [ ] A link to your Public GitHub repo
+- [ ] A report of your project
+- [ ] A link to High fidelity design (Figma)
+
+## Optional Deliverables
+
+- [ ] A link to your gantt chart or Kanban project board.
+- [ ] A video summary of you explaing your project.
+- [ ] A link to Low fidelity design (Figma)
+- [ ] A link to Prototype (Figma)
 
 ## Resources
 
