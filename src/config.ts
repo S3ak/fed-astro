@@ -644,11 +644,11 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Introduction to Tailwind CSS",
-                  link: "en/css-frameworks/building-with-tailwind-css",
+                  link: "en/css-frameworks/additional-content/building-with-tailwind",
                 },
                 {
                   text: "Building with Tailwind CSS",
-                  link: "en/css-frameworks/intro-to-tailwind",
+                  link: "en/css-frameworks/additional-content/intro-to-tailwind",
                 },
               ],
             },
