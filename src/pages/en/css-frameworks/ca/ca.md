@@ -13,6 +13,7 @@ To apply knowledge of CSS Frameworks and SASS/ Tailwind to build a responsive fr
 
 ## Brief
 
+For this project you will work in teams.
 You are tasked with creating 3 pages in HTML a CSS Framework of your choice:
 
 1. Home page
