@@ -397,7 +397,7 @@ We take a look at the basics of JSDocs and how to add them to a function.
 
 <a href="https://player.vimeo.com/video/738362152?h=1b77c829f1" target="_blank" alt="Classes video">Link to video</a>
 
-<hr>
+---
 
 ## Lesson task
 
@@ -409,7 +409,7 @@ The goal is for you to demonstrate that you can apply JSDocs to a function.
 
 ### Brief
 
-> <b>NOTE:</b> Lesson tasks do not get submitted on Moodle and are not assessed by tutors. They are mainly there for you to practise what you have learned in the lesson.
+> _NOTE:_ Lesson tasks do not get submitted on Moodle and are not assessed by tutors. They are mainly there for you to practise what you have learned in the lesson.
 
 ### Level 1 process
 
