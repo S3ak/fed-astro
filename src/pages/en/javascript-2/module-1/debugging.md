@@ -17,7 +17,7 @@ Debugging your code and trying to solve issues in your code is one of the most i
 
 ## console
 
-`console` is an object built into JavaScript which allows us to get debugging information from our app. If your JavaScript is running in a browser then the logging information will be output to the console in the browser. If you're running your code as a script with Node then your console will output to the terminal that runs the script.
+`console` is an object built into JavaScript which allows us to get debuggxing information from our app. If your JavaScript is running in a browser then the logging information will be output to the console in the browser. If you're running your code as a script with Node then your console will output to the terminal that runs the script.
 
 You've most likely been making use of the `log` method built into it e.g. `console.log('Your message here');`. This are actually other methods available to it, such as `clear()`, `warning()`, `error()` and `table()`.
 
@@ -54,33 +54,13 @@ Here is a basic example where we apply the above. We have a function called `com
 
 **NOTE:** This isn't a very accurate way of measuring performance in an app. Computers have different specs and a faster computer will be able to run the code faster than a slower computer and therefore would have a better result. It is therefore not a reliable way to check the performance of your app, however, it does have its purposes and is still important to be aware of. A possible use case could be to see if a refactored function is running better than the older one.
 
-```js
-function complexCalculation() {
-  for (let i = 0; i < 1000; i++) {
-    console.log(i);
-  }
-}
-
-// Run three separate tests below
-
-console.time("myTimer");
-complexCalculation();
-console.timeEnd("myTimer");
-// Logs:
-// myTimer: 101ms - timer ended
-
-console.time("myTimer");
-complexCalculation();
-console.timeEnd("myTimer");
-// Logs:
-// myTimer: 155ms - timer ended
-
-console.time("myTimer");
-complexCalculation();
-console.timeEnd("myTimer");
-// Logs:
-// myTimer: 128ms - timer ended
-```
+<iframe
+  src="https://stackblitz.com/edit/js-pf1btq?file=debugging.js"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  title="Debugging"
+></iframe>
 
 ## Logging and Debugging an application
 
@@ -175,7 +155,7 @@ You can inspect variables in the "VARIABLES" section of the Run view. This lets 
 
 We can add a variable to be "WATCHED" which means that it will keep track of what the variable changes to. This makes it easier to keep track of specific variables you're interested in.
 
-<hr>
+---
 
 ## Lesson task
 
@@ -189,11 +169,26 @@ To be able to debug effectively.
 
 Follow the Level 1 Process as instructed.
 
-> <b>NOTE:</b> Lesson tasks do not get submitted on Moodle and are not assessed by tutors. They are mainly there for you to practise what you have learned in the lesson.
+> **NOTE:** Lesson tasks do not get submitted on Moodle and are not
+> assessed by tutors. They are mainly there for you to practise what you have learned
+> in the lesson.
 
 ### Level 1 process
 
-1. Write a small function and then use breakpoints to step through your application so you can get used to it.
+Write a small JavaScript function that performs a simple task, such as adding two numbers or reversing a string.
+
+Introduce deliberate errors or bugs into your code by making incorrect changes. For example, you can introduce syntax errors, logical errors, or incorrect variable assignments.
+
+Use a code editor of your choice (e.g., Visual Studio Code) with built-in debugging tools to debug your code. Follow these steps:
+
+- Set breakpoints at specific lines of code where you suspect issues may exist.
+- Start the debugging session.
+- Step through your code, line by line, using the debugger.
+- Inspect the values of variables at each step to identify errors.
+- Pay attention to the error messages and warnings in the console.
+- Fix the errors you identified and test your function again to ensure it works correctly.
+
+Reflect on the debugging process and note down any challenges you faced or strategies you used to identify and resolve issues.
 
 ## Additional resources
 

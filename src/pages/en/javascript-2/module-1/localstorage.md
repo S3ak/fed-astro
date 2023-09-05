@@ -116,16 +116,13 @@ You will need to use Local Storage at some point so it's good to be accustomed t
 
 You will use the different Local Storage methods available to you.
 
-> <b>NOTE:</b> Lesson tasks do not get submitted on Moodle and are not assessed by tutors. They are mainly there for you to practice what you have learned in the lesson.
+> _NOTE:_ Lesson tasks do not get submitted on Moodle and are not assessed by tutors. They are mainly there for you to practice what you have learned in the lesson.
 
 ### Level 1 process
 
 1. Find where Local Storage is in your browser.
-
 2. Add a `lesson` key with the value of `Local Storage`.
-
 3. Remove the `lesson` key and check that it has been removed.
-
 4. Add the following object with the key of `pet`. Don't forget to stringify it first:
 
 ```js
