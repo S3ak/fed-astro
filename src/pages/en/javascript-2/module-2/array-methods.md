@@ -11,6 +11,8 @@ Array methods are a very important part of JavaScript. They are built-in methods
 
 **NOTE:** It is fine if you do not grasp the array methods at first as we tend to only truly understand them once we have practical experience with them. Do not feel discouraged if you struggle with them at first. However, you will need to know them as they will allow you to write better code as well as achieve complex operations with very little code. Please ensure that you do all of the exercises supplied.
 
+Follow alone with this [example](https://stackblitz.com/edit/js-oosfhe?file=index.js&view=editor)
+
 ## Basics
 
 There are some important things to be aware of when it comes to array methods:

@@ -9,9 +9,19 @@ layout: ../../../../layouts/MainLayout.astro
 
 To apply knowledge of JavaScript techniques to implement the front-end functionality for a social media application.
 
+## Duration
+
+You have 1 weeks in total.
+
+## Learning outcomes
+
+- To be able to build a website using HTML, CSS and JavaScript.
+
 ## API
 
-The API you are using for this project can be found under **Social EndPoints** in the [Noroff API documentation](https://noroff-api-docs.netlify.app/).
+You will have the option is creating your own API or using the one provided by Noroff.
+
+The API you are using for this project can be found under **Social EndPoints** in the [Noroff API documentation](https://docs.noroff.dev/social-endpoints/posts).
 
 ## Brief
 
@@ -27,7 +37,15 @@ Using localStorage is highly recommended, especially for storing JWT tokens.
 
 A finished project fulfils the requirements below with an easy to use and error-free user interface.
 
-### Required features
+### Your own **custom** API
+
+If you do use your own backend APIs. You do not have to have protected routes but you should have a route top manage loggin in/ Authentication. I recommend you use either:
+
+- [NextAuth](https://github.com/nextauthjs/next-auth-example)
+- [Clerk](https://github.com/vercel/next.js/tree/canary/examples/with-clerk)
+- [Supabase](https://github.com/vercel/next.js/tree/canary/examples/with-supabase)
+
+### Mininum Acceptence Criteria
 
 The following user stories are required for a passing submission:
 
@@ -41,7 +59,7 @@ The following user stories are required for a passing submission:
 - User can update a post content item
 - User can delete a post content item
 
-### Additional features
+### Customer success criteria
 
 The following user stories are optional:
 
@@ -52,7 +70,7 @@ The following user stories are optional:
 
 ### Team work
 
-This assignment allows for team work in groups of 2 students. Students forming a work group will need to coordinate closely throughout the planning, development and testing processes. By working in a pair, you are expected to implement additional features.
+This assignment is for teams. Students forming a work group will need to coordinate closely throughout the planning, development and testing processes.
 
 Commit regularly and use branches to prevent conflicts with your teammate as you work on the same codebase.
 
@@ -93,10 +111,26 @@ Commit regularly and use branches to prevent conflicts with your teammate as you
 
 ## Restrictions
 
-- Required functionality must be implemented in original, pure JavaScript.
+- You must use HTML, CSS and JavaScript to build your website, You can use a react framework like NextJS(React).
+- Required functionality must be implemented yourself and not use a library.
 - A CSS Framework may be used to build the application UI.
 - A `.gitignore` file must be provided including `node_modules`. This folder must be untracked.
 - Content posted on the API is public and associated with your identity. Be appropriate and respectful.
+
+## Required Delieverables
+
+- [ ] A link to your deployment production website (Netlify/ Vercel/ GitHub Pages).
+- [ ] A link to your Public GitHub repo.
+- [ ] A report of your project.
+- [ ] A link to High fidelity design (Figma).
+
+## Optional Deliverables
+
+- [ ] A link to your report.
+- [ ] A link to your gantt chart or Kanban project board.
+- [ ] A video summary of you explaing your project.
+- [ ] A link to Low fidelity design (Figma)
+- [ ] A link to Prototype (Figma)
 
 ## Resources
 
