@@ -13,6 +13,8 @@ Usually, the array methods return a new array. However, in the `reduce` array me
 
 In short, the `reduce` array method has a variable that allows us to modify each loop. You are _reducing_ your values from the original array down to a single value, hence the name `reduce`.
 
+You can follow along with a live example of [Stackblitz](https://stackblitz.com/edit/js-flso65?file=index.js).
+
 Let's have a look at a basic example before diving in a bit deeper:
 
 ```js
