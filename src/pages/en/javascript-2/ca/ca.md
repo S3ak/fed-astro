@@ -37,7 +37,7 @@ Using localStorage is highly recommended, especially for storing JWT tokens.
 
 A finished project fulfils the requirements below with an easy to use and error-free user interface.
 
-### Your own **custom** API
+### Your own custom API
 
 If you do use your own backend APIs. You do not have to have protected routes but you should have a route top manage loggin in/ Authentication. I recommend you use either:
 
@@ -70,14 +70,14 @@ The following user stories are optional:
 
 ### Team work
 
-This assignment is for teams. Students forming a work group will need to coordinate closely throughout the planning, development and testing processes.
+This assignment is for teams.You can view your assigned teams [here](https://noroff.sharepoint.com/:x:/s/FED1OSL2223/ET_TFiDUUfhLpvtC88xIS0UB1TWgiQIVZM2a7N08z1BlsQ?e=j9W17y) Students forming a work group will need to coordinate closely throughout the planning, development and testing processes.
 
 Commit regularly and use branches to prevent conflicts with your teammate as you work on the same codebase.
 
 ## Development process
 
 1. Create or select one repository to use throughout this project.
-2. Create a `js2` branch from the default `master` or `main` branch.
+2. Create a `staging` branch from the default `master` or `main` branch.
 3. You may use either Trello or GitHub Projects to manage your development tasks. If you are using Trello, please make sure that your board is public and that a link is provided in your `readme.md` file. Make sure to detail tasks accurately and divide them evenly if working a group.
 
    Examples of overly vague tasks:
@@ -98,14 +98,14 @@ Commit regularly and use branches to prevent conflicts with your teammate as you
 5. Plan your approach, desired features and work strategy.
 6. Implement the required features as per your work plan.
 
-   > **Note:** All PRs should be made to `js2`, not to the default branch. For example, branch `search-functionality` should be created from, and merged into, branch `js2`.
+   > **Note:** All PRs should be made to `staging`, not to the default branch. For example, branch `search-functionality` should be created from, and merged into, branch `staging`.
 
 7. Submit a link to your repository at the correct branch on the Moodle forum for peer review.
-8. Review 2 of your peers projects. (4 per team)
+8. Review 2 of your peers projects.
 
    > **Watch:** [Video: Branching and providing feedback](https://vimeo.com/725676411/fabede2ebb)
 
-9. Open a Pull Request from `js2` into the default branch. Contact a teacher on Discord for their feedback. If there is a particular area of concern, please ensure to pass this on with your request. Add this teacher as a reviewer on your PR. Please make sure to plan for this review prior to your deadline.
+9. Open a Pull Request from `staging` into the default branch. Contact a teacher on Discord for their feedback. If there is a particular area of concern, please ensure to pass this on with your request. Add this teacher as a reviewer on your PR. Please make sure to plan for this review prior to your deadline.
 10. Implement the feedback gathered from your review, but leave the PR open.
 11. Deliver the link to this PR in Moodle. A passing submission will be approved and merged by the reviewer. This is a direct analogue of the professional review process.
 
