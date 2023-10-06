@@ -5,6 +5,8 @@ tags: JavaScript 2
 layout: ../../../../layouts/MainLayout.astro
 ---
 
+[GIthub Classroom boilerplate](https://classroom.github.com/a/8ndPp79U)
+
 ## Goal
 
 To apply knowledge of JavaScript techniques to implement the front-end functionality for a social media application.
