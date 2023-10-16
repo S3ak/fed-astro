@@ -1037,7 +1037,11 @@ export const SIDEBAR: DeepSidebar = {
                 },
                 {
                   text: "Marking Criteria",
-                  link: "en/javascript-1/ca-guide",
+                  link: "en/workflow/ca/marking-criteria",
+                },
+                {
+                  text: "Resit",
+                  link: "en/workflow/ca/resit",
                 },
               ],
             },

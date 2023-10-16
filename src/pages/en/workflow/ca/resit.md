@@ -1,9 +1,8 @@
 ---
 title: Course Assignment Resit
-keywords: Workflow
-tags: Workflow
-permalink: workflow/ca/resit.html
-folder: workflow
+keywords: Resit
+tags: Resit
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal

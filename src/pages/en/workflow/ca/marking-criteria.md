@@ -1,10 +1,8 @@
 ---
-title: Marking criteria
-keywords: sample
+title: Course Assignment Marking criteria
+keywords: workflow, criteria
 tags: Workflow
-sidebar: workflow
-permalink: workflow/marking-criteria.html
-folder: workflow
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## CA Checklist
@@ -33,10 +31,10 @@ Use the Criteria section below to self assess your submission and make sure that
   <assignment-guideline group="Project Changes" points="1" outcome="I can provide useful contributions to other’s projects">Project readme file is updated to include new configuration information and workflow status badges</assignment-guideline>
   <assignment-guideline group="Project Changes" points="1" outcome="I can provide useful contributions to other’s projects">All known bugs have been communicated in the Issues tab</assignment-guideline>
 
-  <assignment-guideline group="Unit Testing" points="1" outcome="I can create meaningful unit tests">The login function stores a token when provided with valid credentials</assignment-guideline>
-  <assignment-guideline group="Unit Testing" points="1" outcome="I can create meaningful unit tests">The logout function clears the token from browser storage</assignment-guideline>
+<assignment-guideline group="Unit Testing" points="1" outcome="I can create meaningful unit tests">The login function stores a token when provided with valid credentials</assignment-guideline>
+<assignment-guideline group="Unit Testing" points="1" outcome="I can create meaningful unit tests">The logout function clears the token from browser storage</assignment-guideline>
 
-  <assignment-guideline group="E2E Testing" points="1" outcome="I can create meaningful e2e tests">The user can log in with the login form with valid credentials</assignment-guideline>
-  <assignment-guideline group="E2E Testing" points="1" outcome="I can create meaningful e2e tests">The user cannot submit the login form with invalid credentials and is shown a message.</assignment-guideline>
-  <assignment-guideline group="E2E Testing" points="1" outcome="I can create meaningful e2e tests">The user can log out with the logout button</assignment-guideline>
+<assignment-guideline group="E2E Testing" points="1" outcome="I can create meaningful e2e tests">The user can log in with the login form with valid credentials</assignment-guideline>
+<assignment-guideline group="E2E Testing" points="1" outcome="I can create meaningful e2e tests">The user cannot submit the login form with invalid credentials and is shown a message.</assignment-guideline>
+<assignment-guideline group="E2E Testing" points="1" outcome="I can create meaningful e2e tests">The user can log out with the logout button</assignment-guideline>
 </assignment-guidelines>
