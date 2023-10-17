@@ -1,10 +1,8 @@
 ---
-title: Course Assignment
-keywords: Workflow
+title: Course Assignment Overview
+keywords: workflow
 tags: Workflow
-sidebar: workflow
-permalink: workflow/ca.html
-folder: workflow
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 ## Goal
@@ -16,22 +14,24 @@ Using the skills and knowledge from this course, improve the quality of a `packa
 Although Quality Assurance is a practice we should be concerned with throughout the development cycle, it is common to `sprint` towards an `MVP` version of an application before later improving the quality. In this exercise you are tasked with improving the quality of an existing application by providing various development workflows as well as a testing strategy.
 
 There are two ways to complete this assignment:
-1. Teams of two developers, working on each other's applications
+
+1. Teams developers working on their collective applications.Dr
 2. Solo developers, working on the [provided application](https://github.com/noroffFEU/social-media-client)
 
 The existing application package must feature:
+
 - A front-end login form connected to an API JWT endpoint
 - A front-end logout button connected to browser storage
 - Front-end CRUD functionality for at least one object type
 - A front-end profile page
 
-> The Noroff API Social Media client works well with this exercise.
+> The Noroff API Social Media client works well with this exercise but I recommend exploring your own API.2 in 1
 
 ### The following workflows/hooks are required:
 
 <assignment-guideline group="Configuration" points="1">Project is configured to run Prettier on commit</assignment-guideline>
 <assignment-guideline group="Configuration" points="1">Project is configured to run ESLint on commit</assignment-guideline>
-<assignment-guideline group="Configuration" points="1">Project default branch is protected, code is versioned and branching conventions have been followed.</assignment-guideline>
+<assignment-guideline group="Configuration" points="1">Project code is versioned and branching conventions have been followed.</assignment-guideline>
 <assignment-guideline group="Configuration" points="1">Project is configured to build and deploy to pages on merge to default branch</assignment-guideline>
 
 ### The following project file changes are required:
@@ -61,15 +61,15 @@ The existing application package must feature:
 
 ## Process
 
-1. Find a partner to work with or select the example repository.
+1. Create a new vite react project.
 2. `Fork` the project repository to your GitHub account.
 3. Create a new branch called `workflow`.
 4. Configure the project with eslint, prettier and commit hooks.
 5. Configure the project with GitHub Actions for build/deploy if required.
 6. Record any bugs found during this process in the Issues tab.
-7. Configure the project for Jest and Cypress.
+7. Configure the project for Jest/ Vitest and Cypress.
 8. Create tests to cover the required test cases.
-9. Create a Pull Request from `workflow` into the `default branch`.
+9. Create a Pull Request from `workflow` into the `staging branch`.
 10. Request a review from a teacher and/or your peers to help improve your submission.
 11. Make any final changes based on this feedback.
 12. Submit a link to the **Open Pull Request** on Moodle.
