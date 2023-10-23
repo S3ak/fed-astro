@@ -15,7 +15,7 @@ Although Quality Assurance is a practice we should be concerned with throughout 
 
 There are two ways to complete this assignment:
 
-1. Teams developers working on their collective applications.Dr
+1. Teams developers working on their collective applications.
 2. Solo developers, working on the [provided application](https://github.com/noroffFEU/social-media-client)
 
 The existing application package must feature:

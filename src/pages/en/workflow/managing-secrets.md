@@ -34,7 +34,7 @@ npm i -D dotenv
 Next, create an empty file called `test.js` and add the following code:
 
 ```js
-require("dotenv/config");
+import "dotenv/config";
 ```
 
 Finally, create a `.gitignore` file and add `/node_modules` to exclude this folder.
