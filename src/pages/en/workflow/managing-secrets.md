@@ -189,10 +189,8 @@ name: Test our Secret Value
 on: [workflow_dispatch]
 
 env:
-  ## Sets environment variable
-  {% raw %}
   MEANING_OF_LIFE: ${{secrets.MEANING_OF_LIFE}}
-  {% endraw %}
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -282,7 +280,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      {% raw %}url: ${{ steps.deployment.outputs.page_url }}{% endraw %}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -292,7 +290,7 @@ jobs:
       - name: Replace placeholders with our secret variables
         uses: falnyr/replace-env-vars-action@v1.3.2
         env:
-          MEANING_OF_LIFE: {% raw %}${{secrets.MEANING_OF_LIFE}}{% endraw %}
+          MEANING_OF_LIFE: ${{secrets.MEANING_OF_LIFE}}
         with:
           filename: index.html
       - name: Setup Pages
@@ -301,7 +299,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: '.'
+          path: "."
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
@@ -310,12 +308,12 @@ jobs:
 This is very similar to a basic `GitHub Pages` deploy workflow, except we are using this custom `Job`:
 
 ```yml
-  - name: Replace placeholders with our secret variables
-    uses: falnyr/replace-env-vars-action@v1.3.2
-    env:
-      MEANING_OF_LIFE: {% raw %}${{secrets.MEANING_OF_LIFE}}{% endraw %}
-    with:
-      filename: index.html
+- name: Replace placeholders with our secret variables
+  uses: falnyr/replace-env-vars-action@v1.3.2
+  env:
+    MEANING_OF_LIFE: ${{secrets.MEANING_OF_LIFE}}
+  with:
+    filename: index.html
 ```
 
 This is like using an `npm` package to save time with development. In this case, another developer has created a script that accepts a filename (our HTML file) and allows us to set `ENV` variables from our secrets to replace with.
