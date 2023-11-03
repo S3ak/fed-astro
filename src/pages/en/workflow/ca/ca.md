@@ -7,7 +7,16 @@ layout: ../../../../layouts/MainLayout.astro
 
 ## Goal
 
-Using the skills and knowledge from this course, improve the quality of a `package` by establishing helpful `workflows` that make the development process more efficient.
+Using the skills and knowledge from this course, Create unit and e2e tests that improve the confidence of the code. Establish a baseline of test suits that ensure the project is working as expected. Configure the project to run these tests automatically and provide feedback to the developer.
+
+## Learning Outcomes
+
+The main focus of this assiugnemnt is to assess the learners ability to setup and write tests which detect regressions and ensure the application is working as expected. The learner should be able to:
+
+- Setup a project to run tests automatically
+- Trigger test when a pull request is created
+- Write unit tests for a function
+- Write e2e tests for a user journey
 
 ## Brief
 
@@ -15,8 +24,8 @@ Although Quality Assurance is a practice we should be concerned with throughout 
 
 There are two ways to complete this assignment:
 
-1. Teams developers working on their collective applications.
-2. Solo developers, working on the [provided application](https://github.com/noroffFEU/social-media-client)
+1. Teams developers working on their collective applications. You will selected a prexisting project which uses the Noroff API. The Web app should be able to login, logout. In additon the web app should allow a end-user to create, edit and delete a post. Finally the suer should be able to view their profile page or another users profile.
+2. Solo developers, working on the [provided application (Vanilla JS)](https://github.com/noroffFEU/social-media-client)
 
 The existing application package must feature:
 
@@ -25,31 +34,29 @@ The existing application package must feature:
 - Front-end CRUD functionality for at least one object type
 - A front-end profile page
 
-> The Noroff API Social Media client works well with this exercise but I recommend exploring your own API.2 in 1
+> The Noroff API Social Media client works well with this exercise.
 
-### The following workflows/hooks are required:
+### The following workflows/hooks are required
 
-<assignment-guideline group="Configuration" points="1">Project is configured to run Prettier on commit</assignment-guideline>
-<assignment-guideline group="Configuration" points="1">Project is configured to run ESLint on commit</assignment-guideline>
-<assignment-guideline group="Configuration" points="1">Project code is versioned and branching conventions have been followed.</assignment-guideline>
-<assignment-guideline group="Configuration" points="1">Project is configured to build and deploy to pages on merge to default branch</assignment-guideline>
+- Project is configured to run Prettier on commit.
+- Project is configured to run ESLint on commit.
+- Project code is versioned and branching conventions have been followed.
 
-### The following project file changes are required:
+### The following project file changes are required
 
-<assignment-guideline group="Configuration" points="1">Project readme file is updated to include new configuration information and workflow status badges</assignment-guideline>
-<assignment-guideline group="Configuration" points="1">Deployed project has been checked for 404 errors</assignment-guideline>
-<assignment-guideline group="Configuration" points="1">Any bugs found have been communicated in the Issues tab</assignment-guideline>
+- Project readme file is updated to include new configuration information and workflow status badges.
+- Any bugs found have been communicated in the Issues tab.
 
-### The following features must be automatically tested with `Unit` tests:
+### The following features must be automatically tested with `Unit` tests
 
-<assignment-guideline group="Unit Testing" points="1">The login function fetches and stores a token in browser storage</assignment-guideline>
-<assignment-guideline group="Unit Testing" points="1">The logout function clears the token from browser storage</assignment-guideline>
+- The login function fetches and stores a token in browser storage. (This will require you to mock the localstorage API).
+- The logout function clears the token from browser storage.
 
-### The following features must be automatically tested with `End-to-End` tests:
+### The following features must be automatically tested with `End-to-End` tests
 
-<assignment-guideline group="E2E Testing" points="1">The user can log in and access their profile</assignment-guideline>
-<assignment-guideline group="E2E Testing" points="1">The user cannot submit the login form with invalid credentials and is shown a message</assignment-guideline>
-<assignment-guideline group="E2E Testing" points="1">The user can log out with the logout button</assignment-guideline>
+- The user can log in and access their profile.
+- The user cannot submit the login form with invalid credentials and is shown a message.
+- The user can log out with the logout button.
 
 ## Important Notes
 
