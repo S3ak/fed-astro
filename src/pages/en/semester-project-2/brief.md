@@ -7,7 +7,7 @@ layout: ../../../layouts/MainLayout.astro
 
 ## Goal
 
-To take the skills learned over the past three semesters and create an auction website. This is an individual assessment of your learning.
+To take the skills learned over the past three semesters and create an auction website. This is an individual assessment of your learning. You must demonstrate your ability to take a business problem and create and end to end solution using web technologies.
 
 ## Learning outcomes
 
@@ -25,7 +25,7 @@ You have five weeks in total.
 
 ## Brief
 
-An auction site is looking to launch a website where users can add items to be bid on and bid on items other users have put up for auction.
+An auction site is looking to launch a fully responsive website where users can add items to be bid on and bid on items other users have put up for auction.
 
 When a new user joins the website, they are given 1000 credits to use on the site. They can get credits by selling items and use credit by buying items. Non-registered users can search through the listings, but only registered users can make bids on listings.
 
@@ -162,3 +162,9 @@ Ensure that the `readme.md` file describes your project thoroughly, including ho
 - [formkit/auto-animate](https://github.com/formkit/auto-animate)
 - [MSW (Mock Service Worker)](https://mswjs.io/)
 - [React Router](https://reactrouter.com/en/main)
+
+## Examples
+
+- [Demo 1](https://tactikerl.github.io/SP2-Noroff-Auction-Application/)
+- [Demo 2](https://starlit-lamington-b689b0.netlify.app/)
+- [Demo 3](https://noroffauctionhouse.imdev.no/home/index.html)
