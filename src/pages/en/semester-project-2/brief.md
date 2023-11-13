@@ -1,13 +1,27 @@
 ---
 title: Semester Project 2 brief
-keywords: sample
+keywords: Exam, Semester Project 2
 tags: Semester Project 2
 layout: ../../../layouts/MainLayout.astro
 ---
 
 ## Goal
 
-To take the skills learned over the past three semesters and create an auction website.
+To take the skills learned over the past three semesters and create an auction website. This is an individual assessment of your learning.
+
+## Learning outcomes
+
+- To be able to build a website using HTML, CSS and JavaScript.
+- To be able to use a REST API to fetch data from a Headless CMS.
+- To ba able to test your website.
+- To be able to use a JavaScript to add functionality to your website.
+- To be able deploy your website to a hosting platform.
+
+![Learning by examining a light bulb](/images/Seak_ZA_death_stranding_learning_lightbulb_moment_futurism.png)
+
+## Duration
+
+You have five weeks in total.
 
 ## Brief
 
@@ -26,8 +40,9 @@ The API you are using for this project can be found under Auction EndPoints in t
 ### Resources
 
 [API Swagger](https://api.noroff.dev/docs/)
+[Latest API Docs](https://docs.noroff.dev/)
 
-### User stories
+### User stories/ Minimum acceptence criteria
 
 The client has specified the following requirements in the form of _User Stories_:
 
@@ -40,6 +55,15 @@ The client has specified the following requirements in the form of _User Stories
 7. A registered user may add a `Bid` to another user's `Listing`
 8. A registered user may view `Bid`s made on a `Listing`
 9. An unregistered user may search through `Listing`s
+
+### Optional success criteria
+
+- Write a e2e test for Login usesr journey
+- Write a e2e test for Non-registred users can search through listings
+- Write a e2e test for Registered users can add a bid to another user's listing
+- Write a e2e test for Registered users can careate bids made on a listing
+- Repo has a staging enviroment.
+- Repo has a production enviroment.
 
 ### Technical restrictions
 
@@ -69,28 +93,40 @@ This list covers libraries and services that have been vetted by the company and
 
 - SASS/SCSS
 - PostCSS
+- Tailwind (version >3.0.0)
+- Modules CSS
 
 ### CSS frameworks
 
+You are free to use a component library such as ShadeCN, Bootstrap, DaisyUI, etc.
+
 - Bootstrap (version >5.0.1)
-- Tailwind (version >3.0.0)
 - MUI (version >5.11.8)
+- Styled-components
+- Emotion
 
 ### Hosting services
 
 - GitHub Pages
 - Netlify
+- Vercel
+- Misc: Any other static hosting service.
 
 ### Design applications
 
+- Figma (Preferred)
 - Adobe XD
-- Figma
 - Sketch
 
 ### Planning applications
 
-- Trello
+You are free to use any planning application you wish, but it must be able to produce a Gantt chart.
+
 - GitHub Projects
+- Figma
+- Trello
+- Jira
+- Asana
 
 ## Delivery
 
@@ -99,3 +135,30 @@ Include the required links in the Moodle delivery window using [this template fo
 All final changes must be merged into the default branch `main` or `master`. Other branches will not be checked.
 
 Ensure that the `readme.md` file describes your project thoroughly, including how to setup and run the project locally and any special instructions for testers.
+
+### Required Delieverables
+
+- [ ] A link to your deployment production website (Netlify/ Vercel/ GitHub Pages)
+- [ ] A link to your Public GitHub repo
+- [ ] A report of your project.
+- [ ] A link to High fidelity design (Figma)
+
+### Optional Deliverables
+
+- [ ] A link to your report.
+- [ ] A link to your gantt chart or Kanban project board.
+- [ ] A video summary of you explaing your project.
+- [ ] A link to Low fidelity design (Figma)
+- [ ] A link to Prototype (Figma)
+
+## Recommended stack
+
+- [React](https://react.dev/)
+- [Vitest with RTL (React testing library)](https://testing-library.com/docs/react-testing-library/intro/)
+- [Cypress e2e Testing](https://www.cypress.io/)
+- [TanStack/Query](https://tanstack.com/query/latest)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [shadcn UI](https://ui.shadcn.com/)
+- [formkit/auto-animate](https://github.com/formkit/auto-animate)
+- [MSW (Mock Service Worker)](https://mswjs.io/)
+- [React Router](https://reactrouter.com/en/main)
