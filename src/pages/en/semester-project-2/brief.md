@@ -12,7 +12,7 @@ To take the skills learned over the past three semesters and create an auction w
 ## Learning outcomes
 
 - To be able to build a website using HTML, CSS and JavaScript.
-- To be able to use a REST API to fetch data from a Headless CMS.
+- To be able to use a REST API to fetch data from a API.
 - To ba able to test your website.
 - To be able to use a JavaScript to add functionality to your website.
 - To be able deploy your website to a hosting platform.
@@ -42,7 +42,7 @@ The API you are using for this project can be found under Auction EndPoints in t
 [API Swagger](https://api.noroff.dev/docs/)
 [Latest API Docs](https://docs.noroff.dev/)
 
-### User stories/ Minimum acceptence criteria
+### User stories/ Minimum acceptance criteria
 
 The client has specified the following requirements in the form of _User Stories_:
 
@@ -64,6 +64,10 @@ The client has specified the following requirements in the form of _User Stories
 - Write a e2e test for Registered users can careate bids made on a listing
 - Repo has a staging enviroment.
 - Repo has a production enviroment.
+- UI has fluid animation.
+- Media is optimised for web.
+- UI had loading states.
+- Forms support autocomplete.
 
 ### Technical restrictions
 
@@ -95,15 +99,22 @@ This list covers libraries and services that have been vetted by the company and
 - PostCSS
 - Tailwind (version >3.0.0)
 - Modules CSS
+- Styled-components
+- Emotion
 
 ### CSS frameworks
 
 You are free to use a component library such as ShadeCN, Bootstrap, DaisyUI, etc.
 
 - Bootstrap (version >5.0.1)
+- [React Bootstrap (SASS)](https://react-bootstrap.github.io/)
 - MUI (version >5.11.8)
-- Styled-components
-- Emotion
+- [Material UI (Emotion/ styled-components)](https://mui.com/material-ui/)
+- [Mantine (Emotion/ styled-components)](https://mantine.dev/)
+- [Shade CN (Tailwind)](https://ui.shadcn.com/)
+- [Rebass (Styled-components)](https://github.com/rebassjs/rebass)
+- [Grommet (Emotion/ styled-components)](https://v2.grommet.io/)
+- [More](https://www.lambdatest.com/blog/best-css-frameworks-for-react/)
 
 ### Hosting services
 
