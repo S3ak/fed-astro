@@ -1053,14 +1053,14 @@ export const SIDEBAR: DeepSidebar = {
             {
               title: "Project",
               items: [
-                // {
-                //   text: "Brief",
-                //   link: "en/semester-project-2/brief",
-                // },
-                // {
-                //   text: "Marketing Criteria",
-                //   link: "en/semester-project-2/marking-criteria",
-                // },
+                {
+                  text: "Brief",
+                  link: "en/semester-project-2/brief",
+                },
+                {
+                  text: "Marketing Criteria",
+                  link: "en/semester-project-2/marking-criteria",
+                },
               ],
             },
           ],
