@@ -1123,7 +1123,7 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/industry-knowledge/ca",
+                  link: "en/industry-knowledge/ca-alternative-open",
                 },
               ],
             },
