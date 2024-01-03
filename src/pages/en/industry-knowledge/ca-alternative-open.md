@@ -47,7 +47,7 @@ By completing this assignment, you will achieve the following learning outcomes:
 
 ### External Advisory
 
-8. Benefit from the guidance of an external advisory with decades of experience in software development. Seek their advice on design, development, and project management aspects.
+8. Benefit from the guidance of an external advisory with decades of experience in software development. Seek their advice on design, development, and project management aspects. You can schedule a meeting with your advisory from 15:00 via teams.
 
 ### Optional Success Criteria
 
