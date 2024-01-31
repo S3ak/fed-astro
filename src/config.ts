@@ -1212,7 +1212,7 @@ export const SIDEBAR: DeepSidebar = {
               items: [
                 {
                   text: "Overview",
-                  link: "en/development-platforms/ca/ca",
+                  link: "en/development-platforms/ca/ca-alternative",
                 },
                 {
                   text: "Marking Criteria",

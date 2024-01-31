@@ -149,5 +149,5 @@ You are encouraged to explore the following tech stacks for your projects:
 
 ## Examples
 
-[Postman Collection](https://www.postman.com/api-evangelist/workspace/collections/collection/35240-c9013d55-8237-4a7f-b18e-1101ac585e2d)
-[Documentation Website](https://sqlzoo.net/wiki/SELECT_basics)
+- [Postman Collection](https://www.postman.com/api-evangelist/workspace/collections/collection/35240-c9013d55-8237-4a7f-b18e-1101ac585e2d)
+- [Documentation Website](https://sqlzoo.net/wiki/SELECT_basics)
