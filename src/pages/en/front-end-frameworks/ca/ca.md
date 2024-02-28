@@ -9,6 +9,41 @@ layout: ../../../../layouts/MainLayout.astro
 
 To apply knowledge of React to build an eCom store.
 
+## Learning Outcome
+
+## Knowledge
+
+The Candidate…
+
+- has knowledge of industry-relevant JavaScript frameworks, has knowledge of the
+  difference between a library, framework and run-time script engine
+- has knowledge of principles for software architecture and design patterns that
+  frameworks are built on, such as MVC, Event driven architecture etc.
+- is familiar with the possible risks by using less known JavaScript frameworks
+- has insight into his/her own opportunities for work related the JavaScript framework
+
+## Skills
+
+The Candidate…
+
+- can explain his/her choice of JavaScript framework
+- can explain the functionality of the JavaScript framework and the architecture behind the
+  different frameworks, and the reasons for using these frameworks
+- can reflect his/her own choices and use for JavaScript frameworks in the development of
+  digital solutions and adjust it under supervision or in relation to overall development
+- can find and refer to technical information about the JavaScript framework and assess its
+  relevance for each specific project
+
+## General Competence
+
+The Candidate…
+
+- can plan and carry out digital solutions developed with JavaScript frameworks
+- can plan and carry out work with JavaScript frameworks and develop solutions based on
+  specifications
+- can exchange points of view with his/her peers and participate in discussions about the
+  use of JavaScript frameworks in the development of digital solutions
+
 ## Brief
 
 The API you are using for this brief is: https://api.noroff.dev/api/v1/online-shop
@@ -89,13 +124,22 @@ Your code is expected to be clean and well-formatted.
 18. console.log the data from the form once validation requirements are met.
 19. Once your project is done, deploy it to Netlify.
 
-## Delivery
+## Acceptance Criteria
 
-Deploy your website on Netlify.
+## Required Deliverables
 
-Please submit your public GitHub repository URL and the URL for your Netlify live site.
+- [ ] A link to your deployment production website (eg. Netlify/ Vercel)
+- [ ] A link to your Public GitHub repo
+- [ ] A PDF report of your project (Template provided in this repository)
+- [ ] A link to High fidelity design (Figma)
 
-> Please make sure to exclude `node_modules` by using a `.gitignore` file.
+## Optional Deliverables
+
+- [ ] A link to your report.
+- [ ] A link to your gantt chart or Kanban project board.
+- [ ] A video summary of you explaing your project.
+- [ ] A link to Low fidelity design (Figma)
+- [ ] A link to Prototype (Figma)
 
 ## Resources
 
