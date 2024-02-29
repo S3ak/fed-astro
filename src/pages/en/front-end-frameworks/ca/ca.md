@@ -9,6 +9,8 @@ layout: ../../../../layouts/MainLayout.astro
 
 In modern front-end development most organisation do not create front-end products from scratch using vanilla Javascript. Instead, they use frameworks and libraries to speed up the development process. This course assignment is designed to test your ability to use a front-end framework to apply knowledge of React to build an eCommerce store. You will be using the Noroff API to fetch data for your store.
 
+For this course assignment you will work in groups of 2-4. Please decide by yourself who you want to work with. If you are unable to find a group, please free to work alone.
+
 ## Learning Outcome
 
 ## Knowledge
@@ -150,7 +152,7 @@ Your code is expected to be clean and well-formatted.
 
 - [ ] A link to your deployment production website (eg. Netlify/ Vercel)
 - [ ] A link to your Public GitHub repo
-- [ ] A PDF report of your project (Template provided in this repository)
+- [ ] A report of your project (Template provided in this repository)
 - [ ] A link to High fidelity design (Figma)
 
 ## Optional Deliverables
