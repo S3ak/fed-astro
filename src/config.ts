@@ -1444,18 +1444,18 @@ export const SIDEBAR: DeepSidebar = {
             {
               title: "Brief",
               items: [
-                // {
-                //   text: "Overview",
-                //   link: "en/project-exam-2/brief",
-                // },
-                // {
-                //   text: "Overview (Open source)",
-                //   link: "en/project-exam-2/open-source/brief",
-                // },
-                // {
-                //   text: "Delivery template",
-                //   link: "en/project-exam-2/delivery-template",
-                // },
+                {
+                  text: "Overview",
+                  link: "en/project-exam-2/brief",
+                },
+                {
+                  text: "Overview (Open source)",
+                  link: "en/project-exam-2/open-source/brief",
+                },
+                {
+                  text: "Delivery template",
+                  link: "en/project-exam-2/delivery-template",
+                },
               ],
             },
           ],
